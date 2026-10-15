@@ -35,7 +35,9 @@ cp .env.example .env
 
 1. Bu klasörü bir GitHub deposuna gönderin.
 2. https://vercel.com → **Add New Project** → depoyu seçin (Vite otomatik algılanır).
-3. **Environment Variables**: `VITE_SUPABASE_URL` ve `VITE_SUPABASE_ANON_KEY` ekleyin → **Deploy**.
+3. **Environment Variables**: `VITE_SUPABASE_URL` ve `VITE_SUPABASE_ANON_KEY` (publishable key) ekleyin → **Deploy**.
+   Supabase'i Vercel'in **Supabase entegrasyonu** ile bağladıysanız bu adımı atlayın: uygulama, entegrasyonun oluşturduğu `NEXT_PUBLIC_SUPABASE_URL` ve `NEXT_PUBLIC_SUPABASE_ANON_KEY` / `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` değişkenlerini de okur.
+   Değişken ekledikten ya da değiştirdikten sonra **Redeploy** gerekir; değerler build sırasında pakete gömülür.
 
 ## 4. İlk kullanım
 

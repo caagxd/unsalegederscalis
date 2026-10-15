@@ -3,6 +3,8 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  // NEXT_PUBLIC_*: Vercel'in Supabase entegrasyonu bu adları kullanır (yalnızca herkese açık değerler)
+  envPrefix: ['VITE_', 'NEXT_PUBLIC_'],
   build: { chunkSizeWarningLimit: 2500 },
   plugins: [
     react(),
