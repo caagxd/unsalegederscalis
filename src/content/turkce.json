@@ -1,0 +1,2921 @@
+{
+  "id": "turkce",
+  "name": "Türkçe",
+  "lgsQuestionCount": 20,
+  "units": [
+    {
+      "id": "turkce-1",
+      "no": 1,
+      "name": "Sözcükte Anlam",
+      "topics": [
+        {
+          "id": "turkce-1-1",
+          "name": "Gerçek, Mecaz ve Terim Anlam",
+          "kazanim": [
+            "T.8.3.5. Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder.",
+            "Sözcüklerin gerçek, mecaz ve terim anlamlarını cümle içinde ayırt eder."
+          ],
+          "summary": "Bir sözcük, kullanıldığı cümleye göre farklı anlamlar kazanabilir. Bu yüzden sözcüğün anlamını tek başına değil, **bağlam** içinde (cümlede, metinde) düşünmeliyiz.\n\n**Gerçek (temel) anlam:** Sözcüğün akla gelen ilk ve en yaygın anlamıdır. Sözlükte genellikle ilk sırada yer alır.\n- “Bu **ağır** valizi taşıyamam.” (ağırlığı fazla)\n- “Bahçedeki ağacın **kökü** dışarı çıkmış.”\n\n**Mecaz anlam:** Sözcüğün gerçek anlamından tamamen uzaklaşarak kazandığı yeni anlamdır. Çoğu zaman somut bir sözcük soyut bir durumu anlatmak için kullanılır.\n- “Bu **ağır** sözler onu çok üzdü.” (incitici)\n- “Sorunun **kökünü** bulmalıyız.” (asıl nedeni)\n- “Komşumuz bize **soğuk** davrandı.” (ilgisiz, sevimsiz)\n\n**Terim anlam:** Bir sözcüğün bilim, sanat, spor ya da meslek alanında kazandığı özel anlamdır. Terimler o alanın dışında kullanıldığında çoğu zaman gerçek ya da mecaz anlama döner.\n- “Üçgenin **iç açıları** toplamı 180 derecedir.” (matematik)\n- “Hakem **ofsayt** kararı verdi.” (spor)\n- “Dil bilgisinde ‘gözlük’ sözcüğünün **kökü** ‘göz’dür.” (dil bilgisi)\n\nSoru çözerken şunu yap: Sözcüğün yerine anlamını yazarak cümleyi yeniden oku. Anlam somut ve ilk akla gelen anlamsa gerçek; bambaşka bir anlama kaymışsa mecaz; belli bir alana ait özel bir kavramsa terim anlamdır.",
+          "keyPoints": [
+            "Bir sözcüğün anlamı bağlama göre belirlenir; aynı sözcük farklı cümlelerde gerçek, mecaz ya da terim anlamlı olabilir.",
+            "Mecaz anlamda sözcük, gerçek anlamından tamamen uzaklaşır: “tatlı bir gülüş” = sevimli bir gülüş.",
+            "Terim anlam bir bilim, sanat, spor ya da meslek dalına özgüdür: açı, hücre, ofsayt, kök (dil bilgisi).",
+            "Deyimlerdeki sözcükler genellikle mecaz anlamlıdır: “gözünü kör etmek”.",
+            "Çözüm yöntemi: Sözcüğün yerine anlamını koy, cümle bozulmuyorsa doğru anlamı bulmuşsundur."
+          ],
+          "commonMistakes": [
+            "Bir sözcüğü yalnızca tek başına düşünüp cümledeki anlamına bakmamak.",
+            "Her alan adını terim sanmak: “Matematik dersine girdik.” cümlesinde “matematik” bir ders adıdır, terim anlam taşıyan bir kavram kullanılmamıştır.",
+            "Yan anlamı mecaz anlamla karıştırmak: “masanın ayağı” gerçek anlamla bağını korur; “ağır söz” ise tamamen uzaklaşmıştır."
+          ],
+          "questions": [
+            {
+              "id": "turkce-1-1-q1",
+              "stem": "“Ağır” sözcüğü aşağıdaki cümlelerin hangisinde gerçek anlamıyla kullanılmıştır?",
+              "choices": [
+                "Bu ağır sözler onu çok üzdü.",
+                "Bu ağır valizi tek başıma taşıyamam.",
+                "Geçen kış ağır bir hastalık geçirdi.",
+                "Toplantıda ağır bir hava vardı."
+              ],
+              "answer": 1,
+              "explanation": "Gerçek anlam, sözcüğün akla gelen ilk anlamıdır. B'de “ağır”, ağırlığı fazla anlamındadır. A'da “incitici”, C'de “ciddi, tehlikeli”, D'de “gergin, sıkıntılı” anlamlarıyla mecazdır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-1-q2",
+              "stem": "“Kök” sözcüğü aşağıdaki cümlelerin hangisinde terim anlamıyla kullanılmıştır?",
+              "choices": [
+                "Bu sorunun kökünü mutlaka araştırmalıyız.",
+                "Ailemizin kökleri Karadeniz'e uzanır.",
+                "Bahçedeki ağacın kökü toprağın dışına çıkmış.",
+                "Dil bilgisi dersinde “gözlük” sözcüğünün kökünün “göz” olduğunu öğrendik."
+              ],
+              "answer": 3,
+              "explanation": "D'de “kök”, dil bilgisi alanına özgü bir kavramdır (sözcüğün eklerden arınmış en yalın hâli); bu yüzden terim anlamlıdır. A ve B'de mecaz (asıl neden, soy), C'de gerçek anlam vardır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-1-q3",
+              "stem": "“Soğuk” sözcüğü aşağıdaki cümlelerin hangisinde mecaz anlamıyla kullanılmıştır?",
+              "choices": [
+                "Yeni komşumuz bize karşı çok soğuk davrandı.",
+                "Soğuk suyla yüzünü yıkadı.",
+                "Bu kış Erzurum'da hava çok soğuk geçti.",
+                "Buzdolabından soğuk bir ayran aldı."
+              ],
+              "answer": 0,
+              "explanation": "A'da “soğuk”, sıcaklıkla ilgili değildir; “ilgisiz, sevimsiz” anlamına gelir. Bu, gerçek anlamdan tamamen uzaklaşmış bir anlam olduğu için mecazdır. Diğer cümlelerde sıcaklığı düşük anlamında gerçek anlam vardır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-1-q4",
+              "stem": "Aşağıdaki cümlelerin hangisinde terim anlamlı bir sözcük kullanılmamıştır?",
+              "choices": [
+                "Hakem, ofsayt kararıyla golü geçersiz saydı.",
+                "Üçgenin iç açılarının toplamı 180 derecedir.",
+                "Kardeşim akşam yemeğinden sonra hemen uyudu.",
+                "Hücre zarı, maddelerin hücreye giriş çıkışını denetler."
+              ],
+              "answer": 2,
+              "explanation": "A'da “ofsayt” (spor), B'de “iç açı” (matematik), D'de “hücre zarı” (fen) terimdir. C'deki sözcüklerin hiçbiri bir bilim ya da meslek alanına özgü değildir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-1-q5",
+              "stem": "“Tatlı” sözcüğü aşağıdaki cümlelerin hangisinde “sevimli, hoş” anlamında kullanılmıştır?",
+              "choices": [
+                "Annem bayram için tatlı yaptı.",
+                "Bebeğin tatlı gülüşü herkesi neşelendirdi.",
+                "Bu karpuz bal gibi tatlı çıktı.",
+                "Çayıma fazla şeker koyunca çok tatlı oldu."
+              ],
+              "answer": 1,
+              "explanation": "B'deki “tatlı gülüş”, sevimli ve hoş bir gülüş demektir (mecaz). A'da “tatlı” bir yiyecek adıdır; C ve D'de şeker tadı veren anlamında gerçek anlam vardır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-1-q6",
+              "stem": "Dedem her sabah güneş doğmadan bahçeye çıkar, fidanlarını tek tek sulardı. Toprağın kokusunu içine çekerken yüzüne derin bir huzur yayılırdı. Bir gün komşunun keçisi bahçeye girip genç fidanların yapraklarını yedi. Dedem önce çok üzüldü ama keçiye kızmadı, yalnızca çitin açık kalan yerini onardı. O akşam bize “Öfke, insanın gözünü kör eder.” dedi. O gün sabrın ne kadar değerli olduğunu anladım.\n\nBu metinde aşağıdaki sözcüklerden hangisi mecaz anlamıyla kullanılmıştır?",
+              "choices": [
+                "“sulardı”",
+                "“yapraklarını”",
+                "“onardı”",
+                "“kör”"
+              ],
+              "answer": 3,
+              "explanation": "“Öfke, insanın gözünü kör eder.” sözünde “kör”, gerçekten görme yetisini kaybetmek anlamında değil, “doğruyu göremez, sağlıklı düşünemez hâle getirmek” anlamındadır; mecazdır. “Sulardı, yapraklarını, onardı” gerçek anlamlarıyla kullanılmıştır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-1-q7",
+              "stem": "I. Sınıfın en parlak öğrencisi Elif'ti.\nII. Güneş, gölün parlak yüzeyine yansıyordu.\nIII. Kimya dersinde asit ve bazların özelliklerini işledik.\nIV. Bu acı haber hepimizi derinden sarstı.\n\nBu cümlelerin hangilerinde mecaz anlamlı sözcük kullanılmıştır?",
+              "choices": [
+                "I ve IV",
+                "II ve III",
+                "I, II ve IV",
+                "II, III ve IV"
+              ],
+              "answer": 0,
+              "explanation": "I'de “parlak” = başarılı, zeki (mecaz). IV'te “acı haber” ve “derinden sarstı” = üzücü, çok etkiledi (mecaz). II'de “parlak” ışık yansıtan anlamında gerçektir. III'te “asit” ve “baz” terimdir. Doğru cevap I ve IV'tür.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-1-q8",
+              "stem": "“Keskin” sözcüğünün aşağıdaki cümlelerdeki anlamı ayraç içinde verilmiştir. Bu açıklamalardan hangisi yanlıştır?",
+              "choices": [
+                "Mutfaktaki bıçak çok keskin. (iyi kesen)",
+                "Keskin bir zekâsı olduğu için her şeyi çabuk kavrar. (çabuk ve derin kavrayan)",
+                "Keskin bir virajı dönerken arabayı yavaşlattı. (geniş ve yumuşak dönüşlü)",
+                "Odaya keskin bir sirke kokusu yayıldı. (etkisi güçlü, sert)"
+              ],
+              "answer": 2,
+              "explanation": "“Keskin viraj”, aniden ve dar açıyla dönen viraj demektir; “geniş ve yumuşak dönüşlü” açıklaması bunun tam tersidir. Diğer açıklamalar cümlelerdeki anlamla uyumludur.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "turkce-1-2",
+          "name": "Deyimler, Atasözleri ve Söz Öbekleri",
+          "kazanim": [
+            "T.8.3.6. Deyim, atasözü ve özdeyişlerin metne katkısını belirler.",
+            "T.8.3.5. Bağlamdan yararlanarak bilmediği kelime ve kelime gruplarının anlamını tahmin eder."
+          ],
+          "summary": "Dilimizde bazı sözcük grupları kalıplaşmış ve tek bir anlam bildirecek şekilde kullanılır. Bunlara **söz öbekleri** denir. Deyimler ve atasözleri en önemli söz öbekleridir.\n\n**Deyim:** Genellikle mecaz anlamlı, kalıplaşmış söz gruplarıdır. Bir durumu, kavramı ya da davranışı etkileyici biçimde anlatır. Çoğunlukla mastar (-mak, -mek) hâlinde sözlükte yer alır. Deyimdeki sözcükler değiştirilemez ve yerleri oynatılamaz.\n- **kulak asmamak:** söyleneni önemsememek\n- **küplere binmek:** çok öfkelenmek\n- **kılı kırk yarmak:** bir işi çok titiz yapmak\n- **pireyi deve yapmak:** küçük bir sorunu büyütmek\n\n**Atasözü:** Atalarımızın uzun deneyimlerine dayanan, öğüt veren ya da genel bir yargı bildiren kalıplaşmış sözlerdir. Atasözleri bir **yargı** bildirdiği için genellikle cümle hâlindedir.\n- “Damlaya damlaya göl olur.” (Küçük birikimler zamanla büyür.)\n- “Dost kara günde belli olur.” (Gerçek dost zor zamanda anlaşılır.)\n- “Ayağını yorganına göre uzat.” (Harcamanı gelirine göre yap.)\n\n**Deyim ile atasözü farkı:** Deyim bir durumu anlatır, öğüt vermez; atasözü ise bir yargı ya da öğüt bildirir. “Etekleri zil çalmak” deyim, “Sakla samanı, gelir zamanı” atasözüdür.\n\nLGS'de genellikle bir metindeki durumu özetleyen atasözünü bulma, bir deyimin anlamını bağlamdan çıkarma ya da metinde hangi deyimin anlamına uygun bir durum olduğunu belirleme soruları gelir. Bu sorularda metindeki olayı kendi cümlelerinle özetle, sonra şıklardaki sözlerin anlamıyla karşılaştır.",
+          "keyPoints": [
+            "Deyimler çoğunlukla mecaz anlamlıdır ve bir durumu anlatır; atasözleri yargı ya da öğüt bildirir.",
+            "Deyimlerin sözcükleri değiştirilemez: “küplere binmek” yerine “fıçılara binmek” denemez.",
+            "Atasözleri genellikle cümle hâlindedir; deyimler mastar ya da cümle hâlinde olabilir.",
+            "Metindeki durumu özetleyen atasözünü bulmak için önce metni tek cümleyle özetle.",
+            "Aynı sözcüğü içeren farklı deyimleri karıştırma: göz atmak, göz koymak, göz kulak olmak birbirinden farklıdır."
+          ],
+          "commonMistakes": [
+            "Öğüt vermeyen kalıplaşmış sözleri atasözü sanmak (ör. “ağzı kulaklarına varmak” bir deyimdir).",
+            "Metinde geçen tek bir ayrıntıya bakıp metnin bütününü özetlemeyen atasözünü seçmek.",
+            "Deyimi gerçek anlamıyla düşünmek: “gözleri dolmak” göze bir şey dolması değil, ağlamaklı olmaktır."
+          ],
+          "questions": [
+            {
+              "id": "turkce-1-2-q1",
+              "stem": "Aşağıdakilerden hangisi bir atasözüdür?",
+              "choices": [
+                "Etekleri zil çalmak",
+                "Ağzı kulaklarına varmak",
+                "Damlaya damlaya göl olur.",
+                "Gözden düşmek"
+              ],
+              "answer": 2,
+              "explanation": "Atasözleri bir yargı ya da öğüt bildirir. “Damlaya damlaya göl olur.” küçük birikimlerin zamanla büyüyeceği yargısını taşır. Diğerleri bir durumu anlatan deyimlerdir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-2-q2",
+              "stem": "“Kulak asmamak” deyiminin anlamı aşağıdakilerden hangisidir?",
+              "choices": [
+                "Söylenenlere önem vermemek",
+                "Dikkatle dinlemek",
+                "Gizlice dinlemek",
+                "Söyleneni yanlış anlamak"
+              ],
+              "answer": 0,
+              "explanation": "“Kulak asmamak”, söylenen sözü önemsememek, dikkate almamak anlamına gelir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-2-q3",
+              "stem": "Aşağıdaki cümlelerin hangisinde deyim kullanılmamıştır?",
+              "choices": [
+                "Sınav sonucunu öğrenince ağzı kulaklarına vardı.",
+                "Bu işi bitirmek için kolları sıvadı.",
+                "Kardeşinin yalan söylediğini duyunca küplere bindi.",
+                "Akşam yemeğinden sonra ailecek parkta yürüdük."
+              ],
+              "answer": 3,
+              "explanation": "A'da “ağzı kulaklarına varmak” (çok sevinmek), B'de “kolları sıvamak” (işe girişmek), C'de “küplere binmek” (çok öfkelenmek) deyimleri vardır. D'deki sözcükler gerçek anlamlıdır ve kalıplaşmış bir söz öbeği yoktur.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-2-q4",
+              "stem": "“Dost kara günde belli olur.” atasözüyle anlamca en yakın cümle aşağıdakilerden hangisidir?",
+              "choices": [
+                "İnsan mümkün olduğunca çok arkadaş edinmelidir.",
+                "Gerçek dostluk, kişinin sıkıntılı anlarında ortaya çıkar.",
+                "Arkadaşlarımızla iyi günlerde eğlenmeyi bilmeliyiz.",
+                "Dostlar arasında küçük kırgınlıklar olabilir."
+              ],
+              "answer": 1,
+              "explanation": "Atasözündeki “kara gün”, sıkıntılı ve zor zamanı anlatır. Gerçek dostun bu zamanlarda anlaşılacağını söyleyen B, atasözüyle aynı anlamdadır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-2-q5",
+              "stem": "Aşağıdaki cümlelerin hangisinde “bir şeyi kısaca, üstünkörü incelemek” anlamında bir söz öbeği kullanılmıştır?",
+              "choices": [
+                "Sınavdan önce notlarıma kısaca göz attım.",
+                "Komşumuz tatildeyken evlerine göz kulak olduk.",
+                "Kardeşim pastanın en büyük dilimine göz koymuştu.",
+                "Bütün gece gözünü kırpmadan kitap okudu."
+              ],
+              "answer": 0,
+              "explanation": "“Göz atmak” kısaca bakmak, üstünkörü incelemek demektir. “Göz kulak olmak” korumak, gözetmek; “göz koymak” bir şeyi elde etmek istemek; “gözünü kırpmamak” hiç uyumamak anlamındadır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-2-q6",
+              "stem": "Mahallemizdeki kütüphane yıllarca bakımsız kaldı. Kitaplar tozlandı, raflar çürümeye başladı. Bir gün birkaç öğrenci, her hafta sonu birer saat kütüphaneye gelip temizlik yapmaya karar verdi. İlk hafta yalnızca bir rafı düzenleyebildiler. Ancak her hafta biraz daha ilerlediler ve aylar sonra kütüphane eski canlılığına kavuştu. Gönüllülerden biri yaşananları “______” sözüyle özetledi.\n\nBu metinde boş bırakılan yere aşağıdaki atasözlerinden hangisi getirilmelidir?",
+              "choices": [
+                "Sakla samanı, gelir zamanı.",
+                "Ayağını yorganına göre uzat.",
+                "Damlaya damlaya göl olur.",
+                "Ağaç yaşken eğilir."
+              ],
+              "answer": 2,
+              "explanation": "Metinde küçük ama düzenli çabaların zamanla büyük bir sonuç doğurduğu anlatılıyor. Bu durumu “Damlaya damlaya göl olur.” atasözü özetler. A ve B tutumlulukla, D erken yaşta eğitimle ilgilidir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-2-q7",
+              "stem": "Ece, bilim şenliğine katılmak için haftalardır hazırlanıyordu. Projesinin her aşamasını titizlikle planlamış, hiçbir ayrıntıyı atlamamıştı. Şenlik günü sunumuna başladığında çok heyecanlıydı; ilk cümleleri söylerken sesi titredi. Ancak kısa sürede kendini toparladı ve projesini akıcı bir şekilde anlattı. Jüri üyeleri onu tebrik edince Ece sevinçten havalara uçtu.\n\nBu metinde aşağıdaki deyimlerden hangisinin anlamına uygun bir duruma yer verilmemiştir?",
+              "choices": [
+                "Kılı kırk yarmak",
+                "Kendini toplamak",
+                "Ayakları yere basmamak",
+                "Pireyi deve yapmak"
+              ],
+              "answer": 3,
+              "explanation": "Ece'nin her ayrıntıyı titizlikle planlaması “kılı kırk yarmak”, heyecanını yenmesi “kendini toplamak”, sevinçten havalara uçması “ayakları yere basmamak” (çok sevinmek) deyimine uygundur. Metinde küçük bir sorunu büyüten biri yoktur; “pireyi deve yapmak”a uygun durum bulunmaz.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-2-q8",
+              "stem": "Aşağıdaki atasözlerinden hangisi anlamca diğerlerinden farklıdır?",
+              "choices": [
+                "Sakla samanı, gelir zamanı.",
+                "Bin bilsen de bir bilene danış.",
+                "Ak akçe kara gün içindir.",
+                "Ayağını yorganına göre uzat."
+              ],
+              "answer": 1,
+              "explanation": "A, C ve D tutumlu olmayı, birikim yapmayı ve gelire göre harcamayı öğütler. B ise ne kadar bilgili olursak olalım bilen birine danışmamız gerektiğini söyler; konu farklıdır.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "turkce-1-3",
+          "name": "Anlam İlişkileri",
+          "kazanim": [
+            "Sözcükler arasındaki anlam ilişkilerini (eş anlam, zıt anlam, eş seslilik, genel-özel, somut-soyut) kavrar."
+          ],
+          "summary": "Sözcükler arasında çeşitli anlam ilişkileri vardır. Bu ilişkileri bilmek, hem sözcük sorularında hem de paragraf sorularında işini kolaylaştırır.\n\n**Eş anlamlı sözcükler:** Yazılışları farklı, anlamları aynı olan sözcüklerdir: cevap – yanıt, okul – mektep, siyah – kara, kırmızı – al.\n\n**Zıt anlamlı sözcükler:** Anlamca birbirinin karşıtı olan sözcüklerdir: iniş – çıkış, gelmek – gitmek, uzun – kısa. Dikkat: Bir sözcüğün zıt anlamlısı bağlama göre değişebilir. “Açık kapı”nın zıddı “kapalı kapı”, “açık mavi”nin zıddı “koyu mavi”dir.\n\n**Eş sesli (sesteş) sözcükler:** Yazılışları aynı, anlamları tamamen farklı olan sözcüklerdir.\n- “Kütüphaneye **yüz** kitap geldi.” (sayı)\n- “**Yüzünü** yıkadı.” (organ)\n\n**Genel – özel anlam:** Bir sözcük başka bir sözcüğü de kapsıyorsa genel, kapsananı özeldir: meyve (genel) – elma (özel), hayvan – kedi.\n\n**Somut – soyut anlam:** Beş duyudan en az biriyle algılanabilen varlıkları karşılayan sözcükler **somut** (masa, rüzgâr, ses, koku), duyularla algılanamayan kavramları karşılayan sözcükler **soyut**tur (sevgi, umut, merak, özlem). Rüzgâr ve ses görünmez ama hissedilir ve duyulur; bu yüzden somuttur.\n\n**Yakın anlam:** Anlamları birbirine yakın ama tam olarak aynı olmayan sözcüklerdir: bakmak – seyretmek, söylemek – anlatmak.\n\nSorularda ilişkiyi bulmak için iki sözcüğü bir cümlede birbirinin yerine koymayı dene. Anlam değişmiyorsa eş anlamlı; tam karşıt oluyorsa zıt anlamlıdır.",
+          "keyPoints": [
+            "Eş anlamlı sözcükler birbirinin yerine kullanıldığında cümlenin anlamı değişmez.",
+            "Zıt anlam bağlama göre değişir: açık kapı – kapalı kapı, açık renk – koyu renk.",
+            "Eş sesli sözcüklerin yazılışı aynı, anlamları ilgisizdir: yüz (sayı) – yüz (organ).",
+            "Duyularla algılanan her şey somuttur; ses, koku, rüzgâr da somuttur.",
+            "Genel-özel ilişkisinde özel olan, genel olanın bir türüdür: çiçek – lale."
+          ],
+          "commonMistakes": [
+            "Görünmeyen her şeyi soyut sanmak (rüzgâr, ses, koku somuttur).",
+            "Yakın anlamlı sözcükleri eş anlamlı sanmak (bakmak – izlemek tam olarak aynı değildir).",
+            "Bir sözcüğün tek bir zıt anlamlısı olduğunu düşünmek; bağlamı hesaba katmamak."
+          ],
+          "questions": [
+            {
+              "id": "turkce-1-3-q1",
+              "stem": "Aşağıdaki sözcük çiftlerinden hangisi eş anlamlıdır?",
+              "choices": [
+                "cevap – yanıt",
+                "uzun – kısa",
+                "gelmek – gitmek",
+                "ak – kara"
+              ],
+              "answer": 0,
+              "explanation": "“Cevap” ve “yanıt” aynı anlamı taşır; biri diğerinin yerine kullanılabilir. Diğer çiftler zıt anlamlıdır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-3-q2",
+              "stem": "Aşağıdaki cümlelerin hangisinde zıt anlamlı sözcükler bir arada kullanılmıştır?",
+              "choices": [
+                "Bu yıl okulumuza yeni öğretmenler geldi.",
+                "Güzel ve sevimli bir kedimiz var.",
+                "Hayatın inişlerine ve çıkışlarına hazırlıklı olmalıyız.",
+                "Kitabı okuyup bitirdim."
+              ],
+              "answer": 2,
+              "explanation": "C'de “iniş” ve “çıkış” zıt anlamlıdır. B'deki “güzel” ve “sevimli” yakın anlamlıdır; A ve D'de zıt anlamlı sözcük yoktur.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-3-q3",
+              "stem": "“Yüz” sözcüğü aşağıdaki cümlelerin hangisinde bir sayıyı bildirmektedir?",
+              "choices": [
+                "Denizde yüzmeyi geçen yaz öğrendi.",
+                "Kütüphanemize yüz yeni kitap geldi.",
+                "Yüzünü yıkayıp kahvaltıya oturdu.",
+                "Yastığın yüzünü değiştirdi."
+              ],
+              "answer": 1,
+              "explanation": "B'de “yüz” sayı anlamındadır. C'de organ, D'de bir şeyin dış kaplaması anlamındadır. A'daki “yüzmek” ise farklı bir sözcüktür (suda ilerlemek). Sayı bildiren “yüz” ile organ bildiren “yüz” eş seslidir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-3-q4",
+              "stem": "Aşağıdaki sözcük çiftlerinin hangisinde genelden özele doğru bir anlam ilişkisi yoktur?",
+              "choices": [
+                "meyve – elma",
+                "hayvan – kedi",
+                "çiçek – lale",
+                "kalem – defter"
+              ],
+              "answer": 3,
+              "explanation": "Elma bir meyve, kedi bir hayvan, lale bir çiçek türüdür; bu çiftlerde ilk sözcük ikinciyi kapsar. Defter ise kalemin bir türü değildir; aralarında genel-özel ilişkisi yoktur.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-3-q5",
+              "stem": "Aşağıdaki sözcük gruplarının hangisinde sözcüklerin hepsi soyut anlamlıdır?",
+              "choices": [
+                "sevgi, masa, umut",
+                "korku, rüzgâr, özlem",
+                "kitap, düşünce, ses",
+                "özlem, mutluluk, merak"
+              ],
+              "answer": 3,
+              "explanation": "D'deki özlem, mutluluk ve merak duyularla algılanamaz; hepsi soyuttur. A'da “masa”, B'de “rüzgâr” (hissedilir), C'de “kitap” ve “ses” (duyulur) somuttur.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-3-q6",
+              "stem": "Köyümüzün yolları kışın çamurlu, yazın tozlu olurdu. Büyükler, çocukların okula gidip gelirken zorlandığını görünce bir araya geldi. Herkes elinden geleni yaptı; kimi taş taşıdı, kimi kum eledi. Birkaç hafta içinde yol düzeldi. Artık sabahları okula giderken ayakkabılarımız kirlenmiyor, akşamları evimize temiz dönüyoruz.\n\nBu metinde aşağıdakilerden hangisi yoktur?",
+              "choices": [
+                "Eş anlamlı sözcükler",
+                "Zıt anlamlı sözcükler",
+                "Mecaz anlamlı söz öbeği",
+                "Deyim"
+              ],
+              "answer": 0,
+              "explanation": "Metinde “kışın – yazın”, “gidip – gelirken”, “sabahları – akşamları” zıt anlamlıdır. “Elinden geleni yapmak” ve “bir araya gelmek” deyimdir; deyimler mecaz anlamlı söz öbekleridir. Metinde aynı anlamı taşıyan iki farklı sözcük (eş anlamlı) yoktur.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-3-q7",
+              "stem": "“Kalem – yazmak” sözcükleri arasındaki anlam ilişkisinin benzeri aşağıdakilerin hangisinde vardır?",
+              "choices": [
+                "defter – kitap",
+                "makas – kesmek",
+                "doktor – hastane",
+                "yağmur – bulut"
+              ],
+              "answer": 1,
+              "explanation": "Kalem, yazmak için kullanılan bir araçtır (araç – işlev ilişkisi). Makas da kesmek için kullanılan bir araçtır. A'da iki benzer eşya, C'de kişi – çalıştığı yer, D'de sonuç – kaynak ilişkisi vardır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-1-3-q8",
+              "stem": "“Açık” sözcüğü aşağıdaki cümlelerin hangisinde, aynı cümlede yer alan bir sözcükle zıt anlam ilişkisi kurmuştur?",
+              "choices": [
+                "Kapı açık kalınca içeri soğuk hava girdi.",
+                "Açık sözlü olması herkesin hoşuna gidiyordu.",
+                "Açık mavi gömleğini koyu lacivert pantolonuyla giydi.",
+                "Hava açık olunca pikniğe gittik."
+              ],
+              "answer": 2,
+              "explanation": "C'de renk bildiren “açık” ile “koyu” zıt anlamlıdır. Diğer cümlelerde “açık” sözcüğünün zıt anlamlısı (kapalı, bulutlu vb.) aynı cümlede yer almaz.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turkce-2",
+      "no": 2,
+      "name": "Cümlede Anlam",
+      "topics": [
+        {
+          "id": "turkce-2-1",
+          "name": "Neden-Sonuç, Amaç-Sonuç ve Koşul-Sonuç",
+          "kazanim": [
+            "Cümlelerdeki neden-sonuç, amaç-sonuç ve koşul-sonuç ilişkilerini belirler."
+          ],
+          "summary": "Cümlelerde iki yargı arasında farklı anlam ilişkileri kurulabilir. LGS'de en çok sorulanlar şunlardır:\n\n**Neden-sonuç:** Bir eylemin hangi sebeple gerçekleştiği bildirilir. Sonuç, gerçekleşmiş ya da gerçekleşecek bir durumdur. Soru: **“Neden?”**\n- Kullanılan yapılar: -dığı için, -dığından, -den/-dan, çünkü, bu yüzden, bu nedenle, -ince (bazı cümlelerde)\n- “Yağmur yağ**dığı için** maç ertelendi.”\n- “Gürültü**den** ders çalışamadım.”\n\n**Amaç-sonuç:** Eylemin hangi amaçla yapıldığı bildirilir. Amaç henüz gerçekleşmemiş, ulaşılmak istenen bir durumdur. Soru: **“Ne amaçla?”**\n- Kullanılan yapılar: -mek için, -mek üzere, -mek amacıyla, -sin diye, -e diye\n- “Sınava hazırlan**mak için** kütüphaneye gitti.”\n- “Kardeşini sevindir**mek amacıyla** ona hediye aldı.”\n\n**Koşul-sonuç (şart):** Bir eylemin gerçekleşmesi başka bir eylemin gerçekleşmesine bağlanır. Soru: **“Hangi şartla?”**\n- Kullanılan yapılar: -se/-sa, -dikçe, -mek şartıyla, -diği takdirde, -meden (bazı cümlelerde)\n- “Düzenli çalış**ırsan** başarılı olursun.”\n- “Ödevini bitir**meden** dışarı çıkamazsın.”\n\n**En önemli tuzak: “için” sözcüğü.** “İçin” hem neden hem amaç bildirebilir. Ayırmak için **“Neden?”** ve **“Ne amaçla?”** sorularını sırayla sor.\n- “Yorgun olduğu **için** erken yattı.” → Neden? Yorgun olduğu için. (neden-sonuç)\n- “Erken kalkmak **için** saat kurdu.” → Ne amaçla? Erken kalkmak için. (amaç-sonuç)\n\nKısa yol: “-mek için” yapısı çoğunlukla amaç, “-dığı için” yapısı çoğunlukla neden bildirir.",
+          "keyPoints": [
+            "Neden-sonuç: “Neden?” sorusuna cevap verir; neden gerçekleşmiş bir durumdur.",
+            "Amaç-sonuç: “Ne amaçla?” sorusuna cevap verir; amaç henüz ulaşılmak istenen bir durumdur.",
+            "“-mek için” genellikle amaç, “-dığı için” genellikle neden bildirir.",
+            "Koşul bildiren yapılar: -se/-sa, -dikçe, -mek şartıyla, -diği takdirde.",
+            "Şüphede kalırsan cümleyi “Ne amaçla?” sorusuyla test et; mantıklı cevap alıyorsan amaçtır."
+          ],
+          "commonMistakes": [
+            "Her “için” sözcüğünü amaç bildiriyor sanmak.",
+            "Neden ile amacı karıştırmak: amaç gelecekte istenen, neden ise önceden var olan durumdur.",
+            "“-meden” ekinin her cümlede koşul bildirdiğini düşünmek; bazen yalnızca durum bildirir (“Yorulmadan çalıştı.”)."
+          ],
+          "questions": [
+            {
+              "id": "turkce-2-1-q1",
+              "stem": "Aşağıdaki cümlelerin hangisinde koşul-sonuç ilişkisi vardır?",
+              "choices": [
+                "Yağmur yağdığı için maç ertelendi.",
+                "Sınava hazırlanmak için kütüphaneye gitti.",
+                "Çok yorulduğundan erkenden uyudu.",
+                "Düzenli çalışırsan başarılı olursun."
+              ],
+              "answer": 3,
+              "explanation": "D'de başarılı olmak, düzenli çalışma şartına bağlanmıştır (-sa eki). A ve C'de neden-sonuç, B'de amaç-sonuç ilişkisi vardır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-1-q2",
+              "stem": "Aşağıdaki cümlelerin hangisinde amaç-sonuç ilişkisi vardır?",
+              "choices": [
+                "Hasta olduğu için okula gelmedi.",
+                "Kardeşini sevindirmek için ona hediye aldı.",
+                "Yollar buz tuttuğundan kaza oldu.",
+                "Telefonunun şarjı bittiğinden bizi arayamadı."
+              ],
+              "answer": 1,
+              "explanation": "B'de “Ne amaçla hediye aldı?” sorusunun cevabı “kardeşini sevindirmek için”dir; amaç-sonuç vardır. A, C ve D'de neden-sonuç ilişkisi vardır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-1-q3",
+              "stem": "Aşağıdaki cümlelerin hangisinde neden-sonuç ilişkisi vardır?",
+              "choices": [
+                "Gürültüden ders çalışamadım.",
+                "Tatile gitmek üzere bavulunu hazırladı.",
+                "Kitabı bitirirsen sana yenisini alırım.",
+                "Sahneyi daha iyi görebilmek için öne geçti."
+              ],
+              "answer": 0,
+              "explanation": "A'da ders çalışamamanın nedeni gürültüdür (-den eki neden bildirir). B ve D'de amaç-sonuç, C'de koşul-sonuç ilişkisi vardır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-1-q4",
+              "stem": "Aşağıdaki cümlelerin hangisinde “için” sözcüğü neden bildirmektedir?",
+              "choices": [
+                "Bisiklet almak için para biriktiriyor.",
+                "Okula yetişmek için erken kalktı.",
+                "Çok yorgun olduğu için ödevini yarına bıraktı.",
+                "Sağlıklı kalmak için her gün yürüyor."
+              ],
+              "answer": 2,
+              "explanation": "C'de “Neden ödevini yarına bıraktı?” sorusunun cevabı “çok yorgun olduğu için”dir. Diğer cümlelerde “-mek için” yapısı amaç bildirir (Ne amaçla?).",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-1-q5",
+              "stem": "Aşağıdaki cümlelerin hangisinde koşul anlamı yoktur?",
+              "choices": [
+                "Bu kitabı okursan çok şey öğrenirsin.",
+                "Ödevini bitirmeden dışarı çıkamazsın.",
+                "Kardeşim parka gitmek için sabırsızlanıyordu.",
+                "Erken kalktığın takdirde otobüse yetişirsin."
+              ],
+              "answer": 2,
+              "explanation": "A'da -sa eki, B'de “bitirmeden” (bitirmezsen), D'de “-diği takdirde” yapısı koşul bildirir. C'de bir şart yoktur; “parka gitmek için” amaç bildirir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-1-q6",
+              "stem": "“Arkadaşlarım beni bekliyordu, bu yüzden adımlarımı hızlandırdım.” cümlesindeki anlam ilişkisi aşağıdakilerin hangisinde de vardır?",
+              "choices": [
+                "Sesi kısıldığından şarkıyı söyleyemedi.",
+                "Dersi iyi anlamak için not tuttu.",
+                "Erken gelirsen birlikte gideriz.",
+                "Arkadaşına sürpriz yapmak amacıyla pasta yaptı."
+              ],
+              "answer": 0,
+              "explanation": "Verilen cümlede adımları hızlandırmanın nedeni arkadaşların beklemesidir (neden-sonuç). A'da da şarkıyı söyleyememenin nedeni sesin kısılmasıdır. B ve D'de amaç-sonuç, C'de koşul-sonuç vardır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-1-q7",
+              "stem": "(I) Okulumuzun bahçesi çok bakımsızdı. (II) Öğrenciler bahçeyi güzelleştirmek amacıyla bir kulüp kurdu. (III) Kulüp üyeleri her cuma toplanıp çiçek dikti. (IV) Yaz tatilinde sulama yapılamadığından bazı fidanlar kurudu. (V) Öğretmenimiz, yeni dönemde bir nöbet çizelgesi hazırlarsak bu sorunun yaşanmayacağını söyledi.\n\nBu metinde aşağıdaki anlam ilişkilerinden hangisine örnek bir cümle yoktur?",
+              "choices": [
+                "Neden-sonuç",
+                "Amaç-sonuç",
+                "Koşul-sonuç",
+                "Karşılaştırma"
+              ],
+              "answer": 3,
+              "explanation": "IV. cümlede neden-sonuç (sulama yapılamadığından), II. cümlede amaç-sonuç (güzelleştirmek amacıyla), V. cümlede koşul-sonuç (hazırlarsak) vardır. Metinde iki varlığı ya da durumu karşılaştıran bir cümle yoktur.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-1-q8",
+              "stem": "I. Kar yağdığı için okullar tatil edildi.\nII. Sınavı kazanmak için düzenli çalışıyor.\nIII. Hava güzel olursa yürüyüşe çıkacağız.\nIV. Telefonu şarj olmadığından arayamadım.\n\nBu cümlelerle ilgili aşağıdakilerden hangisi doğrudur?",
+              "choices": [
+                "I ve III. cümleler neden-sonuç ilişkisi taşır.",
+                "I ve IV. cümleler neden-sonuç ilişkisi taşır.",
+                "II ve III. cümleler amaç-sonuç ilişkisi taşır.",
+                "II ve IV. cümleler koşul-sonuç ilişkisi taşır."
+              ],
+              "answer": 1,
+              "explanation": "I (yağdığı için) ve IV (olmadığından) neden-sonuç; II (kazanmak için) amaç-sonuç; III (olursa) koşul-sonuç cümlesidir. Bu nedenle yalnızca B doğrudur.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "turkce-2-2",
+          "name": "Öznel ve Nesnel Yargılar",
+          "kazanim": [
+            "Metindeki öznel ve nesnel yargıları ayırt eder."
+          ],
+          "summary": "Cümleler, bildirdikleri yargının kanıtlanıp kanıtlanamamasına göre ikiye ayrılır.\n\n**Nesnel yargı:** Kişiden kişiye değişmeyen, doğruluğu ya da yanlışlığı kanıtlanabilen, ölçülebilen ya da araştırılabilen yargılardır. Bir yargının yanlış olması onu öznel yapmaz; yanlış bir bilgi de kontrol edilebildiği için nesneldir.\n- “Türkiye'nin başkenti Ankara'dır.”\n- “Kitap 240 sayfadan oluşuyor.”\n- “Su, deniz seviyesinde 100 °C'de kaynar.”\n\n**Öznel yargı:** Kişisel görüş, duygu, beğeni ya da tahmin bildiren, kişiden kişiye değişebilen ve kanıtlanamayan yargılardır.\n- “Bu film, izlediğim en etkileyici yapımdı.”\n- “Sonbahar, yılın en hüzünlü mevsimidir.”\n- “Bu kitap herkesin ilgisini çekecek.” (tahmin)\n\n**Öznellik ipuçları:** güzel, çirkin, etkileyici, sıkıcı, sürükleyici, başarılı, ustaca, en iyi, bence, bana göre, sanki, muhtemelen gibi değerlendirme ve tahmin bildiren sözcükler. Ancak yalnızca sözcüğe bakarak karar verme; asıl ölçüt, yargının **kanıtlanabilir** olup olmamasıdır.\n\n**Karma cümleler:** Bir cümlede hem nesnel hem öznel bilgi olabilir: “1960'ta yayımlanan bu kitap, okuduğum en sürükleyici eserdir.” Burada yayın yılı nesnel, “en sürükleyici” değerlendirmesi özneldir. Böyle bir cümle bütün olarak öznel kabul edilir.\n\nParagraf sorularında nesnelden öznele geçiş sık sorulur. Her cümleyi “Bu bilgi kontrol edilebilir mi?” sorusuyla tek tek test et.",
+          "keyPoints": [
+            "Nesnel yargı kanıtlanabilir, ölçülebilir; kişiden kişiye değişmez.",
+            "Öznel yargı kişisel görüş, duygu, beğeni ya da tahmin bildirir.",
+            "Yanlış bir bilgi bile kontrol edilebildiği için nesneldir.",
+            "İçinde öznel bir değerlendirme bulunan cümle, bütün olarak öznel sayılır.",
+            "Test sorusu: “Bu yargının doğruluğu herkesçe kontrol edilebilir mi?”"
+          ],
+          "commonMistakes": [
+            "Sayı ya da tarih içeren her cümleyi nesnel sanmak; aynı cümlede bir değerlendirme de olabilir.",
+            "“Çok, oldukça” gibi sözcükleri görünce cümleyi doğrudan öznel saymak; önemli olan yargının kanıtlanıp kanıtlanamamasıdır.",
+            "Gelecekle ilgili tahminleri nesnel sanmak (“Bu oyun herkesin ilgisini çekecek.” özneldir)."
+          ],
+          "questions": [
+            {
+              "id": "turkce-2-2-q1",
+              "stem": "Aşağıdaki cümlelerden hangisi nesnel bir yargı bildirir?",
+              "choices": [
+                "Bu film izlediğim en etkileyici yapımdı.",
+                "Türkiye'nin başkenti Ankara'dır.",
+                "Sonbahar, yılın en hüzünlü mevsimidir.",
+                "Bu romanın kapağı çok sade ve şık."
+              ],
+              "answer": 1,
+              "explanation": "B'deki bilgi herkes tarafından kontrol edilebilir ve kişiden kişiye değişmez. A, C ve D kişisel beğeni ve değerlendirme bildirdiği için özneldir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-2-q2",
+              "stem": "Aşağıdaki cümlelerden hangisi öznel bir yargı bildirir?",
+              "choices": [
+                "Su, deniz seviyesinde 100 derecede kaynar.",
+                "Kitap 240 sayfadan oluşuyor.",
+                "Yazarın bu öyküsü, diğerlerinden çok daha sürükleyici.",
+                "Okulumuzun kütüphanesi hafta içi saat 17.00'de kapanır."
+              ],
+              "answer": 2,
+              "explanation": "Bir öykünün “sürükleyici” olması kişiden kişiye değişen bir değerlendirmedir; kanıtlanamaz. Diğer cümlelerdeki bilgiler ölçülebilir ve kontrol edilebilir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-2-q3",
+              "stem": "Aşağıdaki cümlelerin hangisinde öznel bir ifade yoktur?",
+              "choices": [
+                "Şair, bu şiirinde doğayı ustaca anlatmış.",
+                "Yazarın dili oldukça akıcı.",
+                "Bu bölgede yaşayan insanlar çok misafirperver.",
+                "Roman, 1950 yılında yayımlanmış ve üç bölümden oluşuyor."
+              ],
+              "answer": 3,
+              "explanation": "D'deki yayın yılı ve bölüm sayısı kontrol edilebilir bilgilerdir. A'daki “ustaca”, B'deki “akıcı”, C'deki “çok misafirperver” kişisel değerlendirme bildirir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-2-q4",
+              "stem": "(I) Kitap, on iki öyküden oluşuyor. (II) Öykülerin hepsi bir çocuğun gözünden anlatılıyor. (III) Yazarın bu tercihi, kitaba benzersiz bir sıcaklık katmış. (IV) Özellikle son öykü, okuru derinden etkileyecek kadar güzel.\n\nBu metindeki numaralanmış cümlelerden hangileri nesneldir?",
+              "choices": [
+                "I ve II",
+                "I ve III",
+                "II ve IV",
+                "III ve IV"
+              ],
+              "answer": 0,
+              "explanation": "I'deki öykü sayısı ve II'deki anlatıcı bakış açısı kitaba bakılarak kontrol edilebilir; nesneldir. III'teki “benzersiz bir sıcaklık” ve IV'teki “derinden etkileyecek kadar güzel” kişisel değerlendirmedir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-2-q5",
+              "stem": "Aşağıdaki cümlelerin hangisi kanıtlanabilir bir bilgi içerir?",
+              "choices": [
+                "Bu şarkı, dinleyenlere huzur veriyor.",
+                "Bu köprü, 2016 yılında hizmete açılmıştır.",
+                "Yeni çıkan bu oyun herkesin ilgisini çekecek.",
+                "Bu yemeğin en lezzetlisi fırında pişirilenidir."
+              ],
+              "answer": 1,
+              "explanation": "Bir köprünün açılış tarihi belgelerle kontrol edilebilir. A ve D kişisel değerlendirme, C ise geleceğe yönelik bir tahmindir; üçü de özneldir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-2-q6",
+              "stem": "(I) Kapadokya; Nevşehir, Kayseri, Niğde, Aksaray ve Kırşehir illerinin bazı bölümlerini kapsayan bir bölgedir. (II) Bölgedeki peri bacaları, volkanik tüflerin milyonlarca yıl boyunca rüzgâr ve yağmurla aşınmasıyla oluşmuştur. (III) Bölgede çok sayıda yer altı şehri bulunmaktadır. (IV) Gün doğarken gökyüzünü dolduran rengârenk balonlar, insanın içini tarifsiz bir huzurla doldurur. (V) Bence her insan, hayatında en az bir kez bu büyüleyici manzarayı görmelidir.\n\nBu metinde nesnel anlatımdan öznel anlatıma geçiş hangi cümleyle başlamıştır?",
+              "choices": [
+                "I",
+                "II",
+                "III",
+                "IV"
+              ],
+              "answer": 3,
+              "explanation": "I, II ve III. cümlelerde coğrafi ve tarihî bilgiler verilmiştir; bunlar kontrol edilebilir. IV. cümledeki “insanın içini tarifsiz bir huzurla doldurur” ifadesi kişisel bir duygudur; öznel anlatım bu cümleyle başlar. V. cümle de özneldir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-2-q7",
+              "stem": "Aşağıdaki cümlelerin hangisinde hem nesnel hem öznel bir yargı bir arada bulunmaktadır?",
+              "choices": [
+                "Bu kitap 1960'ta yayımlandı ve 20 dile çevrildi.",
+                "Bu kitap çok sıkıcı ve gereksiz yere uzun.",
+                "1960'ta yayımlanan bu kitap, okuduğum en sürükleyici eserdir.",
+                "Kitap, yayımlandığı yıl bir ödül aldı."
+              ],
+              "answer": 2,
+              "explanation": "C'de “1960'ta yayımlanan” kontrol edilebilir (nesnel), “okuduğum en sürükleyici eser” kişisel değerlendirmedir (öznel). A ve D yalnızca nesnel, B yalnızca öznel yargı içerir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-2-q8",
+              "stem": "Aşağıdaki metinlerden hangisi yalnızca nesnel yargılardan oluşmaktadır?",
+              "choices": [
+                "Bal arıları, çiçeklerin polenlerini taşıyarak bitkilerin tozlaşmasına katkı sağlar. Bir arı kolonisinde genellikle tek bir ana arı bulunur.",
+                "Bal arıları doğanın en çalışkan canlılarıdır. Onları izlemek insana büyük keyif verir.",
+                "Arılar polen taşır. Bence arılar olmasaydı dünya çok sıkıcı bir yer olurdu.",
+                "Bir kovanda binlerce arı yaşar. Arıların vızıltısı kulağa hoş bir müzik gibi gelir."
+              ],
+              "answer": 0,
+              "explanation": "A'daki iki bilgi de bilimsel olarak kontrol edilebilir. B'de “en çalışkan” ve “büyük keyif verir”, C'de “bence ... çok sıkıcı”, D'de “kulağa hoş bir müzik gibi gelir” öznel yargılardır.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "turkce-2-3",
+          "name": "Örtülü Anlam ve Cümle Yorumlama",
+          "kazanim": [
+            "Cümlede açıkça söylenmeyen (örtülü) anlamları ve cümleden çıkarılabilecek yargıları belirler."
+          ],
+          "summary": "Bir cümle, açıkça söylediklerinin yanında **dolaylı olarak** başka bir yargıyı da sezdirebilir. Buna **örtülü anlam** denir.\n\n**Örtülü anlam oluşturan sözcükler:**\n- **da/de:** “Bu yıl **da** fuara gitmek istedi.” → Daha önceki yıllarda da istemişti.\n- **bile:** “Ali **bile** bu soruyu çözdü.” → Ali'nin çözmesi beklenmiyordu.\n- **yine, gene:** “Ahmet **yine** birinci oldu.” → Daha önce de birinci olmuştu.\n- **artık:** “Dedem **artık** gözlüksüz okuyamıyor.” → Eskiden okuyabiliyordu.\n- **bu sefer, bu kez:** “**Bu sefer de** geç kaldın.” → Daha önce de geç kalmıştın.\n\nÖrtülü anlam sorularında cümlede neyin **varsayıldığını** bulmalısın: “Söyleyen kişi neyi bildiği için böyle konuşuyor?” diye düşün.\n\n**Cümleden çıkarım yapma:** Cümlenin söylediğinin dışına çıkmadan ulaşılabilecek yargıyı bulmaktır. Şıklarda cümlede olmayan ek bilgiler ya da aşırı genellemeler varsa onları ele.\n\n**Anlamca yakın cümle:** Bir atasözü ya da cümleyle aynı düşünceyi farklı sözcüklerle anlatan cümleyi bulmaktır. “Emek olmadan yemek olmaz.” = “Bir şey elde etmek için çaba harcamak gerekir.”\n\n**Cümlenin anlam özellikleri:** Öneri (“Kısa molalar vermeyi dene.”), eleştiri, varsayım (“Diyelim ki...”), tahmin, pişmanlık, sitem gibi anlamları da cümlenin bütününden çıkarırız.\n\nİpucu: Şıkları değerlendirirken “Bu bilgi cümlede var mı, yoksa ben mi ekliyorum?” sorusunu sor. Cümlenin içeriğini aşan şıklar yanlıştır.",
+          "keyPoints": [
+            "“da/de, bile, yine, artık, bu sefer” gibi sözcükler örtülü anlam oluşturur.",
+            "“Artık” çoğunlukla durumun eskiden farklı olduğunu sezdirir.",
+            "Çıkarım sorularında cümlede olmayan bilgiyi ekleyen şıklar yanlıştır.",
+            "Aşırı genelleme yapan (“her zaman, kesinlikle, herkes”) şıklara dikkat et.",
+            "Bir eleştiride hem olumlu hem olumsuz değerlendirme bulunabilir; birini görmezden gelme."
+          ],
+          "commonMistakes": [
+            "Cümlede açıkça söylenenle örtülü olarak sezdirileni karıştırmak.",
+            "Kendi bilgi ve yorumunu cümleye eklemek.",
+            "Kısmi bir eleştiriyi tamamen olumsuz bir yargı gibi yorumlamak."
+          ],
+          "questions": [
+            {
+              "id": "turkce-2-3-q1",
+              "stem": "“Bu yıl da kardeşim kitap fuarına gitmek istedi.” cümlesinden aşağıdakilerden hangisi çıkarılabilir?",
+              "choices": [
+                "Kardeşim daha önce de kitap fuarına gitmek istemiştir.",
+                "Kardeşim çok kitap okuyan biridir.",
+                "Kitap fuarı her yıl yapılmaz.",
+                "Kardeşim bu yıl fuara gidememiştir."
+              ],
+              "answer": 0,
+              "explanation": "“Bu yıl da” ifadesindeki “da”, aynı isteğin önceki yıllarda da olduğunu sezdirir. Diğer şıklardaki bilgiler cümlede yoktur.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-3-q2",
+              "stem": "“Ali bile bu soruyu çözdü.” cümlesinde sezdirilen anlam aşağıdakilerden hangisidir?",
+              "choices": [
+                "Ali sınıfın en başarılı öğrencisidir.",
+                "Soruyu yalnızca Ali çözebilmiştir.",
+                "Ali soruyu çözmek istememiştir.",
+                "Ali'nin bu soruyu çözmesi beklenmiyordu."
+              ],
+              "answer": 3,
+              "explanation": "“Bile” sözcüğü, beklenmeyen bir durumu vurgular. Konuşan kişi, Ali'nin soruyu çözmesini beklemediğini sezdirmektedir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-3-q3",
+              "stem": "Aşağıdaki cümlelerin hangisinde örtülü anlam yoktur?",
+              "choices": [
+                "Bu sefer de derse geç kaldın.",
+                "Ahmet yine sınıfın en yüksek notunu aldı.",
+                "Kütüphane her gün saat dokuzda açılır.",
+                "Kardeşim artık sabahları erkenden kalkıyor."
+              ],
+              "answer": 2,
+              "explanation": "A'da daha önce de geç kalındığı, B'de Ahmet'in daha önce de en yüksek notu aldığı, D'de kardeşin eskiden erken kalkmadığı sezdirilir. C yalnızca bir bilgi verir; örtülü anlam taşımaz.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-3-q4",
+              "stem": "“Emek olmadan yemek olmaz.” atasözüne anlamca en yakın cümle aşağıdakilerden hangisidir?",
+              "choices": [
+                "Başkalarının emeğine saygı duymalıyız.",
+                "Bir şey elde etmek için çaba harcamak gerekir.",
+                "Yemek yapmak büyük emek ister.",
+                "Çalışan insan her zaman zengin olur."
+              ],
+              "answer": 1,
+              "explanation": "Atasözü, bir kazanç elde etmek için çalışmak gerektiğini anlatır. B bu düşünceyi karşılar. C atasözünü gerçek anlamıyla yorumlar; D ise “her zaman” diyerek aşırı genelleme yapar.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-3-q5",
+              "stem": "Aşağıdaki cümlelerin hangisinde öneri anlamı vardır?",
+              "choices": [
+                "Daha verimli çalışmak istiyorsan kısa molalar vermeyi dene.",
+                "Dün akşam ders çalışırken uyuyakalmışım.",
+                "Bu haftaki sınav beklediğimden kolaydı.",
+                "Sınav sonuçları cuma günü açıklanacak."
+              ],
+              "answer": 0,
+              "explanation": "A'da konuşan kişi karşısındakine bir yol göstermektedir; bu bir öneridir. B'de geçmişte yaşanan bir durum, C'de bir değerlendirme, D'de bir bilgi vardır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-3-q6",
+              "stem": "Mert, resim yarışması için hazırladığı tabloyu öğretmenine gösterdi. Öğretmen tabloya uzun uzun baktıktan sonra şöyle dedi: “Renkleri seçerken gerçekten cesur davranmışsın. Gökyüzündeki renk geçişleri çok başarılı. Yalnız ön plandaki ağaçlar biraz daha ayrıntı isteyebilir.” Mert öğretmeninin sözlerini not aldı. Eve dönünce de ağaçların üzerinde çalışmaya başladı.\n\nÖğretmenin sözlerinden aşağıdakilerden hangisi çıkarılamaz?",
+              "choices": [
+                "Mert'in renk seçimini beğenmiştir.",
+                "Tablonun baştan yapılması gerektiğini düşünmektedir.",
+                "Tablonun bir bölümünün geliştirilebileceğini düşünmektedir.",
+                "Gökyüzü çizimini başarılı bulmuştur."
+              ],
+              "answer": 1,
+              "explanation": "Öğretmen renkleri ve gökyüzünü övmüş, yalnızca ağaçların geliştirilebileceğini söylemiştir. Tablonun baştan yapılması gerektiğine dair bir ifade yoktur.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-3-q7",
+              "stem": "Aşağıdaki cümlelerin hangisinde, söz konusu durumun daha önce farklı olduğu anlamı vardır?",
+              "choices": [
+                "Kardeşim her gün okula yürüyerek gider.",
+                "Bu kitabı mutlaka okumalısın.",
+                "Yarın hava yağmurlu olacakmış.",
+                "Dedem artık gözlüksüz kitap okuyamıyor."
+              ],
+              "answer": 3,
+              "explanation": "D'deki “artık” sözcüğü, dedenin eskiden gözlüksüz okuyabildiğini sezdirir. Diğer cümlelerde böyle bir değişim anlamı yoktur.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-2-3-q8",
+              "stem": "“Bu kitap beni yalnızca düşündürmedi, harekete de geçirdi.” cümlesinden aşağıdakilerden hangisi çıkarılabilir?",
+              "choices": [
+                "Kitap, okuyucuyu düşündürmemiştir.",
+                "Kitap okumak her zaman insanı değiştirir.",
+                "Kitap, okuyucunun düşüncelerinin yanında davranışlarını da etkilemiştir.",
+                "Kitabın anlaşılması zordur."
+              ],
+              "answer": 2,
+              "explanation": "“Yalnızca düşündürmedi, harekete de geçirdi” ifadesi, kitabın hem düşünceyi hem de davranışı etkilediğini gösterir. A cümleyle çelişir; B aşırı genellemedir; D'deki bilgi cümlede yoktur.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turkce-3",
+      "no": 3,
+      "name": "Paragraf",
+      "topics": [
+        {
+          "id": "turkce-3-1",
+          "name": "Ana Düşünce ve Yardımcı Düşünceler",
+          "kazanim": [
+            "Metnin ana fikrini/ana duygusunu belirler.",
+            "Metindeki yardımcı fikirleri belirler."
+          ],
+          "summary": "**Ana düşünce**, yazarın metinde okura asıl vermek istediği mesajdır. Metindeki bütün cümleler bu mesajı desteklemek için yazılır. Ana düşünce genellikle **giriş** ya da **sonuç** cümlesinde açıkça söylenir; bazen de metnin bütününden çıkarılır.\n\n**Ana düşünceyi bulmanın yolları:**\n- “Yazar bu metni bana ne öğretmek için yazdı?” diye sor.\n- “Kısacası, sonuç olarak, bu yüzden, demek ki, öyleyse” gibi ifadelerle başlayan cümleleri dikkatle oku.\n- Doğru seçenek metnin **tamamını** kapsamalıdır. Yalnızca bir cümleyi karşılayan şık ana düşünce değil, yardımcı düşüncedir.\n- Metinde örnek olarak verilen kişi ya da olaylar (ressam, yazar, bir öğrenci) çoğu zaman genel bir yargıyı desteklemek içindir. Ana düşünce bu örneklerin ortak mesajıdır.\n\n**Yardımcı düşünceler**, ana düşünceyi açıklayan, destekleyen, örneklendiren ayrıntılardır. Yardımcı düşünce sorularında genellikle “Bu metinde hangisine değinilmemiştir?” ya da “Hangisine ulaşılamaz?” diye sorulur.\n\n**Yardımcı düşünce sorularında yöntem:**\n- Her şıkkı metinde tek tek ara; metinde karşılığı olanları ele.\n- Metinde geçmeyen, metindeki bilgiyle çelişen ya da metnin söylediğini aşan (aşırı genelleme yapan) şık doğru cevaptır.\n\n**Örnek:** “Kitap okumak hayal gücünü geliştirir. Okuduğumuz her öykü bizi farklı dünyalara götürür. Kelime dağarcığımız genişler. Bu nedenle her gün kitap okumaya zaman ayırmalıyız.” → Ana düşünce: Kitap okumak insanı birçok yönden geliştirdiği için düzenli okumalıyız. Yardımcı düşünceler: hayal gücü, farklı dünyalar, kelime dağarcığı.",
+          "keyPoints": [
+            "Ana düşünce metnin tamamını kapsar; yardımcı düşünceler onun parçalarıdır.",
+            "Ana düşünce sıklıkla giriş ya da sonuç cümlesinde yer alır.",
+            "“Kısacası, sonuç olarak, demek ki” ile başlayan cümleler ana düşünceyi verir.",
+            "Metindeki örnekler genel bir yargıyı destekler; ana düşünce o genel yargıdır.",
+            "“Ulaşılamaz” sorularında metinde olmayan ya da metni aşan şıkkı seç."
+          ],
+          "commonMistakes": [
+            "Metindeki tek bir cümleyi karşılayan şıkkı ana düşünce sanmak.",
+            "Doğru bir bilgi içeren ama metinde yer almayan şıkkı “ulaşılabilir” saymak.",
+            "Metnin söylediğini aşan, aşırı genelleme yapan şıkları seçmek (“yeni bina yapılmamalıdır” gibi)."
+          ],
+          "questions": [
+            {
+              "id": "turkce-3-1-q1",
+              "stem": "Kitap okumak, insanın hayal gücünü geliştirir. Okuduğumuz her öykü, bizi farklı dünyalara götürür. Kelime dağarcığımız genişler, kendimizi daha iyi ifade etmeye başlarız. Bu nedenle her gün biraz da olsa kitap okumaya zaman ayırmalıyız.\n\nBu paragrafın ana düşüncesi aşağıdakilerden hangisidir?",
+              "choices": [
+                "Kitaplar insanın en iyi arkadaşıdır.",
+                "Öykü kitapları diğer kitaplardan daha yararlıdır.",
+                "Kitap okumak insanı birçok yönden geliştirdiği için düzenli okumalıyız.",
+                "Kelime dağarcığı yalnızca kitap okuyarak gelişir."
+              ],
+              "answer": 2,
+              "explanation": "Paragraf, okumanın faydalarını sıralayıp “Bu nedenle her gün ... okumaya zaman ayırmalıyız.” cümlesiyle bağlanıyor. C bu bütünü kapsar. D'deki “yalnızca” ifadesi metinde yoktur.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-1-q2",
+              "stem": "Düzenli uyku, öğrencilerin başarısında önemli rol oynar. Yeterince uyuyan bir öğrenci derste daha dikkatli olur. Uyku, öğrenilen bilgilerin kalıcı hâle gelmesine yardım eder. Ayrıca dinlenmiş bir beyin, sorunlara daha hızlı çözüm üretir.\n\nBu paragrafta aşağıdakilerden hangisine değinilmemiştir?",
+              "choices": [
+                "Uykunun dikkate etkisine",
+                "Uykunun boy uzamasına katkısına",
+                "Uykunun öğrenileni kalıcı kılmasına",
+                "Uykunun sorun çözmeye katkısına"
+              ],
+              "answer": 1,
+              "explanation": "Paragrafta dikkat, bilgilerin kalıcılığı ve sorun çözme hızından söz edilmiştir. Boy uzaması ile ilgili bir bilgi yoktur.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-1-q3",
+              "stem": "Bir şehrin kimliğini yalnızca büyük binaları belirlemez. Dar sokaklarındaki eski çeşmeler, köşe başındaki küçük dükkânlar, yıllardır aynı yerde duran çınar ağaçları da o şehrin hafızasını oluşturur. Bu yapılar yok edildiğinde şehir, geçmişiyle bağını kaybeder. Yeni yapılar yükselirken eski izleri korumak bu yüzden çok önemlidir.\n\nBu paragrafta asıl anlatılmak istenen aşağıdakilerden hangisidir?",
+              "choices": [
+                "Şehirlerin geçmişini taşıyan küçük ayrıntılar da korunmalıdır.",
+                "Eski çeşmeler turistlerin ilgisini çeker.",
+                "Şehirlerde yeni bina yapılmamalıdır.",
+                "Çınar ağaçları uzun ömürlüdür."
+              ],
+              "answer": 0,
+              "explanation": "Yazar, şehrin hafızasını oluşturan küçük yapıların korunması gerektiğini vurguluyor. C metni aşar; yazar yeni binalara karşı değildir, “Yeni yapılar yükselirken eski izleri korumak” gerektiğini söyler.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-1-q4",
+              "stem": "Birçok insan başarıyı yalnızca sonuçla ölçer. Oysa bir hedefe ulaşmak için harcanan emek, edinilen deneyimler ve yaşanan değişim de en az sonuç kadar değerlidir. Bir yarışmada derece alamayan öğrenci, hazırlık sürecinde yeni beceriler kazanmışsa aslında kaybetmiş sayılmaz. Önemli olan, yolculuğun bizi nasıl dönüştürdüğüdür.\n\nBu paragrafın ana düşüncesi aşağıdakilerden hangisidir?",
+              "choices": [
+                "Yarışmalarda derece almak her şeyden önemlidir.",
+                "Başarılı olmak için yetenek gerekir.",
+                "Her öğrenci mutlaka bir yarışmaya katılmalıdır.",
+                "Başarı değerlendirilirken süreçte kazanılanlar da dikkate alınmalıdır."
+              ],
+              "answer": 3,
+              "explanation": "Yazar, başarının yalnızca sonuçla ölçülmemesi gerektiğini, süreçteki emek ve deneyimin de değerli olduğunu anlatıyor. A metindeki düşüncenin tersidir; B ve C'den söz edilmemiştir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-1-q5",
+              "stem": "Ormanlar, dünyanın akciğerleri olarak bilinir. Ağaçlar havadaki karbondioksiti alıp oksijen üretir. Ayrıca toprağı kökleriyle tutarak erozyonu önler. Binlerce canlı türü de ormanları yuva olarak kullanır.\n\nBu paragraftan aşağıdakilerin hangisine ulaşılamaz?",
+              "choices": [
+                "Ormanlar oksijen üretimine katkı sağlar.",
+                "Ormanlık alanlar her yıl hızla azalmaktadır.",
+                "Ağaçlar erozyonu önler.",
+                "Ormanlar birçok canlıya yaşam alanı sunar."
+              ],
+              "answer": 1,
+              "explanation": "A, C ve D paragrafta açıkça yer alır. Ormanların azaldığına dair bir bilgi paragrafta yoktur; bu bilgi doğru olsa bile bu metinden çıkarılamaz.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-1-q6",
+              "stem": "Kardeşim küçükken her yeni oyuncağı birkaç gün içinde bir köşeye atardı. Annem bir gün ona oyuncak yerine bir saksı ve birkaç tohum verdi. Kardeşim ilk günler toprağa her saat bakıyor, filiz çıkmayınca söyleniyordu. Bir hafta sonra küçük yeşil bir yaprak görünce sevinçten bağırdı. O günden sonra bitkisini her sabah suladı; bitki büyüdükçe ona daha çok bağlandı. Şimdi düşünüyorum da emek verdiğimiz şeyleri, hazır bulduklarımızdan çok daha fazla sahipleniyoruz.\n\nBu metnin ana düşüncesi aşağıdakilerden hangisidir?",
+              "choices": [
+                "Çocuklara oyuncak alınmamalıdır.",
+                "Bitki yetiştirmek sabır ister.",
+                "İnsan, emek verdiği şeye daha çok değer verir.",
+                "Tohumlar bir hafta içinde filizlenir."
+              ],
+              "answer": 2,
+              "explanation": "Metindeki olay, son cümledeki genel yargıyı örneklemek için anlatılmıştır: Emek verilen şey daha çok sahiplenilir. B metinde sezdirilen bir ayrıntıdır ama ana düşünce değildir; A ve D metni aşar.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-1-q7",
+              "stem": "Müzeler, yalnızca eski eşyaların sergilendiği sessiz yapılar değildir. Bir müzeyi gezen kişi, geçmişte yaşamış insanların nasıl giyindiğini, ne yediğini, hangi aletlerle çalıştığını yakından görür. Böylece tarih kitaplarında okuduğu bilgiler zihninde canlanır. Günümüzde pek çok müze, dokunmatik ekranlar ve sesli rehberlerle ziyaretçilerine etkileşimli deneyimler sunuyor. Bu yenilikler özellikle çocukların müzelere ilgisini artırıyor.\n\nBu metinden aşağıdakilerin hangisine ulaşılamaz?",
+              "choices": [
+                "Müzeler, tarihî bilgilerin daha iyi kavranmasına yardımcı olur.",
+                "Müzelerde teknolojiden yararlanılmaktadır.",
+                "Etkileşimli uygulamalar çocukların müzelere ilgisini artırmaktadır.",
+                "Müzelerin giriş ücretleri ziyaretçi sayısını azaltmaktadır."
+              ],
+              "answer": 3,
+              "explanation": "A, “bilgiler zihninde canlanır”; B, “dokunmatik ekranlar ve sesli rehberler”; C, son cümle ile desteklenir. Giriş ücretlerinden metinde hiç söz edilmemiştir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-1-q8",
+              "stem": "Bir ressam, tuvaline ilk fırça darbesini vurmadan önce saatlerce gözlem yapar. Işığın nesnelere nasıl düştüğünü, gölgelerin gün içinde nasıl değiştiğini inceler. Bir yazar da öyküsünü yazmadan önce insanları dinler, sokaklardaki küçük ayrıntıları not eder. Bir bilim insanı ise deneyine başlamadan önce doğadaki olayları dikkatle izler. Kısacası hangi alanda olursa olsun, ortaya konan her başarılı eserin temelinde dikkatli bir gözlem yatar.\n\nBu metnin ana düşüncesi aşağıdakilerden hangisidir?",
+              "choices": [
+                "Başarılı bir eser ortaya koymanın temelinde gözlem yapmak vardır.",
+                "Ressamlar ışık ve gölgeyi iyi kullanmalıdır.",
+                "Yazarlar öykülerini gerçek olaylardan alır.",
+                "Bilim insanları deney yapmayı sever."
+              ],
+              "answer": 0,
+              "explanation": "Ressam, yazar ve bilim insanı örnekleri ortak bir yargıyı desteklemek için verilmiştir. “Kısacası” ile başlayan son cümle bu yargıyı açıkça söyler. B, C ve D yalnızca tek bir örneğe aittir.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "turkce-3-2",
+          "name": "Konu, Başlık ve Paragrafın Yapısı",
+          "kazanim": [
+            "Metnin konusunu belirler.",
+            "Metnin içeriğine uygun başlık belirler.",
+            "Paragrafın giriş, gelişme ve sonuç bölümlerini; düşüncenin akışını bozan cümleyi belirler."
+          ],
+          "summary": "**Konu**, metinde üzerinde durulan, hakkında bilgi verilen şeydir. “Bu metin neyi anlatıyor?” sorusunun cevabıdır. Ana düşünceden farkı şudur: Konu bir **ad öbeği**dir (“Zeytin ağacının özellikleri”), ana düşünce bir **yargı**dır (“Zeytin ağacı çok değerlidir.”).\n\n**Başlık**, metnin konusunu ya da ana düşüncesini kısa ve dikkat çekici biçimde yansıtır. Doğru başlık metnin tamamını kapsamalıdır; çok genel ya da çok dar olmamalıdır.\n\n**Paragrafın yapısı** üç bölümden oluşur:\n- **Giriş cümlesi:** Konuyu tanıtır. Kendinden önce bir cümle olduğunu düşündürecek sözcüklerle başlamaz. “Bu yüzden, ayrıca, çünkü, ama, bu, o” gibi bağlayıcı ya da gösterme sözcükleriyle başlayan cümleler giriş cümlesi olamaz.\n- **Gelişme bölümü:** Konu açıklanır, örneklerle desteklenir.\n- **Sonuç cümlesi:** Düşünce bağlanır. “Kısacası, sonuç olarak, bu nedenle” gibi ifadelerle başlayabilir.\n\n**Paragraf yapısı soru tipleri:**\n- **Akışı bozan cümle:** Konunun dışına çıkan, başka bir konuya geçen cümledir. Önce paragrafın konusunu belirle, sonra her cümlenin o konuya hizmet edip etmediğine bak.\n- **İkiye bölme:** Konunun ya da bakış açısının değiştiği cümle, ikinci paragrafın ilk cümlesidir.\n- **Boşluk tamamlama:** Boşluğun önündeki ve arkasındaki cümlelere bak; ikisini birbirine bağlayan cümleyi seç.\n- **Sıralama:** Önce giriş cümlesini bul (bağlayıcı sözcükle başlamayan, konuyu tanıtan cümle). Sonra “bunun üzerine, bir gün, birkaç hafta sonra” gibi zaman ve bağlantı ifadelerini izle.",
+          "keyPoints": [
+            "Konu bir ad öbeğidir, ana düşünce bir yargıdır.",
+            "Giriş cümlesi “bu, bu yüzden, ayrıca, çünkü, ama” gibi sözcüklerle başlamaz.",
+            "Akışı bozan cümle, paragrafın konusunun dışına çıkan cümledir.",
+            "İkiye bölme sorularında konunun değiştiği ilk cümleyi bul.",
+            "Boşluk sorularında boşluğun hem öncesine hem sonrasına bak."
+          ],
+          "commonMistakes": [
+            "Aynı konuda olan ama ayrıntıya inen bir cümleyi akışı bozan cümle sanmak.",
+            "Metnin yalnızca bir bölümünü anlatan başlığı seçmek.",
+            "Boşluk sorularında yalnızca boşluktan önceki cümleye bakmak."
+          ],
+          "questions": [
+            {
+              "id": "turkce-3-2-q1",
+              "stem": "Zeytin ağacı yüzlerce yıl yaşayabilir. Kuraklığa dayanıklıdır ve az suyla yetinir. Meyvesinden yağ elde edilir, dalı ise barış simgesi olarak kullanılır.\n\nBu paragrafın konusu aşağıdakilerden hangisidir?",
+              "choices": [
+                "Ağaçların yaşam süresi",
+                "Zeytin ağacının özellikleri",
+                "Kuraklığın nedenleri",
+                "Barış simgeleri"
+              ],
+              "answer": 1,
+              "explanation": "Paragrafın tüm cümleleri zeytin ağacının bir özelliğini anlatır. A ve D yalnızca bir ayrıntıya, C ise metinde olmayan bir konuya karşılık gelir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-2-q2",
+              "stem": "Kutup ayıları, kalın kürkleri ve deri altındaki yağ tabakası sayesinde dondurucu soğuklara dayanır. Açık renkli kürkleri, karla kaplı ortamda avlanırken gizlenmelerini sağlar. Geniş pençeleri ise buz üzerinde kaymadan yürümelerine yardım eder.\n\nBu paragrafa en uygun başlık aşağıdakilerden hangisidir?",
+              "choices": [
+                "Kutuplarda Yaşam",
+                "Buzulların Erimesi",
+                "Avcı Hayvanlar",
+                "Kutup Ayısının Soğuğa Uyumu"
+              ],
+              "answer": 3,
+              "explanation": "Paragrafta kutup ayısının soğuk ortamda yaşamasını sağlayan özellikleri anlatılıyor. A ve C çok geniştir; B'den söz edilmemiştir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-2-q3",
+              "stem": "(I) Çay, dünyada sudan sonra en çok tüketilen içeceklerden biridir. (II) Türkiye'de çay tarımı daha çok Doğu Karadeniz'de yapılır. (III) Bu bölgenin bol yağış alan iklimi, çay bitkisinin yetişmesine çok uygundur. (IV) Karadeniz'de hamsi de çok sevilen bir yiyecektir. (V) Toplanan yaş çay yaprakları fabrikalarda işlenerek kuru çaya dönüştürülür.\n\nBu paragrafta numaralanmış cümlelerden hangisi düşüncenin akışını bozmaktadır?",
+              "choices": [
+                "I",
+                "II",
+                "IV",
+                "V"
+              ],
+              "answer": 2,
+              "explanation": "Paragrafın konusu çaydır. IV. cümle hamsiden söz ederek konunun dışına çıkar ve akışı bozar.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-2-q4",
+              "stem": "Aşağıdaki cümlelerden hangisi bir paragrafın giriş cümlesi olmaya en uygundur?",
+              "choices": [
+                "Bu yüzden herkes onu çok severdi.",
+                "Ayrıca her gün düzenli spor yapardı.",
+                "Çünkü bu konuda yeterli bilgisi yoktu.",
+                "Sağlıklı beslenme, uzun ve kaliteli bir yaşamın temel koşullarından biridir."
+              ],
+              "answer": 3,
+              "explanation": "A, B ve C; “bu yüzden, ayrıca, çünkü” sözcükleriyle kendinden önce başka bir cümle olduğunu gösterir. D ise yeni bir konuyu tanıtır ve tek başına anlamlıdır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-2-q5",
+              "stem": "(I) Yusufçuklar, yeryüzündeki en eski böcek gruplarından biridir. (II) Fosil kayıtları, bu böceklerin atalarının dinozorlardan bile önce yaşadığını gösteriyor. (III) Yusufçuklar dört kanatlarını birbirinden bağımsız hareket ettirebildikleri için havada asılı kalabilir, hatta geriye doğru uçabilir. (IV) Bu üstün uçuş yeteneği onları çok başarılı avcılar yapar. (V) Uçarken sivrisinek gibi küçük böcekleri kolayca yakalarlar.\n\nBu paragraf iki paragrafa ayrılmak istense ikinci paragraf hangi cümleyle başlar?",
+              "choices": [
+                "II",
+                "III",
+                "IV",
+                "V"
+              ],
+              "answer": 1,
+              "explanation": "I ve II. cümleler yusufçukların ne kadar eski canlılar olduğunu anlatır. III. cümleyle konu, uçuş yeteneklerine geçer; IV ve V de bu konuyu sürdürür. İkinci paragraf III. cümleyle başlar.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-2-q6",
+              "stem": "I. Bunun üzerine her gün yarım saat kitap okumaya karar verdi.\nII. Elif, kitap okumayı hiç sevmeyen bir çocuktu.\nIII. Birkaç hafta sonra okumanın onun için bir alışkanlığa dönüştüğünü fark etti.\nIV. Bir gün öğretmeni, okumayı sevmenin yolunun her gün biraz okumak olduğunu söyledi.\n\nBu cümlelerle anlamlı bir paragraf oluşturulduğunda sıralama nasıl olur?",
+              "choices": [
+                "II – IV – I – III",
+                "II – I – IV – III",
+                "IV – II – I – III",
+                "II – IV – III – I"
+              ],
+              "answer": 0,
+              "explanation": "Giriş cümlesi kişiyi tanıtan II'dir. Ardından öğretmenin sözü (IV), “Bunun üzerine” verilen karar (I) ve “Birkaç hafta sonra” ortaya çıkan sonuç (III) gelir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-2-q7",
+              "stem": "Arılar, çiçekten çiçeğe konarken farkında olmadan önemli bir görev üstlenir. Bacaklarına ve tüylerine yapışan polenleri bir çiçekten diğerine taşırlar. ______ Bu nedenle arıların sayısındaki azalma, yalnızca bal üretimini değil, meyve ve sebze üretimini de tehdit etmektedir.\n\nBu paragrafta boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+              "choices": [
+                "Bu taşıma sayesinde pek çok bitki tozlaşır ve meyve verir.",
+                "Arılar, kovanlarında düzenli bir iş bölümüyle yaşar.",
+                "Bal, eski çağlardan beri şifalı bir besin olarak bilinir.",
+                "Arı sokması bazı insanlarda alerjiye yol açabilir."
+              ],
+              "answer": 0,
+              "explanation": "Boşluktan önce polen taşımadan, sonra meyve ve sebze üretiminin tehlikeye girmesinden söz ediliyor. İkisini bağlayan cümle, polen taşımanın bitkilerin meyve vermesini sağladığını söyleyen A'dır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-2-q8",
+              "stem": "Eskiden mahallelerde çocuklar akşama kadar sokakta oynardı. Saklambaç, yakar top, seksek gibi oyunlar, onların hem bedenlerini hem de arkadaşlık ilişkilerini güçlendirirdi. Günümüzde ise çocukların büyük bölümü boş zamanlarını ekran başında geçiriyor. Uzmanlar, bu durumun çocukların hareket etme ihtiyacını karşılamadığını ve yüz yüze iletişim becerilerini zayıflattığını belirtiyor. Bu nedenle ailelerin, çocuklarını açık havada oynamaya özendirmesi gerekiyor.\n\nBu metnin konusu aşağıdakilerden hangisidir?",
+              "choices": [
+                "Ekranların göz sağlığına etkileri",
+                "Geleneksel oyunların kuralları",
+                "Çocukların oyun alışkanlıklarındaki değişim ve sonuçları",
+                "Mahalle kültürünün kaybolması"
+              ],
+              "answer": 2,
+              "explanation": "Metin, çocukların eskiden sokakta oynarken şimdi ekran başında vakit geçirmesini ve bunun etkilerini anlatıyor. A ve B'den söz edilmez; D ise metnin odağı değildir.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "turkce-3-3",
+          "name": "Anlatım Biçimleri ve Düşünceyi Geliştirme Yolları",
+          "kazanim": [
+            "Metindeki anlatım biçimlerini (açıklama, tartışma, öyküleme, betimleme) belirler.",
+            "Metinde kullanılan düşünceyi geliştirme yollarını belirler."
+          ],
+          "summary": "**Anlatım biçimleri** yazarın metni nasıl kurduğunu gösterir:\n- **Açıklayıcı anlatım:** Bir konuda bilgi vermek, öğretmek amaçlanır. Dil sade ve nesneldir.\n- **Tartışmacı anlatım:** Yazar bir düşünceyi savunur, karşıt görüşü çürütmeye çalışır. “Bazıları ... düşünür. Oysa ...” kalıbı tipiktir.\n- **Öykülemeci anlatım:** Olaylar bir zaman sırası içinde anlatılır. Kişi, zaman, yer ve hareket vardır; fiiller öne çıkar.\n- **Betimleyici anlatım:** Bir varlığın, yerin ya da kişinin görünüşü sözcüklerle resmedilir. Renk, ses, koku gibi duyulara seslenen ayrıntılar kullanılır.\n\nBir metinde birden fazla anlatım biçimi birlikte kullanılabilir. Örneğin bir yolculuk anlatılırken (öyküleme) yolun kenarındaki tarlalar resmedilebilir (betimleme).\n\n**Düşünceyi geliştirme yolları** yazarın düşüncesini okura kabul ettirmek için kullandığı tekniklerdir:\n- **Tanımlama:** “... nedir?” sorusuna cevap verir. “Deprem, yer kabuğundaki kırılmalarla oluşan sarsıntılardır.”\n- **Örneklendirme:** Düşünce somut örneklerle açıklanır. “örneğin, mesela” ipucudur.\n- **Karşılaştırma:** İki varlık ya da durumun benzer veya farklı yönleri gösterilir. “ise, oysa, -e göre, daha” ipucudur.\n- **Tanık gösterme:** Bir uzmanın, düşünürün ya da yazarın sözüne başvurulur.\n- **Sayısal verilerden yararlanma:** Sayı, oran, yüzde, istatistik kullanılır.\n- **Benzetme:** Bir varlık, ortak bir yönü olan başka bir varlığa benzetilir. “gibi, kadar, sanki” ipucudur.\n\nSoru çözerken önce metinde sayı, alıntı, “gibi”, “örneğin”, “ise/oysa” gibi ipuçlarını işaretle; sonra şıklara bak.",
+          "keyPoints": [
+            "Öyküleme: olay ve zaman akışı; betimleme: görünüşü sözle resmetme.",
+            "Tartışmacı anlatımda karşıt görüş verilip çürütülür (“Oysa ...”).",
+            "Tanık gösterme = başkasının sözüne dayanma; sayısal veri = rakam, yüzde, oran.",
+            "Karşılaştırmada en az iki şey yan yana değerlendirilir.",
+            "Bir metinde birden fazla anlatım biçimi ve düşünceyi geliştirme yolu bulunabilir."
+          ],
+          "commonMistakes": [
+            "Benzetme ile karşılaştırmayı karıştırmak: benzetmede ortak yön üzerinden bir varlık başkasına benzetilir; karşılaştırmada iki şeyin benzer ve farklı yönleri ölçülür.",
+            "Bir sayı geçti diye metnin tamamını “sayısal verilerle” geliştirilmiş saymak; sayının düşünceyi desteklemek için kullanılıp kullanılmadığına bak.",
+            "Bilgi veren her metni tartışmacı sanmak; karşıt görüş yoksa genellikle açıklayıcıdır."
+          ],
+          "questions": [
+            {
+              "id": "turkce-3-3-q1",
+              "stem": "Aşağıdakilerden hangisi betimleyici anlatıma örnektir?",
+              "choices": [
+                "Dün sabah erkenden kalkıp otobüse bindim ve dedemin köyüne gittim.",
+                "Fotosentez, bitkilerin güneş ışığını kullanarak besin üretmesidir.",
+                "Bazıları ödevin gereksiz olduğunu düşünüyor; oysa ödev, öğrenileni pekiştirir.",
+                "Küçük, beyaz badanalı evin pencerelerinde kırmızı sardunyalar sallanıyor, eski kiremitleri güneşte parlıyordu."
+              ],
+              "answer": 3,
+              "explanation": "D'de evin görünüşü renk ve ayrıntılarla sözcüklerle resmedilmiştir. A öyküleme, B açıklama (tanımlama), C tartışmacı anlatımdır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-3-q2",
+              "stem": "Aşağıdaki cümlelerin hangisinde tanımlama yapılmıştır?",
+              "choices": [
+                "Deprem, yer kabuğundaki kırılmalar sonucu oluşan sarsıntıların yeryüzünü sallamasıdır.",
+                "Geçen yıl şehrimizde küçük bir deprem oldu.",
+                "Depreme karşı her zaman hazırlıklı olmalıyız.",
+                "Bazı ülkelerde binalar depreme dayanıklı yapılıyor."
+              ],
+              "answer": 0,
+              "explanation": "A, “Deprem nedir?” sorusunun cevabını verir; bu bir tanımdır. Diğer cümleler deprem hakkında bilgi, öneri ya da olay bildirir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-3-q3",
+              "stem": "Okulumuzda yapılan ankete katılan 400 öğrenciden 260'ı her gün kitap okuduğunu belirtti. Geçen yıl yapılan ankette bu sayı yalnızca 180'di. Kütüphanede başlatılan okuma saati uygulaması, bu artışta önemli bir rol oynadı.\n\nBu paragrafta düşünceyi geliştirme yollarından hangisi kullanılmıştır?",
+              "choices": [
+                "Tanık gösterme",
+                "Sayısal verilerden yararlanma",
+                "Benzetme",
+                "Tanımlama"
+              ],
+              "answer": 1,
+              "explanation": "Paragrafta öğrenci sayıları (400, 260, 180) verilerek okuma alışkanlığındaki artış gösterilmiştir. Bu, sayısal verilerden yararlanmadır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-3-q4",
+              "stem": "Aşağıdaki cümlelerin hangisinde tanık göstermeye başvurulmuştur?",
+              "choices": [
+                "Kitaplar, insanın en sadık dostlarıdır; her zaman yanımızdadır.",
+                "Kitap okuyan çocukların kelime dağarcığı daha geniş olur; örneğin her gün okuyan bir çocuk yeni sözcükleri kolayca öğrenir.",
+                "Bir eğitim bilimci, “Okuyan çocuk, düşünmeyi de öğrenir.” diyerek okumanın önemini vurgular.",
+                "Kitapların sayfaları, bilinmeyen dünyalara açılan kapılar gibidir."
+              ],
+              "answer": 2,
+              "explanation": "C'de düşünceyi desteklemek için bir uzmanın sözüne başvurulmuştur; bu tanık göstermedir. B'de örneklendirme, D'de benzetme vardır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-3-q5",
+              "stem": "Mektup yazmak sabır ister; insan, düşüncelerini kâğıda dökerken her sözcüğü tartar. Kısa mesajlar ise hızlıdır ama çoğu zaman düşünülmeden yazılır. Mektubu bekleyen kişi günlerce heyecan duyarken mesaj birkaç saniyede ulaşır ve çabucak unutulur.\n\nBu paragrafta düşünceyi geliştirme yollarından hangisi kullanılmıştır?",
+              "choices": [
+                "Karşılaştırma",
+                "Tanımlama",
+                "Tanık gösterme",
+                "Sayısal verilerden yararlanma"
+              ],
+              "answer": 0,
+              "explanation": "Paragrafta mektup ile kısa mesaj, sabır, hız ve etkileri yönünden yan yana değerlendirilmiştir. “ise, -ken” ipuçları karşılaştırmayı gösterir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-3-q6",
+              "stem": "Bazı insanlar, teknolojinin çocukları tembelleştirdiğini ve onları kitaplardan uzaklaştırdığını savunur. Oysa bu görüş, madalyonun yalnızca bir yüzünü gösteriyor. Doğru kullanıldığında teknoloji, çocukların merak ettikleri her konuda bilgiye hızla ulaşmasını sağlar. Dijital kütüphaneler sayesinde binlerce kitap bir dokunuşla elimizin altında. Sorun teknolojinin kendisinde değil, onu nasıl kullandığımızdadır. Öyleyse teknolojiyi yasaklamak yerine çocuklara bilinçli kullanımı öğretmeliyiz.\n\nBu metinde ağırlıklı olarak kullanılan anlatım biçimi aşağıdakilerden hangisidir?",
+              "choices": [
+                "Betimleme",
+                "Öyküleme",
+                "Tartışma",
+                "Açıklama"
+              ],
+              "answer": 2,
+              "explanation": "Yazar önce karşıt bir görüşü veriyor (“Bazı insanlar ... savunur.”), sonra “Oysa” diyerek bu görüşü çürütüp kendi düşüncesini savunuyor. Bu, tartışmacı anlatımın temel özelliğidir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-3-q7",
+              "stem": "Mercan resifleri, okyanus tabanının yüzde birinden daha az bir alanı kaplar. Buna karşın deniz canlılarının yaklaşık dörtte birine ev sahipliği yapar. Resifler, adeta denizlerin yağmur ormanları gibidir; renkli ve kalabalık bir yaşamı barındırır. Ancak deniz suyu sıcaklığındaki artış, mercanların renklerini kaybedip ölmesine yol açıyor.\n\nBu metinde düşünceyi geliştirme yollarından hangileri kullanılmıştır?",
+              "choices": [
+                "Tanımlama – Tanık gösterme",
+                "Örneklendirme – Tanık gösterme",
+                "Karşılaştırma – Tanımlama",
+                "Sayısal verilerden yararlanma – Benzetme"
+              ],
+              "answer": 3,
+              "explanation": "“Yüzde birinden daha az” ve “dörtte biri” sayısal verilerdir. “Denizlerin yağmur ormanları gibidir” ifadesi benzetmedir. Metinde bir tanım ya da birinin sözüne başvurma yoktur.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-3-q8",
+              "stem": "Sabah erkenden yola çıktık. Köy yolunun iki yanında sararmış buğday tarlaları uzanıyor, rüzgâr başakları dalga dalga sallıyordu. Öğleye doğru dedemin evine vardık. Kapının önündeki yaşlı dut ağacının gölgesinde mavi boyalı tahta bir masa duruyordu. Babaannem bizi görünce koşarak yanımıza geldi ve hepimize tek tek sarıldı.\n\nBu metinde hangi anlatım biçimleri bir arada kullanılmıştır?",
+              "choices": [
+                "Açıklama – Tartışma",
+                "Öyküleme – Betimleme",
+                "Tartışma – Öyküleme",
+                "Açıklama – Betimleme"
+              ],
+              "answer": 1,
+              "explanation": "Yola çıkma, varma, sarılma gibi olaylar zaman sırasıyla anlatılmıştır (öyküleme). Buğday tarlaları, dut ağacı ve mavi masa gibi ayrıntılarla görünüş resmedilmiştir (betimleme).",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "turkce-3-4",
+          "name": "Metin Karşılaştırma",
+          "kazanim": [
+            "İki veya daha fazla metni konu, ana düşünce, anlatım biçimi ve bakış açısı yönünden karşılaştırır."
+          ],
+          "summary": "LGS'de iki ya da daha fazla metnin birlikte verildiği ve bu metinlerin **ortak** ya da **farklı** yönlerinin sorulduğu sorular sık görülür.\n\n**Metinleri hangi yönlerden karşılaştırabiliriz?**\n- **Konu:** İki metin aynı şeyden mi söz ediyor?\n- **Ana düşünce:** Aynı mesajı mı veriyor, farklı mesajlar mı?\n- **Bakış açısı:** Biri olumlu, diğeri olumsuz mu bakıyor? Biri bir şeyin üstün yönlerini, diğeri başka bir şeyin üstün yönlerini mi anlatıyor?\n- **Anlatım biçimi:** Biri betimleyici, diğeri açıklayıcı olabilir.\n- **Öznellik/nesnellik:** Biri bilimsel bilgi verirken diğeri kişisel duyguları anlatabilir.\n- **Söz sanatları ve düşünceyi geliştirme yolları:** Birinde benzetme ya da kişileştirme, diğerinde sayısal veri olabilir.\n\n**Çözüm yöntemi:**\n- Her metni okuduktan sonra kenarına tek cümlelik bir özet yaz: “1. metin: Basılı kitabın olumlu yönleri. 2. metin: Elektronik kitabın olumlu yönleri.”\n- Soruda “ortak” isteniyorsa şıktaki yargının **iki metinde de** bulunduğunu kontrol et. Yalnızca birinde olan şık yanlıştır.\n- Soruda “fark” isteniyorsa şıktaki yargının bir metinde olup diğerinde olmadığını kontrol et.\n- Farklı örneklerle anlatılan metinlerde ortak noktayı soyut düzeyde düşün. Aşçı ve bahçıvan örnekleri farklı görünse de ikisi de “sabır” mesajını verebilir.\n\nMetinlerden birindeki ayrıntıyı iki metne de genelleyen şıklar en sık kullanılan çeldiricilerdir.",
+          "keyPoints": [
+            "Her metni tek cümleyle özetle, sonra özetleri karşılaştır.",
+            "“Ortak” şık her iki metinde de bulunmalıdır.",
+            "Farklı örnekler kullanan metinler aynı ana düşünceyi verebilir.",
+            "Karşılaştırma yönleri: konu, ana düşünce, bakış açısı, anlatım biçimi, öznellik."
+          ],
+          "commonMistakes": [
+            "Yalnızca bir metinde geçen bilgiyi iki metnin ortak özelliği saymak.",
+            "Metinlerin yüzeydeki konusuna takılıp ortak mesajı görememek.",
+            "Söz sanatının hangi metinde olduğunu karıştırmak."
+          ],
+          "questions": [
+            {
+              "id": "turkce-3-4-q1",
+              "stem": "1. Metin: Sabah yürüyüşleri, güne enerjik başlamamızı sağlar. Temiz hava zihnimizi açar.\n2. Metin: Yürüyüş, kalp sağlığını korur ve kasları güçlendirir. Her gün yarım saat yürümek bile fark yaratır.\n\nBu iki metnin ortak konusu aşağıdakilerden hangisidir?",
+              "choices": [
+                "Yürüyüşün faydaları",
+                "Sabah kahvaltısının önemi",
+                "Spor salonlarının yararları",
+                "Kalp hastalıklarının nedenleri"
+              ],
+              "answer": 0,
+              "explanation": "İki metin de yürüyüşün sağladığı yararları anlatır: biri zihinsel ve enerji yönünden, diğeri beden sağlığı yönünden.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-4-q2",
+              "stem": "1. Metin: Kediler bağımsız hayvanlardır; sahiplerinden uzun süre ayrı kalabilirler.\n2. Metin: Köpekler sahiplerine çok bağlıdır; yalnız kaldıklarında huzursuzlanabilirler.\n\nBu metinler hangi yönden birbirinden farklıdır?",
+              "choices": [
+                "Hayvanların beslenme biçimi",
+                "Hayvanların fiziksel görünümü",
+                "Hayvanların sahiplerine bağlılık düzeyi",
+                "Hayvanların ömür uzunluğu"
+              ],
+              "answer": 2,
+              "explanation": "İki metin de hayvanların sahiplerine bağlılığını ele alır; biri bağımsız, diğeri çok bağlı olduğunu söyler. Diğer konulardan söz edilmemiştir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-4-q3",
+              "stem": "1. Metin: Basılı kitabın sayfalarını çevirmek, kâğıdın kokusunu duymak okumayı bir törene dönüştürür. Bu yüzden basılı kitaplar hiçbir zaman önemini yitirmeyecek.\n2. Metin: Elektronik kitaplar, yüzlerce eseri tek bir cihazda taşımamıza olanak tanır. Yazı boyutunu ayarlayabilmek de okumayı kolaylaştırır.\n\nBu metinlerle ilgili aşağıdakilerden hangisi söylenebilir?",
+              "choices": [
+                "İki metinde de elektronik kitapların üstünlükleri anlatılmıştır.",
+                "İki metin de okumanın yararlarını sayısal verilerle açıklar.",
+                "Birinci metin basılı kitapların, ikinci metin elektronik kitapların olumsuz yönlerini anlatır.",
+                "Birinci metinde basılı kitabın, ikinci metinde elektronik kitabın olumlu yönleri öne çıkarılmıştır."
+              ],
+              "answer": 3,
+              "explanation": "1. metin basılı kitabın verdiği hazzı, 2. metin elektronik kitabın kolaylıklarını anlatır; ikisi de olumlu yönleri öne çıkarır. Metinlerde sayısal veri ya da olumsuz yön yoktur.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-4-q4",
+              "stem": "1. Metin: Bir dağ köyünde yaşayan Ayşe, okula gitmek için her gün saatlerce yürürdü. Yağmur, kar dinlemez; bir gün bile devamsızlık yapmazdı.\n2. Metin: Kerem, ağır bir kaza geçirdikten sonra yeniden yürüyebilmek için aylarca fizik tedavi gördü. Her gün biraz daha ilerledi ve sonunda koşabilir hâle geldi.\n\nBu iki metinde ortak olarak vurgulanan özellik aşağıdakilerden hangisidir?",
+              "choices": [
+                "Doğa sevgisi",
+                "Zorluklar karşısında kararlılık",
+                "Aileye bağlılık",
+                "Sağlıklı beslenme"
+              ],
+              "answer": 1,
+              "explanation": "Ayşe zorlu hava koşullarına, Kerem uzun ve zorlu bir tedaviye rağmen hedefinden vazgeçmemiştir. İki metnin ortak noktası kararlılık ve azimdir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-4-q5",
+              "stem": "1. Metin: Deniz, sabahın ilk ışıklarıyla gümüş bir örtü gibi parlıyordu; kıyıdaki küçük kayıklar dalgalarla hafifçe sallanıyordu.\n2. Metin: Gel-git olayı, Ay'ın ve Güneş'in çekim kuvvetinin deniz suyunu etkilemesiyle oluşur. Bu olay sırasında deniz seviyesi gün içinde yükselip alçalır.\n\nBu metinlerle ilgili aşağıdakilerden hangisi doğrudur?",
+              "choices": [
+                "İkisinde de öyküleme ağır basar.",
+                "İkisi de bilimsel bilgi vermektedir.",
+                "Birincisinde betimleme, ikincisinde açıklama ağır basar.",
+                "İkincisinde benzetmeye başvurulmuştur."
+              ],
+              "answer": 2,
+              "explanation": "1. metin denizin görünüşünü resmeder (betimleme); 2. metin bir doğa olayını bilgi vererek açıklar (açıklama). Benzetme (“gümüş bir örtü gibi”) birinci metindedir, ikincide değil.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-4-q6",
+              "stem": "1. Metin: Usta aşçılar, yemeğin lezzetinin malzemeden önce sabırda saklı olduğunu söyler. Onlara göre acele eden aşçı, ocağın ateşini gereğinden fazla açar ve yemeği bozar. Gerçek lezzet, malzemelerin birbirine karışması için gereken süre tanındığında ortaya çıkar. Bu yüzden mutfakta saat değil, sabır belirleyicidir.\n2. Metin: Bahçıvanlar, ektikleri tohumun ertesi gün filizlenmeyeceğini bilir. Toprağı her gün kazıp tohuma bakmak, onun büyümesine değil zarar görmesine neden olur. Bitki, kendi zamanı geldiğinde toprağı yarıp çıkar. Bahçıvanın görevi onu sulamak ve beklemeyi bilmektir.\n\nBu iki metinde ortak olarak vurgulanan düşünce aşağıdakilerden hangisidir?",
+              "choices": [
+                "Doğal malzeme kullanmak önemlidir.",
+                "Her meslekte deneyim kazanmak zaman alır.",
+                "Ustalardan öğrenmek gerekir.",
+                "Güzel bir sonuç için sabırlı olmak gerekir."
+              ],
+              "answer": 3,
+              "explanation": "Aşçı örneğinde acele etmenin yemeği bozduğu, bahçıvan örneğinde tohuma zaman tanımak gerektiği anlatılır. Farklı örneklerle verilen ortak mesaj sabırdır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-4-q7",
+              "stem": "1. Metin: Bal arıları, kovana döndüklerinde yaptıkları özel dans hareketleriyle diğer arılara besin kaynağının yönünü ve uzaklığını bildirir. Bu dansın yönü, Güneş'in konumuna göre belirlenir. Bilim insanları bu iletişim biçimini uzun yıllar boyunca incelemiştir.\n2. Metin: Bahçemizdeki arıları izlemek bana her zaman huzur verir. Çiçeklerin arasında dolaşırken sanki kendi aralarında neşeli bir şarkı söylüyorlar. Bence arılar, doğanın en sevimli işçileridir.\n\nBu metinlerle ilgili aşağıdakilerden hangisi söylenebilir?",
+              "choices": [
+                "Birinci metin nesnel, ikinci metin öznel bir anlatımla yazılmıştır.",
+                "İki metinde de kişisel duygulara yer verilmiştir.",
+                "İkinci metinde bilimsel araştırmalara başvurulmuştur.",
+                "Birinci metinde kişileştirme sanatı kullanılmıştır."
+              ],
+              "answer": 0,
+              "explanation": "1. metin kontrol edilebilir bilimsel bilgiler verir (nesnel). 2. metinde “huzur verir, bence, en sevimli” gibi kişisel değerlendirmeler vardır (öznel). Kişileştirme (“şarkı söylüyorlar”) ikinci metindedir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-3-4-q8",
+              "stem": "1. Metin: Okuldaki geri dönüşüm projemiz sayesinde bir ayda iki yüz kilogram kâğıt toplandı. Toplanan kâğıtlar geri dönüşüm tesisine gönderildi. Proje, öğrencilerin atıkları ayırma alışkanlığı kazanmasını sağladı.\n2. Metin: Evimizde artık plastik, cam ve kâğıt atıkları ayrı kutularda biriktiriyoruz. Başta bu bize zahmetli gelmişti. Ancak birkaç hafta sonra bu iş, hepimiz için sıradan bir alışkanlığa dönüştü.\n\nBu iki metinde ortak olarak vurgulanan düşünce aşağıdakilerden hangisidir?",
+              "choices": [
+                "Geri dönüşüm tesislerinin sayısı artırılmalıdır.",
+                "Atıkları ayırmak zamanla bir alışkanlık hâline gelebilir.",
+                "Kâğıt, en çok geri dönüştürülen atıktır.",
+                "Geri dönüşüm aile bütçesine katkı sağlar."
+              ],
+              "answer": 1,
+              "explanation": "1. metinde projenin öğrencilere atık ayırma alışkanlığı kazandırdığı, 2. metinde atık ayırmanın zamanla sıradan bir alışkanlığa dönüştüğü anlatılır. Diğer şıklar metinlerde yer almaz.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turkce-4",
+      "no": 4,
+      "name": "Fiilimsiler",
+      "topics": [
+        {
+          "id": "turkce-4-1",
+          "name": "İsim-Fiil, Sıfat-Fiil ve Zarf-Fiil",
+          "kazanim": [
+            "Fiilimsilerin cümledeki işlevlerini kavrar."
+          ],
+          "summary": "**Fiilimsiler**, fiil kök ya da gövdelerine belirli ekler getirilerek türetilen ve cümlede isim, sıfat ya da zarf görevinde kullanılan sözcüklerdir. Fiilden türedikleri için hareket anlamı taşırlar ama çekimli fiil gibi kip ve kişi eki almazlar; bu yüzden genellikle cümlenin yüklemi olmazlar.\n\n**1. İsim-fiil (ad-eylem):** Ekleri: **-ma/-me, -ış/-iş, -mak/-mek**\n- “Kitap **okumayı** severim.” “Onun **gülüşü** çok güzel.” “**Yüzmek** sağlıklıdır.”\n\n**2. Sıfat-fiil (ortaç):** Ekleri: **-an/-en, -ası/-esi, -maz/-mez, -ar/-er, -dık/-dik, -acak/-ecek, -mış/-miş**\n- “**Kırılan** bardağı topladı.” “**Okunacak** kitaplar masada.” “**Hazırladığı** çorba sıcaktı.”\n- Sıfat-fiil, nitelediği ismi düşürerek isim gibi de kullanılabilir: “**Gelenler** bahçede.”\n\n**3. Zarf-fiil (bağ-eylem):** Ekleri: **-ıp/-ip, -arak/-erek, -ınca/-ince, -ken, -madan/-meden, -alı/-eli, -dıkça/-dikçe, -a ... -a, -r ... -mez, -casına/-cesine**\n- “**Koşarak** geldi.” “Ders **bitince** çıktık.” “Kapıyı **açıp** girdi.”\n- Zarf-fiiller yüklemi zaman ya da durum yönünden niteler: “Zil **çalınca** girdik.” (zaman) “**Gülerek** konuştu.” (durum)\n\n**Dikkat edilecek tuzaklar:**\n- **Kalıcı isimler** fiilimsi sayılmaz: dolma, dondurma, yemek, çakmak, ekmek, kazma. (“Biber **dolması** yaptı.”)\n- **-ma/-me olumsuzluk eki** fiilimsi değildir: “Bugün dışarı **çıkma**!” (emir)\n- Bir sözcüğün fiilimsi olup olmadığını anlamak için hareket anlamı taşıyıp taşımadığına bak.",
+          "keyPoints": [
+            "İsim-fiil ekleri: -ma/-me, -ış/-iş, -mak/-mek.",
+            "Sıfat-fiil ekleri: -an, -ası, -maz, -ar, -dık, -acak, -mış.",
+            "Zarf-fiil ekleri: -ıp, -arak, -ınca, -ken, -madan, -alı, -dıkça, -a…-a, -r…-mez.",
+            "Kalıcı isimler (dolma, dondurma, yemek, çakmak) fiilimsi değildir.",
+            "Bir fiilimsi, kendisine bağlı sözcüklerle birlikte cümlede tek bir öge olur."
+          ],
+          "commonMistakes": [
+            "Olumsuzluk eki -ma/-me'yi isim-fiil eki sanmak (“Gelme!” emirdir).",
+            "“Dolma, dondurma, yemek” gibi kalıcı isimleri fiilimsi saymak.",
+            "Çekimli fiili (yüklemi) fiilimsi sanmak; fiilimsiler kip ve kişi eki almaz.",
+            "Bir cümledeki fiilimsileri sayarken -dığı, -eceği gibi sıfat-fiilleri gözden kaçırmak."
+          ],
+          "questions": [
+            {
+              "id": "turkce-4-1-q1",
+              "stem": "Aşağıdaki cümlelerin hangisinde isim-fiil vardır?",
+              "choices": [
+                "Koşarak eve geldi.",
+                "Kitap okumayı çok sever.",
+                "Gülen yüzler bizi karşıladı.",
+                "Eve gelince ödevini yaptı."
+              ],
+              "answer": 1,
+              "explanation": "B'deki “okumayı” sözcüğü “oku-” fiiline -ma eki getirilerek türemiştir ve isim gibi kullanılmıştır (isim-fiil). A ve D'de zarf-fiil (-arak, -ince), C'de sıfat-fiil (-en) vardır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-4-1-q2",
+              "stem": "Aşağıdaki cümlelerin hangisinde sıfat-fiil kullanılmıştır?",
+              "choices": [
+                "Kırılan bardağı annem topladı.",
+                "Yüzmeyi yazın öğrendim.",
+                "Okula koşa koşa gitti.",
+                "Kardeşim uyuyunca sessizce çıktım."
+              ],
+              "answer": 0,
+              "explanation": "A'daki “kırılan” sözcüğü -an ekiyle türemiş ve “bardak” ismini nitelemiştir (sıfat-fiil). B'de isim-fiil, C ve D'de zarf-fiil vardır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-4-1-q3",
+              "stem": "Aşağıdaki cümlelerin hangisinde zarf-fiil yoktur?",
+              "choices": [
+                "Ders bitince bahçeye çıktık.",
+                "Gülümseyerek bize el salladı.",
+                "Bu yıl okunacak kitapların listesini hazırladık.",
+                "Kapıyı açıp içeri girdi."
+              ],
+              "answer": 2,
+              "explanation": "C'deki “okunacak” sözcüğü -acak ekiyle türemiş bir sıfat-fiildir; cümlede zarf-fiil yoktur. A'da “bitince”, B'de “gülümseyerek”, D'de “açıp” zarf-fiildir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-4-1-q4",
+              "stem": "Aşağıdaki cümlelerin hangisinde “-ma, -me” ekiyle oluşmuş sözcük fiilimsi değildir?",
+              "choices": [
+                "Yürüme alışkanlığı sağlığımızı korur.",
+                "Erken kalkmayı alışkanlık hâline getirdi.",
+                "Onun bu kadar üzülmesine dayanamadım.",
+                "Annem öğle yemeğinde biber dolması yaptı."
+              ],
+              "answer": 3,
+              "explanation": "D'deki “dolma” bir yemek adıdır; kalıcı isim olduğu için fiilimsi değildir. A'da “yürüme”, B'de “kalkma(yı)”, C'de “üzülme(si)” hareket anlamını koruyan isim-fiillerdir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-4-1-q5",
+              "stem": "“Okuldan dönünce, annesinin hazırladığı sıcak çorbayı içip dinlenmeye çekildi.” cümlesinde kaç fiilimsi vardır?",
+              "choices": [
+                "1",
+                "2",
+                "3",
+                "4"
+              ],
+              "answer": 3,
+              "explanation": "“dönünce” (zarf-fiil), “hazırladığı” (sıfat-fiil), “içip” (zarf-fiil), “dinlenmeye” (isim-fiil) olmak üzere 4 fiilimsi vardır. “çekildi” çekimli fiildir (yüklem).",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-4-1-q6",
+              "stem": "(I) Sabah uyanınca pencereyi açtım. (II) Bahçedeki yaşlı ağacın dallarında öten kuşları izledim. (III) Kahvaltıdan sonra annemin hazırladığı çantamı aldım. (IV) Yolda karşılaştığım arkadaşımla birlikte okula yürüdük.\n\nBu metindeki numaralanmış cümlelerin hangisinde sıfat-fiil yoktur?",
+              "choices": [
+                "I",
+                "II",
+                "III",
+                "IV"
+              ],
+              "answer": 0,
+              "explanation": "II'de “öten”, III'te “hazırladığı”, IV'te “karşılaştığım” sıfat-fiildir. I'deki “uyanınca” bir zarf-fiildir; bu cümlede sıfat-fiil yoktur.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-4-1-q7",
+              "stem": "Aşağıdaki cümlelerin hangisinde zarf-fiil, yüklemi durum yönünden belirtmektedir?",
+              "choices": [
+                "Ders zili çalınca sınıfa girdik.",
+                "Kardeşim ıslık çalarak merdivenleri indi.",
+                "Bu şehre taşınalı iki yıl oldu.",
+                "Güneş battıkça hava serinledi."
+              ],
+              "answer": 1,
+              "explanation": "B'deki “çalarak”, merdivenlerin “nasıl” inildiğini anlatır; durum bildirir. A'daki “çalınca”, C'deki “taşınalı” ve D'deki “battıkça” zaman bildirir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-4-1-q8",
+              "stem": "Aşağıdaki cümlelerin hangisinde üç farklı türde fiilimsi bir arada kullanılmıştır?",
+              "choices": [
+                "Eve gelince seni arayacağım.",
+                "Yüzmeyi seven kardeşim havuza gitti.",
+                "Koşan çocuklar, oynamayı bırakıp eve döndü.",
+                "Kitabı okuyup bitirince kütüphaneye götürdüm."
+              ],
+              "answer": 2,
+              "explanation": "C'de “koşan” sıfat-fiil, “oynamayı” isim-fiil, “bırakıp” zarf-fiildir; üç tür bir aradadır. A'da yalnızca zarf-fiil; B'de isim-fiil ve sıfat-fiil; D'de iki zarf-fiil vardır.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turkce-5",
+      "no": 5,
+      "name": "Cümlenin Ögeleri",
+      "topics": [
+        {
+          "id": "turkce-5-1",
+          "name": "Cümlenin Ögeleri",
+          "kazanim": [
+            "Cümlenin temel ve yardımcı ögelerini (yüklem, özne, nesne, dolaylı tümleç, zarf tümleci) ayırt eder."
+          ],
+          "summary": "Cümleyi oluşturan ve her biri cümlede ayrı bir görev üstlenen sözcük ya da söz öbeklerine **öge** denir. Ögeleri bulmaya **her zaman yüklemden başla**, sonra soruları yükleme sor.\n\n**Temel ögeler**\n- **Yüklem:** Cümlede iş, oluş, hareket ya da durum bildiren çekimli ögedir. Genellikle sondadır. “Kardeşim parkta top **oynadı**.”\n- **Özne:** Yüklemin bildirdiği işi yapan ya da durumu üzerinde taşıyan ögedir. **“Kim? / Ne?”** sorusuyla bulunur. Söylenmemişse yüklemin kişi ekinden anlaşılır (gizli özne): “Okula gittim.” → (ben)\n\n**Yardımcı ögeler**\n- **Nesne:** İşten etkilenen ögedir. **Belirtili nesne:** “Neyi? Kimi?” (“Kitab**ı** okudum.”) **Belirtisiz nesne:** “Ne?” (“Kitap okudum.”)\n- **Dolaylı tümleç (yer tamlayıcısı):** -e, -de, -den hâl eklerini alır. **“Nereye? Nerede? Nereden? Kime? Kimde? Kimden? Neye? Neden?”** sorularına cevap verir. “Ankara**'da** kaldık.” “Arkadaşı**na** verdi.”\n- **Zarf tümleci:** Yüklemi zaman, durum, miktar, yön, neden yönünden niteler. **“Ne zaman? Nasıl? Ne kadar? Niçin? Nereye (yön zarfı)?”** “**Yarın** gelecek.” “**Neşeyle** oynuyor.” Edat öbekleri de (ile, için, gibi) bu sınıfa girer: “**Büyük bir ilgiyle** dinledi.”\n\n**Önemli kurallar:**\n- Bir söz öbeği (tamlama, fiilimsi grubu) **tek bir öge** olarak alınır: “**Ödevlerini bitiren öğrenciler** bahçeye çıktı.” → Özne\n- Fiilimsi grubunun içindeki sözcükler ayrıca öge sayılmaz. “Sınava hazırlanan öğrenciler” öbeğindeki “sınava” dolaylı tümleç değildir; öbek bütün olarak öznedir.\n- “Nereye?” sorusunun cevabı hâl eki alıyorsa (eve, okula) dolaylı tümleç; hâl eki almayan yön zarfıysa (içeri, yukarı) zarf tümlecidir.",
+          "keyPoints": [
+            "Öge bulmaya yüklemden başla; soruları yükleme sor.",
+            "Özne “Kim? Ne?”, belirtili nesne “Neyi? Kimi?”, belirtisiz nesne “Ne?” sorusuna cevap verir.",
+            "Dolaylı tümleç -e, -de, -den hâl eklerinden birini taşır.",
+            "Zarf tümleci zaman, durum, miktar, yön ve neden bildirir; edat öbekleri de zarf tümlecidir.",
+            "Tamlamalar ve fiilimsi grupları bölünmeden tek öge olarak alınır."
+          ],
+          "commonMistakes": [
+            "Fiilimsi grubunun içindeki sözcükleri ayrı öge saymak.",
+            "Belirtisiz nesneyi özneyle karıştırmak: “Kardeşim süt içti.” cümlesinde “süt” nesnedir.",
+            "Hâl eki almayan yön zarflarını (içeri, dışarı) dolaylı tümleç sanmak.",
+            "Gizli özneyi unutup cümlede özne olmadığını düşünmek."
+          ],
+          "questions": [
+            {
+              "id": "turkce-5-1-q1",
+              "stem": "“Kardeşim dün akşam parkta top oynadı.” cümlesinin öznesi aşağıdakilerden hangisidir?",
+              "choices": [
+                "dün akşam",
+                "parkta",
+                "Kardeşim",
+                "top"
+              ],
+              "answer": 2,
+              "explanation": "Yüklem “oynadı”dır. “Oynayan kim?” sorusunun cevabı “Kardeşim”dir. “dün akşam” zarf tümleci, “parkta” dolaylı tümleç, “top” belirtisiz nesnedir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-5-1-q2",
+              "stem": "“Annem, pazardan taze sebzeler aldı.” cümlesinde nesne görevindeki öge aşağıdakilerden hangisidir?",
+              "choices": [
+                "Annem",
+                "pazardan",
+                "aldı",
+                "taze sebzeler"
+              ],
+              "answer": 3,
+              "explanation": "“Annem ne aldı?” sorusunun cevabı “taze sebzeler”dir; belirtisiz nesnedir. “Annem” özne, “pazardan” dolaylı tümleç, “aldı” yüklemdir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-5-1-q3",
+              "stem": "“Öğrenciler, Ankara'da müzeyi büyük bir ilgiyle gezdi.” cümlesinin ögeleri sırasıyla aşağıdakilerin hangisinde doğru verilmiştir?",
+              "choices": [
+                "Özne – dolaylı tümleç – nesne – zarf tümleci – yüklem",
+                "Özne – zarf tümleci – nesne – zarf tümleci – yüklem",
+                "Özne – dolaylı tümleç – dolaylı tümleç – zarf tümleci – yüklem",
+                "Nesne – dolaylı tümleç – nesne – zarf tümleci – yüklem"
+              ],
+              "answer": 0,
+              "explanation": "Yüklem: gezdi. Gezen kim? → Öğrenciler (özne). Nerede? → Ankara'da (dolaylı tümleç). Neyi? → müzeyi (belirtili nesne). Nasıl? → büyük bir ilgiyle (zarf tümleci).",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-5-1-q4",
+              "stem": "Aşağıdaki cümlelerin hangisinde zarf tümleci yoktur?",
+              "choices": [
+                "Yarın sabah erkenden yola çıkacağız.",
+                "Kitabı arkadaşına verdi.",
+                "Çocuklar bahçede neşeyle oynuyor.",
+                "Toplantı çok uzun sürdü."
+              ],
+              "answer": 1,
+              "explanation": "B'de “Kitabı” belirtili nesne, “arkadaşına” dolaylı tümleç, “verdi” yüklemdir; zarf tümleci yoktur. A'da “yarın sabah, erkenden”; C'de “neşeyle”; D'de “çok uzun” zarf tümlecidir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-5-1-q5",
+              "stem": "“Bu sabah okulun bahçesinde eski bir arkadaşımla karşılaştım.” cümlesinde aşağıdaki ögelerden hangisi yoktur?",
+              "choices": [
+                "Yüklem",
+                "Nesne",
+                "Dolaylı tümleç",
+                "Zarf tümleci"
+              ],
+              "answer": 1,
+              "explanation": "Yüklem: karşılaştım. Ne zaman? → Bu sabah (zarf tümleci). Nerede? → okulun bahçesinde (dolaylı tümleç). Kiminle? → eski bir arkadaşımla (zarf tümleci). “Neyi? / Ne?” sorusunun cevabı yoktur; nesne yoktur.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-5-1-q6",
+              "stem": "“Ödevlerini bitiren öğrenciler, öğretmenlerinden izin alıp okul bahçesine çıktı.” cümlesiyle ilgili aşağıdakilerden hangisi doğrudur?",
+              "choices": [
+                "Cümlede nesne vardır.",
+                "Cümlenin öznesi tek sözcükten oluşmaktadır.",
+                "“okul bahçesine” sözü zarf tümlecidir.",
+                "Cümlede zarf tümleci görevinde bir söz öbeği vardır."
+              ],
+              "answer": 3,
+              "explanation": "Özne: “Ödevlerini bitiren öğrenciler” (sıfat-fiil öbeği, tek öge). “Nasıl çıktı?” → “öğretmenlerinden izin alıp” (zarf-fiil öbeği, zarf tümleci). “okul bahçesine” dolaylı tümleçtir. “Ödevlerini” ve “izin” öbeklerin içinde olduğu için ayrıca nesne sayılmaz; cümlede nesne yoktur.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-5-1-q7",
+              "stem": "Aşağıdaki cümlelerden hangisinin ögeleri “zarf tümleci – özne – dolaylı tümleç – yüklem” sıralamasındadır?",
+              "choices": [
+                "Dün akşam babam eve geç geldi.",
+                "Bahçede çocuklar neşeyle koşuyordu.",
+                "Sabahleyin kuşlar ağaçlarda ötüyordu.",
+                "Annem bana yeni bir kitap aldı."
+              ],
+              "answer": 2,
+              "explanation": "C: Sabahleyin (zarf tümleci) – kuşlar (özne) – ağaçlarda (dolaylı tümleç) – ötüyordu (yüklem). A'da “geç” de zarf tümleci olduğu için beş öge vardır; B “dolaylı tümleç – özne – zarf tümleci – yüklem”, D “özne – dolaylı tümleç – nesne – yüklem” sıralamasındadır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-5-1-q8",
+              "stem": "Aşağıdaki cümlelerin hangisinde dolaylı tümleç yoktur?",
+              "choices": [
+                "Sınava hazırlanan öğrenciler, son konuları da dikkatlice tekrar etti.",
+                "Kitaplarını özenle çantasına yerleştirdi.",
+                "Kardeşim okuldan yeni döndü.",
+                "Annem misafirlere çay ikram etti."
+              ],
+              "answer": 0,
+              "explanation": "A'da özne “Sınava hazırlanan öğrenciler” öbeğidir; “sınava” bu öbeğin içinde olduğu için ayrıca dolaylı tümleç sayılmaz. “son konuları da” nesne, “dikkatlice” zarf tümleci, “tekrar etti” yüklemdir. B'de “çantasına”, C'de “okuldan”, D'de “misafirlere” dolaylı tümleçtir.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turkce-6",
+      "no": 6,
+      "name": "Fiilde Çatı",
+      "topics": [
+        {
+          "id": "turkce-6-1",
+          "name": "Etken-Edilgen ve Geçişli-Geçişsiz Fiiller",
+          "kazanim": [
+            "Fiillerin çatı özelliklerini (özne-yüklem ve nesne-yüklem ilişkisine göre) belirler."
+          ],
+          "summary": "**Çatı**, fiilin özne ve nesneyle ilişkisine göre kazandığı özelliktir. 8. sınıfta iki açıdan incelenir.\n\n**1. Özne-yüklem ilişkisine göre**\n- **Etken fiil:** Öznesi belli olan, işi yapanın bilindiği fiildir. “**Ali** duvarları boyadı.”\n- **Edilgen fiil:** Öznesi belli olmayan, işi yapanın bilinmediği fiildir. Fiil köküne **-l** ya da **-n** eki getirilir. Bu cümlelerde “ne/kim” sorusuna cevap veren öge işi yapan değildir; buna **sözde özne** denir.\n- “Duvarlar **boyandı**.” (Boyayan kim? Belli değil → edilgen; “duvarlar” sözde özne)\n- “Sınav sonuçları **açıklandı**.”\n\n**Dikkat:** Her -l ya da -n eki edilgenlik bildirmez. “Yıkandı, giyindi, süslendi, hazırlandı” gibi fiillerde işi yapan kişi işten kendisi etkilenir (dönüşlülük). Bu cümlelerde işi yapan bellidir; fiil **etken**dir.\n- “Çocuklar derede **yıkandı**.” (Çocuklar kendilerini yıkadı → etken)\n- “Bulaşıklar yıkandı.” cümlesinde ise yıkayan belli değildir; fiil edilgendir. Anlama bakarak karar ver: İşi yapan özne mi, yoksa belirsiz biri mi?\n\n**2. Nesne-yüklem ilişkisine göre**\n- **Geçişli fiil:** Nesne alabilen fiildir. Yükleme “**Neyi? Kimi?**” sorusu sorulabilir. “Mektubu **okudu**.” “Çiçekleri **suladık**.”\n- **Geçişsiz fiil:** Nesne alamayan fiildir. “Bebek **uyuyor**.” “Çocuklar **koştu**.”\n\n**Edilgen fiiller geçişsizdir.** Çünkü etken cümlenin nesnesi edilgen cümlede sözde özne olur: “Ali kapıyı açtı.” → “Kapı açıldı.”\n\nÇözüm sırası: Önce yüklemi bul. “Bu işi kim yapıyor, belli mi?” diye sor (etken/edilgen). Sonra yükleme “neyi?” sorusunu sor (geçişli/geçişsiz).",
+          "keyPoints": [
+            "Etken: işi yapan belli; edilgen: işi yapan belli değil.",
+            "Edilgen fiiller -l ya da -n eki alır; ama her -l/-n eki edilgenlik bildirmez.",
+            "Yıkanmak, giyinmek, süslenmek, hazırlanmak gibi dönüşlü fiillerde özne bellidir; bu fiiller etkendir.",
+            "Geçişli fiil nesne alabilir (“Neyi?”), geçişsiz fiil alamaz.",
+            "Edilgen fiiller geçişsizdir; nesne sözde özneye dönüşür."
+          ],
+          "commonMistakes": [
+            "-l/-n eki gören her fiili edilgen sanmak (süslendi, giyindi, yıkandı dönüşlüdür).",
+            "Sözde özneyi gerçek özne sanıp edilgen cümleyi etken saymak.",
+            "Geçişliliği cümlede nesne olup olmamasına göre belirlemek; ölçüt, fiilin nesne alabilmesidir."
+          ],
+          "questions": [
+            {
+              "id": "turkce-6-1-q1",
+              "stem": "Aşağıdaki cümlelerin hangisinde yüklem edilgen çatılıdır?",
+              "choices": [
+                "Okulun duvarları yeniden boyandı.",
+                "Ali duvarları boyadı.",
+                "Kardeşim erkenden uyudu.",
+                "Annem çorbayı pişirdi."
+              ],
+              "answer": 0,
+              "explanation": "A'da duvarları kimin boyadığı belli değildir; fiil “boya-” köküne -n eki almıştır. “Okulun duvarları” sözde öznedir. Diğer cümlelerde işi yapan bellidir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-6-1-q2",
+              "stem": "Aşağıdaki cümlelerin hangisinde yüklem geçişsizdir?",
+              "choices": [
+                "Kitabı masaya bıraktı.",
+                "Mektubu dikkatle okudu.",
+                "Çiçekleri suladık.",
+                "Bebek mışıl mışıl uyuyor."
+              ],
+              "answer": 3,
+              "explanation": "“Uyumak” fiiline “neyi?” sorusu sorulamaz; geçişsizdir. “Bırakmak, okumak, sulamak” nesne alabildiği için geçişlidir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-6-1-q3",
+              "stem": "Aşağıdaki cümlelerin hangisinde yüklem etken çatılıdır?",
+              "choices": [
+                "Yeni kütüphane geçen ay hizmete açıldı.",
+                "Kardeşim aynanın karşısında uzun süre süslendi.",
+                "Sınav sonuçları dün açıklandı.",
+                "Bu ev iki yıl önce yapıldı."
+              ],
+              "answer": 1,
+              "explanation": "B'de süslenen kişi kardeşimdir; işi yapan bellidir (dönüşlü fiil). Bu yüzden fiil etkendir. A, C ve D'de işi yapan belli değildir; fiiller edilgendir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-6-1-q4",
+              "stem": "Aşağıdaki cümlelerin hangisinde yüklem hem etken hem geçişlidir?",
+              "choices": [
+                "Ağaçlar sonbaharda sarardı.",
+                "Mektuplar postacı tarafından dağıtıldı.",
+                "Öğretmenimiz bize ilginç bir hikâye anlattı.",
+                "Çocuklar parkta koştu."
+              ],
+              "answer": 2,
+              "explanation": "C'de işi yapan “öğretmenimiz” bellidir (etken) ve “ne anlattı?” sorusunun cevabı “ilginç bir hikâye”dir (geçişli). A ve D etken-geçişsiz, B edilgendir; edilgen fiiller geçişsizdir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-6-1-q5",
+              "stem": "“Bu sorunun cevabı sınıfta hep birlikte bulundu.” cümlesinin yüklemi için aşağıdakilerden hangisi doğrudur?",
+              "choices": [
+                "Edilgen ve geçişsizdir.",
+                "Etken ve geçişlidir.",
+                "Edilgen ve geçişlidir.",
+                "Etken ve geçişsizdir."
+              ],
+              "answer": 0,
+              "explanation": "Cevabı kimin bulduğu belirtilmemiştir; “bul-” köküne -n eki gelmiştir (edilgen). “Cevabı” sözde öznedir. Edilgen fiiller nesne almaz; geçişsizdir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-6-1-q6",
+              "stem": "Aşağıdaki cümlelerin hangisinde sözde özne yoktur?",
+              "choices": [
+                "Eski binalar teker teker yıkıldı.",
+                "Kitaplar raflara yerleştirildi.",
+                "Köyün çocukları bütün gün derede yıkandı.",
+                "Yarışmanın kazananı yarın açıklanacak."
+              ],
+              "answer": 2,
+              "explanation": "Sözde özne yalnızca edilgen cümlelerde bulunur. C'de çocuklar kendilerini yıkamıştır; işi yapan bellidir (dönüşlü, etken). “Köyün çocukları” gerçek öznedir. A, B ve D edilgen olduğu için sözde özne içerir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-6-1-q7",
+              "stem": "(I) Okulumuzda geçen hafta bir bilim şenliği düzenlendi. (II) Öğrenciler aylardır bu şenlik için hazırlanıyordu. (III) Şenlikte birbirinden ilginç deneyler sergilendi. (IV) Ziyaretçiler en çok robot projesini beğendi.\n\nBu metindeki numaralanmış cümlelerden hangilerinin yüklemi edilgen çatılıdır?",
+              "choices": [
+                "I ve II",
+                "I ve III",
+                "II ve IV",
+                "III ve IV"
+              ],
+              "answer": 1,
+              "explanation": "I'de şenliği düzenleyen, III'te deneyleri sergileyen belli değildir; edilgendir. II'de hazırlanan öğrencilerin kendisidir (dönüşlü, etken). IV'te beğenen ziyaretçilerdir (etken).",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-6-1-q8",
+              "stem": "Aşağıdaki cümlelerin hangisinin yüklemi özne-yüklem ilişkisi bakımından diğerlerinden farklıdır?",
+              "choices": [
+                "Bahçedeki elmalar toplandı.",
+                "Toplantı bir hafta ertelendi.",
+                "Mahalleye yeni bir park yapıldı.",
+                "Kardeşim sabah erkenden giyindi."
+              ],
+              "answer": 3,
+              "explanation": "A, B ve C'de işi yapan belli değildir; yüklemler edilgendir. D'de giyinen kişi kardeşimdir; “giyin-” dönüşlü bir fiildir ve özne belli olduğu için etkendir.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turkce-7",
+      "no": 7,
+      "name": "Cümle Türleri",
+      "topics": [
+        {
+          "id": "turkce-7-1",
+          "name": "Cümle Türleri",
+          "kazanim": [
+            "Cümle türlerini (yüklemin türüne, yerine, anlamına ve yapısına göre) ayırt eder."
+          ],
+          "summary": "Cümleler dört farklı ölçüte göre sınıflandırılır.\n\n**1. Yüklemin türüne göre**\n- **İsim cümlesi:** Yüklemi isim soylu sözcüktür (ek eylem alabilir). “Bu kitap çok **ilginçti**.” “Hava **güzel**.”\n- **Fiil cümlesi:** Yüklemi çekimli fiildir. “Kardeşim okula **gitti**.”\n\n**2. Yüklemin yerine göre**\n- **Kurallı (düz) cümle:** Yüklem sondadır. “Seni çok özledim.”\n- **Devrik cümle:** Yüklem sonda değildir. “Çok **özledim** seni.” “**Güzeldi** o günler.”\n\n**3. Anlamına göre**\n- **Olumlu / olumsuz:** Olumsuzluk -ma/-me eki, “değil” ve “yok” ile sağlanır. Bazı cümleler biçimce olumsuz, anlamca olumludur: “Bunu bilmiyor **değildim**.” (= biliyordum). Bazıları da biçimce olumlu, anlamca olumsuzdur: “**Ne** kitap aldı **ne** defter.” (= hiçbirini almadı)\n- **Soru cümlesi:** Soru eki ya da soru sözcüğüyle kurulur.\n\n**4. Yapısına göre**\n- **Basit cümle:** Tek yüklemlidir; fiilimsi ya da yan cümle içermez. “Kardeşim her sabah parkta koşar.”\n- **Birleşik cümle:** Bir temel cümle ile ona bağlı yan cümleden oluşur. Fiilimsi içeren, şart eki (-se/-sa) alan, “ki” bağlacıyla kurulan ve iç içe (alıntı) cümleler birleşiktir. “Eve **gelince** seni arayacağım.” “Hava güzel **olursa** gideriz.”\n- **Sıralı cümle:** Birden fazla bağımsız cümlenin virgül ya da noktalı virgülle sıralanmasıyla oluşur. “Kapıyı açtı, içeri girdi, çantasını bıraktı.”\n- **Bağlı cümle:** Bağımsız cümlelerin “ve, ama, fakat, çünkü, ancak, oysa” gibi bağlaçlarla bağlanmasıyla oluşur. “Çok çalıştı **fakat** istediği sonucu alamadı.”",
+          "keyPoints": [
+            "Yüklem isim soyluysa isim cümlesi, çekimli fiilse fiil cümlesidir.",
+            "Yüklem sonda değilse cümle devriktir.",
+            "Fiilimsi, şart eki ya da “ki” içeren cümleler birleşiktir.",
+            "Sıralı cümleler virgül/noktalı virgülle, bağlı cümleler bağlaçla birbirine bağlanır.",
+            "Biçim ve anlam ayrı değerlendirilir: “bilmiyor değildim” biçimce olumsuz, anlamca olumludur."
+          ],
+          "commonMistakes": [
+            "Ek eylem almış ismi (“güzeldi”) fiil sanıp cümleyi fiil cümlesi saymak.",
+            "Fiilimsi içeren tek yüklemli cümleyi basit cümle sanmak.",
+            "“Ne ... ne ...” bağlacıyla kurulan cümleleri biçimce olumsuz sanmak; bu cümleler biçimce olumludur."
+          ],
+          "questions": [
+            {
+              "id": "turkce-7-1-q1",
+              "stem": "Aşağıdaki cümlelerden hangisi isim cümlesidir?",
+              "choices": [
+                "Kardeşim okula gitti.",
+                "Bahçede kuşlar ötüyor.",
+                "Yarın sinemaya gideceğiz.",
+                "Bu kitap çok ilginçti."
+              ],
+              "answer": 3,
+              "explanation": "D'nin yüklemi “ilginçti”dir; “ilginç” bir isim soylu sözcüktür ve ek eylem almıştır. Diğer cümlelerin yüklemleri çekimli fiildir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-7-1-q2",
+              "stem": "Aşağıdaki cümlelerden hangisi devrik cümledir?",
+              "choices": [
+                "Akşam erkenden uyudum.",
+                "Çok özledim seni.",
+                "Annem çay demledi.",
+                "Ders zili çaldı."
+              ],
+              "answer": 1,
+              "explanation": "B'de yüklem “özledim” cümlenin sonunda değildir; bu yüzden cümle devriktir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-7-1-q3",
+              "stem": "Aşağıdakilerden hangisi sıralı cümledir?",
+              "choices": [
+                "Hava güzel olursa pikniğe gideriz.",
+                "Ders çalıştım ama sınavda zorlandım.",
+                "Kapıyı açtı, içeri girdi, çantasını masaya bıraktı.",
+                "Gelirken ekmek almayı unutma."
+              ],
+              "answer": 2,
+              "explanation": "C'de üç bağımsız cümle virgülle sıralanmıştır. A ve D birleşik (şart eki, fiilimsi), B bağlı cümledir (“ama” bağlacı).",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-7-1-q4",
+              "stem": "Aşağıdaki cümlelerden hangisi yapısına göre bağlı cümledir?",
+              "choices": [
+                "Çok çalıştı fakat istediği sonucu alamadı.",
+                "Okula erken gitmek için hızlı yürüdü.",
+                "Sabah kalktım, yüzümü yıkadım.",
+                "Kardeşim parkta oynuyor."
+              ],
+              "answer": 0,
+              "explanation": "A'da iki bağımsız cümle “fakat” bağlacıyla bağlanmıştır. B birleşik (fiilimsi), C sıralı, D basit cümledir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-7-1-q5",
+              "stem": "Aşağıdaki cümlelerden hangisi biçimce olumsuz, anlamca olumludur?",
+              "choices": [
+                "Bu yemeği hiç sevmem.",
+                "Bugün okula gitmedim.",
+                "Onun bu yarışmayı kazanacağını bilmiyor değildim.",
+                "Ne kitap aldı ne defter."
+              ],
+              "answer": 2,
+              "explanation": "C'de “değil” sözcüğü biçimce olumsuzluk sağlar; ama “bilmiyor değildim” = “biliyordum” anlamına gelir. A ve B hem biçimce hem anlamca olumsuzdur. D ise biçimce olumlu, anlamca olumsuzdur.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-7-1-q6",
+              "stem": "Aşağıdaki cümlelerden hangisi yapısına göre basit cümledir?",
+              "choices": [
+                "Sınavı kazanacağına inanıyorum.",
+                "Kardeşim her sabah parkta koşar.",
+                "Eve gelince seni arayacağım.",
+                "Kitabı okudum ama beğenmedim."
+              ],
+              "answer": 1,
+              "explanation": "B tek yüklemlidir ve fiilimsi içermez; basit cümledir. A'da “kazanacağına”, C'de “gelince” fiilimsileri bulunduğu için cümleler birleşiktir. D bağlı cümledir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-7-1-q7",
+              "stem": "(I) Dedemin köyü, dağların arasında küçük bir yerleşim yeriydi. (II) Yaz tatillerimizin çoğu o köyde geçerdi. (III) Sabahları dereye iner, akşamları dedemin masallarını dinlerdik. (IV) O günleri hâlâ özlüyorum.\n\nBu metindeki numaralanmış cümlelerle ilgili aşağıdakilerden hangisi yanlıştır?",
+              "choices": [
+                "I. cümle isim cümlesidir.",
+                "III. cümle fiil cümlesidir.",
+                "IV. cümle kurallı cümledir.",
+                "I. cümle devrik cümledir."
+              ],
+              "answer": 3,
+              "explanation": "I. cümlenin yüklemi “yerleşim yeriydi” isim soyludur ve cümlenin sonundadır; cümle isim cümlesi ve kurallıdır, devrik değildir. III'ün yüklemleri (iner, dinlerdik) fiildir; IV'ün yüklemi sondadır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-7-1-q8",
+              "stem": "Aşağıdaki cümlelerden hangisi “isim cümlesi” ve “devrik cümle” özelliklerini birlikte taşır?",
+              "choices": [
+                "Çok güzeldi o günler.",
+                "O günler çok güzeldi.",
+                "Gördüm o günleri.",
+                "O günleri hiç unutmadım."
+              ],
+              "answer": 0,
+              "explanation": "A'nın yüklemi “güzeldi” isim soyludur ve sonda değildir; isim ve devrik cümledir. B isim ama kurallı, C fiil ve devrik, D fiil ve kurallı cümledir.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turkce-8",
+      "no": 8,
+      "name": "Yazım Kuralları",
+      "topics": [
+        {
+          "id": "turkce-8-1",
+          "name": "Yazım Kuralları",
+          "kazanim": [
+            "Yazım kurallarını uygular."
+          ],
+          "summary": "LGS'de en çok sorulan yazım kuralları şunlardır:\n\n**“de/da” bağlacı ve hâl eki**\n- Bağlaç olan “de/da” **ayrı** yazılır ve hiçbir zaman “te/ta” olmaz: “Ben **de** geleceğim.” “Kardeşim **de** gelsin.”\n- Hâl eki olan “-de/-da/-te/-ta” **bitişik** yazılır: “Evde, okulda, sokakta.”\n- Kontrol: Cümleden çıkarınca anlam bozulmuyorsa bağlaçtır, ayrı yazılır.\n\n**“ki” bağlacı ve eki**\n- Bağlaç olan “ki” **ayrı** yazılır: “Duydum **ki** yarın kar yağacak.”\n- Ek olan “-ki” **bitişik** yazılır: “masa**daki**, yarın**ki**, benim**ki**”\n- Kalıplaşmış sözcükler bitişik yazılır: belki, çünkü, sanki, oysaki, hâlbuki, mademki.\n\n**“mi” soru eki** her zaman **ayrı** yazılır; kendisinden sonraki ekler ona bitişir: “Geliyor **musun**?”\n\n**Büyük harfler**\n- Özel adlar, kurum adları, belirli bir tarih bildiren ay ve gün adları büyük harfle başlar: “29 Ekim 1923”. Belirli bir tarih bildirmeyen gün ve ay adları küçük yazılır: “Haftaya **salı** gideceğiz.”\n- Kurum adlarına gelen ekler kesme işaretiyle ayrılmaz: “Türk Dil Kurumunun”.\n\n**Sayılar**: Yazıyla yazılan sayılar ayrı yazılır: “iki yüz elli, otuz beş”. Sıra sayıları “3.” ya da “3'üncü” biçiminde yazılır.\n\n**Birleşik ve ayrı yazılan sözcükler**\n- Bitişik: herkes, hiçbir, birçok, birkaç, bugün; kaybetmek, affetmek, hissetmek (ses olayı olduğu için)\n- Ayrı: her şey, hiç kimse, bir şey, her gün; yardım etmek, fark etmek, kayıt olmak (ses olayı olmadığı için)\n- Bitki adları çoğunlukla bitişik yazılır: aslanağzı, hanımeli, kuşburnu.",
+          "keyPoints": [
+            "Bağlaç “de/da” ve “ki” ayrı; hâl eki “-de/-da” ve ek “-ki” bitişik yazılır.",
+            "Soru eki “mi” her zaman ayrı yazılır.",
+            "“Her şey, hiç kimse, bir şey” ayrı; “herkes, hiçbir, birçok” bitişik yazılır.",
+            "Ses olayı yoksa “etmek/olmak” ayrı yazılır (fark etmek); varsa bitişik (affetmek).",
+            "Belirli tarih bildirmeyen gün ve ay adları küçük harfle yazılır."
+          ],
+          "commonMistakes": [
+            "“de” bağlacını özel isme kesmeyle bitiştirmek (“Ayşe'de geldi” yanlış, “Ayşe de geldi” doğru).",
+            "“farkettim, herşey, hiçkimse” gibi yanlış bitişik yazımlar.",
+            "“mi” soru ekini fiile bitişik yazmak (“geliyormusun” yanlış).",
+            "Kurum adlarına gelen ekleri kesmeyle ayırmak."
+          ],
+          "questions": [
+            {
+              "id": "turkce-8-1-q1",
+              "stem": "Aşağıdaki cümlelerin hangisinde “de”nin yazımı yanlıştır?",
+              "choices": [
+                "Ben de seninle geleceğim.",
+                "Kardeşimde bu filmi izlemek istiyor.",
+                "Kitabını evde unutmuş.",
+                "Bence sen de haklısın."
+              ],
+              "answer": 1,
+              "explanation": "B'deki “de” bağlaçtır (çıkarıldığında cümle bozulmaz: “Kardeşim bu filmi izlemek istiyor.”); ayrı yazılmalıdır: “Kardeşim de”. C'deki “evde” hâl ekidir ve bitişik yazımı doğrudur.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-8-1-q2",
+              "stem": "Aşağıdaki cümlelerin hangisinde yazım yanlışı vardır?",
+              "choices": [
+                "Okula her gün yürüyerek gidiyorum.",
+                "Bu konuda hiçbir fikrim yok.",
+                "Herşey yolunda gidiyor.",
+                "Birçok arkadaşım tatile çıktı."
+              ],
+              "answer": 2,
+              "explanation": "“Her şey” ayrı yazılır. “Her gün” ayrı, “hiçbir” ve “birçok” bitişik yazılır; bunlar doğrudur.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-8-1-q3",
+              "stem": "Aşağıdaki cümlelerin hangisinde “ki”nin yazımı yanlıştır?",
+              "choices": [
+                "Duydumki yarın kar yağacakmış.",
+                "Masadaki kitapları topla.",
+                "Sanki her şey bir rüyaydı.",
+                "Seninki daha güzel olmuş."
+              ],
+              "answer": 0,
+              "explanation": "A'daki “ki” bağlaçtır ve ayrı yazılmalıdır: “Duydum ki”. B ve D'de “-ki” ektir, bitişik yazılır. “Sanki” kalıplaşmış olduğu için bitişiktir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-8-1-q4",
+              "stem": "Aşağıdaki cümlelerin hangisinde büyük harflerin kullanımıyla ilgili bir yanlışlık vardır?",
+              "choices": [
+                "Cumhuriyet, 29 Ekim 1923'te ilan edildi.",
+                "Ankara, 13 Ekim 1923'te başkent oldu.",
+                "Rüzgâr bütün gece kuzeyden esti.",
+                "Haftaya Salı günü kütüphaneye gideceğiz."
+              ],
+              "answer": 3,
+              "explanation": "Gün ve ay adları yalnızca belirli bir tarih bildirdiğinde büyük harfle başlar. D'de belirli bir tarih yoktur; “salı” küçük harfle yazılmalıdır. A ve B'de tam tarih olduğu için “Ekim” doğru yazılmıştır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-8-1-q5",
+              "stem": "Aşağıdaki cümlelerin hangisinde sayının yazımı doğrudur?",
+              "choices": [
+                "Kütüphanede iki yüz elli kitap var.",
+                "Yarışmaya otuzbeş öğrenci katıldı.",
+                "Yarışmada 3'ncü olduk.",
+                "Bilet fiyatı yüzelli liraya çıktı."
+              ],
+              "answer": 0,
+              "explanation": "Yazıyla yazılan sayılar ayrı yazılır: “iki yüz elli, otuz beş, yüz elli”. Sıra sayısı “3'üncü” ya da “3.” biçiminde yazılmalıdır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-8-1-q6",
+              "stem": "Geçen yaz ailemle birlikte (I) Doğu Karadeniz'e gittik. Rize'de (II) bir hafta kaldık. Çay bahçelerini gezerken yaşlı bir teyze bize kendi yaptığı (III) mısır ekmeğini ikram etti. Dönüş yolunda (IV) hiçkimse konuşmadı; hepimiz o güzel günleri düşünüyorduk.\n\nBu metinde numaralanmış sözcüklerden hangisinin yazımı yanlıştır?",
+              "choices": [
+                "I",
+                "II",
+                "III",
+                "IV"
+              ],
+              "answer": 3,
+              "explanation": "“Hiç kimse” ayrı yazılır. “Doğu Karadeniz” bir bölge adı olduğu için büyük harfle; “bir hafta” ve “mısır ekmeği” ayrı yazılır; bunlar doğrudur.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-8-1-q7",
+              "stem": "Aşağıdaki cümlelerin hangisinde yazım yanlışı yoktur?",
+              "choices": [
+                "Bu sorunun cevabını farkettin mi?",
+                "Okuldan sonra bize geliyormusun?",
+                "Türk Dil Kurumunun yayımladığı sözlüğü inceledik.",
+                "Ayşe'de bu yarışmaya katılacak."
+              ],
+              "answer": 2,
+              "explanation": "C doğrudur; kurum adlarına gelen ekler kesmeyle ayrılmaz. A'da “fark ettin”, B'de “geliyor musun”, D'de “Ayşe de” yazılmalıdır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-8-1-q8",
+              "stem": "Aşağıdaki cümlelerin hangisinde bitişik yazılması gereken bir sözcük ayrı yazılmıştır?",
+              "choices": [
+                "Kardeşime ödevinde yardım ettim.",
+                "Bahçemizde bu yaz aslan ağzı çiçekleri açtı.",
+                "Birçok kişi törene katıldı.",
+                "Her gün düzenli olarak kitap okurum."
+              ],
+              "answer": 1,
+              "explanation": "Bitki adı olan “aslanağzı” bitişik yazılır. “Yardım etmek” (ses olayı yok) ve “her gün” ayrı, “birçok” bitişik yazılır; bunlar doğrudur.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turkce-9",
+      "no": 9,
+      "name": "Noktalama İşaretleri",
+      "topics": [
+        {
+          "id": "turkce-9-1",
+          "name": "Noktalama İşaretleri",
+          "kazanim": [
+            "Noktalama işaretlerini işlevlerine uygun olarak kullanır."
+          ],
+          "summary": "Noktalama işaretleri yazıda anlamı netleştirir, okumayı kolaylaştırır. LGS'de en çok şu işaretler sorulur:\n\n**Virgül (,)**\n- Eş görevli sözcükleri ayırır: “Elma, armut, kiraz aldık.”\n- Sıralı cümleleri ayırır: “Kapıyı açtı, içeri girdi.”\n- Hitaplardan sonra: “Ahmet, buraya gel.”\n- “Evet, hayır, peki” gibi cevaplardan sonra: “Evet, geleceğim.”\n- Ara sözleri ayırır: “Komşumuz Ayşe Hanım, emekli bir öğretmen, bize ders çalıştırıyor.”\n\n**Noktalı virgül (;)**\n- Ögeleri arasında virgül bulunan sıralı cümleleri ayırır.\n- Farklı türden eş görevli grupları ayırır: “Erkekler futbol, voleybol; kızlar basketbol, hentbol oynadı.”\n\n**İki nokta (:)** Açıklama, örnek ya da alıntıdan önce kullanılır: “Çantama şunları koydum: defter, kalem, silgi.”\n\n**Üç nokta (...)** Tamamlanmamış cümlelerin sonunda ve sayılabilecek örneklerin devam ettiğini göstermek için kullanılır.\n\n**Soru işareti (?)** Soru bildiren cümlelerin sonuna konur: “Bu yaz hangi şehirleri gezeceğiz?”\n\n**Ünlem (!)** Sevinç, korku, şaşkınlık, seslenme gibi duyguları bildiren cümlelerden sonra: “Eyvah, otobüsü kaçırdık!”\n\n**Kesme işareti (')** Özel adlara gelen ekleri, kısaltmalara ve rakamlara gelen ekleri ayırır: “Ankara'ya, TBMM'nin, 2025'te”. Cins isimlere gelen ekler kesmeyle ayrılmaz (“okula” doğru, “okul'a” yanlış). Kurum adlarına gelen ekler de kesmeyle ayrılmaz: “Türk Dil Kurumunun”.\n\n**Tırnak işareti (“ ”)** Başkasından aynen aktarılan sözleri gösterir: Babam “Yarın erken kalkmalıyız.” dedi.\n\n**Kısa çizgi (-)** Arasında, ile, -den ... -e anlamı verir: “Ankara-İstanbul seferleri”, “(1881-1938)”.\n\n**Yay ayraç ( )** Açıklama ve ek bilgi için kullanılır.",
+          "keyPoints": [
+            "Virgül: eş görevli sözcükler, sıralı cümleler, hitap, cevap sözcükleri ve ara sözler.",
+            "Noktalı virgül: farklı türden eş görevli grupları ve içinde virgül olan sıralı cümleleri ayırır.",
+            "İki nokta: açıklama ve örneklerden önce kullanılır.",
+            "Kesme işareti yalnızca özel ad, kısaltma ve rakamlara gelen ekleri ayırır.",
+            "Soru bildiren cümle, içinde soru sözcüğü varsa soru işaretiyle biter."
+          ],
+          "commonMistakes": [
+            "Cins isimlere gelen ekleri kesmeyle ayırmak (“okul'a”).",
+            "Soru sözcüğü içeren cümlenin sonuna nokta koymak.",
+            "Noktalı virgülü özne ile yüklem arasına koymak gibi gereksiz yerlerde kullanmak.",
+            "Sıradan sözcükleri gereksiz yere tırnak içine almak."
+          ],
+          "questions": [
+            {
+              "id": "turkce-9-1-q1",
+              "stem": "Aşağıdaki cümlelerin hangisinde virgül, eş görevli sözcükleri ayırmak için kullanılmıştır?",
+              "choices": [
+                "Ahmet, buraya gelir misin?",
+                "Kapıyı açtı, içeri girdi.",
+                "Pazardan elma, armut, kiraz aldık.",
+                "Evet, yarın geleceğim."
+              ],
+              "answer": 2,
+              "explanation": "C'deki “elma, armut, kiraz” cümlede aynı görevde (nesne) bulunan sözcüklerdir. A'da hitap, B'de sıralı cümleler, D'de cevap sözcüğünden sonra virgül kullanılmıştır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-9-1-q2",
+              "stem": "Aşağıdaki cümlelerin hangisinde kesme işareti yanlış kullanılmıştır?",
+              "choices": [
+                "Bu sabah okul'a erken gittim.",
+                "Yaz tatilinde Ankara'ya gidiyoruz.",
+                "Ablam 2025'te üniversiteden mezun olacak.",
+                "Okul gezisinde TBMM'nin önünden geçtik."
+              ],
+              "answer": 0,
+              "explanation": "“Okul” bir özel ad değil, cins isimdir; ekler kesmeyle ayrılmaz: “okula”. B'de özel ad, C'de rakam, D'de kısaltma olduğu için kesme doğrudur.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-9-1-q3",
+              "stem": "“Çantama şunları koydum ( ) defter, kalem, silgi ve cetvel.”\n\nBu cümlede ayraç içindeki yere hangi noktalama işareti konmalıdır?",
+              "choices": [
+                "Virgül",
+                "Noktalı virgül",
+                "Üç nokta",
+                "İki nokta"
+              ],
+              "answer": 3,
+              "explanation": "“Şunları” sözünden sonra açıklama ve sıralama gelmektedir. Açıklama ve örneklerden önce iki nokta kullanılır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-9-1-q4",
+              "stem": "Aşağıdaki cümlelerin hangisinde noktalı virgül doğru kullanılmıştır?",
+              "choices": [
+                "Kardeşim; çok çalışkan bir öğrencidir.",
+                "Erkekler futbol, voleybol; kızlar basketbol, hentbol oynadı.",
+                "Sınav; yarın sabah başlayacak.",
+                "Hangi; kitabı okudun?"
+              ],
+              "answer": 1,
+              "explanation": "B'de farklı türden eş görevli gruplar (erkeklerin ve kızların oynadığı sporlar) noktalı virgülle ayrılmıştır. Diğer cümlelerde noktalı virgül gereksiz yerde kullanılmıştır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-9-1-q5",
+              "stem": "Aşağıdaki cümlelerin hangisinde tırnak işareti doğru kullanılmıştır?",
+              "choices": [
+                "“Kardeşim” bugün okula gitmedi.",
+                "Babam “Yarın erken kalkmalıyız.” dedi.",
+                "Bugün “hava” çok güzel.",
+                "“Annem” bana yeni bir kitap aldı."
+              ],
+              "answer": 1,
+              "explanation": "Tırnak işareti, başkasının sözünü aynen aktarmak için kullanılır. B'de babanın sözü aynen aktarılmıştır. Diğer cümlelerde sıradan sözcükler gereksiz yere tırnak içine alınmıştır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-9-1-q6",
+              "stem": "Öğretmenimiz sınıfa girdi (I) tahtaya büyük harflerle şu soruyu yazdı (II) “Çocuklar (III) sizce mutluluk paylaştıkça artar mı (IV)”\n\nBu metinde numaralanmış yerlere sırasıyla hangi noktalama işaretleri getirilmelidir?",
+              "choices": [
+                "(;) (:) (,) (!)",
+                "(,) (.) (!) (?)",
+                "(,) (:) (,) (?)",
+                "(:) (,) (,) (.)"
+              ],
+              "answer": 2,
+              "explanation": "(I) Sıralı cümleleri ayırmak için virgül. (II) Aktarılacak sözden önce iki nokta. (III) Hitaptan (“Çocuklar”) sonra virgül. (IV) Soru eki “mı” bulunan cümlenin sonuna soru işareti.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-9-1-q7",
+              "stem": "Aşağıdaki cümlelerin hangisinde virgül, ara sözü ayırmak için kullanılmıştır?",
+              "choices": [
+                "Komşumuz Ayşe Hanım, emekli bir öğretmen, bize matematik çalıştırıyor.",
+                "Sabah kalktım, kahvaltımı yaptım.",
+                "Kitap, defter ve kalem aldım.",
+                "Evet, bu akşam size geleceğim."
+              ],
+              "answer": 0,
+              "explanation": "A'da “emekli bir öğretmen” sözü, Ayşe Hanım'ı açıklayan bir ara sözdür ve iki virgül arasına alınmıştır. B'de sıralı cümleler, C'de eş görevli sözcükler, D'de cevap sözcüğü ayrılmıştır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-9-1-q8",
+              "stem": "Aşağıdaki cümlelerin hangisinde noktalama yanlışı yapılmıştır?",
+              "choices": [
+                "Ankara-İstanbul seferleri yeniden başladı.",
+                "Atatürk (1881-1938) Selanik'te doğdu.",
+                "Eyvah, otobüsü kaçırdık!",
+                "Bu yaz hangi şehirleri gezeceğiz."
+              ],
+              "answer": 3,
+              "explanation": "D'de “hangi” soru sözcüğü vardır; cümle soru bildirdiği için sonuna soru işareti konmalıdır. A ve B'de kısa çizgi, C'de ünlem doğru kullanılmıştır.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turkce-10",
+      "no": 10,
+      "name": "Anlatım Bozuklukları",
+      "topics": [
+        {
+          "id": "turkce-10-1",
+          "name": "Anlatım Bozuklukları",
+          "kazanim": [
+            "Cümlelerdeki anlatım bozukluklarını belirler ve düzeltir."
+          ],
+          "summary": "Bir cümlenin anlamı açık değilse, mantığa aykırıysa ya da dil bilgisi kurallarına uymuyorsa **anlatım bozukluğu** vardır.\n\n**Anlamla ilgili bozukluklar**\n- **Gereksiz sözcük kullanımı:** Aynı anlamı taşıyan sözcükler bir arada kullanılır. “**Yaklaşık** yirmi kişi **kadar**” → “yaklaşık” ya da “kadar”dan biri yeter. “**Geçmişte yaşanmış** anılar” → anı zaten geçmişte yaşanır.\n- **Anlamca çelişen sözcükler:** Kesinlik ile olasılık bir arada kullanılır. “**Kesinlikle** yarın açıklan**abilir**.” → “kesinlikle” kesinlik, “-abilir” olasılık bildirir.\n- **Sözcüğün yanlış anlamda kullanılması:** “Alınan önlemler sayesinde kaza **kaçınılmaz** oldu.” → “kaçınılmaz” önlenemez demektir; doğrusu “kaza önlendi”.\n- **Mantık hatası / sıralama yanlışlığı:** “bir yana, şöyle dursun” kalıplarında önce daha zor olan, sonra daha kolay olan söylenir. “**Koşmak** şöyle dursun, **yürüyemiyor** bile.” (doğru) — “Yürümek şöyle dursun, koşamıyor bile.” (yanlış)\n- **Anlam belirsizliği:** Cümle birden fazla biçimde anlaşılabilir. “Seni **ondan** daha çok seviyorum.” → Onun seni sevmesinden mi, benim onu sevmemden mi daha çok?\n\n**Yapıyla ilgili bozukluklar**\n- **Ortak öge yanlışlığı:** Birden fazla yükleme ortak kullanılan bir öge, yüklemlerden birine uymaz. “Annem **bana** önce kızdı, sonra kucakladı.” → “bana kızdı” doğru ama “bana kucakladı” yanlış; “beni kucakladı” olmalıdır.\n\nSoru çözerken cümleyi yavaşça oku ve her sözcüğü “Bu gerekli mi? Doğru anlamda mı? Diğer sözcüklerle uyumlu mu?” sorularıyla kontrol et.",
+          "keyPoints": [
+            "Aynı anlamı veren sözcükler (yaklaşık … kadar, aşağı yukarı … kadar) gereksiz sözcük hatasıdır.",
+            "“Kesinlikle, mutlaka” gibi sözcükler “-abilir, belki, galiba” ile kullanılamaz.",
+            "“… şöyle dursun / bir yana … bile” kalıbında önce zor olan eylem söylenir.",
+            "Ortak kullanılan bir öge, bağlandığı bütün yüklemlere uymalıdır.",
+            "Cümle birden fazla anlama gelebiliyorsa anlam belirsizliği vardır."
+          ],
+          "commonMistakes": [
+            "Gereksiz sözcüğü fark etmeyip cümleyi doğru sanmak.",
+            "“Şöyle dursun / bir yana” kalıbında sıralamanın mantığını kontrol etmemek.",
+            "Sözcüğün sözlük anlamını bilmeden cümlenin doğru olduğunu düşünmek (kaçınılmaz, önemsemek vb.)."
+          ],
+          "questions": [
+            {
+              "id": "turkce-10-1-q1",
+              "stem": "Aşağıdaki cümlelerin hangisinde gereksiz sözcük kullanımından kaynaklanan bir anlatım bozukluğu vardır?",
+              "choices": [
+                "Toplantıya yaklaşık olarak yirmi kişi kadar katıldı.",
+                "Toplantıya yirmi kişi katıldı.",
+                "Kitabı iki günde bitirdi.",
+                "Sabah erkenden yola çıktık."
+              ],
+              "answer": 0,
+              "explanation": "A'da “yaklaşık” ve “kadar” aynı anlamı verir; biri gereksizdir. Doğrusu: “Toplantıya yaklaşık yirmi kişi katıldı.”",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-10-1-q2",
+              "stem": "Aşağıdaki cümlelerin hangisinde anlamca çelişen sözcüklerin bir arada kullanılmasından kaynaklanan bir anlatım bozukluğu vardır?",
+              "choices": [
+                "Sınav sonuçları yarın açıklanacak.",
+                "Sınav sonuçları kesinlikle yarın açıklanabilir.",
+                "Sınav sonuçları belki yarın açıklanır.",
+                "Sınav sonuçları mutlaka yarın açıklanacak."
+              ],
+              "answer": 1,
+              "explanation": "B'de “kesinlikle” kesinlik, “-abilir” olasılık bildirir; ikisi bir arada kullanılamaz. C'de olasılık, D'de kesinlik tutarlı biçimde kullanılmıştır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-10-1-q3",
+              "stem": "Aşağıdaki cümlelerin hangisinde bir sözcük yanlış anlamda kullanılmıştır?",
+              "choices": [
+                "Bu konuda herkesin görüşünü almalıyız.",
+                "Yarışmada birinci olan öğrenciyi tebrik ettik.",
+                "Kardeşim çok hassas bir çocuktur.",
+                "Alınan önlemler sayesinde bu kaza kaçınılmaz oldu."
+              ],
+              "answer": 3,
+              "explanation": "“Kaçınılmaz”, önlenemez ve olması kesin demektir. Önlem alınınca kaza önlenmiş olur; bu yüzden sözcük yanlış anlamda kullanılmıştır. Doğrusu: “Alınan önlemler sayesinde bu kaza önlendi.”",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-10-1-q4",
+              "stem": "Aşağıdaki cümlelerin hangisinde sözcüklerin sıralanışından kaynaklanan bir mantık hatası vardır?",
+              "choices": [
+                "Bu yarışmada ikinci değil, birinci olmak istiyorum.",
+                "Kitabı okumak bir yana, kapağını bile açmadı.",
+                "Kardeşim yürümek şöyle dursun, koşamıyor bile.",
+                "Arkadaşım yardım etmek bir yana, selam bile vermedi."
+              ],
+              "answer": 2,
+              "explanation": "“… şöyle dursun, … bile” kalıbında önce daha zor eylem söylenir. Koşmak yürümekten zordur; doğrusu “Koşmak şöyle dursun, yürüyemiyor bile.” olmalıdır. B ve D'de sıralama doğrudur.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-10-1-q5",
+              "stem": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu yoktur?",
+              "choices": [
+                "Geçmişte yaşanmış anılarımızı unutmamalıyız.",
+                "Tahminen yaklaşık iki saat sürdü.",
+                "Kesinlikle bu akşam gelebilirim.",
+                "Okulumuzun kütüphanesine yeni kitaplar geldi."
+              ],
+              "answer": 3,
+              "explanation": "A'da anı zaten geçmişte yaşanır (gereksiz sözcük); B'de “tahminen” ile “yaklaşık” aynı anlamdadır (gereksiz sözcük); C'de “kesinlikle” ile “-abilir” çelişir. D'de bozukluk yoktur.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-10-1-q6",
+              "stem": "(I) Hafta sonu ailecek şehrin yakınındaki ormanlık alana pikniğe gittik. (II) Yolculuğumuz aşağı yukarı bir saat kadar sürdü. (III) Gün boyunca top oynadık, ağaçların gölgesinde dinlendik. (IV) Akşam olunca eşyalarımızı toplayıp eve döndük.\n\nBu metindeki numaralanmış cümlelerin hangisinde gereksiz sözcük kullanılmıştır?",
+              "choices": [
+                "I",
+                "II",
+                "III",
+                "IV"
+              ],
+              "answer": 1,
+              "explanation": "II. cümlede “aşağı yukarı” ve “kadar” aynı anlamı (yaklaşık) verir; biri gereksizdir. Doğrusu: “Yolculuğumuz aşağı yukarı bir saat sürdü.”",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-10-1-q7",
+              "stem": "Aşağıdaki cümlelerin hangisinde, ortak kullanılan bir ögenin yüklemlerden birine uymamasından kaynaklanan bir anlatım bozukluğu vardır?",
+              "choices": [
+                "Annem bana önce kızdı, sonra da sevgiyle kucakladı.",
+                "Sporu ve sporcuları çok seviyorum.",
+                "Öğretmenime saygı duyuyorum, onu çok seviyorum.",
+                "Arkadaşlarımla sinemaya gittik ve film izledik."
+              ],
+              "answer": 0,
+              "explanation": "A'da “bana” sözcüğü iki yükleme ortak kullanılmıştır. “Bana kızdı” doğrudur ama “bana kucakladı” yanlıştır; “beni kucakladı” olmalıdır. C'de ikinci yüklem için “onu” ayrıca yazıldığı için bozukluk yoktur.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-10-1-q8",
+              "stem": "Aşağıdaki cümlelerin hangisinde anlam belirsizliği vardır?",
+              "choices": [
+                "Bu kitabı bir haftada okudum.",
+                "Sabah erken kalkıp spor yaptım.",
+                "Seni ondan daha çok seviyorum.",
+                "Kardeşim resim yapmayı çok sever."
+              ],
+              "answer": 2,
+              "explanation": "C iki biçimde anlaşılabilir: “Seni, onu sevdiğimden daha çok seviyorum.” ya da “Seni, onun seni sevdiğinden daha çok seviyorum.” Bu yüzden anlam belirsizliği vardır.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turkce-11",
+      "no": 11,
+      "name": "Söz Sanatları",
+      "topics": [
+        {
+          "id": "turkce-11-1",
+          "name": "Benzetme, Kişileştirme, Konuşturma ve Abartma",
+          "kazanim": [
+            "T.8.3.7. Metindeki söz sanatlarını tespit eder."
+          ],
+          "summary": "Söz sanatları, anlatımı daha etkileyici ve canlı hâle getirmek için başvurulan yollardır. 8. sınıfta dört sanat öne çıkar.\n\n**1. Benzetme (teşbih):** Aralarında ortak bir özellik bulunan iki varlıktan, özelliği zayıf olanın güçlü olana benzetilmesidir. Genellikle **“gibi, kadar, sanki, -ce”** sözcükleriyle yapılır.\n- “Kardeşimin gözleri **yıldız gibi** parlıyordu.”\n- “Ay, gökyüzünde **bir fener gibi** parlıyordu.”\n\n**2. Kişileştirme (teşhis):** İnsan dışındaki varlıklara insana özgü özellikler (duygu, düşünce, davranış) verilmesidir.\n- “Güneş, pencereme **gülümsedi**.”\n- “Rüzgâr, ağaçların arasında **hüzünle** dolaşıyordu.”\n\n**3. Konuşturma (intak):** İnsan dışındaki varlıkların konuşturulmasıdır. Konuşturma yapılan her yerde kişileştirme de vardır, çünkü konuşmak insana özgü bir özelliktir. Ama her kişileştirmede konuşturma yoktur.\n- Yaşlı çınar, “**Ben bu köyün bütün çocuklarını büyüttüm.**” dedi.\n\n**4. Abartma (mübalağa):** Bir durumu, olduğundan çok büyük ya da çok küçük göstermektir.\n- “Öyle çok ağladı ki **gözyaşları sel oldu**.”\n- “Bu çantayı taşırken **belim koptu**.”\n- “Köyün sabahları **bin yıl sürer**.”\n\n**Dikkat:**\n- “Deniz dalgalıydı”, “ağaçlar sarardı” gibi ifadeler varlığın kendi özelliğidir; kişileştirme değildir.\n- Bir cümlede birden fazla sanat bulunabilir: “Sokak lambaları, **uykusuz nöbetçiler gibi** yolu **bekledi**.” → benzetme + kişileştirme.",
+          "keyPoints": [
+            "Benzetmede genellikle “gibi, kadar, sanki” sözcükleri vardır.",
+            "Kişileştirme: insan dışı varlığa insana ait duygu ya da davranış verilmesi.",
+            "Konuşturma olan yerde kişileştirme de vardır; tersi her zaman doğru değildir.",
+            "Abartma: bir durumu gerçekte olduğundan çok büyük ya da küçük göstermek.",
+            "Bir cümlede birden fazla söz sanatı bulunabilir."
+          ],
+          "commonMistakes": [
+            "Varlığın doğal özelliğini (ağacın sararması, denizin dalgalanması) kişileştirme sanmak.",
+            "Konuşturma olan bir cümlede kişileştirmenin de bulunduğunu unutmak.",
+            "“Gibi” sözcüğü geçen her cümlede benzetme olduğunu düşünmek (“Söylediğin gibi yaptım.” benzetme değildir)."
+          ],
+          "questions": [
+            {
+              "id": "turkce-11-1-q1",
+              "stem": "Aşağıdaki cümlelerin hangisinde benzetme vardır?",
+              "choices": [
+                "Kuşlar ağaçta ötüyordu.",
+                "Kardeşimin gözleri yıldız gibi parlıyordu.",
+                "Rüzgâr bütün gece hızla esti.",
+                "Kitabı masanın üstüne koydum."
+              ],
+              "answer": 1,
+              "explanation": "B'de gözler, parlaklık yönüyle yıldıza benzetilmiştir; “gibi” sözcüğü benzetme ilgisini kurar.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-11-1-q2",
+              "stem": "Aşağıdaki cümlelerin hangisinde abartma vardır?",
+              "choices": [
+                "Bu sabah biraz yoruldum.",
+                "Yemek çok lezzetliydi.",
+                "Okul yolu oldukça uzundu.",
+                "Öyle çok güldük ki gözlerimizden sel gibi yaşlar aktı."
+              ],
+              "answer": 3,
+              "explanation": "D'de gülerken akan gözyaşlarının sel gibi aktığı söylenerek durum olduğundan çok daha büyük gösterilmiştir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-11-1-q3",
+              "stem": "Aşağıdaki cümlelerin hangisinde kişileştirme vardır?",
+              "choices": [
+                "Güneş, sabahın erken saatlerinde pencereme gülümsedi.",
+                "Çiçekler bahçede tek tek açtı.",
+                "Deniz bugün çok dalgalıydı.",
+                "Ağaçların yaprakları sarardı."
+              ],
+              "answer": 0,
+              "explanation": "Gülümsemek insana özgü bir davranıştır; A'da Güneş'e bu özellik verilmiştir. B, C ve D'deki durumlar varlıkların kendi doğal özellikleridir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-11-1-q4",
+              "stem": "Aşağıdaki cümlelerin hangisinde konuşturma sanatı vardır?",
+              "choices": [
+                "Ay, gökyüzünde bir fener gibi parlıyordu.",
+                "Rüzgâr, ağaçların arasında hüzünle dolaşıyordu.",
+                "Yaşlı çınar, “Ben bu köyün bütün çocuklarını büyüttüm.” dedi.",
+                "Bu valiz dünyalar kadar ağırdı."
+              ],
+              "answer": 2,
+              "explanation": "C'de bir ağaç konuşturulmuştur. A'da benzetme, B'de kişileştirme, D'de abartma vardır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-11-1-q5",
+              "stem": "“Sokak lambaları, gece boyunca uykusuz nöbetçiler gibi yolu bekledi.” cümlesinde hangi söz sanatları vardır?",
+              "choices": [
+                "Abartma – konuşturma",
+                "Benzetme – konuşturma",
+                "Benzetme – kişileştirme",
+                "Abartma – benzetme"
+              ],
+              "answer": 2,
+              "explanation": "Lambalar “nöbetçiler gibi” sözüyle nöbetçilere benzetilmiştir (benzetme). Yolu beklemek insana özgü bir davranıştır ve lambalara verilmiştir (kişileştirme). Cümlede konuşma ya da abartma yoktur.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-11-1-q6",
+              "stem": "Dağ, sabah olunca uykusundan uyanır,\nRüzgâr kapı kapı dolaşıp masal anlatır.\nDere, taşlara “Acele edin, deniz bekliyor!” der,\nBenim köyümün sabahları bin yıl sürer.\n\nBu dizelerde aşağıdaki söz sanatlarından hangisi yoktur?",
+              "choices": [
+                "Benzetme",
+                "Kişileştirme",
+                "Konuşturma",
+                "Abartma"
+              ],
+              "answer": 0,
+              "explanation": "Dağın uyanması ve rüzgârın masal anlatması kişileştirmedir. Derenin konuşması konuşturmadır. Sabahların bin yıl sürmesi abartmadır. Dizelerde “gibi” ile kurulan ya da bir varlığı başka bir varlığa benzeten bir ifade yoktur.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-11-1-q7",
+              "stem": "Aşağıdaki cümlelerin hangisinde kişileştirme yoktur?",
+              "choices": [
+                "Saksıdaki menekşe, susuzluktan boynunu büktü.",
+                "Yağmur damlaları pencereye vurup bizi selamladı.",
+                "Eski saat, duvarda yorgun yorgun tıkırdıyor.",
+                "Kardeşimin yanakları elma gibi kıpkırmızı olmuştu."
+              ],
+              "answer": 3,
+              "explanation": "A'da menekşeye “boyun bükmek” (üzülmek), B'de damlalara “selamlamak”, C'de saate “yorgunluk” gibi insana özgü özellikler verilmiştir. D'de yalnızca benzetme vardır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-11-1-q8",
+              "stem": "Aşağıdaki cümlelerin hangisinde benzetme ve abartma birlikte kullanılmıştır?",
+              "choices": [
+                "Saçları ipek gibi yumuşaktı.",
+                "Kardeşim bir dağ kadar yemek yedi; aç bir kurt gibiydi.",
+                "Ağaçlar rüzgârda dans ediyordu.",
+                "Bu çantayı taşırken belim koptu."
+              ],
+              "answer": 1,
+              "explanation": "B'de “bir dağ kadar yemek” abartmadır; kardeşin “aç bir kurt”a benzetilmesi benzetmedir. A'da yalnızca benzetme, C'de kişileştirme, D'de yalnızca abartma vardır.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turkce-12",
+      "no": 12,
+      "name": "Metin Türleri",
+      "topics": [
+        {
+          "id": "turkce-12-1",
+          "name": "Metin Türleri",
+          "kazanim": [
+            "Okuduğu metnin türünü belirler ve türün temel özelliklerini ayırt eder."
+          ],
+          "summary": "Metinler amaçlarına ve özelliklerine göre farklı türlere ayrılır.\n\n**Olay çevresinde gelişen (anlatmaya bağlı) türler**\n- **Hikâye (öykü):** Gerçek ya da gerçeğe yakın bir olayı kısa ve öz biçimde anlatır.\n- **Roman:** Hikâyeden daha uzundur; çok sayıda kişi ve olayı ayrıntılı işler.\n- **Masal:** Olağanüstü olaylar ve kişiler vardır; zaman ve yer belirsizdir (“Bir varmış bir yokmuş...”).\n- **Fabl:** Hayvanlar ya da bitkiler kişileştirilip konuşturulur; sonunda bir ders verilir.\n\n**Kişisel yaşantıya dayanan türler**\n- **Anı (hatıra):** Yazarın kendi yaşadığı ya da tanık olduğu olayları, **üzerinden zaman geçtikten sonra** anlatmasıdır. Birinci kişi ağzından anlatılır.\n- **Günlük:** Yaşananların **günü gününe**, tarih atılarak yazılmasıdır.\n- **Biyografi:** Bir kişinin hayatının başka biri tarafından anlatılmasıdır.\n- **Otobiyografi:** Yazarın kendi hayatını anlatmasıdır.\n- **Gezi yazısı:** Gezilip görülen yerlerin anlatılmasıdır.\n- **Mektup:** Birine bir şey bildirmek için yazılan yazıdır.\n\n**Düşünce yazıları**\n- **Makale:** Bir düşünceyi kanıtlara dayanarak açıklar ve savunur; dil nesneldir.\n- **Deneme:** Yazar kişisel düşüncelerini, **kanıtlama kaygısı taşımadan**, kendi kendine konuşur gibi anlatır.\n- **Sohbet (söyleşi):** Yazar okurla karşısındaymış gibi konuşur; “siz” hitapları ve soru cümleleri vardır; dil samimidir.\n- **Fıkra (köşe yazısı):** Gazetede güncel bir konudaki kişisel görüşlerin kısa olarak anlatılmasıdır.\n\n**Haber yazısı:** Güncel bir olayı nesnel biçimde, “ne, nerede, ne zaman, nasıl, neden, kim” sorularına cevap vererek anlatır.\n\n**Anı ile günlük farkı:** Günlükte olaylar yaşandığı gün yazılır ve tarih atılır; anıda olaylar aradan zaman geçtikten sonra hatırlanarak anlatılır.",
+          "keyPoints": [
+            "Fabl: kişileştirilmiş hayvan/bitkiler ve sonunda ders.",
+            "Anı yıllar sonra hatırlanarak, günlük günü gününe ve tarih atılarak yazılır.",
+            "Biyografi başkasının, otobiyografi yazarın kendi hayatını anlatır.",
+            "Makale kanıtlamaya çalışır; deneme kanıtlama kaygısı taşımaz.",
+            "Sohbette yazar okurla konuşur gibi yazar (“Gelin, siz de fark etmişsinizdir...”)."
+          ],
+          "commonMistakes": [
+            "Anı ile günlüğü karıştırmak.",
+            "Deneme ile makaleyi karıştırmak; makalede kanıt ve nesnellik vardır.",
+            "Kişileştirilmiş hayvan bulunan her metni masal sanmak; ders veren kısa metinler genellikle fabldır."
+          ],
+          "questions": [
+            {
+              "id": "turkce-12-1-q1",
+              "stem": "Yazarın kendi hayatını anlattığı metin türü aşağıdakilerden hangisidir?",
+              "choices": [
+                "Biyografi",
+                "Fabl",
+                "Otobiyografi",
+                "Makale"
+              ],
+              "answer": 2,
+              "explanation": "Yazarın kendi hayatını anlattığı tür otobiyografidir. Biyografi ise bir kişinin hayatının başka biri tarafından anlatılmasıdır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-12-1-q2",
+              "stem": "Hayvanların kişileştirilerek konuşturulduğu ve sonunda bir ders verilen metin türü aşağıdakilerden hangisidir?",
+              "choices": [
+                "Fabl",
+                "Deneme",
+                "Gezi yazısı",
+                "Haber yazısı"
+              ],
+              "answer": 0,
+              "explanation": "Fabllarda hayvanlar ya da bitkiler insan gibi davranır, konuşur ve metnin sonunda okura bir ders verilir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-12-1-q3",
+              "stem": "12 Mart 2026, Perşembe\nBugün okulda bilim fuarı vardı. Projemizi sunarken çok heyecanlandım ama sonunda öğretmenimiz bizi tebrik etti. Akşam eve gelince hemen anneme anlattım. Yarın sonuçlar açıklanacak; şimdiden uykum kaçtı.\n\nBu metin hangi türe aittir?",
+              "choices": [
+                "Anı",
+                "Günlük",
+                "Biyografi",
+                "Mektup"
+              ],
+              "answer": 1,
+              "explanation": "Metinde tarih atılmış ve o gün yaşananlar aynı gün yazılmıştır (“Bugün ...”). Bu, günlüğün temel özelliğidir. Anıda olaylar üzerinden zaman geçtikten sonra anlatılır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-12-1-q4",
+              "stem": "Yazarın, kanıtlama kaygısı taşımadan kişisel düşüncelerini kendi kendine konuşuyormuş gibi anlattığı metin türü aşağıdakilerden hangisidir?",
+              "choices": [
+                "Makale",
+                "Haber yazısı",
+                "Biyografi",
+                "Deneme"
+              ],
+              "answer": 3,
+              "explanation": "Denemede yazar bir konudaki kişisel düşüncelerini içten bir dille anlatır ve okuru ikna etmek için kanıt göstermek zorunda değildir. Makalede ise düşünce kanıtlarla desteklenir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-12-1-q5",
+              "stem": "Gelin, bu akşam sizinle biraz komşuluk üzerine konuşalım. Siz de fark etmişsinizdir; eskiden bir tabak yemek kapı kapı dolaşırdı. Şimdi aynı apartmanda yaşayıp birbirimizin adını bile bilmiyoruz. Ne dersiniz, bu sessizliği biraz bozsak mı?\n\nBu metin hangi türe aittir?",
+              "choices": [
+                "Sohbet",
+                "Makale",
+                "Fabl",
+                "Gezi yazısı"
+              ],
+              "answer": 0,
+              "explanation": "Yazar okura doğrudan sesleniyor (“Gelin, siz de fark etmişsinizdir, Ne dersiniz”) ve onunla karşılıklı konuşur gibi samimi bir dil kullanıyor. Bu, sohbet (söyleşi) türünün özelliğidir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-12-1-q6",
+              "stem": "Ortaokula başladığım ilk günü hâlâ dün gibi hatırlıyorum. Babam beni okul kapısına kadar getirmiş, elimi bırakırken “Korkma, burası senin yeni evin.” demişti. Sınıfa girdiğimde kimseyi tanımıyordum; en arka sıraya oturup pencereden dışarı bakmıştım. Teneffüste yanıma gelen bir çocuk bana elmasından bir dilim uzatmıştı. O çocuk, yıllardır en yakın arkadaşım olan Emre'den başkası değildi. Aradan yıllar geçti ama o elmanın tadını hiç unutmadım.\n\nBu metinle ilgili aşağıdakilerden hangisi söylenemez?",
+              "choices": [
+                "Yazarın kendi yaşadıklarından yola çıkılmıştır.",
+                "Olaylar, yaşandığı gün kaleme alınmıştır.",
+                "Birinci kişi ağzından anlatılmıştır.",
+                "Anı türünün özelliklerini taşımaktadır."
+              ],
+              "answer": 1,
+              "explanation": "Metinde “hâlâ dün gibi hatırlıyorum” ve “Aradan yıllar geçti” ifadeleri, olayların üzerinden uzun zaman geçtikten sonra anlatıldığını gösterir. Bu nedenle olayların yaşandığı gün yazıldığı söylenemez.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-12-1-q7",
+              "stem": "Aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+              "choices": [
+                "Biyografi – Bir kişinin hayatını başka birinin kaleminden anlatır.",
+                "Gezi yazısı – Gezilip görülen yerleri anlatır.",
+                "Masal – Olaylar belirli bir zamanda ve gerçek bir yerde geçer.",
+                "Makale – Bir düşünceyi kanıtlara dayanarak açıklar."
+              ],
+              "answer": 2,
+              "explanation": "Masallarda zaman ve yer belirsizdir (“Evvel zaman içinde...”); olaylar olağanüstüdür. Bu yüzden C'deki eşleştirme yanlıştır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-12-1-q8",
+              "stem": "I. Metin: Dün akşam saat 20.00 sularında Çınarlı Caddesi'ndeki bir iş yerinde yangın çıktı. İtfaiye ekiplerinin hızlı müdahalesiyle yangın kısa sürede söndürüldü. Olayda yaralanan olmadı.\nII. Metin: Bir sincap, dere üzerinde set kuran kunduzlara gülüp “Ağaç gövdeleriyle uğraşacağınıza dalda uyusanıza!” dedi. Kunduzlar aldırmadan çalışmayı sürdürdü. Bahar yağmurlarıyla dere taşınca sincabın ağacı suya gömüldü; sincap, kunduzların sağlam yuvasına sığınmak zorunda kaldı.\n\nI. ve II. metnin türleri sırasıyla aşağıdakilerden hangisidir?",
+              "choices": [
+                "Haber yazısı – Masal",
+                "Deneme – Fabl",
+                "Anı – Masal",
+                "Haber yazısı – Fabl"
+              ],
+              "answer": 3,
+              "explanation": "I. metin güncel bir olayı ne, nerede, ne zaman ve nasıl sorularına cevap vererek nesnel biçimde aktarır (haber yazısı). II. metinde hayvanlar konuşturulmuş ve çalışkanlıkla ilgili bir ders verilmiştir (fabl).",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turkce-13",
+      "no": 13,
+      "name": "Görsel ve Sözel Mantık",
+      "topics": [
+        {
+          "id": "turkce-13-1",
+          "name": "Tablo ve Grafik Yorumlama",
+          "kazanim": [
+            "Grafik, tablo ve çizelgeyle sunulan bilgileri yorumlar."
+          ],
+          "summary": "LGS Türkçe testinde tablo, grafik ya da çizelge içeren sorular sıkça yer alır. Bu sorular aslında bir **okuma** sorusudur: Verilen bilgileri doğru okuyup yorumlaman beklenir.\n\n**Adım adım çözüm**\n- **1. Başlığı oku:** Tablonun ya da grafiğin neyi gösterdiğini öğren (öğrenci sayısı, yüzde, ay ay yağış miktarı...).\n- **2. Birimlere dikkat et:** Sayılar adet mi, yüzde mi, kilogram mı? Yüzde verildiyse gerçek sayıyı bulmak için toplamla çarpman gerekebilir: 30 öğrencinin %30'u = 9 öğrenci.\n- **3. Soru kökünü işaretle:** “doğrudur / yanlıştır / söylenebilir / söylenemez / kesinlikle” sözcüklerini kaçırma.\n- **4. Her şıkkı tabloyla tek tek kontrol et:** Gerekirse toplama, çıkarma, oran hesabı yap.\n\n**Sık kullanılan çeldiriciler**\n- **Eşitlik tuzağı:** “fazladır” denen iki değer aslında eşit olabilir (100 ile 60 + 40).\n- **Genelleme tuzağı:** “her hafta arttı” denir ama bir haftada düşüş vardır.\n- **Tablo dışı bilgi:** Tabloda olmayan bir ay, kişi ya da gelecekle ilgili tahmin “kesin” gibi sunulur. Tablodaki bilgiyle ulaşılamayan yargılar **söylenemez**.\n- **Oran ile sayı karışıklığı:** Bir şeyin sayıca çok olması, oranının da yüksek olduğu anlamına gelmez. 600 fidandan 120'sinin kuruması (%20), 400 fidandan 20'sinin kurumasından (%5) daha kötü bir orandır.\n\n**Grafik türleri**\n- **Sütun grafiği:** Değerleri karşılaştırmak için kullanılır.\n- **Çizgi grafiği:** Zaman içindeki değişimi (artış-azalış) gösterir.\n- **Daire grafiği:** Bir bütünün parçalarını yüzde olarak gösterir.",
+          "keyPoints": [
+            "Önce başlığı ve birimleri oku; yüzde ile adet sayısını karıştırma.",
+            "“Kesinlikle” ve “söylenemez” sözcükleri soru kökünde belirleyicidir.",
+            "Tabloda olmayan bilgiye (gelecek ay, başka kişi) dayanan yargılar söylenemez.",
+            "Oran sorularında bölme işlemi yap; yalnızca büyük sayıya bakma.",
+            "Her şıkkı hesapla kontrol et; eşit değerlere dikkat et."
+          ],
+          "commonMistakes": [
+            "Yüzdeyi gerçek sayı sanmak.",
+            "Bir haftalık düşüşü gözden kaçırıp “sürekli arttı” yargısını doğru saymak.",
+            "Tabloda olmayan bir tahmini “kesin” bilgi gibi kabul etmek."
+          ],
+          "questions": [
+            {
+              "id": "turkce-13-1-q1",
+              "stem": "Ekim ayında öğrencilerin okuduğu kitap sayısı:\nAyşe: 5\nBurak: 3\nCeren: 7\nDeniz: 4\n\nBu tabloya göre ekim ayında en çok kitap okuyan öğrenci kimdir?",
+              "choices": [
+                "Ceren",
+                "Ayşe",
+                "Deniz",
+                "Burak"
+              ],
+              "answer": 0,
+              "explanation": "Tablodaki en büyük değer 7'dir ve Ceren'e aittir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-13-1-q2",
+              "stem": "Bir kırtasiyenin bir haftalık defter satışları:\nPazartesi: 12\nSalı: 8\nÇarşamba: 9\nPerşembe: 15\nCuma: 20\n\nBu tabloya göre hangi iki gündeki satışların toplamı, cuma günkü satışa eşittir?",
+              "choices": [
+                "Salı – Çarşamba",
+                "Çarşamba – Perşembe",
+                "Pazartesi – Salı",
+                "Pazartesi – Çarşamba"
+              ],
+              "answer": 2,
+              "explanation": "Pazartesi (12) + Salı (8) = 20, cuma günkü satışa eşittir. Diğerleri: 8 + 9 = 17, 9 + 15 = 24, 12 + 9 = 21.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-13-1-q3",
+              "stem": "Bir okulda öğrencilerin en sevdiği spor dalları (öğrenci sayısı):\nFutbol: 120\nBasketbol: 80\nVoleybol: 100\nYüzme: 60\nSatranç: 40\n\nBu tabloya göre aşağıdakilerden hangisi söylenemez?",
+              "choices": [
+                "En çok tercih edilen spor dalı futboldur.",
+                "Voleybolu seçenlerin sayısı, yüzme ve satrancı seçenlerin toplamından fazladır.",
+                "Basketbolu seçenlerin sayısı, satrancı seçenlerin iki katıdır.",
+                "Ankete toplam 400 öğrenci katılmıştır."
+              ],
+              "answer": 1,
+              "explanation": "Yüzme ve satranç toplamı 60 + 40 = 100'dür; voleybolu seçenlerin sayısına eşittir, fazla değildir. Basketbol 80 = 2 × 40; toplam 120 + 80 + 100 + 60 + 40 = 400'dür.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-13-1-q4",
+              "stem": "Dört ilçede yapılan ağaçlandırma çalışmaları (dikilen fidan / kuruyan fidan):\nYeşilköy: 500 / 50\nÇamlıca: 400 / 20\nOrmanlı: 600 / 120\nPınarbaşı: 300 / 60\n\nBu tabloya göre kuruyan fidan oranı en düşük olan ilçe hangisidir?",
+              "choices": [
+                "Yeşilköy",
+                "Ormanlı",
+                "Pınarbaşı",
+                "Çamlıca"
+              ],
+              "answer": 3,
+              "explanation": "Oranlar: Yeşilköy 50/500 = %10, Çamlıca 20/400 = %5, Ormanlı 120/600 = %20, Pınarbaşı 60/300 = %20. En düşük oran Çamlıca'dadır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-13-1-q5",
+              "stem": "Bir öğrencinin haftalık deneme sınavı netleri:\n1. hafta: 42\n2. hafta: 45\n3. hafta: 44\n4. hafta: 50\n5. hafta: 53\n\nBu verilere göre aşağıdakilerden hangisi kesinlikle söylenebilir?",
+              "choices": [
+                "Öğrenci netini her hafta artırmıştır.",
+                "En büyük artış 3. haftadan 4. haftaya geçerken olmuştur.",
+                "Öğrenci 5. haftada bütün soruları doğru yanıtlamıştır.",
+                "Öğrencinin neti 2. haftadan sonra hiç düşmemiştir."
+              ],
+              "answer": 1,
+              "explanation": "Haftalık değişimler: +3, −1, +6, +3. En büyük artış (+6) 3. haftadan 4. haftaya geçerken olmuştur. 3. haftada düşüş olduğu için A ve D yanlıştır; C'deki bilgi tabloda yoktur.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-13-1-q6",
+              "stem": "Dört arkadaşın kütüphaneden aldığı kitaplar (Roman / Şiir / Bilim):\nElif: 3 / 1 / 2\nKaan: 2 / 2 / 4\nNehir: 4 / 0 / 1\nOnur: 1 / 3 / 3\n\nBu tabloya göre aşağıdakilerden hangisi doğrudur?",
+              "choices": [
+                "En çok kitap alan öğrenci Onur'dur.",
+                "Hiç şiir kitabı almayan öğrenci Elif'tir.",
+                "Alınan şiir kitabı sayısı, roman kitabı sayısından fazladır.",
+                "Kaan, diğer öğrencilerin her birinden daha fazla kitap almıştır."
+              ],
+              "answer": 3,
+              "explanation": "Toplamlar: Elif 6, Kaan 8, Nehir 5, Onur 7. En çok kitabı Kaan almıştır; D doğrudur, A yanlıştır. Hiç şiir almayan Nehir'dir. Şiir toplamı 6, roman toplamı 10'dur; C yanlıştır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-13-1-q7",
+              "stem": "Bir sınıftaki 30 öğrencinin okula geliş biçimleri:\nYürüyerek: %40\nServisle: %30\nToplu taşımayla: %20\nBisikletle: %10\n\nBu bilgilere göre aşağıdakilerden hangisi yanlıştır?",
+              "choices": [
+                "Servisle ve bisikletle gelenlerin toplamı, yürüyerek gelenlerden azdır.",
+                "Servisle gelen öğrenci sayısı 9'dur.",
+                "Yürüyerek gelenlerin sayısı, bisikletle gelenlerin 4 katıdır.",
+                "Toplu taşımayla gelen öğrenci sayısı 6'dır."
+              ],
+              "answer": 0,
+              "explanation": "Öğrenci sayıları: yürüyerek 12, servisle 9, toplu taşımayla 6, bisikletle 3. Servis + bisiklet = 9 + 3 = 12'dir; yürüyerek gelenlere eşittir, az değildir. Bu yüzden A yanlıştır. 12 = 4 × 3 olduğundan C doğrudur.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-13-1-q8",
+              "stem": "Bir şehrin dört aylık yağış miktarları:\nOcak: 80 mm\nŞubat: 70 mm\nMart: 60 mm\nNisan: 50 mm\n\nBu tabloya göre aşağıdaki yorumlardan hangisi yapılamaz?",
+              "choices": [
+                "Yağış miktarı her ay bir önceki aya göre 10 mm azalmıştır.",
+                "Ocak ayındaki yağış, nisan ayındakinden 30 mm fazladır.",
+                "Mayıs ayındaki yağış miktarı 40 mm olacaktır.",
+                "Dört ayın toplam yağışı 260 mm'dir."
+              ],
+              "answer": 2,
+              "explanation": "Tabloda mayıs ayına ait bir bilgi yoktur; azalmanın süreceği kesin değildir. Bu yüzden C'deki yorum yapılamaz. A, B (80 − 50 = 30) ve D (80 + 70 + 60 + 50 = 260) tabloya göre doğrudur.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "turkce-13-2",
+          "name": "Sıralama ve Yerleştirme (Sözel Mantık)",
+          "kazanim": [
+            "Verilen bilgiler arasında ilişki kurarak sıralama ve yerleştirme yapar; akıl yürütmeye dayalı çıkarımlarda bulunur."
+          ],
+          "summary": "Sözel mantık sorularında birkaç kişi, nesne ya da etkinlik, verilen ipuçlarına göre sıraya dizilir ya da eşleştirilir. Bu sorular özel bir dil bilgisi gerektirmez; **dikkatli okuma** ve **düzenli not alma** gerektirir.\n\n**Adım adım çözüm**\n- **1. Kesin bilgiyle başla:** “Cansu 3 numaralı evdedir”, “Rüya üçüncü olmuştur” gibi doğrudan yerleştirilebilen bilgileri önce yaz.\n- **2. Bir tablo ya da sıra çiz:** Örneğin 1-2-3-4-5 diye kutucuklar çizip kesin bilgileri yerleştir.\n- **3. Bağlantılı ipuçlarını uygula:** “hemen sonra”, “bitişik”, “bir gün önce” gibi ifadeler iki kişiyi birlikte hareket ettirir. Bunları bir blok gibi düşün.\n- **4. Olumsuz ipuçlarıyla seçenekleri ele:** “Ayça'nın kedisi yoktur” → Ayça'nın satırına kedi için çarpı koy.\n- **5. Durumları dene:** Birden fazla olasılık varsa her birini ayrı ayrı yaz ve ipuçlarına uymayanı ele.\n\n**Önemli ifadeler**\n- **“Hemen sonra / hemen önce”:** Aralarında başka kimse yoktur.\n- **“Sonra / önce”** (hemen değil): Arada başkaları olabilir.\n- **“Bitişik / yan yana”:** Sağda da olabilir, solda da.\n- **“Kesinlikle doğrudur”:** Bütün olası durumlarda doğru olmalıdır.\n- **“Olabilir”:** En az bir durumda doğru olması yeterlidir.\n\nBirden fazla durum çıkan sorularda “kesinlikle” istendiğinde, her durumda değişmeyen bilgiyi bul. Bu tür sorular LGS'de dikkat ve sabır ölçer; acele etmeden her ipucunu tek tek uygula.",
+          "keyPoints": [
+            "Önce kesin bilgileri yerleştir, sonra bağlantılı ipuçlarını uygula.",
+            "“Hemen sonra” ile “sonra” farklıdır; ilkinde arada kimse yoktur.",
+            "“Bitişik” her iki yönü de kapsar.",
+            "Birden fazla durum varsa hepsini yaz; “kesinlikle” her durumda geçerli olmalıdır.",
+            "Eşleştirme sorularında tablo çizip olumsuz bilgileri çarpıyla işaretle."
+          ],
+          "commonMistakes": [
+            "“Önce” ifadesini “hemen önce” gibi yorumlamak.",
+            "Tek bir olasılık bulup diğer olasılıkları denememek.",
+            "“Kesinlikle doğru” sorusunda yalnızca bir durumda doğru olan şıkkı seçmek."
+          ],
+          "questions": [
+            {
+              "id": "turkce-13-2-q1",
+              "stem": "Ali, Banu, Cem ve Duru boylarına göre sıralanacaktır.\n- Ali, Banu'dan uzundur.\n- Cem, Ali'den uzundur.\n- Duru, dört arkadaşın en kısasıdır.\n\nBuna göre en uzun kişi kimdir?",
+              "choices": [
+                "Ali",
+                "Banu",
+                "Duru",
+                "Cem"
+              ],
+              "answer": 3,
+              "explanation": "Cem > Ali > Banu sıralaması vardır ve Duru en kısadır. Buna göre sıralama: Cem, Ali, Banu, Duru. En uzun Cem'dir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-13-2-q2",
+              "stem": "Bir rafa soldan sağa dört kitap dizilecektir: masal, şiir, roman ve deneme kitabı.\n- Roman en soldadır.\n- Şiir kitabı, romanın hemen sağındadır.\n- Deneme kitabı en sağdadır.\n\nBuna göre masal kitabı soldan kaçıncı sıradadır?",
+              "choices": [
+                "1.",
+                "2.",
+                "3.",
+                "4."
+              ],
+              "answer": 2,
+              "explanation": "Roman 1., şiir 2. (romanın hemen sağı), deneme 4. sıradadır. Geriye kalan 3. sıra masal kitabınındır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "turkce-13-2-q3",
+              "stem": "Emre, Fatma, Gül, Hakan ve İpek bir sırada beklemektedir (1. sıra en öndedir).\n- Gül en öndedir.\n- Hakan, Gül'ün hemen arkasındadır.\n- İpek en sondadır.\n- Fatma, Emre'nin önündedir.\n\nBuna göre üçüncü sırada kim vardır?",
+              "choices": [
+                "Fatma",
+                "Emre",
+                "Hakan",
+                "İpek"
+              ],
+              "answer": 0,
+              "explanation": "Gül 1., Hakan 2., İpek 5. sıradadır. 3. ve 4. sıralar Fatma ile Emre'ye kalır. Fatma, Emre'nin önünde olduğu için Fatma 3., Emre 4. sıradadır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-13-2-q4",
+              "stem": "Bir öğrenci pazartesiden perşembeye kadar her gün yalnızca bir kulüp etkinliğine katılacaktır: satranç, drama, resim ve müzik.\n- Drama perşembe günüdür.\n- Satranç, resimden bir gün öncedir.\n- Müzik pazartesi günü değildir.\n\nBuna göre çarşamba günü hangi etkinlik vardır?",
+              "choices": [
+                "Satranç",
+                "Müzik",
+                "Drama",
+                "Resim"
+              ],
+              "answer": 1,
+              "explanation": "Drama perşembe olduğuna göre pazartesi, salı, çarşamba kalır. Satranç-resim art arda olmalıdır: (pazartesi-salı) ya da (salı-çarşamba). İkinci durumda müzik pazartesiye düşer; bu yasaktır. O hâlde satranç pazartesi, resim salı, müzik çarşambadır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-13-2-q5",
+              "stem": "Ayça, Berk, Can ve Defne'nin her birinin farklı bir evcil hayvanı vardır: kedi, köpek, kuş ve balık.\n- Ayça'nın kedisi ve köpeği yoktur.\n- Berk'in kuşu vardır.\n- Can'ın köpeği yoktur.\n\nBuna göre Defne'nin hangi hayvanı vardır?",
+              "choices": [
+                "Köpek",
+                "Kedi",
+                "Kuş",
+                "Balık"
+              ],
+              "answer": 0,
+              "explanation": "Kuş Berk'indir. Ayça'nın kedisi, köpeği ve (Berk'in olduğu için) kuşu olamaz; Ayça'nın balığı vardır. Geriye kedi ve köpek kalır. Can'ın köpeği olmadığı için Can'ın kedisi, Defne'nin köpeği vardır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "turkce-13-2-q6",
+              "stem": "Bir sokakta soldan sağa 1'den 5'e kadar numaralanmış beş ev yan yana dizilidir. Arda, Bora, Cansu, Deniz ve Ece bu evlerde birer kişi olarak oturmaktadır.\n- Cansu 3 numaralı evde oturmaktadır.\n- Arda'nın evi, Cansu'nun evine bitişiktir.\n- Ece en sağdaki evde oturmaktadır.\n- Bora'nın evi, Deniz'in evinin solundadır (hemen solu olması gerekmez).\n\nBuna göre aşağıdakilerden hangisi kesinlikle doğrudur?",
+              "choices": [
+                "Arda 2 numaralı evde oturur.",
+                "Deniz 4 numaralı evde oturur.",
+                "Bora 1 numaralı evde oturur.",
+                "Arda'nın evi Ece'nin evine bitişiktir."
+              ],
+              "answer": 2,
+              "explanation": "Cansu 3, Ece 5 numarada. Arda 2 ya da 4 numarada olabilir. Arda 2'deyse Bora 1, Deniz 4; Arda 4'teyse Bora 1, Deniz 2 numaradadır. İki durumda da Bora 1 numaralı evdedir. Diğer şıklar yalnızca bir durumda doğrudur.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-13-2-q7",
+              "stem": "Ozan, Pelin, Rüya, Selim ve Tuna bir koşu yarışmasında ilk beş dereceyi paylaşmıştır (eşitlik yoktur).\n- Pelin, Ozan'dan önce bitirmiştir.\n- Rüya üçüncü olmuştur.\n- Selim, Tuna'nın hemen arkasından gelmiştir.\n- Ozan son sırada değildir.\n\nBuna göre yarışmada birinci olan kimdir?",
+              "choices": [
+                "Ozan",
+                "Tuna",
+                "Rüya",
+                "Pelin"
+              ],
+              "answer": 3,
+              "explanation": "Rüya 3. olduğuna göre Tuna-Selim ikilisi ya 1-2 ya da 4-5 sıralarındadır. 1-2 olursa Pelin 4, Ozan 5 olur; ama Ozan son olamaz. O hâlde Tuna 4, Selim 5'tir. 1 ve 2. sıralar Pelin ve Ozan'ındır; Pelin önde olduğu için birinci Pelin'dir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "turkce-13-2-q8",
+              "stem": "Aslı, Barış, Cemre ve Doruk dört farklı dersten (Türkçe, matematik, fen bilimleri, İngilizce) birer proje hazırlamıştır.\n- Aslı, matematik ve fen bilimleri projesi hazırlamamıştır.\n- Barış'ın projesi İngilizcedir.\n- Cemre, fen bilimleri projesi hazırlamamıştır.\n\nBuna göre aşağıdakilerden hangisi yanlıştır?",
+              "choices": [
+                "Aslı Türkçe projesi hazırlamıştır.",
+                "Doruk matematik projesi hazırlamıştır.",
+                "Cemre matematik projesi hazırlamıştır.",
+                "Doruk fen bilimleri projesi hazırlamıştır."
+              ],
+              "answer": 1,
+              "explanation": "Barış İngilizce. Aslı matematik, fen ve İngilizce hazırlayamayacağı için Türkçe hazırlamıştır. Geriye matematik ve fen kalır; Cemre fen hazırlamadığı için matematik, Doruk fen bilimleri hazırlamıştır. Bu yüzden B yanlıştır.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

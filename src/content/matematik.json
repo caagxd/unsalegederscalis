@@ -1,0 +1,3227 @@
+{
+  "id": "matematik",
+  "name": "Matematik",
+  "lgsQuestionCount": 20,
+  "units": [
+    {
+      "id": "matematik-1",
+      "no": 1,
+      "name": "Çarpanlar ve Katlar",
+      "topics": [
+        {
+          "id": "matematik-1-1",
+          "name": "Çarpanlar ve Asal Çarpanlara Ayırma",
+          "kazanim": [
+            "M.8.1.1.1. Verilen pozitif tam sayıların çarpanlarını bulur; pozitif tam sayıları üslü ifade veya üslü ifadelerin çarpımı şeklinde yazar."
+          ],
+          "summary": "Bir sayıyı kalansız bölen pozitif tam sayılara o sayının **çarpanları** (bölenleri) denir. Örneğin 12'nin çarpanları 1, 2, 3, 4, 6 ve 12'dir. Çarpanları bulurken sayıyı iki sayının çarpımı olarak yazarız: 1·12, 2·6, 3·4. Böylece hiçbir çarpanı atlamamış oluruz.\n\n**Asal sayı**, yalnızca 1'e ve kendisine bölünebilen, 1'den büyük doğal sayıdır: 2, 3, 5, 7, 11, 13... 2 tek çift asal sayıdır. 1 asal değildir.\n\nHer doğal sayı asal sayıların çarpımı olarak tek bir şekilde yazılabilir. Buna **asal çarpanlarına ayırma** denir. İki yol kullanılır:\n- **Bölen listesi:** Sayıyı en küçük asal sayıdan başlayarak sırayla bölersin. 72 → 36 → 18 → 9 → 3 → 1; bölenler 2, 2, 2, 3, 3.\n- **Çarpan ağacı:** 72 = 8·9, 8 = 2·2·2, 9 = 3·3.\n\nSonuç üslü olarak yazılır: **72 = 2³·3²**. Bu yazımda 2 ve 3, 72'nin **asal çarpanlarıdır**.\n\nAsal çarpanlara ayrılmış bir sayının çarpanlarını bulmak da kolaylaşır. 72'nin her çarpanı 2'nin 0, 1, 2 veya 3. kuvveti ile 3'ün 0, 1 veya 2. kuvvetinin çarpımıdır. Bu yüzden çarpan sayısı (3+1)·(2+1) = 12'dir. Bu kısayol, listeyi kontrol etmek için çok işe yarar. LGS'de çarpan konusu genellikle paketleme, sıraya dizme ve gruplama gibi günlük hayat problemleriyle sorulur: Bir şeyi eşit gruplara ayırmak istiyorsan, aradığın şey sayının çarpanlarıdır.",
+          "keyPoints": [
+            "1 asal sayı değildir; en küçük asal sayı 2'dir ve tek çift asal sayıdır.",
+            "Asal çarpanlara ayırırken en küçük asal sayıdan başlayıp bölme işlemini 1 kalana kadar sürdür.",
+            "Sonucu üslü yaz: 360 = 2³·3²·5.",
+            "Bir sayının 'asal çarpanları' denince farklı asal sayılar kastedilir: 360'ın asal çarpanları 2, 3 ve 5'tir.",
+            "Çarpan sayısı = üslerin birer fazlasının çarpımı: 2³·3² için (3+1)·(2+1) = 12.",
+            "Eşit gruplara ayırma problemlerinde çarpanları ikişerli (1·n, 2·n/2 ...) yazarak liste yap."
+          ],
+          "commonMistakes": [
+            "1'i asal sayı sanmak ya da 9, 15, 21 gibi tek sayıları asal sanmak.",
+            "Asal çarpanlara ayırmada 4, 6, 9 gibi asal olmayan sayıları çarpan olarak bırakmak.",
+            "Asal çarpanların toplamını sorarken tekrar eden çarpanları (2, 2, 2 gibi) birden fazla saymak.",
+            "Problemde 'en az 2 kişilik grup' gibi şartları unutup 1'i ve sayının kendisini de saymak."
+          ],
+          "questions": [
+            {
+              "id": "matematik-1-1-q1",
+              "stem": "36 sayısının kaç tane pozitif çarpanı vardır?",
+              "choices": [
+                "6",
+                "8",
+                "9",
+                "12"
+              ],
+              "answer": 2,
+              "explanation": "1. 36'yı iki sayının çarpımı olarak yaz: 1·36, 2·18, 3·12, 4·9, 6·6.\n2. Çarpanlar: 1, 2, 3, 4, 6, 9, 12, 18, 36.\n3. 6·6'da 6 bir kez sayılır. Toplam 9 çarpan vardır.\n4. Kontrol: 36 = 2²·3² → (2+1)·(2+1) = 9.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-1-1-q2",
+              "stem": "72 sayısının asal çarpanlarına ayrılmış üslü gösterimi aşağıdakilerden hangisidir?",
+              "choices": [
+                "2²·3³",
+                "2³·3²",
+                "2⁴·3",
+                "2³·3³"
+              ],
+              "answer": 1,
+              "explanation": "1. 72'yi en küçük asal sayıdan başlayarak böl: 72 : 2 = 36, 36 : 2 = 18, 18 : 2 = 9, 9 : 3 = 3, 3 : 3 = 1.\n2. Üç tane 2 ve iki tane 3 kullandık.\n3. 72 = 2³·3².\n4. Diğer şıklar: 2²·3³ = 108, 2⁴·3 = 48, 2³·3³ = 216.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-1-1-q3",
+              "stem": "A = 2³·3·5 olduğuna göre A sayısının asal çarpanlarının toplamı kaçtır?",
+              "choices": [
+                "10",
+                "14",
+                "8",
+                "30"
+              ],
+              "answer": 0,
+              "explanation": "1. A = 2³·3·5 yazılımında görünen farklı asal sayılar 2, 3 ve 5'tir.\n2. Asal çarpanlar her biri bir kez sayılır (üsler sayılmaz).\n3. Toplam: 2 + 3 + 5 = 10.\n4. 14 cevabı 2'yi üç kez sayma hatasıdır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-1-1-q4",
+              "stem": "2ᵃ·3ᵇ·5 = 360 olduğuna göre a + b toplamı kaçtır?",
+              "choices": [
+                "4",
+                "5",
+                "6",
+                "7"
+              ],
+              "answer": 1,
+              "explanation": "1. 360'ı asal çarpanlarına ayır: 360 : 2 = 180, 180 : 2 = 90, 90 : 2 = 45, 45 : 3 = 15, 15 : 3 = 5, 5 : 5 = 1.\n2. 360 = 2³·3²·5.\n3. Buradan a = 3, b = 2.\n4. a + b = 3 + 2 = 5.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-1-1-q5",
+              "stem": "84 sayısının pozitif çarpanlarından kaç tanesi çift sayıdır?",
+              "choices": [
+                "6",
+                "4",
+                "12",
+                "8"
+              ],
+              "answer": 3,
+              "explanation": "1. 84'ün çarpanlarını ikişerli yaz: 1·84, 2·42, 3·28, 4·21, 6·14, 7·12.\n2. Çarpanlar: 1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42, 84 (12 tane).\n3. Tek olanlar: 1, 3, 7, 21 (4 tane).\n4. Çift olanlar: 12 − 4 = 8 tane (2, 4, 6, 12, 14, 28, 42, 84).",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-1-1-q6",
+              "stem": "Bir okulda 48 öğrenci tören için sıralara dizilecektir. Her sırada eşit sayıda öğrenci olacak ve her sırada en az 3, en fazla 12 öğrenci bulunacaktır.\nBuna göre öğrenciler kaç farklı şekilde dizilebilir?",
+              "choices": [
+                "5",
+                "4",
+                "6",
+                "10"
+              ],
+              "answer": 0,
+              "explanation": "1. Her sıradaki öğrenci sayısı 48'i tam bölmelidir, yani 48'in bir çarpanı olmalıdır.\n2. 48'in çarpanları: 1, 2, 3, 4, 6, 8, 12, 16, 24, 48.\n3. 3 ile 12 arasında (3 ve 12 dahil) olanlar: 3, 4, 6, 8, 12.\n4. Bu 5 farklı dizilim demektir (ör. 3 kişilik 16 sıra, 12 kişilik 4 sıra).",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-1-1-q7",
+              "stem": "Bir fırıncı 90 kurabiyenin tamamını, her pakette eşit sayıda kurabiye olacak şekilde paketleyecektir. Her pakette 1'den fazla kurabiye olacak ve paket sayısı da 1'den fazla olacaktır.\nFırıncı bu paketlemeyi kaç farklı şekilde yapabilir?",
+              "choices": [
+                "12",
+                "11",
+                "10",
+                "8"
+              ],
+              "answer": 2,
+              "explanation": "1. Bir paketteki kurabiye sayısı 90'ın çarpanı olmalıdır.\n2. 90'ın çarpanları: 1, 2, 3, 5, 6, 9, 10, 15, 18, 30, 45, 90 (12 tane).\n3. Pakette 1 kurabiye olamaz, bu yüzden 1 elenir.\n4. Paket sayısı 1'den fazla olmalı; 90 kurabiyelik tek paket olamaz, bu yüzden 90 da elenir.\n5. Kalan: 12 − 2 = 10 farklı paketleme.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-1-1-q8",
+              "stem": "Asal çarpanlarına ayrıldığında 2ˣ·3ʸ şeklinde yazılan bir sayı hem 48'in katı hem de 432'nin çarpanıdır.\nBuna göre x + y toplamının alabileceği en büyük değer kaçtır?",
+              "choices": [
+                "6",
+                "8",
+                "5",
+                "7"
+              ],
+              "answer": 3,
+              "explanation": "1. 48 = 2⁴·3 ve 432 = 2⁴·3³.\n2. Sayı 48'in katı ise en az 2⁴ ve en az 3¹ içermelidir: x ≥ 4, y ≥ 1.\n3. Sayı 432'nin çarpanı ise en fazla 2⁴ ve en fazla 3³ içerebilir: x ≤ 4, y ≤ 3.\n4. Buna göre x = 4 ve y; 1, 2 veya 3 olabilir.\n5. En büyük toplam: 4 + 3 = 7 (sayı 432'nin kendisi).",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "matematik-1-2",
+          "name": "EBOB, EKOK ve Aralarında Asal Sayılar",
+          "kazanim": [
+            "M.8.1.1.2. İki doğal sayının en büyük ortak bölenini (EBOB) ve en küçük ortak katını (EKOK) hesaplar, ilgili problemleri çözer.",
+            "M.8.1.1.3. Verilen iki doğal sayının aralarında asal olup olmadığını belirler."
+          ],
+          "summary": "**EBOB (En Büyük Ortak Bölen):** İki sayıyı da kalansız bölen en büyük sayıdır. 24 ile 36'nın ortak bölenleri 1, 2, 3, 4, 6, 12'dir; en büyüğü 12 olduğundan EBOB(24, 36) = 12.\n\n**EKOK (En Küçük Ortak Kat):** İki sayının da katı olan en küçük pozitif sayıdır. 12'nin katları 12, 24, 36...; 18'in katları 18, 36...; ilk ortak kat 36 olduğundan EKOK(12, 18) = 36.\n\nİkisini birlikte bulmak için sayıları yan yana yazıp asal sayılarla bölmek pratiktir. Her iki sayıyı birden bölen asalların çarpımı EBOB'u, kullanılan tüm asalların çarpımı EKOK'u verir.\n\nProblemde hangisini kullanacağını anlamak için şunu sor:\n- Bir şeyi **parçalara bölüyor**, en büyük parçayı ya da en az parça sayısını mı arıyorum? → **EBOB** (ör. kumaşları eşit en uzun parçalara kesmek, bahçeye eşit aralıkla ağaç dikmek).\n- Bir şeyi **birleştiriyor**, tekrar tekrar olan olayların ilk ortak anını mı arıyorum? → **EKOK** (ör. iki zilin tekrar birlikte çalması, küçük kartlarla en küçük kare oluşturmak).\n\nÖnemli bir bağıntı: İki sayı a ve b için **a·b = EBOB·EKOK**.\n\n**Aralarında asal sayılar:** 1'den başka ortak böleni olmayan iki sayıdır, yani EBOB'ları 1'dir. 8 ile 15 aralarında asaldır; ikisi de asal olmasa bile! Aralarında asal iki sayının EKOK'u çarpımlarına eşittir: EKOK(8, 15) = 120.",
+          "keyPoints": [
+            "EBOB ≤ küçük sayı, EKOK ≥ büyük sayı.",
+            "a·b = EBOB(a, b)·EKOK(a, b).",
+            "Aralarında asal: EBOB = 1. Sayıların asal olması gerekmez (ör. 8 ve 15).",
+            "Ardışık iki doğal sayı her zaman aralarında asaldır.",
+            "Bölme, kesme, eşit aralıkla dikme → EBOB; birlikte tekrar etme, kare oluşturma → EKOK.",
+            "Kapalı bir alanın çevresine köşeler dahil ağaç dikerken ağaç sayısı = çevre ÷ aralık."
+          ],
+          "commonMistakes": [
+            "Problemde EBOB yerine EKOK'u (ya da tersini) kullanmak.",
+            "Aralarında asal olmak için iki sayının da asal olması gerektiğini sanmak.",
+            "Çevreye ağaç dikerken 'aralık sayısı + 1' formülünü kapalı şekillerde de kullanmak.",
+            "Zaman problemlerinde dakikayı saate çevirirken hata yapmak (ör. 09:00 + 90 dk = 10:30)."
+          ],
+          "questions": [
+            {
+              "id": "matematik-1-2-q1",
+              "stem": "EBOB(24, 36) kaçtır?",
+              "choices": [
+                "6",
+                "12",
+                "72",
+                "4"
+              ],
+              "answer": 1,
+              "explanation": "1. 24'ün bölenleri: 1, 2, 3, 4, 6, 8, 12, 24.\n2. 36'nın bölenleri: 1, 2, 3, 4, 6, 9, 12, 18, 36.\n3. Ortak bölenler: 1, 2, 3, 4, 6, 12.\n4. En büyüğü 12'dir. (72 ise EKOK'tur.)",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-1-2-q2",
+              "stem": "Aşağıdaki sayı ikililerinden hangisi aralarında asaldır?",
+              "choices": [
+                "12 ve 18",
+                "14 ve 21",
+                "15 ve 28",
+                "9 ve 33"
+              ],
+              "answer": 2,
+              "explanation": "1. Aralarında asal olmaları için 1'den başka ortak bölenleri olmamalıdır.\n2. 12 ve 18: ikisi de 6'ya bölünür. ✗\n3. 14 ve 21: ikisi de 7'ye bölünür. ✗\n4. 15 = 3·5 ve 28 = 2²·7: ortak asal çarpan yok, EBOB = 1. ✓\n5. 9 ve 33: ikisi de 3'e bölünür. ✗",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-1-2-q3",
+              "stem": "Bir okuldaki iki zilden biri 12 dakikada bir, diğeri 18 dakikada bir çalmaktadır. İki zil saat 09.00'da birlikte çaldıktan sonra ilk kez saat kaçta yeniden birlikte çalar?",
+              "choices": [
+                "09.36",
+                "09.54",
+                "10.12",
+                "09.30"
+              ],
+              "answer": 0,
+              "explanation": "1. Birlikte çalma anı, 12'nin ve 18'in ortak katı olan dakikalardır.\n2. İlk ortak an için EKOK(12, 18) bulunur.\n3. 12 = 2²·3, 18 = 2·3² → EKOK = 2²·3² = 36.\n4. 09.00 + 36 dakika = 09.36.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-1-2-q4",
+              "stem": "İki doğal sayının EBOB'u 6, EKOK'u 90'dır. Sayılardan biri 18 olduğuna göre diğeri kaçtır?",
+              "choices": [
+                "15",
+                "24",
+                "45",
+                "30"
+              ],
+              "answer": 3,
+              "explanation": "1. Kural: a·b = EBOB·EKOK.\n2. 18·b = 6·90 = 540.\n3. b = 540 : 18 = 30.\n4. Kontrol: EBOB(18, 30) = 6 ✓, EKOK(18, 30) = 90 ✓.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-1-2-q5",
+              "stem": "a, 10 ile 30 arasında (10 ve 30 hariç) bir çift sayıdır. a ile 15 aralarında asal olduğuna göre a'nın alabileceği kaç farklı değer vardır?",
+              "choices": [
+                "4",
+                "5",
+                "6",
+                "9"
+              ],
+              "answer": 1,
+              "explanation": "1. 10 ile 30 arasındaki çift sayılar: 12, 14, 16, 18, 20, 22, 24, 26, 28.\n2. 15 = 3·5 olduğundan a; 3'e ve 5'e bölünmemelidir.\n3. 3'e bölünenler: 12, 18, 24 → elenir. 5'e bölünen: 20 → elenir.\n4. Kalanlar: 14, 16, 22, 26, 28 → 5 değer.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-1-2-q6",
+              "stem": "Kenar uzunlukları 84 m ve 60 m olan dikdörtgen şeklindeki bir bahçenin kenarlarına, her köşeye de birer fidan gelecek şekilde eşit aralıklarla fidan dikilecektir. Fidanlar arasındaki uzaklık tam sayı metre ve olabildiğince fazla olacaktır.\nBuna göre en az kaç fidan gerekir?",
+              "choices": [
+                "24",
+                "26",
+                "12",
+                "28"
+              ],
+              "answer": 0,
+              "explanation": "1. Aralık hem 84'ü hem 60'ı tam bölmeli ve en büyük olmalı → EBOB(84, 60).\n2. 84 = 2²·3·7, 60 = 2²·3·5 → EBOB = 2²·3 = 12 m.\n3. Bahçenin çevresi: 2·(84 + 60) = 288 m.\n4. Kapalı bir şeklin çevresine dikildiği için fidan sayısı = çevre : aralık = 288 : 12 = 24.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-1-2-q7",
+              "stem": "Kısa kenarı 12 cm, uzun kenarı 18 cm olan dikdörtgen şeklindeki özdeş kartonlar, hepsi aynı yönde olacak şekilde yan yana ve alt alta boşluksuz dizilerek bir kare oluşturulacaktır.\nOluşturulabilecek en küçük kare için kaç karton gerekir?",
+              "choices": [
+                "4",
+                "9",
+                "6",
+                "12"
+              ],
+              "answer": 2,
+              "explanation": "1. Karenin kenarı hem 12'nin hem 18'in katı olmalı; en küçük kare için EKOK(12, 18) alınır.\n2. EKOK(12, 18) = 36 cm.\n3. Bir kenar boyunca 36 : 12 = 3 karton, diğer kenar boyunca 36 : 18 = 2 karton sığar.\n4. Gereken karton: 3·2 = 6.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-1-2-q8",
+              "stem": "Ayşe kitaplarını 6'şarlı paketlediğinde 4 kitap, 8'erli paketlediğinde 6 kitap artıyor. Ayşe'nin kitap sayısı 100'den az olduğuna göre en fazla kaç kitabı olabilir?",
+              "choices": [
+                "70",
+                "92",
+                "98",
+                "94"
+              ],
+              "answer": 3,
+              "explanation": "1. 6'şarlı paketlemede 4 artıyorsa 2 kitap daha olsa tam paketlenirdi. 8'erli paketlemede 6 artıyorsa yine 2 kitap eksik.\n2. Yani kitap sayısı + 2, hem 6'nın hem 8'in katıdır → EKOK(6, 8) = 24'ün katıdır.\n3. Kitap sayısı = 24k − 2: 22, 46, 70, 94, 118...\n4. 100'den küçük en büyük değer 94.\n5. Kontrol: 94 = 6·15 + 4 ✓, 94 = 8·11 + 6 ✓.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematik-2",
+      "no": 2,
+      "name": "Üslü İfadeler",
+      "topics": [
+        {
+          "id": "matematik-2-1",
+          "name": "Tam Sayıların Kuvvetleri ve Üslü İfadelerin Kuralları",
+          "kazanim": [
+            "M.8.1.2.1. Tam sayıların, tam sayı kuvvetlerini hesaplar.",
+            "M.8.1.2.2. Üslü ifadelerle ilgili temel kuralları anlar, birbirine denk ifadeler oluşturur."
+          ],
+          "summary": "Bir sayının kendisiyle tekrarlı çarpımını kısaca **üslü ifade** ile yazarız: 2·2·2·2 = 2⁴. Burada 2 **taban**, 4 **üs**tür.\n\n**Negatif tabanlar:** Parantez önemlidir!\n- (−3)² = (−3)·(−3) = 9 → çift üs sonucu pozitif yapar.\n- (−3)³ = −27 → tek üs işareti korur.\n- −3² = −(3·3) = −9 → burada üs yalnızca 3'e aittir.\n\n**Sıfır ve negatif üs:**\n- Sıfırdan farklı her sayının 0. kuvveti 1'dir: 7⁰ = 1, (−5)⁰ = 1.\n- Negatif üs, sayının çarpmaya göre tersini alır: 2⁻³ = 1/2³ = 1/8. (2/3)⁻² = (3/2)² = 9/4.\n- Negatif üs sonucu negatif yapmaz! 5⁻² = 1/25 pozitiftir.\n\n**Temel kurallar** (tabanlar aynı ise):\n- Çarpma: aᵐ·aⁿ = aᵐ⁺ⁿ → üsler toplanır.\n- Bölme: aᵐ : aⁿ = aᵐ⁻ⁿ → üsler çıkarılır.\n- Üssün üssü: (aᵐ)ⁿ = aᵐ·ⁿ → üsler çarpılır.\n- Üsler aynı ise tabanlar çarpılabilir: 2³·5³ = 10³.\n\nToplama işleminde üsler toplanmaz! Ama aynı ifadeler toplanırken katsayı gibi düşünülür: 2⁵ + 2⁵ = 2·2⁵ = 2⁶. Farklı tabanları aynı tabana çevirmek de çok işe yarar: 4 = 2², 8 = 2³, 27 = 3³. Böylece 4³ = (2²)³ = 2⁶ olur. LGS'de bu kurallar genellikle büyüme, katlanma ve paylaştırma gibi bağlamlarla sorulur.",
+          "keyPoints": [
+            "Negatif sayının çift kuvveti pozitif, tek kuvveti negatiftir.",
+            "−a² ile (−a)² farklıdır: −3² = −9, (−3)² = 9.",
+            "a⁰ = 1 (a ≠ 0) ve a⁻ⁿ = 1/aⁿ.",
+            "Aynı tabanlı çarpmada üsler toplanır, bölmede çıkarılır, üssün üssünde çarpılır.",
+            "Aynı ifadelerin toplamı: n tane aᵏ toplanırsa n·aᵏ olur (ör. 4·2¹⁰ = 2¹²)."
+          ],
+          "commonMistakes": [
+            "Negatif üssün sonucu negatif yaptığını sanmak (5⁻² = −25 değildir, 1/25'tir).",
+            "2³·2⁴ işleminde üsleri çarpmak (doğrusu 2⁷).",
+            "2⁵ + 2⁵ = 2¹⁰ yazmak (doğrusu 2⁶).",
+            "−2⁴ ile (−2)⁴ ifadelerini aynı sanmak."
+          ],
+          "questions": [
+            {
+              "id": "matematik-2-1-q1",
+              "stem": "(−3)³ işleminin sonucu kaçtır?",
+              "choices": [
+                "9",
+                "−9",
+                "−27",
+                "27"
+              ],
+              "answer": 2,
+              "explanation": "1. (−3)³ = (−3)·(−3)·(−3).\n2. (−3)·(−3) = 9.\n3. 9·(−3) = −27.\n4. Tek üs olduğundan işaret negatif kalır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-2-1-q2",
+              "stem": "5⁻² ifadesinin değeri aşağıdakilerden hangisidir?",
+              "choices": [
+                "−25",
+                "1/25",
+                "−10",
+                "−1/25"
+              ],
+              "answer": 1,
+              "explanation": "1. Negatif üs, sayının tersini alır: a⁻ⁿ = 1/aⁿ.\n2. 5⁻² = 1/5² = 1/25.\n3. Negatif üs sonucu negatif yapmaz.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-2-1-q3",
+              "stem": "(2⁵·2⁻³) : 2⁻¹ işleminin sonucu kaçtır?",
+              "choices": [
+                "8",
+                "2",
+                "1/8",
+                "4"
+              ],
+              "answer": 0,
+              "explanation": "1. Çarpmada üsler toplanır: 2⁵·2⁻³ = 2⁵⁺⁽⁻³⁾ = 2².\n2. Bölmede üsler çıkarılır: 2² : 2⁻¹ = 2²⁻⁽⁻¹⁾ = 2³.\n3. 2³ = 8.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-2-1-q4",
+              "stem": "(3²)³·3⁻⁴ işleminin sonucu kaçtır?",
+              "choices": [
+                "3",
+                "27",
+                "1/9",
+                "9"
+              ],
+              "answer": 3,
+              "explanation": "1. Üssün üssü: (3²)³ = 3²·³ = 3⁶.\n2. 3⁶·3⁻⁴ = 3⁶⁺⁽⁻⁴⁾ = 3².\n3. 3² = 9.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-2-1-q5",
+              "stem": "Aşağıdakilerden hangisinin değeri negatiftir?",
+              "choices": [
+                "(−2)⁻²",
+                "−(−3)²",
+                "(−1)¹⁰",
+                "(−5)⁰"
+              ],
+              "answer": 1,
+              "explanation": "1. (−2)⁻² = 1/(−2)² = 1/4 → pozitif.\n2. −(−3)²: önce (−3)² = 9, sonra önündeki eksi ile −9 → negatif. ✓\n3. (−1)¹⁰ = 1 (çift üs) → pozitif.\n4. (−5)⁰ = 1 → pozitif.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-2-1-q6",
+              "stem": "Bir laboratuvarda incelenen bakteri türünün sayısı her saat sonunda 2 katına çıkmaktadır. Başlangıçta kapta 4³ bakteri vardır.\nBuna göre 5 saat sonra kaptaki bakteri sayısı aşağıdakilerden hangisidir?",
+              "choices": [
+                "2¹¹",
+                "2¹⁵",
+                "2³⁰",
+                "4⁸"
+              ],
+              "answer": 0,
+              "explanation": "1. Başlangıç: 4³ = (2²)³ = 2⁶.\n2. Her saat 2 ile çarpılır; 5 saatte 2⁵ ile çarpılmış olur.\n3. 2⁶·2⁵ = 2¹¹.\n4. 4⁸ = 2¹⁶ olduğu için yanlıştır; 2³⁰ üsleri çarpma hatasıdır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-2-1-q7",
+              "stem": "Bir kâğıt her ikiye katlandığında kalınlığı 2 katına çıkmaktadır. Kalınlığı 2⁻⁷ metre olan bir kâğıt art arda 5 kez ikiye katlanıyor.\nSon durumda kâğıdın kalınlığı kaç metre olur?",
+              "choices": [
+                "2⁻³⁵",
+                "2⁻¹²",
+                "2⁻²",
+                "2⁻³"
+              ],
+              "answer": 2,
+              "explanation": "1. 5 kez katlamada kalınlık 2·2·2·2·2 = 2⁵ katına çıkar.\n2. Yeni kalınlık: 2⁻⁷·2⁵ = 2⁻⁷⁺⁵ = 2⁻².\n3. 2⁻² = 1/4 = 0,25 metredir.\n4. 2⁻¹² üsleri çıkarma, 2⁻³⁵ üsleri çarpma hatasıdır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-2-1-q8",
+              "stem": "Bir depoda her biri 2¹⁰ litre su alan 4 tank vardır. Tankların tamamı doluyken içlerindeki suyun hepsi, her biri 2⁷ litre alan bidonlara boşaltılıyor.\nBuna göre kaç bidon tamamen dolar?",
+              "choices": [
+                "16",
+                "8",
+                "64",
+                "32"
+              ],
+              "answer": 3,
+              "explanation": "1. Toplam su: 4·2¹⁰ = 2²·2¹⁰ = 2¹² litre.\n2. Bidon sayısı: 2¹² : 2⁷ = 2⁵.\n3. 2⁵ = 32 bidon.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "matematik-2-2",
+          "name": "10'un Kuvvetleri ve Bilimsel Gösterim",
+          "kazanim": [
+            "M.8.1.2.3. Sayıların ondalık gösterimlerini 10'un tam sayı kuvvetlerini kullanarak çözümler.",
+            "M.8.1.2.4. Verilen bir sayıyı 10'un farklı tam sayı kuvvetlerini kullanarak ifade eder.",
+            "M.8.1.2.5. Çok büyük ve çok küçük sayıları bilimsel gösterimle ifade eder ve karşılaştırır."
+          ],
+          "summary": "**10'un kuvvetleri** basamak değerleriyle doğrudan ilişkilidir:\n- 10³ = 1000, 10² = 100, 10¹ = 10, 10⁰ = 1\n- 10⁻¹ = 0,1; 10⁻² = 0,01; 10⁻³ = 0,001\n\nBir sayıyı 10'un kuvvetleriyle **çözümlemek**, her basamağı basamak değeriyle yazmaktır:\n345,27 = 3·10² + 4·10¹ + 5·10⁰ + 2·10⁻¹ + 7·10⁻².\n\nBir sayı 10'un kuvvetiyle çarpılınca virgül kayar: Üs pozitifse virgül **sağa**, negatifse **sola** kayar. 3,6·10⁴ = 36 000 ve 3,6·10⁻³ = 0,0036.\n\n**Bilimsel gösterim**, çok büyük ya da çok küçük sayıları kısa yazmanın yoludur: **a·10ⁿ** biçiminde, burada **1 ≤ a < 10** ve n bir tam sayıdır.\n- 4 500 000 = 4,5·10⁶\n- 0,00072 = 7,2·10⁻⁴\n\nDikkat: 12·10⁵ veya 0,8·10³ bilimsel gösterim değildir, çünkü katsayı 1 ile 10 arasında değil. Bunları düzeltmek için virgülü kaydırıp üssü ayarlarız: 12·10⁵ = 1,2·10⁶ (katsayı küçüldüyse üs büyür).\n\nBilimsel gösterimdeki sayılarla çarpma ve bölmede katsayılar kendi arasında, 10'un kuvvetleri kendi arasında işleme girer: (2·10³)·(4·10⁵) = 8·10⁸. Toplama yaparken önce üsler eşitlenir. Karşılaştırmada önce üslere bakılır; üssü büyük olan sayı büyüktür (katsayılar uygun biçimdeyse). Bu konu LGS'de genellikle uzay, mikroskobik canlılar ve nüfus gibi gerçek verilerle sorulur.",
+          "keyPoints": [
+            "Bilimsel gösterim: a·10ⁿ, 1 ≤ a < 10.",
+            "Üs pozitifse virgül sağa, negatifse sola kayar.",
+            "Katsayıyı 10 kat küçültürsen üssü 1 artır (ve tersi): 25·10³ = 2,5·10⁴.",
+            "Çarpmada katsayılar çarpılır, üsler toplanır; bölmede katsayılar bölünür, üsler çıkarılır.",
+            "Birim dönüşümleri: 1 ton = 10³ kg, 1 km = 10³ m, 1 m = 10² cm."
+          ],
+          "commonMistakes": [
+            "Katsayısı 10 veya daha büyük ya da 1'den küçük olan yazımı bilimsel gösterim sanmak.",
+            "Virgül kaydırırken basamak saymayı yanlış yapmak (0,0005 = 5·10⁻⁴; 10⁻³ değil).",
+            "Katsayıyı düzeltirken üssü ters yönde değiştirmek.",
+            "Toplamada üsleri eşitlemeden katsayıları toplamak."
+          ],
+          "questions": [
+            {
+              "id": "matematik-2-2-q1",
+              "stem": "0,0005 sayısının bilimsel gösterimi aşağıdakilerden hangisidir?",
+              "choices": [
+                "5·10⁻³",
+                "5·10⁻⁴",
+                "5·10⁴",
+                "5·10⁻⁵"
+              ],
+              "answer": 1,
+              "explanation": "1. Katsayı 1 ile 10 arasında olmalı: 5.\n2. 0,0005'ten 5 elde etmek için virgülü 4 basamak sağa kaydırırız.\n3. Sayıyı büyüttüğümüz için 10'un kuvveti −4 olur.\n4. 0,0005 = 5·10⁻⁴.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-2-2-q2",
+              "stem": "Aşağıdakilerden hangisi bilimsel gösterimle yazılmıştır?",
+              "choices": [
+                "12·10⁵",
+                "0,8·10³",
+                "3,6·10⁻²",
+                "10·10⁴"
+              ],
+              "answer": 2,
+              "explanation": "1. Bilimsel gösterimde katsayı a için 1 ≤ a < 10 olmalıdır.\n2. 12 ≥ 10 ✗; 0,8 < 1 ✗; 10 ≥ 10 ✗.\n3. 3,6 bu aralıktadır ✓. Üs negatif olabilir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-2-2-q3",
+              "stem": "4,2·10³ + 6·10² işleminin sonucunun bilimsel gösterimi aşağıdakilerden hangisidir?",
+              "choices": [
+                "4,8·10³",
+                "10,2·10⁵",
+                "4,8·10²",
+                "1,02·10⁴"
+              ],
+              "answer": 0,
+              "explanation": "1. 4,2·10³ = 4200 ve 6·10² = 600.\n2. 4200 + 600 = 4800.\n3. 4800 = 4,8·10³.\n4. Üsleri eşitlemeden toplamak (10,2) yanlış sonuç verir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-2-2-q4",
+              "stem": "3·10⁴ + 5·10² + 7·10⁻¹ + 2·10⁻³ biçiminde çözümlenmiş sayı aşağıdakilerden hangisidir?",
+              "choices": [
+                "3507,2",
+                "30500,72",
+                "35000,702",
+                "30500,702"
+              ],
+              "answer": 3,
+              "explanation": "1. 3·10⁴ = 30000.\n2. 5·10² = 500.\n3. 7·10⁻¹ = 0,7.\n4. 2·10⁻³ = 0,002.\n5. Toplam: 30000 + 500 + 0,7 + 0,002 = 30500,702. (Binler, onlar, birler ve yüzde birler basamakları 0'dır.)",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-2-2-q5",
+              "stem": "72·10⁻³ sayısı aşağıdakilerden hangisine eşittir?",
+              "choices": [
+                "7,2·10⁻²",
+                "0,72·10⁻³",
+                "720·10⁻³",
+                "7,2·10⁻⁴"
+              ],
+              "answer": 0,
+              "explanation": "1. 72·10⁻³ = 0,072.\n2. 7,2·10⁻² = 0,072 ✓ (katsayı 10 kat küçüldü, üs 1 arttı).\n3. 0,72·10⁻³ = 0,00072; 720·10⁻³ = 0,72; 7,2·10⁻⁴ = 0,00072. Hiçbiri eşit değil.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-2-2-q6",
+              "stem": "Güneş ile Dünya arasındaki uzaklık yaklaşık 1,5·10⁸ km, ışığın boşluktaki hızı ise yaklaşık 3·10⁵ km/sn'dir.\nBuna göre Güneş'ten çıkan ışık Dünya'ya yaklaşık kaç saniyede ulaşır?",
+              "choices": [
+                "50",
+                "5000",
+                "200",
+                "500"
+              ],
+              "answer": 3,
+              "explanation": "1. Süre = yol : hız.\n2. (1,5·10⁸) : (3·10⁵) = (1,5 : 3)·10⁸⁻⁵ = 0,5·10³.\n3. 0,5·10³ = 500 saniye (yaklaşık 8 dakika 20 saniye).",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-2-2-q7",
+              "stem": "Bir virüsün boyu yaklaşık 1,2·10⁻⁷ m, bir bakterinin boyu ise yaklaşık 3·10⁻⁶ m'dir.\nBuna göre bakterinin boyu virüsün boyunun kaç katıdır?",
+              "choices": [
+                "2,5",
+                "25",
+                "250",
+                "0,4"
+              ],
+              "answer": 1,
+              "explanation": "1. Kaç kat olduğunu bulmak için bölme yapılır: (3·10⁻⁶) : (1,2·10⁻⁷).\n2. Katsayılar: 3 : 1,2 = 2,5.\n3. Üsler: 10⁻⁶ : 10⁻⁷ = 10⁻⁶⁻⁽⁻⁷⁾ = 10¹.\n4. 2,5·10 = 25 kat.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-2-2-q8",
+              "stem": "Nüfusu 8,5·10⁷ olan bir ülkede kişi başına yıllık ortalama ekmek tüketimi 1,2·10² kg'dır.\nBu ülkede bir yılda tüketilen toplam ekmek miktarının ton cinsinden bilimsel gösterimi aşağıdakilerden hangisidir? (1 ton = 10³ kg)",
+              "choices": [
+                "1,02·10¹⁰",
+                "9,7·10⁶",
+                "1,02·10⁷",
+                "1,02·10⁸"
+              ],
+              "answer": 2,
+              "explanation": "1. Toplam (kg): 8,5·10⁷·1,2·10² = (8,5·1,2)·10⁹ = 10,2·10⁹ kg.\n2. Bilimsel gösterime çevir: 10,2·10⁹ = 1,02·10¹⁰ kg.\n3. Tona çevir (10³'e böl): 1,02·10¹⁰ : 10³ = 1,02·10⁷ ton.\n4. 1,02·10¹⁰ kilogram cinsinden sonuçtur, ton değil.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematik-3",
+      "no": 3,
+      "name": "Kareköklü İfadeler",
+      "topics": [
+        {
+          "id": "matematik-3-1",
+          "name": "Tam Kare Sayılar ve Karekök Tahmini",
+          "kazanim": [
+            "M.8.1.3.1. Tam kare pozitif tam sayılarla bu sayıların karekökleri arasındaki ilişkiyi belirler.",
+            "M.8.1.3.2. Tam kare olmayan kareköklü bir ifadenin hangi iki doğal sayı arasında olduğunu belirler."
+          ],
+          "summary": "Bir doğal sayının kendisiyle çarpımına **tam kare sayı** denir: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225...\n\n**Karekök** bunun tersidir: Karesi verilen sayıyı bulmaktır. √49 = 7, çünkü 7² = 49. Geometrik olarak düşünürsek alanı 49 cm² olan bir karenin bir kenarı √49 = 7 cm'dir. Yani **alan → karekök → kenar** ilişkisi vardır.\n\nİlk 15 tam kareyi ezbere bilmek işini çok hızlandırır.\n\n**Tam kare olmayan sayıların karekökü** bir doğal sayı değildir, ama hangi iki doğal sayı arasında olduğunu bulabiliriz. Sayıdan küçük en büyük tam kareyi ve sayıdan büyük en küçük tam kareyi bul:\n- 40 sayısı 36 ile 49 arasındadır.\n- O hâlde √36 < √40 < √49 → **6 < √40 < 7**.\n\nHangi tam sayıya daha yakın olduğunu bulmak için iki tam sayının tam ortasının karesine bakabilirsin: 6,5² = 42,25. 40 bu değerden küçük olduğu için √40, 6'ya daha yakındır (√40 ≈ 6,3).\n\nTersten de sorulabilir: √n sayısı 5 ile 6 arasında ise 25 < n < 36 olur; n'nin alabileceği doğal sayı değerleri 26'dan 35'e kadardır (10 tane).\n\nLGS'de bu konu çoğunlukla karo döşeme, kare bahçe ya da kare şeklinde dizilen nesneler gibi problemlerle sorulur. Kare şeklinde dizme sorularında akla gelmesi gereken ilk şey tam kare sayılardır.",
+          "keyPoints": [
+            "√(a²) = a (a ≥ 0); karenin alanının karekökü kenar uzunluğunu verir.",
+            "1² ile 15² arasındaki tam kareleri ezberle: 1, 4, 9, ..., 196, 225.",
+            "√n'in arasında olduğu doğal sayıları bulmak için n'nin iki yanındaki tam karelere bak.",
+            "a < √n < b ise a² < n < b².",
+            "Yakınlık için orta noktanın karesine bak: √70 için 8,5² = 72,25 > 70 olduğundan √70 ≈ 8."
+          ],
+          "commonMistakes": [
+            "√n'in yaklaşık değerini bulurken n'yi 2'ye bölmek (√50 ≈ 25 sanmak).",
+            "a < √n < b eşitsizliğinden n'yi bulurken uç değerleri (a², b²) de saymak.",
+            "Alan ile kenarı karıştırmak: alanı 196 olan karenin kenarı 98 değil 14'tür.",
+            "√n ile n'nin karesini karıştırmak: √n sayısı 4 ile 5 arasındaysa n, 2 ile 3 arasında değil 16 ile 25 arasındadır."
+          ],
+          "questions": [
+            {
+              "id": "matematik-3-1-q1",
+              "stem": "√144 ifadesinin değeri kaçtır?",
+              "choices": [
+                "12",
+                "14",
+                "72",
+                "16"
+              ],
+              "answer": 0,
+              "explanation": "1. Karesi 144 olan pozitif sayıyı ararız.\n2. 12·12 = 144.\n3. √144 = 12. (72, 144'ün yarısıdır; karekök değildir.)",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-1-q2",
+              "stem": "√50 sayısı hangi iki ardışık doğal sayı arasındadır?",
+              "choices": [
+                "6 ile 7",
+                "7 ile 8",
+                "8 ile 9",
+                "24 ile 25"
+              ],
+              "answer": 1,
+              "explanation": "1. 50'ye en yakın tam kareler: 49 ve 64.\n2. 49 < 50 < 64.\n3. √49 < √50 < √64 → 7 < √50 < 8.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-1-q3",
+              "stem": "Alanı 196 cm² olan kare şeklindeki bir kartonun çevresi kaç cm'dir?",
+              "choices": [
+                "49",
+                "28",
+                "56",
+                "98"
+              ],
+              "answer": 2,
+              "explanation": "1. Karenin kenarı = √alan = √196 = 14 cm.\n2. Çevre = 4·kenar = 4·14 = 56 cm.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-1-q4",
+              "stem": "Aşağıdakilerden hangisi tam kare sayı değildir?",
+              "choices": [
+                "81",
+                "121",
+                "169",
+                "200"
+              ],
+              "answer": 3,
+              "explanation": "1. 81 = 9², 121 = 11², 169 = 13² → tam kare.\n2. 14² = 196, 15² = 225. 200 bu ikisinin arasındadır.\n3. Karesi 200 olan bir doğal sayı yoktur; 200 tam kare değildir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-1-q5",
+              "stem": "√n sayısı 5 ile 6 arasında olduğuna göre n'nin alabileceği kaç farklı doğal sayı değeri vardır?",
+              "choices": [
+                "10",
+                "11",
+                "9",
+                "12"
+              ],
+              "answer": 0,
+              "explanation": "1. 5 < √n < 6 ise karelerini alırız: 25 < n < 36.\n2. n; 26, 27, ..., 35 olabilir.\n3. Sayı adedi: 35 − 26 + 1 = 10.\n4. 25 ve 36 dahil değildir, çünkü √25 = 5 ve √36 = 6 aralığın içinde değildir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-1-q6",
+              "stem": "Kare şeklindeki bir odanın taban alanı 70 m²'dir.\nBu odanın bir kenarının uzunluğu en yakın tam sayıya yuvarlanırsa kaç metre olur?",
+              "choices": [
+                "9",
+                "35",
+                "8",
+                "7"
+              ],
+              "answer": 2,
+              "explanation": "1. Kenar = √70.\n2. 64 < 70 < 81 olduğundan 8 < √70 < 9.\n3. Hangisine yakın? 8 ile 9'un ortası 8,5'tir ve 8,5² = 72,25.\n4. 70 < 72,25 olduğundan √70 < 8,5; yani √70, 8'e daha yakındır.\n5. Kenar yaklaşık 8 m'dir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-1-q7",
+              "stem": "Bir bahçıvanın elinde kenar uzunluğu 1 m olan 150 tane kare karo vardır. Bahçıvan hiçbir karoyu kesmeden, karoları kullanarak kare şeklindeki mümkün olan en büyük alanı döşeyecektir.\nBuna göre bahçıvanın elinde kaç karo artar?",
+              "choices": [
+                "4",
+                "6",
+                "12",
+                "25"
+              ],
+              "answer": 1,
+              "explanation": "1. Kare döşemek için kullanılan karo sayısı bir tam kare olmalıdır.\n2. 150'den küçük ya da eşit en büyük tam kare: 12² = 144 (13² = 169 > 150).\n3. Artan karo: 150 − 144 = 6.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-1-q8",
+              "stem": "x ve y doğal sayılar olmak üzere √x sayısı 4 ile 5 arasında, √y sayısı ise 6 ile 7 arasındadır.\nBuna göre y − x farkının alabileceği en büyük değer kaçtır?",
+              "choices": [
+                "32",
+                "24",
+                "30",
+                "31"
+              ],
+              "answer": 3,
+              "explanation": "1. 4 < √x < 5 → 16 < x < 25 → x en az 17 olabilir.\n2. 6 < √y < 7 → 36 < y < 49 → y en fazla 48 olabilir.\n3. Farkın en büyük olması için y en büyük, x en küçük seçilir.\n4. y − x = 48 − 17 = 31.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "matematik-3-2",
+          "name": "Kareköklü İfadelerle İşlemler",
+          "kazanim": [
+            "M.8.1.3.3. Kareköklü bir ifadeyi a√b şeklinde yazar ve a√b şeklindeki ifadede katsayıyı kök içine alır.",
+            "M.8.1.3.4. Kareköklü ifadelerle çarpma ve bölme işlemlerini yapar.",
+            "M.8.1.3.5. Kareköklü ifadelerle toplama ve çıkarma işlemlerini yapar.",
+            "M.8.1.3.6. Kareköklü bir ifade ile çarpıldığında, sonucu bir doğal sayı yapan çarpanlara örnek verir."
+          ],
+          "summary": "**a√b şeklinde yazma (kök dışına çıkarma):** Kök içindeki sayıyı, biri tam kare olan iki sayının çarpımı olarak yaz. Tam karenin kökü dışarı çıkar:\n- √48 = √(16·3) = 4√3\n- √75 = √(25·3) = 5√3\nEn sade hâli bulmak için kök içinden **en büyük** tam kare çarpanı çıkarmalısın (√48 = 2√12 doğrudur ama en sade değildir).\n\n**Kök içine alma:** Katsayının karesi kök içine çarpılarak girer: 3√2 = √(9·2) = √18. Bu yöntem kareköklü sayıları karşılaştırmak için de kullanılır.\n\n**Çarpma ve bölme:** Katsayılar kendi arasında, kök içleri kendi arasında işlem görür.\n- √12·√3 = √36 = 6\n- 2√5·3√2 = 6√10\n- √50 : √2 = √25 = 5\n\n**Toplama ve çıkarma:** Yalnızca kök içleri **aynı** olan ifadeler toplanır; katsayılar toplanır, kök içi aynen kalır: 3√5 + 4√5 = 7√5. Kök içleri farklı görünüyorsa önce sadeleştir: √75 − √27 = 5√3 − 3√3 = 2√3.\nDikkat: √9 + √16 ≠ √25. Çünkü 3 + 4 = 7'dir, 5 değil!\n\n**Sonucu doğal sayı yapan çarpan:** Bir kareköklü ifadeyi doğal sayı yapmak için, kök içini tam kare yapacak bir sayıyla çarparsın. √12 = 2√3 olduğundan √3 ile çarpınca 2·3 = 6 elde edilir. √3, √12, √27 gibi kök içi 3·(tam kare) olan her ifade de işe yarar.\n\nLGS'de bu işlemler genellikle kenar uzunlukları kareköklü verilen dikdörtgen, kare ve kutu problemlerinde kullanılır.",
+          "keyPoints": [
+            "√(a·b) = √a·√b ve √a : √b = √(a : b).",
+            "a√b'de katsayıyı içeri alırken karesini al: a√b = √(a²·b).",
+            "Toplama ve çıkarma sadece aynı kök içleri arasında yapılır.",
+            "√a + √b ≠ √(a + b).",
+            "Kök dışına çıkarmada en büyük tam kare çarpanı kullan: √72 = 6√2."
+          ],
+          "commonMistakes": [
+            "√9 + √16 = √25 gibi kök içlerini toplamak.",
+            "Katsayıyı kök içine alırken karesini almamak (3√2 = √6 yazmak).",
+            "2√3·√12 işleminde katsayıyı unutmak.",
+            "Kök içleri farklı ifadeleri sadeleştirmeden toplanamaz sanmak (√8 + √2 = 3√2 olur)."
+          ],
+          "questions": [
+            {
+              "id": "matematik-3-2-q1",
+              "stem": "√48 ifadesinin en sade a√b biçimi aşağıdakilerden hangisidir?",
+              "choices": [
+                "6√2",
+                "4√3",
+                "3√6",
+                "2√6"
+              ],
+              "answer": 1,
+              "explanation": "1. 48'in en büyük tam kare çarpanını bul: 48 = 16·3.\n2. √48 = √16·√3 = 4√3.\n3. Kontrol: diğer şıklar kök içine alınırsa 6√2 = √72, 3√6 = √54, 2√6 = √24 olur; hiçbiri √48 değildir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-2-q2",
+              "stem": "3√5 + 4√5 − √5 işleminin sonucu kaçtır?",
+              "choices": [
+                "7√5",
+                "6√15",
+                "6√5",
+                "8√5"
+              ],
+              "answer": 2,
+              "explanation": "1. Kök içleri aynı (√5) olduğundan katsayılarla işlem yapılır.\n2. √5'in katsayısı 1'dir.\n3. 3 + 4 − 1 = 6 → 6√5.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-2-q3",
+              "stem": "√12·√3 işleminin sonucu kaçtır?",
+              "choices": [
+                "6",
+                "3√2",
+                "36",
+                "2√3"
+              ],
+              "answer": 0,
+              "explanation": "1. Kök içleri çarpılır: √12·√3 = √36.\n2. √36 = 6.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-2-q4",
+              "stem": "√75 − √27 işleminin sonucu kaçtır?",
+              "choices": [
+                "8√3",
+                "4√3",
+                "√3",
+                "2√3"
+              ],
+              "answer": 3,
+              "explanation": "1. Önce sadeleştir: √75 = √(25·3) = 5√3.\n2. √27 = √(9·3) = 3√3.\n3. 5√3 − 3√3 = 2√3.\n4. Kök içlerini çıkarmak (√48 = 4√3) yanlış bir yöntemdir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-2-q5",
+              "stem": "2√3 sayısı aşağıdakilerden hangisi ile çarpılırsa sonuç bir doğal sayı olur?",
+              "choices": [
+                "√2",
+                "√6",
+                "√12",
+                "3√2"
+              ],
+              "answer": 2,
+              "explanation": "1. 2√3·√12 = 2·√36 = 2·6 = 12 → doğal sayı ✓.\n2. 2√3·√2 = 2√6 → doğal sayı değil.\n3. 2√3·√6 = 2√18 = 6√2 → doğal sayı değil.\n4. 2√3·3√2 = 6√6 → doğal sayı değil.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-2-q6",
+              "stem": "Bir marangoz, kenar uzunlukları √18 cm ve √8 cm olan dikdörtgen şeklindeki tahta bir levhanın tüm kenarlarına şerit yapıştıracaktır.\nBuna göre kaç cm şerit gerekir?",
+              "choices": [
+                "10√2",
+                "2√26",
+                "12",
+                "5√2"
+              ],
+              "answer": 0,
+              "explanation": "1. Gereken şerit = dikdörtgenin çevresi.\n2. √18 = 3√2 ve √8 = 2√2.\n3. Çevre = 2·(3√2 + 2√2) = 2·5√2 = 10√2 cm.\n4. 12 ise dikdörtgenin alanıdır (√18·√8 = √144 = 12).",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-2-q7",
+              "stem": "Alanları 50 cm² ve 18 cm² olan iki kare kâğıt, alt kenarları aynı doğru üzerinde olacak ve aralarında boşluk kalmayacak şekilde yan yana konuluyor.\nOluşan yeni şeklin çevresi kaç cm'dir?",
+              "choices": [
+                "32√2",
+                "26√2",
+                "16√2",
+                "29√2"
+              ],
+              "answer": 1,
+              "explanation": "1. Büyük karenin kenarı: √50 = 5√2 cm. Küçük karenin kenarı: √18 = 3√2 cm.\n2. İki karenin çevreleri toplamı: 4·5√2 + 4·3√2 = 20√2 + 12√2 = 32√2.\n3. Karelerin birbirine değen kısmı, küçük karenin bir kenarı kadardır (3√2). Bu kısım iki karenin çevresinde de sayıldı ama yeni şeklin dış çevresinde yer almaz.\n4. Yeni çevre: 32√2 − 2·3√2 = 26√2 cm.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-2-q8",
+              "stem": "Ayrıt uzunlukları √2 cm, √8 cm ve √18 cm olan dikdörtgenler prizması şeklindeki bir kutunun hacmi kaç cm³'tür?",
+              "choices": [
+                "6√2",
+                "24",
+                "12√3",
+                "12√2"
+              ],
+              "answer": 3,
+              "explanation": "1. Hacim = üç ayrıtın çarpımı.\n2. √2 = √2, √8 = 2√2, √18 = 3√2.\n3. √2·2√2·3√2 = (1·2·3)·(√2·√2·√2) = 6·2√2 = 12√2.\n4. Kontrol: √(2·8·18) = √288 = √(144·2) = 12√2 ✓.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "matematik-3-3",
+          "name": "Ondalık İfadelerin Karekökleri ve Gerçek Sayılar",
+          "kazanim": [
+            "M.8.1.3.7. Ondalık ifadelerin kareköklerini belirler.",
+            "M.8.1.3.8. Gerçek sayıları tanır, rasyonel ve irrasyonel sayılarla ilişkilendirir."
+          ],
+          "summary": "**Ondalık ifadelerin karekökü:** Ondalık sayıyı kesre çevirirsen işin kolaylaşır.\n- √0,49 = √(49/100) = 7/10 = 0,7\n- √1,44 = √(144/100) = 12/10 = 1,2\n- √0,0016 = √(16/10000) = 4/100 = 0,04\nKısa yol: Virgülden sonraki basamak sayısı çift olmalıdır; karekökte bu sayı yarıya iner. 0,0016'da 4 basamak var, sonuçta 2 basamak olur: 0,04.\n\n**Rasyonel sayılar:** a/b (b ≠ 0, a ve b tam sayı) biçiminde yazılabilen sayılardır. Tam sayılar, kesirler, sonlu ondalık sayılar (0,25) ve devirli ondalık sayılar (0,333... = 1/3) rasyoneldir.\n\n**İrrasyonel sayılar:** Kesir olarak yazılamayan sayılardır. Ondalık açılımları sonsuza kadar devam eder ama hiçbir zaman düzenli tekrar etmez. Örnekler: √2, √3, √5, π. Tam kare olmayan doğal sayıların karekökleri irrasyoneldir.\n\nDikkat: Bir sayının kök içinde olması onu irrasyonel yapmaz! √16 = 4, √0,25 = 0,5 rasyoneldir. Ama √0,9 irrasyoneldir, çünkü 0,9 = 90/100 ve 90 tam kare değildir.\n\n**Gerçek sayılar:** Rasyonel ve irrasyonel sayıların hepsine birden gerçek sayılar denir. Sayı doğrusundaki her nokta bir gerçek sayıya karşılık gelir.\n\nİki irrasyonel sayının toplamı veya çarpımı her zaman irrasyonel değildir: √3·√12 = 6 rasyoneldir. Sıralama sorularında sayıların karelerini karşılaştırmak işe yarar: 0,85² = 0,7225 > 0,7 olduğundan √0,7 < 0,85.",
+          "keyPoints": [
+            "Ondalık sayının karekökünü bulurken kesre çevir: √0,09 = √(9/100) = 0,3.",
+            "Devirli ondalık sayılar rasyoneldir: 0,(3) = 1/3.",
+            "Tam kare olmayan doğal sayıların karekökleri ve π irrasyoneldir.",
+            "Rasyonel ∪ irrasyonel = gerçek sayılar.",
+            "Pozitif sayıları karşılaştırırken karelerini karşılaştırabilirsin."
+          ],
+          "commonMistakes": [
+            "√0,4 = 0,2 sanmak (doğrusu: 0,2² = 0,04; √0,4 irrasyoneldir).",
+            "Kök işareti gördüğü her sayıyı irrasyonel sanmak (√0,25 = 0,5 rasyoneldir).",
+            "Devirli ondalık sayıları (0,333...) irrasyonel sanmak.",
+            "İki irrasyonel sayının çarpımının her zaman irrasyonel olduğunu düşünmek."
+          ],
+          "questions": [
+            {
+              "id": "matematik-3-3-q1",
+              "stem": "√0,49 ifadesinin değeri kaçtır?",
+              "choices": [
+                "0,07",
+                "0,7",
+                "7",
+                "0,24"
+              ],
+              "answer": 1,
+              "explanation": "1. 0,49 = 49/100.\n2. √(49/100) = 7/10 = 0,7.\n3. Kontrol: 0,7·0,7 = 0,49 ✓.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-3-q2",
+              "stem": "Aşağıdakilerden hangisi irrasyonel bir sayıdır?",
+              "choices": [
+                "√16",
+                "0,25",
+                "√7",
+                "3/4"
+              ],
+              "answer": 2,
+              "explanation": "1. √16 = 4 → rasyonel.\n2. 0,25 = 1/4 → rasyonel.\n3. 3/4 → rasyonel.\n4. 7 tam kare olmadığı için √7 kesir olarak yazılamaz → irrasyonel ✓.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-3-q3",
+              "stem": "√0,09 + √1,44 işleminin sonucu kaçtır?",
+              "choices": [
+                "1,5",
+                "0,15",
+                "1,53",
+                "15"
+              ],
+              "answer": 0,
+              "explanation": "1. √0,09 = √(9/100) = 3/10 = 0,3.\n2. √1,44 = √(144/100) = 12/10 = 1,2.\n3. 0,3 + 1,2 = 1,5.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-3-q4",
+              "stem": "Aşağıdakilerden hangisi rasyonel sayı değildir?",
+              "choices": [
+                "√0,04",
+                "0,333...",
+                "√2,25",
+                "√0,9"
+              ],
+              "answer": 3,
+              "explanation": "1. √0,04 = √(4/100) = 0,2 → rasyonel.\n2. 0,333... = 1/3 (devirli ondalık) → rasyonel.\n3. √2,25 = √(225/100) = 15/10 = 1,5 → rasyonel.\n4. √0,9 = √(90/100) = √90/10. 90 tam kare olmadığından √90 irrasyoneldir; √0,9 rasyonel değildir ✓.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-3-q5",
+              "stem": "√0,0016 ifadesinin değeri kaçtır?",
+              "choices": [
+                "0,4",
+                "0,004",
+                "0,04",
+                "0,0004"
+              ],
+              "answer": 2,
+              "explanation": "1. 0,0016 = 16/10000.\n2. √(16/10000) = 4/100 = 0,04.\n3. Kontrol: 0,04·0,04 = 0,0016 ✓.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-3-q6",
+              "stem": "Kare şeklindeki bir fayansın alanı 0,64 m²'dir. Kenar uzunlukları 2,4 m ve 4 m olan dikdörtgen şeklindeki bir zemin, bu fayanslarla boşluk kalmadan ve hiçbir fayans kesilmeden döşenecektir.\nBuna göre kaç fayans gerekir?",
+              "choices": [
+                "12",
+                "15",
+                "18",
+                "20"
+              ],
+              "answer": 1,
+              "explanation": "1. Fayansın kenarı: √0,64 = 0,8 m.\n2. Kısa kenar boyunca: 2,4 : 0,8 = 3 fayans.\n3. Uzun kenar boyunca: 4 : 0,8 = 5 fayans.\n4. Toplam: 3·5 = 15 fayans.\n5. Kontrol: zemin alanı 9,6 m², 9,6 : 0,64 = 15 ✓.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-3-q7",
+              "stem": "Aşağıdaki ifadelerden hangisi doğrudur?",
+              "choices": [
+                "Her gerçek sayı rasyonel bir sayıdır.",
+                "√3·√12 işleminin sonucu irrasyonel bir sayıdır.",
+                "İki irrasyonel sayının çarpımı her zaman irrasyoneldir.",
+                "√2 + √8 işleminin sonucu irrasyonel bir sayıdır."
+              ],
+              "answer": 3,
+              "explanation": "1. A yanlış: √2 bir gerçek sayıdır ama rasyonel değildir.\n2. B yanlış: √3·√12 = √36 = 6 → rasyonel.\n3. C yanlış: B şıkkındaki örnek, iki irrasyonel sayının çarpımının rasyonel olabileceğini gösterir.\n4. D doğru: √2 + √8 = √2 + 2√2 = 3√2 → irrasyonel ✓.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-3-3-q8",
+              "stem": "a = √0,81, b = 0,888..., c = 0,85 ve d = √0,7 olduğuna göre bu sayıların küçükten büyüğe doğru sıralaması aşağıdakilerden hangisidir?",
+              "choices": [
+                "d < c < b < a",
+                "c < d < b < a",
+                "d < c < a < b",
+                "c < b < d < a"
+              ],
+              "answer": 0,
+              "explanation": "1. a = √0,81 = 0,9.\n2. b = 0,888... (0,9'dan küçük, 0,85'ten büyük).\n3. d = √0,7 ile c = 0,85'i karşılaştırmak için kareleri al: 0,85² = 0,7225 > 0,7. O hâlde d < c.\n4. Sıralama: d < c (0,85) < b (0,888...) < a (0,9).",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematik-4",
+      "no": 4,
+      "name": "Veri Analizi",
+      "topics": [
+        {
+          "id": "matematik-4-1",
+          "name": "Çizgi ve Sütun Grafikleri",
+          "kazanim": [
+            "M.8.4.1.1. En fazla üç veri grubuna ait çizgi ve sütun grafiklerini yorumlar.",
+            "M.8.4.1.2. Verileri sütun, daire veya çizgi grafiği ile gösterir ve bu gösterimler arasında uygun olan dönüşümleri yapar."
+          ],
+          "summary": "Grafikler, verileri tek bakışta anlamamızı sağlar. Her grafik türünün güçlü olduğu bir durum vardır:\n- **Sütun grafiği:** Kategorileri karşılaştırmak için idealdir (en çok satılan ürün, sınıfların başarıları). Birden fazla veri grubu yan yana sütunlarla gösterilebilir.\n- **Çizgi grafiği:** Zaman içindeki **değişimi** göstermek için idealdir (aylık sıcaklık, haftalık boy uzaması). Çizginin eğimi artış ya da azalışın hızını gösterir: Ne kadar dik yükselirse artış o kadar fazladır.\n- **Daire grafiği:** Bir bütünün **parçalarını** göstermek için idealdir (bütçe dağılımı). Tüm dilimlerin merkez açıları toplamı 360°'dir.\n\n**Grafik okurken:**\n1. Önce başlığa ve eksenlerin neyi gösterdiğine bak.\n2. Birimleri kontrol et (bin TL, mm, kişi).\n3. Birden fazla veri grubu varsa hangi rengin/çizginin hangi gruba ait olduğuna dikkat et.\n\n**Daire grafiğine dönüşüm:** Bir parçanın merkez açısı = (parça ÷ bütün)·360°. Örneğin 40 öğrenciden 10'u basketbol seviyorsa basketbol dilimi (10/40)·360° = 90° olur.\n\n**Tersine dönüşüm:** Daire grafiğinden sayıya geçmek için açıyı 360°'ye bölüp toplamla çarparsın.\n\nLGS'de grafik soruları genellikle 'hangisi kesinlikle doğrudur?' biçimindedir. Her şıkkı grafikteki verilerle tek tek kontrol et; tahmin yürütme, hesapla. Artış ve azalışları ardışık değerlerin farkını alarak bul; toplam ya da ortalama istenirse tüm değerleri dikkatle topla.",
+          "keyPoints": [
+            "Zaman içindeki değişim → çizgi grafiği; kategorileri karşılaştırma → sütun grafiği; bütünün parçaları → daire grafiği.",
+            "Daire grafiğinde merkez açı = (parça ÷ toplam)·360°.",
+            "Çizgi grafiğinde iki ardışık nokta arasındaki fark, o aralıktaki artış ya da azalıştır.",
+            "İki çizginin kesiştiği yerde iki grubun değerleri eşittir.",
+            "Eksenlerdeki birimleri (bin, yüz, mm) mutlaka kontrol et."
+          ],
+          "commonMistakes": [
+            "En büyük değer ile en büyük artışı karıştırmak.",
+            "Daire grafiği açısını hesaplarken toplamı yanlış bulmak ya da 100 ile çarpmak.",
+            "Birden fazla veri grubunda grupların değerlerini karıştırmak.",
+            "'Her ay arttı' gibi ifadeleri tek bir düşüşü gözden kaçırarak doğru sanmak."
+          ],
+          "questions": [
+            {
+              "id": "matematik-4-1-q1",
+              "stem": "Bir kırtasiyenin dört günde sattığı defter sayıları bir sütun grafiğinde gösterilmiştir. Grafiğe göre satışlar şöyledir:\nPazartesi: 30, Salı: 45, Çarşamba: 25, Perşembe: 50\nBuna göre en fazla satış yapılan gün ile en az satış yapılan gün arasındaki fark kaç defterdir?",
+              "choices": [
+                "20",
+                "25",
+                "15",
+                "30"
+              ],
+              "answer": 1,
+              "explanation": "1. En fazla satış: Perşembe, 50 defter.\n2. En az satış: Çarşamba, 25 defter.\n3. Fark: 50 − 25 = 25.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-4-1-q2",
+              "stem": "Aşağıdaki verilerden hangisini göstermek için çizgi grafiği en uygun seçimdir?",
+              "choices": [
+                "Bir sınıftaki öğrencilerin tuttuğu futbol takımları",
+                "Bir okulda en çok sevilen meyveler",
+                "Bir şehrin 12 ay boyunca aylık ortalama sıcaklığının değişimi",
+                "Bir sınıftaki öğrencilerin göz renkleri"
+              ],
+              "answer": 2,
+              "explanation": "1. Çizgi grafiği, bir verinin zamana bağlı değişimini göstermek için kullanılır.\n2. Takımlar, meyveler ve göz renkleri kategorilerdir; bunlar için sütun veya daire grafiği uygundur.\n3. Aylık sıcaklık zamanla değişen bir veridir → çizgi grafiği ✓.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-4-1-q3",
+              "stem": "K ve L mağazalarının Ocak–Nisan aylarındaki satışları (bin TL) iki veri gruplu bir sütun grafiğinde gösterilmiştir:\nK: Ocak 12, Şubat 15, Mart 10, Nisan 18\nL: Ocak 14, Şubat 11, Mart 16, Nisan 13\nBuna göre iki mağazanın satışları arasındaki fark hangi ayda en fazladır?",
+              "choices": [
+                "Ocak",
+                "Şubat",
+                "Mart",
+                "Nisan"
+              ],
+              "answer": 2,
+              "explanation": "1. Her ay için farkı bul (büyükten küçüğü çıkar):\n2. Ocak: 14 − 12 = 2. Şubat: 15 − 11 = 4. Mart: 16 − 10 = 6. Nisan: 18 − 13 = 5.\n3. En büyük fark 6 ile Mart ayındadır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-4-1-q4",
+              "stem": "Bir sınıftaki 40 öğrencinin en sevdiği sporlar şöyledir: futbol 15, basketbol 10, voleybol 9, yüzme 6.\nBu veriler daire grafiğinde gösterilirse basketbolu gösteren daire diliminin merkez açısı kaç derece olur?",
+              "choices": [
+                "90",
+                "100",
+                "60",
+                "45"
+              ],
+              "answer": 0,
+              "explanation": "1. Merkez açı = (parça ÷ toplam)·360°.\n2. Basketbol: (10 ÷ 40)·360° = (1/4)·360°.\n3. 360 ÷ 4 = 90°.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-4-1-q5",
+              "stem": "Bir bitkinin boyunun haftalara göre değişimi bir çizgi grafiğinde gösterilmiştir. Grafikteki değerler şöyledir:\n1. hafta: 4 cm, 2. hafta: 7 cm, 3. hafta: 11 cm, 4. hafta: 12 cm, 5. hafta: 17 cm\nBuna göre bitkinin boyu hangi iki hafta arasında en fazla artmıştır?",
+              "choices": [
+                "1. ve 2. hafta",
+                "2. ve 3. hafta",
+                "3. ve 4. hafta",
+                "4. ve 5. hafta"
+              ],
+              "answer": 3,
+              "explanation": "1. Ardışık haftalar arasındaki artışları bul:\n2. 1→2: 7 − 4 = 3 cm. 2→3: 11 − 7 = 4 cm. 3→4: 12 − 11 = 1 cm. 4→5: 17 − 12 = 5 cm.\n3. En fazla artış 5 cm ile 4. ve 5. hafta arasındadır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-4-1-q6",
+              "stem": "Bir okulun 8A, 8B ve 8C şubelerinin üç deneme sınavındaki ortalama net sayıları üç veri gruplu bir çizgi grafiğinde gösterilmiştir:\n8A: 1. deneme 50, 2. deneme 56, 3. deneme 62\n8B: 1. deneme 58, 2. deneme 55, 3. deneme 60\n8C: 1. deneme 45, 2. deneme 54, 3. deneme 59\nBuna göre aşağıdakilerden hangisi doğrudur?",
+              "choices": [
+                "8B şubesinin ortalaması her denemede artmıştır.",
+                "1. denemeden 3. denemeye ortalamadaki en fazla artış 8C şubesindedir.",
+                "3. denemede en yüksek ortalama 8B şubesine aittir.",
+                "Üç şubenin 2. deneme ortalamalarının toplamı 170'tir."
+              ],
+              "answer": 1,
+              "explanation": "1. A: 8B 58'den 55'e düşmüştür → yanlış.\n2. B: Artışlar: 8A 62 − 50 = 12, 8B 60 − 58 = 2, 8C 59 − 45 = 14. En fazla 8C'de → doğru ✓.\n3. C: 3. denemede en yüksek 62 ile 8A'dadır → yanlış.\n4. D: 56 + 55 + 54 = 165 → yanlış.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-4-1-q7",
+              "stem": "Bir ailenin aylık harcamaları bir sütun grafiğinde şöyle gösterilmiştir: kira 10 800 TL, gıda 7200 TL, ulaşım 3600 TL, diğer 2400 TL.\nBu veriler daire grafiğine dönüştürülürse kira dilimi ile gıda diliminin merkez açıları arasındaki fark kaç derece olur?",
+              "choices": [
+                "36",
+                "72",
+                "108",
+                "54"
+              ],
+              "answer": 3,
+              "explanation": "1. Toplam harcama: 10 800 + 7200 + 3600 + 2400 = 24 000 TL.\n2. Kira: (10 800 ÷ 24 000)·360° = 162°.\n3. Gıda: (7200 ÷ 24 000)·360° = 108°.\n4. Fark: 162° − 108° = 54°.\n5. Kısa yol: Fark 3600 TL'dir; (3600 ÷ 24 000)·360° = 54°.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-4-1-q8",
+              "stem": "K ve L şehirlerinin Ocak–Mayıs aylarındaki yağış miktarları (mm) iki veri gruplu bir çizgi grafiğinde gösterilmiştir:\nK: Ocak 80, Şubat 70, Mart 60, Nisan 50, Mayıs 30\nL: Ocak 40, Şubat 50, Mart 60, Nisan 70, Mayıs 60\nBuna göre aşağıdakilerden hangisi doğrudur?",
+              "choices": [
+                "Beş ayın toplamında K şehrine düşen yağış, L şehrine düşen yağıştan fazladır.",
+                "Mart ayından sonraki her ayda K şehrinin yağışı L şehrinden fazladır.",
+                "L şehrinin yağışı her ay bir önceki aya göre artmıştır.",
+                "İki şehrin yağışları arasındaki fark en fazla Mayıs ayındadır."
+              ],
+              "answer": 0,
+              "explanation": "1. A: K toplamı 80 + 70 + 60 + 50 + 30 = 290 mm; L toplamı 40 + 50 + 60 + 70 + 60 = 280 mm. 290 > 280 → doğru ✓.\n2. B: Nisan'da K 50, L 70; K daha azdır → yanlış.\n3. C: L, Nisan'dan Mayıs'a 70'ten 60'a düşmüştür → yanlış.\n4. D: Farklar: Ocak 40, Şubat 20, Mart 0, Nisan 20, Mayıs 30. En fazla fark Ocak'tadır → yanlış.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematik-5",
+      "no": 5,
+      "name": "Basit Olayların Olma Olasılığı",
+      "topics": [
+        {
+          "id": "matematik-5-1",
+          "name": "Basit Olayların Olma Olasılığı",
+          "kazanim": [
+            "M.8.5.1.1. Bir olaya ait olası durumları belirler.",
+            "M.8.5.1.2. 'Daha fazla', 'eşit', 'daha az' olasılıklı olayları ayırt eder, örnek verir.",
+            "M.8.5.1.3. Eşit şansa sahip olan olaylarda her bir çıktının olasılık değerinin eşit olduğunu ve bu değerin 1/n olduğunu açıklar.",
+            "M.8.5.1.4. Olasılık değerinin 0 ile 1 arasında (0 ve 1 dâhil) olduğunu anlar.",
+            "M.8.5.1.5. Basit bir olayın olma olasılığını hesaplar."
+          ],
+          "summary": "**Olasılık**, bir olayın gerçekleşme şansını sayıyla ifade eder.\n\nTemel kavramlar:\n- **Deney:** Sonucu önceden kesin bilinmeyen işlem (zar atmak, torbadan top çekmek).\n- **Çıktı:** Deneyin olası her bir sonucu. Zar için 1, 2, 3, 4, 5, 6.\n- **Örnek uzay:** Tüm çıktıların kümesi.\n- **Olay:** Örnek uzayın istediğimiz çıktılardan oluşan kısmı (ör. 'çift sayı gelmesi' = {2, 4, 6}).\n\n**Olasılık formülü** (çıktılar eşit şanslıysa):\n**P(olay) = istenen durum sayısı ÷ tüm durum sayısı**\n\nÖrnek: Bir zar atıldığında asal sayı gelme olasılığı: asal sayılar 2, 3, 5 → 3/6 = 1/2.\n\nOlasılık değeri her zaman **0 ile 1 arasındadır**:\n- **İmkânsız olay:** Olasılığı 0 (zarda 7 gelmesi).\n- **Kesin olay:** Olasılığı 1 (zarda 7'den küçük sayı gelmesi).\n\n**Tümleyen:** Bir olayın olma olasılığı ile olmama olasılığının toplamı 1'dir. Kırmızı çekme olasılığı 3/8 ise kırmızı çekmeme olasılığı 5/8'dir.\n\nEşit şanslı n çıktı varsa her birinin olasılığı 1/n'dir. Hilesiz bir paranın yazı gelme olasılığı 1/2, hilesiz zarda 4 gelme olasılığı 1/6'dır.\n\nOlayları karşılaştırırken olasılıkları hesaplayıp sıralarsın: Olasılığı büyük olan olay 'daha olası'dır. LGS'de bu konu genellikle torbaya top ekleme-çıkarma, çark ve kart çekme bağlamlarıyla sorulur. Torbaya bir şey eklenip çıkarıldığında **toplam sayının da değiştiğini** unutma!",
+          "keyPoints": [
+            "P(olay) = istenen durum sayısı ÷ tüm durum sayısı.",
+            "0 ≤ olasılık ≤ 1; imkânsız olay 0, kesin olay 1.",
+            "P(olmama) = 1 − P(olma).",
+            "Eşit şanslı n çıktının her birinin olasılığı 1/n'dir.",
+            "Torbaya ekleme/çıkarma yapıldığında hem istenen hem toplam sayı güncellenmelidir."
+          ],
+          "commonMistakes": [
+            "Olasılığı hesaplarken paydaya toplam yerine diğer grubun sayısını yazmak (3 kırmızı, 5 mavi için 3/5 yazmak).",
+            "Torbaya top eklendiğinde toplam sayıyı güncellemeyi unutmak.",
+            "1'i asal sayı sayıp asal çıktıları yanlış belirlemek.",
+            "Olasılığın 1'den büyük olabileceğini düşünmek."
+          ],
+          "questions": [
+            {
+              "id": "matematik-5-1-q1",
+              "stem": "Hilesiz bir zar atıldığında üst yüze asal sayı gelme olasılığı kaçtır?",
+              "choices": [
+                "1/3",
+                "1/2",
+                "2/3",
+                "1/6"
+              ],
+              "answer": 1,
+              "explanation": "1. Tüm durumlar: 1, 2, 3, 4, 5, 6 → 6 durum.\n2. Asal sayılar: 2, 3, 5 → 3 durum (1 asal değildir).\n3. Olasılık: 3/6 = 1/2.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-5-1-q2",
+              "stem": "Aşağıdaki olaylardan hangisinin olma olasılığı 1'dir?",
+              "choices": [
+                "Hilesiz bir zar atıldığında üst yüze 7 gelmesi",
+                "Hilesiz bir para atıldığında yazı gelmesi",
+                "Hilesiz bir zar atıldığında üst yüze 7'den küçük bir sayı gelmesi",
+                "İçinde 3 kırmızı ve 2 mavi bilye bulunan torbadan mavi bilye çekilmesi"
+              ],
+              "answer": 2,
+              "explanation": "1. Olasılığı 1 olan olay kesin olaydır.\n2. Zarda 7 gelmesi imkânsızdır → 0.\n3. Yazı gelmesi → 1/2.\n4. Zarın tüm yüzleri (1–6) 7'den küçüktür → 6/6 = 1 ✓.\n5. Mavi bilye çekme → 2/5.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-5-1-q3",
+              "stem": "Bir torbada 4 kırmızı, 6 mavi ve 5 yeşil bilye vardır. Torbadan rastgele bir bilye çekiliyor.\nÇekilen bilyenin mavi olmama olasılığı kaçtır?",
+              "choices": [
+                "3/5",
+                "2/5",
+                "1/3",
+                "4/15"
+              ],
+              "answer": 0,
+              "explanation": "1. Toplam bilye: 4 + 6 + 5 = 15.\n2. Mavi olmayanlar: 4 kırmızı + 5 yeşil = 9.\n3. Olasılık: 9/15 = 3/5.\n4. Kontrol: Mavi olma olasılığı 6/15 = 2/5; 1 − 2/5 = 3/5 ✓.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-5-1-q4",
+              "stem": "1'den 20'ye kadar numaralandırılmış 20 kart ters çevrilip karıştırılıyor. Rastgele çekilen bir kartın numarasının 3'ün katı olma olasılığı kaçtır?",
+              "choices": [
+                "1/3",
+                "1/4",
+                "7/20",
+                "3/10"
+              ],
+              "answer": 3,
+              "explanation": "1. 3'ün katları: 3, 6, 9, 12, 15, 18 → 6 kart.\n2. Tüm kartlar: 20.\n3. Olasılık: 6/20 = 3/10.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-5-1-q5",
+              "stem": "Bir torbada yalnızca kırmızı ve beyaz bilyeler vardır. Torbadan rastgele çekilen bir bilyenin kırmızı olma olasılığı 3/8'dir.\nTorbada 15 beyaz bilye olduğuna göre kaç kırmızı bilye vardır?",
+              "choices": [
+                "6",
+                "9",
+                "12",
+                "15"
+              ],
+              "answer": 1,
+              "explanation": "1. Beyaz olma olasılığı: 1 − 3/8 = 5/8.\n2. Toplamın 5/8'i 15 ise toplamın 1/8'i 15 : 5 = 3'tür.\n3. Toplam bilye: 8·3 = 24.\n4. Kırmızı: 24 − 15 = 9. Kontrol: 9/24 = 3/8 ✓.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-5-1-q6",
+              "stem": "Bir sınıfta 12 kız ve 18 erkek öğrenci vardır. Sınıftan 3 erkek öğrenci başka bir sınıfa geçiyor, sınıfa ise bir miktar yeni kız öğrenci katılıyor. Bu değişikliklerden sonra sınıftan rastgele seçilen bir öğrencinin kız olma olasılığı 4/7 oluyor.\nBuna göre sınıfa kaç kız öğrenci katılmıştır?",
+              "choices": [
+                "6",
+                "10",
+                "8",
+                "5"
+              ],
+              "answer": 2,
+              "explanation": "1. Yeni erkek sayısı: 18 − 3 = 15.\n2. Kız olma olasılığı 4/7 ise erkek olma olasılığı 3/7'dir.\n3. Toplamın 3/7'si 15 → toplamın 1/7'si 5 → toplam 35 öğrenci.\n4. Yeni kız sayısı: 35 − 15 = 20.\n5. Katılan kız: 20 − 12 = 8. Kontrol: 20/35 = 4/7 ✓.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-5-1-q7",
+              "stem": "Bir kutuda 1'den 30'a kadar numaralandırılmış 30 top vardır. Kutudan rastgele bir top çekiliyor.\nAşağıdaki olaylardan hangisinin olma olasılığı en fazladır?",
+              "choices": [
+                "Topun numarasının 4'ün katı olması",
+                "Topun numarasının tam kare sayı olması",
+                "Topun numarasının 5'in katı olması",
+                "Topun numarasının asal sayı olması"
+              ],
+              "answer": 3,
+              "explanation": "1. Tüm durumlar 30 olduğu için istenen durum sayılarını karşılaştırmak yeterlidir.\n2. 4'ün katları: 4, 8, 12, 16, 20, 24, 28 → 7.\n3. Tam kareler: 1, 4, 9, 16, 25 → 5.\n4. 5'in katları: 5, 10, 15, 20, 25, 30 → 6.\n5. Asal sayılar: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29 → 10.\n6. En fazla durum asal sayılarda (10/30) → en olası olay budur.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-5-1-q8",
+              "stem": "Bir çark 8 eş dilime ayrılmıştır: 3 dilim kırmızı, 2 dilim mavi, 2 dilim sarı ve 1 dilim yeşildir. Çark çevrildiğinde ok kırmızı dilimde durursa oyuncu kazanmaktadır.\nKazanma olasılığını 1/2 yapmak için yalnızca bir dilimin rengi değiştirilecekse aşağıdakilerden hangisi yapılmalıdır?",
+              "choices": [
+                "Yeşil dilim kırmızıya boyanmalıdır.",
+                "Mavi dilimlerden biri sarıya boyanmalıdır.",
+                "Kırmızı dilimlerden biri yeşile boyanmalıdır.",
+                "Sarı dilimlerden biri maviye boyanmalıdır."
+              ],
+              "answer": 0,
+              "explanation": "1. Şu anki kazanma olasılığı: 3/8.\n2. 1/2 = 4/8 olması için kırmızı dilim sayısı 4 olmalıdır.\n3. A: Yeşil kırmızı olursa kırmızı 4 olur → 4/8 = 1/2 ✓.\n4. B ve D: Kırmızı sayısı değişmez → 3/8.\n5. C: Kırmızı 2'ye düşer → 2/8 = 1/4.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematik-6",
+      "no": 6,
+      "name": "Cebirsel İfadeler ve Özdeşlikler",
+      "topics": [
+        {
+          "id": "matematik-6-1",
+          "name": "Cebirsel İfadeler ve Çarpma İşlemi",
+          "kazanim": [
+            "M.8.2.1.1. Basit cebirsel ifadeleri anlar ve farklı biçimlerde yazar.",
+            "M.8.2.1.2. Cebirsel ifadelerin çarpımını yapar."
+          ],
+          "summary": "**Cebirsel ifade**, içinde bilinmeyen (değişken) bulunan ifadedir: 3x + 5, 2a² − a gibi. Bir cebirsel ifadede:\n- **Terim:** + veya − ile ayrılan her parça (3x ve 5).\n- **Katsayı:** Değişkenin önündeki sayı (3x'te 3).\n- **Sabit terim:** Değişken içermeyen terim (5).\n- **Benzer terimler:** Değişkeni ve üssü aynı olan terimler (3x ile −7x benzer; 3x ile 3x² benzer değil).\n\nToplama ve çıkarmada yalnızca **benzer terimler** birleştirilir: 4a − 2a + a = 3a.\n\nParantezin önünde eksi varsa parantez içindeki tüm işaretler değişir: −2(a − 3) = −2a + 6.\n\n**Çarpma işlemi:**\n- **Tek terim × çok terim (dağılma özelliği):** Dışarıdaki terim, parantez içindeki her terimle çarpılır: 3x(2x − 5) = 6x² − 15x.\n- **Çok terim × çok terim:** Birinci parantezdeki her terim, ikinci parantezdeki her terimle çarpılır, sonra benzer terimler toplanır:\n(2x − 1)(x + 5) = 2x·x + 2x·5 − 1·x − 1·5 = 2x² + 10x − x − 5 = 2x² + 9x − 5.\n\nÇarpmada değişkenlerin üsleri toplanır: x·x = x², 2a·3a² = 6a³.\n\nGeometride çok kullanılır: Kenarları (x + 2) ve (x − 3) olan bir dikdörtgenin alanı (x + 2)(x − 3) = x² − x − 6 olur. LGS'de alan, salon koltukları, bahçe düzenlemesi gibi bağlamlarda bir ifadenin kurulup çarpılması istenir. Önce durumu cebirsel ifade olarak doğru yaz, sonra dikkatle çarp.",
+          "keyPoints": [
+            "Sadece benzer terimler toplanır veya çıkarılır.",
+            "Dağılma: a(b + c) = ab + ac.",
+            "(a + b)(c + d) = ac + ad + bc + bd; dört çarpımın hepsini yaz.",
+            "Parantez önündeki eksi, içerideki tüm işaretleri değiştirir.",
+            "Aynı değişkenler çarpılırken üsler toplanır: x·x² = x³."
+          ],
+          "commonMistakes": [
+            "Dağılma özelliğinde dışarıdaki sayıyı yalnızca ilk terimle çarpmak: 3(x + 4) = 3x + 4 yazmak.",
+            "−2(a − 3) işleminde −2·(−3) = +6 olduğunu unutmak.",
+            "İki parantezin çarpımında ortadaki terimleri (ad + bc) atlamak.",
+            "x ile x²'yi benzer terim sanıp toplamak."
+          ],
+          "questions": [
+            {
+              "id": "matematik-6-1-q1",
+              "stem": "3x(2x − 5) ifadesinin eşiti aşağıdakilerden hangisidir?",
+              "choices": [
+                "6x² − 5",
+                "6x² − 15x",
+                "5x² − 15x",
+                "6x − 15x"
+              ],
+              "answer": 1,
+              "explanation": "1. 3x, parantezdeki her terimle çarpılır.\n2. 3x·2x = 6x².\n3. 3x·(−5) = −15x.\n4. Sonuç: 6x² − 15x.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-1-q2",
+              "stem": "(x + 3)(x + 4) ifadesinin eşiti aşağıdakilerden hangisidir?",
+              "choices": [
+                "x² + 12",
+                "x² + 7x + 7",
+                "x² + 7x + 12",
+                "x² + 12x + 7"
+              ],
+              "answer": 2,
+              "explanation": "1. x·x = x².\n2. x·4 = 4x ve 3·x = 3x → 4x + 3x = 7x.\n3. 3·4 = 12.\n4. Sonuç: x² + 7x + 12.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-1-q3",
+              "stem": "(2x − 1)(x + 5) ifadesinin eşiti aşağıdakilerden hangisidir?",
+              "choices": [
+                "2x² + 9x − 5",
+                "2x² + 11x − 5",
+                "2x² − 9x − 5",
+                "2x² + 9x + 5"
+              ],
+              "answer": 0,
+              "explanation": "1. 2x·x = 2x².\n2. 2x·5 = 10x.\n3. −1·x = −x.\n4. −1·5 = −5.\n5. Toplam: 2x² + 10x − x − 5 = 2x² + 9x − 5.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-1-q4",
+              "stem": "4a − 2(a − 3) + a ifadesinin en sade biçimi aşağıdakilerden hangisidir?",
+              "choices": [
+                "3a − 6",
+                "a + 6",
+                "3a + 3",
+                "3a + 6"
+              ],
+              "answer": 3,
+              "explanation": "1. Parantezi aç: −2(a − 3) = −2a + 6.\n2. İfade: 4a − 2a + 6 + a.\n3. Benzer terimler: 4a − 2a + a = 3a.\n4. Sonuç: 3a + 6.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-1-q5",
+              "stem": "Kenar uzunlukları (x + 2) cm ve (x − 3) cm olan dikdörtgenin alanını gösteren cebirsel ifade aşağıdakilerden hangisidir? (x > 3)",
+              "choices": [
+                "x² − x − 6",
+                "x² + x − 6",
+                "x² − 5x − 6",
+                "2x − 1"
+              ],
+              "answer": 0,
+              "explanation": "1. Alan = kısa kenar · uzun kenar = (x + 2)(x − 3).\n2. x·x = x²; x·(−3) = −3x; 2·x = 2x; 2·(−3) = −6.\n3. −3x + 2x = −x.\n4. Alan: x² − x − 6.\n5. 2x − 1 ise kenarların toplamıdır, alan değildir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-1-q6",
+              "stem": "Dikdörtgen şeklindeki bir bahçenin kısa kenarı x metre, uzun kenarı ise kısa kenarının 2 katından 3 metre fazladır. Bahçenin her iki kenarı da 2'şer metre uzatılıyor.\nBahçenin yeni alanını gösteren ifade aşağıdakilerden hangisidir?",
+              "choices": [
+                "2x² + 7x + 10",
+                "2x² + 9x + 10",
+                "2x² + 3x + 10",
+                "2x² + 9x + 6"
+              ],
+              "answer": 1,
+              "explanation": "1. Eski kenarlar: x ve 2x + 3.\n2. Yeni kenarlar: x + 2 ve 2x + 3 + 2 = 2x + 5.\n3. Yeni alan: (x + 2)(2x + 5) = 2x² + 5x + 4x + 10.\n4. Sonuç: 2x² + 9x + 10.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-1-q7",
+              "stem": "Kenar uzunluğu a cm olan kare şeklindeki bir kartonun bir kenarı 3 cm uzatılıp ona komşu kenarı 3 cm kısaltılarak dikdörtgen şeklinde yeni bir karton elde ediliyor. (a > 3)\nYeni kartonun alanı, karenin alanına göre nasıl değişir?",
+              "choices": [
+                "Değişmez.",
+                "6 cm² azalır.",
+                "9 cm² artar.",
+                "9 cm² azalır."
+              ],
+              "answer": 3,
+              "explanation": "1. Karenin alanı: a².\n2. Yeni kenarlar: (a + 3) ve (a − 3).\n3. Yeni alan: (a + 3)(a − 3) = a² − 3a + 3a − 9 = a² − 9.\n4. Yeni alan karenin alanından 9 cm² azdır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-1-q8",
+              "stem": "Bir sinema salonunda (2n + 1) sıra ve her sırada (n + 4) koltuk vardır. Bakım nedeniyle 3 sıranın tamamı kullanıma kapatılıyor.\nBuna göre kullanılabilir koltuk sayısını gösteren ifade aşağıdakilerden hangisidir?",
+              "choices": [
+                "2n² + 9n + 4",
+                "2n² + 6n − 12",
+                "2n² + 6n − 8",
+                "2n² + 10n − 8"
+              ],
+              "answer": 2,
+              "explanation": "1. Kullanılabilir sıra sayısı: (2n + 1) − 3 = 2n − 2.\n2. Koltuk sayısı: (2n − 2)(n + 4).\n3. 2n·n = 2n²; 2n·4 = 8n; −2·n = −2n; −2·4 = −8.\n4. Sonuç: 2n² + 6n − 8.\n5. 2n² + 9n + 4, sıralar kapatılmadan önceki koltuk sayısıdır.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "matematik-6-2",
+          "name": "Özdeşlikler",
+          "kazanim": [
+            "M.8.2.1.3. Özdeşlikleri modellerle açıklar."
+          ],
+          "summary": "**Özdeşlik**, değişkenin **her** değeri için doğru olan eşitliktir. Örneğin 2(x + 1) = 2x + 2 bir özdeşliktir; x yerine hangi sayıyı koyarsan koy iki taraf eşit çıkar. (Denklem ise sadece bazı değerler için doğrudur.)\n\n8. sınıfta bilmen gereken üç temel özdeşlik:\n\n**1. İki terim toplamının karesi:**\n**(a + b)² = a² + 2ab + b²**\nModel: Kenarı (a + b) olan büyük kare; içinde a², b² alanlı iki kare ve ab alanlı iki dikdörtgen vardır.\n\n**2. İki terim farkının karesi:**\n**(a − b)² = a² − 2ab + b²**\n\n**3. İki kare farkı:**\n**(a − b)(a + b) = a² − b²**\nModel: Kenarı a olan bir kareden kenarı b olan kare kesilirse kalan alan a² − b²'dir. Kalan parça kesilip yeniden düzenlenirse kenarları (a + b) ve (a − b) olan bir dikdörtgen olur.\n\nEn sık yapılan hata: (a + b)² = a² + b² sanmak! Ortadaki **2ab** terimini unutma. Örneğin (x + 5)² = x² + 10x + 25.\n\nÖzdeşlikler hesaplamayı da kolaylaştırır:\n- 101² − 99² = (101 − 99)(101 + 99) = 2·200 = 400.\n- 51² = (50 + 1)² = 2500 + 100 + 1 = 2601.\n\nAyrıca x + y ve x·y biliniyorsa x² + y² bulunabilir: x² + y² = (x + y)² − 2xy. LGS'de bu özdeşlikler genellikle kare ve dikdörtgen kartonların kesilip birleştirildiği alan modelleriyle sorulur.",
+          "keyPoints": [
+            "(a + b)² = a² + 2ab + b².",
+            "(a − b)² = a² − 2ab + b².",
+            "(a − b)(a + b) = a² − b².",
+            "x² + y² = (x + y)² − 2xy.",
+            "Büyük sayıların kare farkını özdeşlikle kolayca hesapla: 101² − 99² = 2·200."
+          ],
+          "commonMistakes": [
+            "(a + b)² = a² + b² yazıp 2ab terimini unutmak.",
+            "(2x − 3)² açılımında ilk terimi 2x² yazmak (doğrusu 4x²).",
+            "(a − b)² açılımında son terimi −b² yazmak (b² her zaman pozitiftir).",
+            "Kare farkında işaretleri karıştırmak: (a − b)(a + b) = a² + b² yazmak."
+          ],
+          "questions": [
+            {
+              "id": "matematik-6-2-q1",
+              "stem": "(x + 5)² ifadesinin eşiti aşağıdakilerden hangisidir?",
+              "choices": [
+                "x² + 25",
+                "x² + 5x + 25",
+                "x² + 10x + 25",
+                "x² + 10x + 10"
+              ],
+              "answer": 2,
+              "explanation": "1. (a + b)² = a² + 2ab + b² özdeşliğini kullan; a = x, b = 5.\n2. a² = x², 2ab = 2·x·5 = 10x, b² = 25.\n3. Sonuç: x² + 10x + 25.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-2-q2",
+              "stem": "(a − 4)(a + 4) ifadesinin eşiti aşağıdakilerden hangisidir?",
+              "choices": [
+                "a² − 16",
+                "a² + 16",
+                "a² − 8a − 16",
+                "a² − 8"
+              ],
+              "answer": 0,
+              "explanation": "1. İki kare farkı özdeşliği: (a − b)(a + b) = a² − b².\n2. (a − 4)(a + 4) = a² − 4² = a² − 16.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-2-q3",
+              "stem": "(2x − 3)² ifadesinin eşiti aşağıdakilerden hangisidir?",
+              "choices": [
+                "4x² − 9",
+                "4x² − 6x + 9",
+                "2x² − 12x + 9",
+                "4x² − 12x + 9"
+              ],
+              "answer": 3,
+              "explanation": "1. (a − b)² = a² − 2ab + b²; a = 2x, b = 3.\n2. a² = (2x)² = 4x².\n3. 2ab = 2·2x·3 = 12x.\n4. b² = 9.\n5. Sonuç: 4x² − 12x + 9.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-2-q4",
+              "stem": "101² − 99² işleminin sonucu kaçtır?",
+              "choices": [
+                "200",
+                "400",
+                "4",
+                "2000"
+              ],
+              "answer": 1,
+              "explanation": "1. İki kare farkı: a² − b² = (a − b)(a + b).\n2. 101² − 99² = (101 − 99)(101 + 99).\n3. = 2·200 = 400.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-2-q5",
+              "stem": "x + y = 7 ve x·y = 10 olduğuna göre x² + y² ifadesinin değeri kaçtır?",
+              "choices": [
+                "29",
+                "39",
+                "49",
+                "69"
+              ],
+              "answer": 0,
+              "explanation": "1. (x + y)² = x² + 2xy + y².\n2. 7² = x² + y² + 2·10 → 49 = x² + y² + 20.\n3. x² + y² = 49 − 20 = 29.\n4. Kontrol: x = 5, y = 2 için 25 + 4 = 29 ✓.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-2-q6",
+              "stem": "Kare şeklindeki bir arsanın bir kenarı a metredir. Arsanın her kenarı 4'er metre uzatılarak yine kare şeklinde daha büyük bir arsa elde ediliyor.\nBuna göre arsanın alanı kaç m² artmıştır?",
+              "choices": [
+                "16",
+                "8a + 16",
+                "4a + 16",
+                "8a + 8"
+              ],
+              "answer": 1,
+              "explanation": "1. Eski alan: a².\n2. Yeni kenar a + 4, yeni alan: (a + 4)² = a² + 8a + 16.\n3. Artış: (a² + 8a + 16) − a² = 8a + 16.\n4. Sadece 16 demek, 2ab = 8a terimini unutmaktır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-2-q7",
+              "stem": "Kenar uzunluğu x cm olan kare şeklindeki bir kâğıdın bir köşesinden, kenar uzunluğu 3 cm olan kare şeklinde bir parça kesilip atılıyor. Kalan kâğıt parçaları kesilip yeniden birleştirilerek bir kenarı (x + 3) cm olan dikdörtgen oluşturuluyor. (x > 3)\nBu dikdörtgenin diğer kenarı kaç cm'dir?",
+              "choices": [
+                "x − 9",
+                "x + 3",
+                "x − 3",
+                "x − 6"
+              ],
+              "answer": 2,
+              "explanation": "1. Kalan kâğıdın alanı: x² − 3² = x² − 9.\n2. İki kare farkı: x² − 9 = (x − 3)(x + 3).\n3. Dikdörtgenin bir kenarı (x + 3) ise diğer kenarı (x − 3) olur.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-2-q8",
+              "stem": "2a − b = 5 ve 4a² − b² = 45 olduğuna göre 2a + b ifadesinin değeri kaçtır?",
+              "choices": [
+                "5",
+                "7",
+                "40",
+                "9"
+              ],
+              "answer": 3,
+              "explanation": "1. 4a² − b² = (2a)² − b² = (2a − b)(2a + b).\n2. 45 = 5·(2a + b).\n3. 2a + b = 45 : 5 = 9.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "matematik-6-3",
+          "name": "Cebirsel İfadeleri Çarpanlara Ayırma",
+          "kazanim": [
+            "M.8.2.1.4. Cebirsel ifadeleri çarpanlara ayırır."
+          ],
+          "summary": "**Çarpanlara ayırma**, çarpma işleminin tersidir: Bir toplamı, çarpım biçiminde yazmaktır. 3(2x + 3) çarpımını açarsak 6x + 9 olur; 6x + 9'u çarpanlarına ayırırsak 3(2x + 3) elde ederiz.\n\n**1. Ortak çarpan parantezine alma:** Tüm terimlerde ortak olan sayı ve değişkenleri parantez dışına al.\n- 6x + 9 = 3(2x + 3) (6 ile 9'un EBOB'u 3)\n- 5a²b − 10ab² = 5ab(a − 2b)\nKontrol için parantezi geri aç; başladığın ifadeyi bulmalısın. Ortak çarpanın en büyüğünü almayı unutma: 6x + 12 = 2(3x + 6) doğru ama tam değil; doğrusu 6(x + 2).\n\n**2. İki kare farkı:** a² − b² = (a − b)(a + b)\n- x² − 49 = (x − 7)(x + 7)\n- 4x² − 25 = (2x − 5)(2x + 5)\nİki terim olmalı, ikisi de tam kare olmalı ve arada eksi olmalı. x² + 49 bu şekilde ayrılamaz!\n\n**3. Tam kare ifadeler:** a² + 2ab + b² = (a + b)² ve a² − 2ab + b² = (a − b)²\n- x² + 6x + 9 = (x + 3)², çünkü x² ve 9 = 3² tam kare; ortadaki terim 2·x·3 = 6x.\n- x² − 10x + 25 = (x − 5)².\n\nÇarpanlara ayırma; alanı verilen dikdörtgenin kenarlarını bulma, ifadeleri sadeleştirme ve hızlı hesap yapma için çok kullanılır. Örneğin alanı x² − 16 olan dikdörtgenin bir kenarı x + 4 ise diğer kenarı x − 4'tür. LGS'de genellikle alan modeli üzerinden sorulur.",
+          "keyPoints": [
+            "Önce her zaman ortak çarpan var mı diye bak.",
+            "a² − b² = (a − b)(a + b); a² + b² bu yolla ayrılamaz.",
+            "a² ± 2ab + b² = (a ± b)²; ortadaki terimin 2ab olduğunu kontrol et.",
+            "Çarpanlara ayırdığın ifadeyi geri çarparak kontrol et.",
+            "Alan = kenar·kenar olduğundan alan ifadesini çarpanlarına ayırınca kenarları bulursun."
+          ],
+          "commonMistakes": [
+            "Ortak çarpanı tam almamak: 6x + 12 = 2(3x + 6) bırakmak.",
+            "x² + 49 ifadesini (x + 7)(x − 7) diye ayırmak.",
+            "Ortak çarpan parantezine alınca parantez içine 1 yazmayı unutmak: 3x + 3 = 3(x + 1), 3x değil.",
+            "Tam kare ifadelerde ortadaki terimin işaretini kontrol etmemek."
+          ],
+          "questions": [
+            {
+              "id": "matematik-6-3-q1",
+              "stem": "6x + 9 ifadesinin çarpanlarına ayrılmış biçimi aşağıdakilerden hangisidir?",
+              "choices": [
+                "3(2x + 9)",
+                "3(2x + 3)",
+                "6(x + 3)",
+                "9(x + 1)"
+              ],
+              "answer": 1,
+              "explanation": "1. 6 ile 9'un en büyük ortak böleni 3'tür.\n2. 6x = 3·2x, 9 = 3·3.\n3. 6x + 9 = 3(2x + 3).\n4. Kontrol: 3·2x + 3·3 = 6x + 9 ✓.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-3-q2",
+              "stem": "x² − 49 ifadesinin çarpanlarına ayrılmış biçimi aşağıdakilerden hangisidir?",
+              "choices": [
+                "(x − 7)²",
+                "(x − 49)(x + 1)",
+                "(x − 7)(x + 7)",
+                "(x + 7)²"
+              ],
+              "answer": 2,
+              "explanation": "1. x² − 49 = x² − 7², iki kare farkıdır.\n2. a² − b² = (a − b)(a + b).\n3. x² − 49 = (x − 7)(x + 7).",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-3-q3",
+              "stem": "x² + 6x + 9 ifadesinin çarpanlarına ayrılmış biçimi aşağıdakilerden hangisidir?",
+              "choices": [
+                "(x + 3)²",
+                "(x + 9)(x + 1)",
+                "(x − 3)²",
+                "(x + 6)(x + 3)"
+              ],
+              "answer": 0,
+              "explanation": "1. x² = x² ve 9 = 3² tam karedir.\n2. Ortadaki terim: 2·x·3 = 6x ✓ ve işareti artı.\n3. x² + 6x + 9 = (x + 3)².\n4. (x + 9)(x + 1) = x² + 10x + 9 olduğundan yanlıştır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-3-q4",
+              "stem": "5a²b − 10ab² ifadesinin çarpanlarına ayrılmış biçimi aşağıdakilerden hangisidir?",
+              "choices": [
+                "5ab(a − b)",
+                "5ab(a + 2b)",
+                "10ab(a − b)",
+                "5ab(a − 2b)"
+              ],
+              "answer": 3,
+              "explanation": "1. Katsayıların ortak böleni: EBOB(5, 10) = 5.\n2. Ortak değişkenler: a ve b (her terimde en az birer tane var) → ab.\n3. Ortak çarpan: 5ab.\n4. 5a²b : 5ab = a; 10ab² : 5ab = 2b.\n5. Sonuç: 5ab(a − 2b).",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-3-q5",
+              "stem": "Aşağıdakilerden hangisi 4x² − 25 ifadesinin çarpanlarından biridir?",
+              "choices": [
+                "2x − 5",
+                "4x − 5",
+                "x − 5",
+                "2x − 25"
+              ],
+              "answer": 0,
+              "explanation": "1. 4x² = (2x)² ve 25 = 5².\n2. 4x² − 25 = (2x − 5)(2x + 5).\n3. Çarpanlardan biri 2x − 5'tir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-3-q6",
+              "stem": "Alanı (x² − 16) cm² olan dikdörtgen şeklindeki bir fotoğrafın bir kenar uzunluğu (x + 4) cm'dir. (x > 4)\nBu fotoğrafın çevresi kaç cm'dir?",
+              "choices": [
+                "2x",
+                "4x",
+                "4x + 8",
+                "2x − 8"
+              ],
+              "answer": 1,
+              "explanation": "1. x² − 16 = (x − 4)(x + 4).\n2. Bir kenar (x + 4) ise diğer kenar (x − 4).\n3. Çevre = 2·[(x + 4) + (x − 4)] = 2·2x = 4x.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-3-q7",
+              "stem": "a ve b pozitif tam sayılardır. a² − b² = 63 ve a − b = 7 olduğuna göre a·b çarpımı kaçtır?",
+              "choices": [
+                "9",
+                "14",
+                "8",
+                "16"
+              ],
+              "answer": 2,
+              "explanation": "1. a² − b² = (a − b)(a + b) → 63 = 7·(a + b) → a + b = 9.\n2. a − b = 7 ve a + b = 9 → taraf tarafa toplarsak 2a = 16 → a = 8.\n3. b = 9 − 8 = 1.\n4. a·b = 8·1 = 8.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-6-3-q8",
+              "stem": "Kare şeklindeki bir bahçenin alanı (x² + 8x + 16) m²'dir. Bahçenin çevresine 3 sıra tel çekilecektir.\nBuna göre kaç metre tel gerekir?",
+              "choices": [
+                "4x + 16",
+                "12x + 16",
+                "3x + 12",
+                "12x + 48"
+              ],
+              "answer": 3,
+              "explanation": "1. x² + 8x + 16 = (x + 4)² olduğundan karenin bir kenarı (x + 4) m'dir.\n2. Çevre: 4·(x + 4) = 4x + 16 m.\n3. 3 sıra tel: 3·(4x + 16) = 12x + 48 m.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematik-7",
+      "no": 7,
+      "name": "Doğrusal Denklemler",
+      "topics": [
+        {
+          "id": "matematik-7-1",
+          "name": "Birinci Dereceden Bir Bilinmeyenli Denklemler",
+          "kazanim": [
+            "M.8.2.2.1. Birinci dereceden bir bilinmeyenli denklemleri çözer."
+          ],
+          "summary": "**Denklem**, içinde bilinmeyen bulunan ve yalnızca bilinmeyenin bazı değerleri için doğru olan eşitliktir. Bilinmeyenin üssü 1 ise **birinci dereceden** denklemdir: 3x − 7 = 14 gibi.\n\nDenklemi bir **terazi** gibi düşün: Eşitliğin iki tarafına aynı işlemi yaparsan denge bozulmaz.\n- İki tarafa aynı sayı eklenebilir veya çıkarılabilir.\n- İki taraf sıfırdan farklı aynı sayıyla çarpılabilir veya bölünebilir.\n\n**Çözüm adımları:**\n1. Parantez varsa aç: 2(x + 4) = 18 → 2x + 8 = 18.\n2. Kesir varsa paydaları eşitle ya da içler-dışlar çarpımı yap: (x − 1)/3 = (x + 3)/5 → 5(x − 1) = 3(x + 3).\n3. Bilinmeyenleri bir tarafa, sayıları diğer tarafa topla. Taraf değiştiren terimin işareti değişir.\n4. Katsayıya böl ve x'i bul.\n5. **Kontrol et:** Bulduğun değeri denklemde yerine koy.\n\n**Problem çözerken:**\n- Bilinmeyeni dikkatlice seç ('kardeşin yaşı x olsun').\n- Diğer büyüklükleri x cinsinden yaz ('Ali'nin yaşı 3x').\n- Verilen bilgiyi denkleme dönüştür.\n- Sorunun tam olarak ne istediğine bak! x'i bulmak her zaman cevap değildir.\n\nArdışık sayı problemleri: Ardışık tam sayılar x, x + 1, x + 2; ardışık çift ya da tek sayılar x, x + 2, x + 4 şeklinde yazılır. LGS'de denklemler; alışveriş, yaş, taksi ücreti ve depo problemleri gibi gerçek yaşam bağlamlarında karşına çıkar.",
+          "keyPoints": [
+            "Eşitliğin iki tarafına aynı işlem yapılır; denge bozulmaz.",
+            "Taraf değiştiren terimin işareti değişir: x + 5 = 12 → x = 12 − 5.",
+            "Kesirli denklemlerde içler-dışlar çarpımı veya payda eşitleme kullan.",
+            "Ardışık çift/tek sayılar: x, x + 2, x + 4.",
+            "Cevabı bulunca sorunun ne istediğini tekrar oku ve yerine koyarak kontrol et."
+          ],
+          "commonMistakes": [
+            "Parantez açarken sadece ilk terimi çarpmak: 2(x + 4) = 2x + 4.",
+            "Terimi karşı tarafa geçirirken işaretini değiştirmemek.",
+            "x'i bulup sorunun asıl istediği değeri (ör. en büyük sayı, Ali'nin yaşı) hesaplamayı unutmak.",
+            "Yaş problemlerinde 'n yıl sonra' her kişinin yaşına n eklenmesi gerektiğini unutmak."
+          ],
+          "questions": [
+            {
+              "id": "matematik-7-1-q1",
+              "stem": "3x − 7 = 14 denkleminde x kaçtır?",
+              "choices": [
+                "5",
+                "7",
+                "21",
+                "3"
+              ],
+              "answer": 1,
+              "explanation": "1. İki tarafa 7 ekle: 3x = 14 + 7 = 21.\n2. İki tarafı 3'e böl: x = 7.\n3. Kontrol: 3·7 − 7 = 14 ✓.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-1-q2",
+              "stem": "2(x + 4) = 18 denkleminde x kaçtır?",
+              "choices": [
+                "7",
+                "11",
+                "5",
+                "4"
+              ],
+              "answer": 2,
+              "explanation": "1. İki tarafı 2'ye böl: x + 4 = 9.\n2. x = 9 − 4 = 5.\n3. Kontrol: 2·(5 + 4) = 18 ✓.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-1-q3",
+              "stem": "(x − 1)/3 = (x + 3)/5 denkleminde x kaçtır?",
+              "choices": [
+                "7",
+                "4",
+                "2",
+                "6"
+              ],
+              "answer": 0,
+              "explanation": "1. İçler-dışlar çarpımı: 5(x − 1) = 3(x + 3).\n2. 5x − 5 = 3x + 9.\n3. 5x − 3x = 9 + 5 → 2x = 14 → x = 7.\n4. Kontrol: (7 − 1)/3 = 2 ve (7 + 3)/5 = 2 ✓.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-1-q4",
+              "stem": "Ardışık üç çift sayının toplamı 78'dir. Bu sayılardan en büyüğü kaçtır?",
+              "choices": [
+                "24",
+                "26",
+                "30",
+                "28"
+              ],
+              "answer": 3,
+              "explanation": "1. Sayılar: x, x + 2, x + 4.\n2. x + (x + 2) + (x + 4) = 78 → 3x + 6 = 78 → 3x = 72 → x = 24.\n3. Sayılar: 24, 26, 28.\n4. En büyüğü 28'dir. (24 en küçüğüdür.)",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-1-q5",
+              "stem": "Ali'nin yaşı kardeşinin yaşının 3 katıdır. 5 yıl sonra ikisinin yaşları toplamı 34 olacaktır.\nBuna göre Ali bugün kaç yaşındadır?",
+              "choices": [
+                "6",
+                "18",
+                "21",
+                "12"
+              ],
+              "answer": 1,
+              "explanation": "1. Kardeşin yaşı x, Ali'nin yaşı 3x olsun.\n2. 5 yıl sonra: kardeş x + 5, Ali 3x + 5.\n3. (x + 5) + (3x + 5) = 34 → 4x + 10 = 34 → 4x = 24 → x = 6.\n4. Ali: 3·6 = 18 yaşında. Kontrol: 5 yıl sonra 11 + 23 = 34 ✓.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-1-q6",
+              "stem": "Bir kırtasiyede kalemin tanesi 15 TL, defterin tanesi 40 TL'dir. Selin bu kırtasiyeden toplam 12 tane kalem ve defter alıp 305 TL ödemiştir.\nBuna göre Selin kaç defter almıştır?",
+              "choices": [
+                "5",
+                "7",
+                "4",
+                "6"
+              ],
+              "answer": 0,
+              "explanation": "1. Defter sayısı d olsun; kalem sayısı 12 − d olur.\n2. 40d + 15(12 − d) = 305.\n3. 40d + 180 − 15d = 305 → 25d = 125 → d = 5.\n4. Kontrol: 5 defter = 200 TL, 7 kalem = 105 TL; toplam 305 TL ✓.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-1-q7",
+              "stem": "Bir şehirde A taksi firması 30 TL açılış ücreti ve kilometre başına 12 TL, B taksi firması ise 50 TL açılış ücreti ve kilometre başına 10 TL almaktadır.\nBuna göre kaç kilometrelik bir yolculukta iki firmanın ücretleri eşit olur?",
+              "choices": [
+                "8",
+                "12",
+                "10",
+                "20"
+              ],
+              "answer": 2,
+              "explanation": "1. Yol x km olsun.\n2. A'nın ücreti: 30 + 12x. B'nin ücreti: 50 + 10x.\n3. 30 + 12x = 50 + 10x → 2x = 20 → x = 10.\n4. Kontrol: A: 30 + 120 = 150 TL, B: 50 + 100 = 150 TL ✓.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-1-q8",
+              "stem": "Tamamen dolu bir su deposundaki suyun önce 2/5'i kullanılıyor. Daha sonra 30 litre daha kullanıldığında deponun tam yarısı kadar su kalıyor.\nBuna göre deponun tamamı kaç litre su alır?",
+              "choices": [
+                "150",
+                "200",
+                "250",
+                "300"
+              ],
+              "answer": 3,
+              "explanation": "1. Deponun hacmi x litre olsun.\n2. Kalan su: x − (2x/5) − 30 = 3x/5 − 30.\n3. Kalan su deponun yarısıdır: 3x/5 − 30 = x/2.\n4. 3x/5 − x/2 = 30 → (6x − 5x)/10 = 30 → x/10 = 30 → x = 300.\n5. Kontrol: 300'ün 2/5'i 120; 300 − 120 − 30 = 150 = 300/2 ✓.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "matematik-7-2",
+          "name": "Koordinat Sistemi ve Doğrusal İlişkiler",
+          "kazanim": [
+            "M.8.2.2.2. Koordinat sistemini özellikleriyle tanır ve sıralı ikilileri gösterir.",
+            "M.8.2.2.3. Aralarında doğrusal ilişki bulunan iki değişkenden birinin diğerine bağlı olarak nasıl değiştiğini tablo ve denklem ile ifade eder.",
+            "M.8.2.2.4. Doğrusal denklemlerin grafiğini çizer.",
+            "M.8.2.2.5. Doğrusal ilişki içeren gerçek hayat durumlarına ait denklem, tablo ve grafiği oluşturur ve yorumlar."
+          ],
+          "summary": "**Koordinat sistemi**, birbirini başlangıç noktasında (orijin, O(0, 0)) dik kesen iki sayı doğrusundan oluşur: yatay **x ekseni** ve dikey **y ekseni**. Bir nokta **(x, y)** sıralı ikilisiyle gösterilir; önce yatay, sonra dikey konum yazılır.\n\nEksenler düzlemi dört **bölgeye** ayırır:\n- I. bölge: (+, +)\n- II. bölge: (−, +)\n- III. bölge: (−, −)\n- IV. bölge: (+, −)\nEksenler üzerindeki noktalar hiçbir bölgeye ait değildir. x ekseni üzerindeki noktaların y'si 0, y ekseni üzerindekilerin x'i 0'dır.\n\n**Doğrusal ilişki:** Bir değişken düzenli olarak (her adımda aynı miktarda) artıyor ya da azalıyorsa iki değişken arasında doğrusal ilişki vardır. Bu ilişki **y = mx + n** biçiminde bir denklemle yazılır ve grafiği bir **doğrudur**.\n\nÖrnek: Bir mumun boyu 24 cm ve her saat 2 cm kısalıyor. Boy y, geçen saat x ise **y = 24 − 2x**.\n\n**Tablodan denklem bulma:** x 1 arttığında y'nin ne kadar değiştiğine bak; bu, x'in katsayısıdır. x: 1, 2, 3 için y: 5, 8, 11 ise y her adımda 3 artar → y = 3x + n. x = 1 için 5 = 3 + n → n = 2 → y = 3x + 2.\n\n**Grafik çizme:** Denklemde x'e iki değer verip iki nokta bul, bu noktalardan geçen doğruyu çiz. Eksenleri kestiği noktalar pratiktir: x = 0 için y eksenini, y = 0 için x eksenini kestiği nokta bulunur.\n\nİki doğrunun **kesişim noktası**, iki durumun eşit olduğu anı gösterir (ör. iki tarifenin aynı ücreti verdiği kullanım miktarı).",
+          "keyPoints": [
+            "Sıralı ikili (x, y): önce yatay, sonra dikey.",
+            "Bölgeler: I (+,+), II (−,+), III (−,−), IV (+,−).",
+            "Bir nokta doğru üzerindeyse koordinatları denklemi sağlar.",
+            "x eksenini kesen nokta için y = 0, y eksenini kesen nokta için x = 0 koy.",
+            "Gerçek hayat durumlarında sabit değer n'yi (başlangıç), değişim miktarı m'yi verir: y = mx + n."
+          ],
+          "commonMistakes": [
+            "Sıralı ikilide x ile y'nin yerini karıştırmak.",
+            "II. ve IV. bölgeyi karıştırmak.",
+            "Bir noktanın doğru üzerinde olup olmadığını denklemde yerine koyarak kontrol etmemek.",
+            "Azalan durumlarda (mum, yakıt) katsayının negatif olacağını unutmak."
+          ],
+          "questions": [
+            {
+              "id": "matematik-7-2-q1",
+              "stem": "A(−3, 5) noktası koordinat sisteminin hangi bölgesindedir?",
+              "choices": [
+                "I. bölge",
+                "II. bölge",
+                "III. bölge",
+                "IV. bölge"
+              ],
+              "answer": 1,
+              "explanation": "1. x = −3 (negatif), y = 5 (pozitif).\n2. (−, +) işaretli noktalar II. bölgededir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-2-q2",
+              "stem": "Aşağıdaki noktalardan hangisi y = 2x + 1 doğrusu üzerindedir?",
+              "choices": [
+                "(1, 4)",
+                "(2, 4)",
+                "(3, 7)",
+                "(0, 2)"
+              ],
+              "answer": 2,
+              "explanation": "1. Her noktanın x değerini denklemde yerine koy.\n2. (1, 4): 2·1 + 1 = 3 ≠ 4 ✗.\n3. (2, 4): 2·2 + 1 = 5 ≠ 4 ✗.\n4. (3, 7): 2·3 + 1 = 7 ✓.\n5. (0, 2): 2·0 + 1 = 1 ≠ 2 ✗.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-2-q3",
+              "stem": "y = 3x − 6 doğrusunun x eksenini kestiği nokta aşağıdakilerden hangisidir?",
+              "choices": [
+                "(2, 0)",
+                "(0, −6)",
+                "(−2, 0)",
+                "(6, 0)"
+              ],
+              "answer": 0,
+              "explanation": "1. x ekseni üzerindeki noktaların y değeri 0'dır.\n2. 0 = 3x − 6 → 3x = 6 → x = 2.\n3. Nokta: (2, 0).\n4. (0, −6) ise y eksenini kestiği noktadır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-2-q4",
+              "stem": "Aralarında doğrusal ilişki bulunan x ve y değişkenlerine ait değerler şöyledir:\nx = 1 iken y = 5, x = 2 iken y = 8, x = 3 iken y = 11, x = 4 iken y = 14.\nBu ilişkiyi gösteren denklem aşağıdakilerden hangisidir?",
+              "choices": [
+                "y = x + 4",
+                "y = 5x",
+                "y = 2x + 3",
+                "y = 3x + 2"
+              ],
+              "answer": 3,
+              "explanation": "1. x her 1 arttığında y 3 artıyor → y = 3x + n.\n2. x = 1, y = 5: 5 = 3·1 + n → n = 2.\n3. Denklem: y = 3x + 2.\n4. Kontrol: x = 4 → 3·4 + 2 = 14 ✓.\n5. Diğerleri x = 2'de tutmaz: y = x + 4 → 6, y = 5x → 10, y = 2x + 3 → 7.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-2-q5",
+              "stem": "Boyu 24 cm olan bir mum yakıldığında her saat 2 cm kısalmaktadır. Mumun boyu y cm, geçen süre x saat olduğuna göre x ile y arasındaki ilişkiyi gösteren denklem aşağıdakilerden hangisidir?",
+              "choices": [
+                "y = 24 − 2x",
+                "y = 2x + 24",
+                "y = 24x − 2",
+                "y = 22x"
+              ],
+              "answer": 0,
+              "explanation": "1. Başlangıçta (x = 0) mumun boyu 24 cm'dir.\n2. Her saat 2 cm azaldığı için x saatte 2x cm kısalır.\n3. y = 24 − 2x.\n4. Kontrol: x = 3 → y = 18 cm ✓ (3 saatte 6 cm kısaldı).",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-2-q6",
+              "stem": "Bir internet şirketi aylık 100 TL sabit ücrete ek olarak kullanılan her GB için 20 TL almaktadır. Başka bir şirket ise sabit ücret almadan her GB için 30 TL almaktadır. Kullanılan GB miktarı x, ödenen ücret y olmak üzere iki şirkete ait doğruların grafiği aynı koordinat sisteminde çiziliyor.\nBu iki doğrunun kesişim noktası aşağıdakilerden hangisidir?",
+              "choices": [
+                "(5, 150)",
+                "(10, 300)",
+                "(10, 200)",
+                "(20, 500)"
+              ],
+              "answer": 1,
+              "explanation": "1. Birinci şirket: y = 20x + 100. İkinci şirket: y = 30x.\n2. Kesişim noktasında y değerleri eşittir: 20x + 100 = 30x → 10x = 100 → x = 10.\n3. y = 30·10 = 300.\n4. Kesişim noktası (10, 300): 10 GB'da iki şirket de 300 TL alır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-2-q7",
+              "stem": "Koordinat sisteminde A(1, 2), B(5, 2) ve C(5, 6) noktaları birleştirilerek bir üçgen oluşturuluyor.\nBu üçgenin alanı kaç birimkaredir?",
+              "choices": [
+                "16",
+                "12",
+                "8",
+                "4"
+              ],
+              "answer": 2,
+              "explanation": "1. A ve B'nin y değerleri aynı (2) → AB yataydır, uzunluğu 5 − 1 = 4 birim.\n2. B ve C'nin x değerleri aynı (5) → BC dikeydir, uzunluğu 6 − 2 = 4 birim.\n3. AB ⟂ BC olduğu için üçgen B köşesinde dik açılıdır.\n4. Alan = (4·4)/2 = 8 birimkare.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-2-q8",
+              "stem": "Bir otomobilin deposunda 50 litre benzin vardır ve otomobil her 100 km'de 8 litre benzin harcamaktadır. Gidilen yol x km, depoda kalan benzin y litre olarak gösteriliyor.\nBuna göre aşağıdakilerden hangisi doğrudur?",
+              "choices": [
+                "x ile y arasındaki ilişki y = 50 − 8x denklemiyle gösterilir.",
+                "Depodaki benzin 600 km sonunda tamamen biter.",
+                "Bu ilişkinin grafiği başlangıç noktasından (orijinden) geçer.",
+                "250 km yol gidildiğinde depoda 30 litre benzin kalır."
+              ],
+              "answer": 3,
+              "explanation": "1. Otomobil 1 km'de 8/100 = 0,08 litre harcar → y = 50 − 0,08x.\n2. A yanlış: 8x, km başına 8 litre demek olurdu.\n3. B yanlış: 0 = 50 − 0,08x → x = 625 km'de biter.\n4. C yanlış: x = 0 iken y = 50'dir; grafik (0, 50)'den geçer.\n5. D doğru: x = 250 → y = 50 − 0,08·250 = 50 − 20 = 30 litre ✓.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "matematik-7-3",
+          "name": "Doğrunun Eğimi",
+          "kazanim": [
+            "M.8.2.2.6. Doğrunun eğimini modellerle açıklar, doğrusal denklemler ve grafikleriyle ilişkilendirir."
+          ],
+          "summary": "**Eğim**, bir doğrunun ne kadar dik olduğunu gösteren sayıdır. Günlük hayatta rampalar, merdivenler ve yokuşlar eğime örnektir.\n\n**Eğim = dikey uzunluk ÷ yatay uzunluk**\nBir rampa 12 m yatay mesafede 3 m yükseliyorsa eğimi 3/12 = 1/4'tür.\n\n**Koordinat sisteminde eğim:** Doğru üzerindeki iki nokta A(x₁, y₁) ve B(x₂, y₂) ise\n**m = (y₂ − y₁) ÷ (x₂ − x₁)**\nÖrnek: A(1, 2) ve B(3, 8) → m = (8 − 2)/(3 − 1) = 6/2 = 3.\n\n**Denklemden eğim:** y = mx + n biçimindeki doğrunun eğimi **x'in katsayısı m**'dir. y = 4x − 3'ün eğimi 4'tür. n ise doğrunun y eksenini kestiği noktayı gösterir.\n\n**Eğimin işareti:**\n- **Pozitif eğim:** Doğru soldan sağa yükselir (y = 2x + 7).\n- **Negatif eğim:** Doğru soldan sağa alçalır (y = −3x + 1).\n- **Sıfır eğim:** Doğru x eksenine paraleldir (y = 5).\n- y eksenine paralel doğruların (x = 5) eğimi tanımsızdır.\n\nEğimin mutlak değeri büyüdükçe doğru dikleşir: Eğimi 3/4 olan merdiven, eğimi 5/8 olandan daha diktir.\n\n**Gerçek hayatta eğimin anlamı:** Eğim, 'birim başına değişim miktarı'dır. Bir depoya her dakika 10 litre su akıyorsa su miktarı–zaman grafiğinin eğimi 10'dur. Taksi ücreti grafiğinde eğim kilometre başına ücreti gösterir. LGS'de eğim genellikle rampa, merdiven ve grafik yorumlama sorularıyla gelir.",
+          "keyPoints": [
+            "Eğim = dikey değişim ÷ yatay değişim.",
+            "m = (y₂ − y₁)/(x₂ − x₁).",
+            "y = mx + n doğrusunun eğimi m'dir.",
+            "Pozitif eğim yükselen, negatif eğim alçalan, sıfır eğim yatay doğrudur.",
+            "Gerçek hayat grafiklerinde eğim 'birim başına değişim'dir (L/dk, TL/km)."
+          ],
+          "commonMistakes": [
+            "Eğimi yatay ÷ dikey olarak hesaplamak.",
+            "Eğim hesabında noktaların sırasını karıştırmak (paydaki ve paydadaki çıkarma aynı sırada olmalı).",
+            "y = 4x − 3'te eğimi −3 sanmak.",
+            "x = 5 doğrusu ile y = 5 doğrusunu karıştırmak."
+          ],
+          "questions": [
+            {
+              "id": "matematik-7-3-q1",
+              "stem": "y = 4x − 3 doğrusunun eğimi kaçtır?",
+              "choices": [
+                "−3",
+                "4",
+                "3",
+                "−4"
+              ],
+              "answer": 1,
+              "explanation": "1. y = mx + n biçiminde eğim, x'in katsayısı m'dir.\n2. y = 4x − 3'te m = 4.\n3. −3, doğrunun y eksenini kestiği noktayı gösterir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-3-q2",
+              "stem": "A(1, 2) ve B(3, 8) noktalarından geçen doğrunun eğimi kaçtır?",
+              "choices": [
+                "2",
+                "6",
+                "3",
+                "1/3"
+              ],
+              "answer": 2,
+              "explanation": "1. m = (y₂ − y₁)/(x₂ − x₁).\n2. m = (8 − 2)/(3 − 1) = 6/2 = 3.\n3. 1/3 cevabı yatay ÷ dikey hatasıdır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-3-q3",
+              "stem": "Aşağıdaki doğrulardan hangisinin eğimi 0'dır?",
+              "choices": [
+                "y = 5",
+                "x = 5",
+                "y = 5x",
+                "y = x + 5"
+              ],
+              "answer": 0,
+              "explanation": "1. y = 5 doğrusu üzerindeki tüm noktaların y değeri 5'tir; doğru x eksenine paraleldir. Dikey değişim 0 olduğundan eğim 0'dır ✓.\n2. x = 5 dikey bir doğrudur; eğimi tanımsızdır.\n3. y = 5x'in eğimi 5, y = x + 5'in eğimi 1'dir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-3-q4",
+              "stem": "Bir binanın girişine yapılan rampa, 12 m'lik yatay uzaklıkta 3 m yükselmektedir.\nBu rampanın eğimi kaçtır?",
+              "choices": [
+                "4",
+                "1/3",
+                "3/4",
+                "1/4"
+              ],
+              "answer": 3,
+              "explanation": "1. Eğim = dikey uzunluk ÷ yatay uzunluk.\n2. Eğim = 3/12 = 1/4.\n3. 4 cevabı yatay ÷ dikey hatasıdır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-3-q5",
+              "stem": "Aşağıdaki doğrulardan hangisi soldan sağa doğru alçalır?",
+              "choices": [
+                "y = 2x + 7",
+                "y = −3x + 1",
+                "y = 4",
+                "y = x"
+              ],
+              "answer": 1,
+              "explanation": "1. Soldan sağa alçalan doğrunun eğimi negatiftir.\n2. y = 2x + 7 → eğim 2 (yükselir).\n3. y = −3x + 1 → eğim −3 (alçalır) ✓.\n4. y = 4 → eğim 0 (yatay). y = x → eğim 1 (yükselir).",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-3-q6",
+              "stem": "Bir duvara iki merdiven dayanmıştır. Birinci merdivenin alt ucu duvardan 6 m uzaktadır ve merdiven duvara 4,5 m yükseklikte değmektedir. İkinci merdivenin alt ucu duvardan 8 m uzaktadır ve merdiven duvara 5 m yükseklikte değmektedir.\nBuna göre aşağıdakilerden hangisi doğrudur?",
+              "choices": [
+                "Birinci merdiven daha diktir ve eğimi 3/4'tür.",
+                "İkinci merdiven daha diktir.",
+                "İki merdivenin eğimi eşittir.",
+                "Birinci merdivenin eğimi 4/3'tür."
+              ],
+              "answer": 0,
+              "explanation": "1. Eğim = yükseklik ÷ yatay uzaklık.\n2. Birinci: 4,5/6 = 0,75 = 3/4.\n3. İkinci: 5/8 = 0,625.\n4. 0,75 > 0,625 olduğundan birinci merdiven daha diktir ✓.\n5. 4/3, yatay ÷ dikey hatasıdır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-3-q7",
+              "stem": "Bir doğru (0, 4) ve (2, 0) noktalarından geçmektedir.\nBu doğrunun denklemi aşağıdakilerden hangisidir?",
+              "choices": [
+                "y = 2x + 4",
+                "y = −x/2 + 4",
+                "y = −2x + 4",
+                "y = −2x + 2"
+              ],
+              "answer": 2,
+              "explanation": "1. Eğim: m = (0 − 4)/(2 − 0) = −4/2 = −2.\n2. Doğru y eksenini (0, 4)'te kestiği için n = 4.\n3. Denklem: y = −2x + 4.\n4. Kontrol: x = 2 → y = −4 + 4 = 0 ✓.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-7-3-q8",
+              "stem": "Bir depoya sabit hızla su doldurulmaktadır. Depodaki su miktarının zamana göre değişimini gösteren doğrusal grafik, 0. dakikada 20 litre ve 5. dakikada 70 litre değerlerinden geçmektedir.\nBu grafiğin eğimi neyi gösterir ve değeri kaçtır?",
+              "choices": [
+                "Depodaki ilk su miktarını gösterir; 20'dir.",
+                "Bir dakikada depoya akan su miktarını gösterir; 14'tür.",
+                "Deponun hacmini gösterir; 70'tir.",
+                "Bir dakikada depoya eklenen su miktarını gösterir; 10'dur."
+              ],
+              "answer": 3,
+              "explanation": "1. Eğim = su miktarındaki değişim ÷ zamandaki değişim.\n2. (70 − 20)/(5 − 0) = 50/5 = 10.\n3. Bu, dakikada eklenen su miktarıdır: 10 L/dk.\n4. 20, grafiğin başlangıç değeridir (eğim değil). 14 ise 70 ÷ 5 hatasıdır; başlangıçtaki 20 litre çıkarılmamıştır.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematik-8",
+      "no": 8,
+      "name": "Eşitsizlikler",
+      "topics": [
+        {
+          "id": "matematik-8-1",
+          "name": "Birinci Dereceden Bir Bilinmeyenli Eşitsizlikler",
+          "kazanim": [
+            "M.8.2.3.1. Birinci dereceden bir bilinmeyenli eşitsizlik içeren günlük hayat durumlarına uygun matematik cümleleri yazar.",
+            "M.8.2.3.2. Birinci dereceden bir bilinmeyenli eşitsizlikleri sayı doğrusunda gösterir.",
+            "M.8.2.3.3. Birinci dereceden bir bilinmeyenli eşitsizlikleri çözer."
+          ],
+          "summary": "**Eşitsizlik**, iki ifadenin eşit olmadığını ve hangisinin büyük olduğunu gösterir. Kullanılan semboller:\n- **<** küçüktür, **>** büyüktür\n- **≤** küçük veya eşittir, **≥** büyük veya eşittir\n\n**Günlük dili eşitsizliğe çevirme:**\n- 'En fazla 8 kişi' → x ≤ 8\n- 'En az 18 yaşında' → x ≥ 18\n- '50'den az' → x < 50\n- '100'ü geçmemeli' → x ≤ 100\n\n**Sayı doğrusunda gösterim:**\n- < ve > için uçtaki daire **içi boş** çizilir (o sayı dahil değil).\n- ≤ ve ≥ için uçtaki daire **içi dolu** çizilir (o sayı dahil).\n- Büyüktür sembolünde ok sağa, küçüktür sembolünde sola gider.\n\n**Eşitsizlik çözme:** Denklem çözer gibi çözülür. İki tarafa aynı sayı eklenip çıkarılabilir, iki taraf pozitif sayıyla çarpılıp bölünebilir.\n\n**ÇOK ÖNEMLİ KURAL:** İki taraf **negatif** bir sayıyla çarpılır ya da bölünürse eşitsizliğin yönü **değişir**!\n−3x ≤ 9 → iki tarafı −3'e böl → x **≥** −3.\nKontrol için bir sayı dene: x = 0 için −3·0 = 0 ≤ 9 ✓, 0 ≥ −3 ✓.\n\n**Problem çözerken:** Durumu eşitsizlikle yaz, çöz, sonra sorunun bağlamına göre yorumla. Kişi, koli, giriş sayısı gibi büyüklükler tam sayı olmalıdır. x ≤ 31,5 bulduysan en fazla 31 koli taşınabilir; x > 20 bulduysan en az 21 giriş gerekir. LGS'de genellikle tarife karşılaştırma, taşıma kapasitesi ve not ortalaması bağlamları kullanılır.",
+          "keyPoints": [
+            "'En az' → ≥, 'en fazla' → ≤.",
+            "Sayı doğrusunda ≤ ve ≥ için içi dolu, < ve > için içi boş daire kullanılır.",
+            "Negatif sayıyla çarpma veya bölmede eşitsizliğin yönü döner.",
+            "Sayılabilen büyüklüklerde (kişi, koli) sonucu uygun tam sayıya yuvarla.",
+            "Çözümü kontrol etmek için aralıktan bir sayı seçip yerine koy."
+          ],
+          "commonMistakes": [
+            "Negatif sayıya bölerken eşitsizlik yönünü değiştirmeyi unutmak.",
+            "'En az' ile 'en fazla' ifadelerini karıştırmak.",
+            "Sayı doğrusunda içi dolu ve içi boş daireyi karıştırmak.",
+            "x > 20 bulup 'en az 20' demek (doğrusu en az 21)."
+          ],
+          "questions": [
+            {
+              "id": "matematik-8-1-q1",
+              "stem": "Bir asansörün üzerinde 'En fazla 8 kişi' yazmaktadır. Asansöre binen kişi sayısı x ile gösterilirse bu durumu ifade eden eşitsizlik aşağıdakilerden hangisidir?",
+              "choices": [
+                "x < 8",
+                "x ≥ 8",
+                "x ≤ 8",
+                "x > 8"
+              ],
+              "answer": 2,
+              "explanation": "1. 'En fazla 8' demek 8 ve 8'den az demektir.\n2. 8 de dahil olduğu için ≤ kullanılır.\n3. x ≤ 8.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-8-1-q2",
+              "stem": "2x − 3 > 7 eşitsizliğinin çözüm kümesi aşağıdakilerden hangisidir?",
+              "choices": [
+                "x > 5",
+                "x < 5",
+                "x > 2",
+                "x > 10"
+              ],
+              "answer": 0,
+              "explanation": "1. İki tarafa 3 ekle: 2x > 10.\n2. İki tarafı pozitif 2'ye böl (yön değişmez): x > 5.\n3. Kontrol: x = 6 → 12 − 3 = 9 > 7 ✓.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-8-1-q3",
+              "stem": "−3x + 4 ≤ 13 eşitsizliğinin çözüm kümesi aşağıdakilerden hangisidir?",
+              "choices": [
+                "x ≤ −3",
+                "x ≥ −3",
+                "x ≥ 3",
+                "x ≤ 3"
+              ],
+              "answer": 1,
+              "explanation": "1. İki taraftan 4 çıkar: −3x ≤ 9.\n2. İki tarafı −3'e böl. Negatif sayıya böldüğümüz için yön değişir: x ≥ −3.\n3. Kontrol: x = 0 → 4 ≤ 13 ✓. x = −4 → 12 + 4 = 16 ≤ 13 ✗ (çözümde yok, doğru).",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-8-1-q4",
+              "stem": "Bir eşitsizlik sayı doğrusunda, −2 noktasında içi dolu bir daire ve bu noktadan sağa doğru uzanan kalın bir ok ile gösterilmiştir.\nBu eşitsizlik aşağıdakilerden hangisidir?",
+              "choices": [
+                "x > −2",
+                "x ≤ −2",
+                "x < −2",
+                "x ≥ −2"
+              ],
+              "answer": 3,
+              "explanation": "1. İçi dolu daire, −2'nin çözüme dahil olduğunu gösterir (≤ veya ≥).\n2. Ok sağa doğru gittiği için −2'den büyük sayılar çözümdedir.\n3. Eşitsizlik: x ≥ −2.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-8-1-q5",
+              "stem": "x ≥ −1 ve x < 4 koşullarının ikisini birlikte sağlayan kaç farklı x tam sayısı vardır?",
+              "choices": [
+                "4",
+                "6",
+                "5",
+                "3"
+              ],
+              "answer": 2,
+              "explanation": "1. x ≥ −1: −1 dahil.\n2. x < 4: 4 dahil değil.\n3. Tam sayılar: −1, 0, 1, 2, 3.\n4. Toplam 5 tane.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-8-1-q6",
+              "stem": "Bir spor salonu 400 TL üyelik ücretine ek olarak her giriş için 25 TL almaktadır. Başka bir spor salonu ise üyelik ücreti almadan her giriş için 45 TL almaktadır.\nBirinci salonun toplamda daha ucuz olması için en az kaç giriş yapılmalıdır?",
+              "choices": [
+                "20",
+                "21",
+                "16",
+                "10"
+              ],
+              "answer": 1,
+              "explanation": "1. Giriş sayısı x olsun. Birinci salon: 400 + 25x. İkinci salon: 45x.\n2. 400 + 25x < 45x → 400 < 20x → x > 20.\n3. x tam sayı ve 20'den büyük olmalı → en az 21 giriş.\n4. Kontrol: 20 girişte ikisi de 900 TL (eşit). 21 girişte birinci 925 TL, ikinci 945 TL ✓.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-8-1-q7",
+              "stem": "Elif'in matematik dersinden aldığı ilk üç sınav notu 72, 85 ve 78'dir.\nDört sınavın ortalamasının en az 80 olması için Elif dördüncü sınavdan en az kaç almalıdır?",
+              "choices": [
+                "80",
+                "82",
+                "88",
+                "85"
+              ],
+              "answer": 3,
+              "explanation": "1. Dördüncü not x olsun: (72 + 85 + 78 + x)/4 ≥ 80.\n2. 72 + 85 + 78 = 235 → (235 + x)/4 ≥ 80.\n3. 235 + x ≥ 320 → x ≥ 85.\n4. En az 85 almalıdır. Kontrol: (235 + 85)/4 = 320/4 = 80 ✓.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-8-1-q8",
+              "stem": "Bir kargo aracı, sürücü dahil en fazla 1500 kg yük taşıyabilmektedir. Sürücünün kütlesi 80 kg'dır. Araca her biri 45 kg olan özdeş koliler yüklenecektir.\nBuna göre araca en fazla kaç koli yüklenebilir?",
+              "choices": [
+                "31",
+                "32",
+                "33",
+                "30"
+              ],
+              "answer": 0,
+              "explanation": "1. Koli sayısı x olsun: 80 + 45x ≤ 1500.\n2. 45x ≤ 1420 → x ≤ 31,55...\n3. x tam sayı olmalı → en fazla 31 koli.\n4. Kontrol: 31 koli: 80 + 1395 = 1475 ≤ 1500 ✓. 32 koli: 80 + 1440 = 1520 > 1500 ✗.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematik-9",
+      "no": 9,
+      "name": "Üçgenler",
+      "topics": [
+        {
+          "id": "matematik-9-1",
+          "name": "Üçgende Yardımcı Elemanlar, Kenar ve Açı Bağıntıları",
+          "kazanim": [
+            "M.8.3.1.1. Üçgende kenarortay, açıortay ve yüksekliği inşa eder.",
+            "M.8.3.1.2. Üçgenin iki kenar uzunluğunun toplamı veya farkı ile üçüncü kenarının uzunluğunu ilişkilendirir.",
+            "M.8.3.1.3. Üçgenin kenar uzunlukları ile bu kenarların karşısındaki açıların ölçülerini ilişkilendirir.",
+            "M.8.3.1.4. Yeterli sayıda elemanının ölçüleri verilen bir üçgeni çizer."
+          ],
+          "summary": "**Yardımcı elemanlar:**\n- **Kenarortay:** Bir köşeyi karşı kenarın **orta noktasına** birleştiren doğru parçası.\n- **Açıortay:** Bir iç açıyı **iki eş parçaya** bölen doğru parçası.\n- **Yükseklik:** Bir köşeden karşı kenara (veya uzantısına) **dik** inen doğru parçası.\nHer üçgende üçer tane kenarortay, açıortay ve yükseklik vardır. Bir üçgenin iç açıları toplamı 180°'dir.\n\n**Üçgen eşitsizliği:** Bir üçgende herhangi bir kenarın uzunluğu, diğer iki kenarın **farkından büyük, toplamından küçüktür**:\n**|a − b| < c < a + b**\nÖrnek: Kenarları 5 cm ve 9 cm olan üçgenin üçüncü kenarı 4 < c < 14 aralığındadır. Tam sayı ise 5, 6, ..., 13 olabilir.\nÜç uzunlukla üçgen çizilip çizilemeyeceğini anlamak için en kısa iki kenarın toplamının en uzun kenardan büyük olup olmadığına bak. 3, 4, 8 ile üçgen çizilemez çünkü 3 + 4 = 7 < 8. 5, 5, 10 ile de çizilemez çünkü 5 + 5 = 10 (eşitlik yetmez, büyük olmalı).\n\n**Kenar–açı ilişkisi:** Bir üçgende **büyük açının karşısında büyük kenar**, küçük açının karşısında küçük kenar bulunur. Eşit açıların karşısındaki kenarlar da eşittir (ikizkenar üçgen).\nÖrnek: m(A) = 50°, m(B) = 70° ise m(C) = 60°. En büyük açı B olduğundan en uzun kenar B'nin karşısındaki AC'dir.\n\n**Üçgen çizimi:** Üç kenarı, iki kenar ve aradaki açı ya da bir kenar ve iki ucundaki açılar biliniyorsa üçgen çizilebilir. LGS'de bu konu genellikle köyler arası yollar, çubuklarla üçgen oluşturma ve ikizkenar üçgen soruları ile karşına çıkar.",
+          "keyPoints": [
+            "Kenarortay → orta nokta; açıortay → açıyı ikiye böler; yükseklik → karşı kenara dik.",
+            "Üçgen eşitsizliği: |a − b| < c < a + b.",
+            "En kısa iki kenarın toplamı en uzun kenardan büyük olmalıdır.",
+            "Büyük açı karşısında büyük kenar, küçük açı karşısında küçük kenar vardır.",
+            "İkizkenar üçgende eşit kenarları belirlerken üçgen eşitsizliğini mutlaka kontrol et."
+          ],
+          "commonMistakes": [
+            "Üçgen eşitsizliğinde eşitliği de kabul etmek (5, 5, 10 ile üçgen olmaz).",
+            "Bir açının karşısındaki kenarı yanlış belirlemek (A açısının karşısı BC'dir).",
+            "Kenarortay ile açıortayı karıştırmak.",
+            "İkizkenar üçgende iki farklı durumu da kontrol etmemek."
+          ],
+          "questions": [
+            {
+              "id": "matematik-9-1-q1",
+              "stem": "İki kenarının uzunluğu 5 cm ve 9 cm olan bir üçgenin üçüncü kenarının uzunluğu bir tam sayıdır.\nBu kenarın uzunluğu en fazla kaç cm olabilir?",
+              "choices": [
+                "14",
+                "13",
+                "12",
+                "4"
+              ],
+              "answer": 1,
+              "explanation": "1. Üçgen eşitsizliği: 9 − 5 < c < 9 + 5 → 4 < c < 14.\n2. c, 14'ten küçük olmalı; 14 olamaz.\n3. En büyük tam sayı değeri 13'tür.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-9-1-q2",
+              "stem": "Bir üçgende bir köşeyi karşısındaki kenarın orta noktasına birleştiren doğru parçasına ne ad verilir?",
+              "choices": [
+                "Açıortay",
+                "Yükseklik",
+                "Kenarortay",
+                "Köşegen"
+              ],
+              "answer": 2,
+              "explanation": "1. Karşı kenarın orta noktasına giden doğru parçası kenarortaydır.\n2. Açıortay açıyı ikiye böler; yükseklik karşı kenara diktir.\n3. Köşegen çokgenlerde komşu olmayan köşeleri birleştirir; üçgenin köşegeni yoktur.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-9-1-q3",
+              "stem": "Aşağıda uzunlukları verilen doğru parçalarından hangisiyle bir üçgen oluşturulabilir?",
+              "choices": [
+                "6 cm, 7 cm, 12 cm",
+                "3 cm, 4 cm, 8 cm",
+                "5 cm, 5 cm, 10 cm",
+                "2 cm, 3 cm, 6 cm"
+              ],
+              "answer": 0,
+              "explanation": "1. En kısa iki kenarın toplamı, en uzun kenardan büyük olmalıdır.\n2. 6 + 7 = 13 > 12 ✓.\n3. 3 + 4 = 7 < 8 ✗.\n4. 5 + 5 = 10, 10'dan büyük değil ✗.\n5. 2 + 3 = 5 < 6 ✗.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-9-1-q4",
+              "stem": "ABC üçgeninde m(A) = 50° ve m(B) = 70°'dir.\nBuna göre bu üçgenin en uzun kenarı aşağıdakilerden hangisidir?",
+              "choices": [
+                "AB",
+                "BC",
+                "Üç kenar eşittir.",
+                "AC"
+              ],
+              "answer": 3,
+              "explanation": "1. m(C) = 180° − 50° − 70° = 60°.\n2. En büyük açı m(B) = 70°'dir.\n3. En uzun kenar en büyük açının karşısındadır. B açısının karşısındaki kenar AC'dir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-9-1-q5",
+              "stem": "Kenar uzunlukları 7 cm, 10 cm ve x cm olan bir üçgende x bir tam sayıdır.\nBuna göre x'in alabileceği kaç farklı değer vardır?",
+              "choices": [
+                "12",
+                "13",
+                "14",
+                "15"
+              ],
+              "answer": 1,
+              "explanation": "1. Üçgen eşitsizliği: 10 − 7 < x < 10 + 7 → 3 < x < 17.\n2. x: 4, 5, ..., 16.\n3. Değer sayısı: 16 − 4 + 1 = 13.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-9-1-q6",
+              "stem": "ABC üçgeninde |AB| = 8 cm, |BC| = 6 cm ve |AC| = 7 cm'dir.\nBuna göre üçgenin açılarının ölçülerinin büyükten küçüğe sıralaması aşağıdakilerden hangisidir?",
+              "choices": [
+                "m(C) > m(B) > m(A)",
+                "m(A) > m(B) > m(C)",
+                "m(B) > m(C) > m(A)",
+                "m(C) > m(A) > m(B)"
+              ],
+              "answer": 0,
+              "explanation": "1. Her kenarın karşısındaki açıyı belirle:\n2. AB (8 cm) → karşısında C açısı.\n3. AC (7 cm) → karşısında B açısı.\n4. BC (6 cm) → karşısında A açısı.\n5. Büyük kenarın karşısında büyük açı olduğundan: m(C) > m(B) > m(A).",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-9-1-q7",
+              "stem": "Aynı doğru üzerinde olmayan A, B ve C köylerinden A ile B arasındaki kuş uçuşu uzaklık 12 km, B ile C arasındaki kuş uçuşu uzaklık 5 km'dir. A ile C arasındaki kuş uçuşu uzaklık bir tam sayı (km)'dır.\nBuna göre A ile C arasındaki uzaklığın alabileceği en küçük ve en büyük değerlerin toplamı kaçtır?",
+              "choices": [
+                "22",
+                "26",
+                "24",
+                "34"
+              ],
+              "answer": 2,
+              "explanation": "1. Köyler aynı doğru üzerinde olmadığından bir üçgen oluştururlar.\n2. Üçgen eşitsizliği: 12 − 5 < |AC| < 12 + 5 → 7 < |AC| < 17.\n3. En küçük tam sayı değeri 8, en büyük tam sayı değeri 16'dır.\n4. Toplam: 8 + 16 = 24.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-9-1-q8",
+              "stem": "Bir ikizkenar üçgenin iki kenar uzunluğu 4 cm ve 9 cm'dir.\nBuna göre bu üçgenin çevresi kaç cm'dir?",
+              "choices": [
+                "17",
+                "26",
+                "17 veya 22",
+                "22"
+              ],
+              "answer": 3,
+              "explanation": "1. İki durum vardır: kenarlar 4, 4, 9 ya da 9, 9, 4.\n2. 4, 4, 9: 4 + 4 = 8 < 9 → üçgen oluşmaz ✗.\n3. 9, 9, 4: 9 + 4 = 13 > 9 ✓.\n4. Çevre: 9 + 9 + 4 = 22 cm.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "matematik-9-2",
+          "name": "Pisagor Bağıntısı",
+          "kazanim": [
+            "M.8.3.1.5. Pisagor bağıntısını oluşturur, ilgili problemleri çözer."
+          ],
+          "summary": "Bir açısı 90° olan üçgene **dik üçgen** denir. Dik açıyı oluşturan iki kenara **dik kenarlar**, dik açının karşısındaki en uzun kenara **hipotenüs** denir.\n\n**Pisagor bağıntısı:** Dik kenarlar a ve b, hipotenüs c ise\n**a² + b² = c²**\nModel: Kenarları a ve b olan karelerin alanları toplamı, kenarı c olan karenin alanına eşittir.\n\n**Kullanım:**\n- Dik kenarlar 6 ve 8 ise c² = 36 + 64 = 100 → c = 10.\n- Hipotenüs 13, bir dik kenar 5 ise b² = 169 − 25 = 144 → b = 12.\n- Sonuç tam sayı çıkmayabilir: Dik kenarlar 2 ve 4 ise c² = 20 → c = √20 = 2√5.\n\n**Sık görülen Pisagor üçlüleri:** (3, 4, 5), (5, 12, 13), (8, 15, 17), (7, 24, 25) ve bunların katları: (6, 8, 10), (9, 12, 15)... Bunları bilmek işini hızlandırır.\n\n**Dik üçgen mi?** Üç kenar verildiğinde en uzun kenarın karesi, diğer iki kenarın kareleri toplamına eşitse üçgen dik üçgendir.\n\n**Koordinat düzleminde uzaklık:** İki nokta arasındaki uzaklığı bulmak için yatay ve dikey farkları dik kenar kabul edip Pisagor uygularsın. A(1, 1) ile B(7, 9) arası: yatay 6, dikey 8 → uzaklık 10.\n\nGerçek hayatta merdiven–duvar, televizyon ekranının köşegeni, parkta kestirme yol gibi durumlarda Pisagor kullanılır. Dikdörtgenin köşegeni, kenarları dik kenar olan bir dik üçgenin hipotenüsüdür. LGS'de genellikle iki adımlı, bağlamlı problemler olarak gelir.",
+          "keyPoints": [
+            "a² + b² = c²; c her zaman dik açının karşısındaki en uzun kenardır.",
+            "Pisagor üçlüleri: 3-4-5, 5-12-13, 8-15-17, 7-24-25 ve katları.",
+            "Dikdörtgenin köşegeni = √(kısa kenar² + uzun kenar²).",
+            "Koordinat düzleminde iki nokta arası uzaklık: yatay ve dikey farklarla Pisagor.",
+            "Dik kenarı bulurken çıkarma yap: b² = c² − a²."
+          ],
+          "commonMistakes": [
+            "Hipotenüsü yanlış belirleyip dik kenarın karesini toplama yazmak.",
+            "Kareleri toplamak yerine kenarları toplamak (6 + 8 = 14 sanmak).",
+            "Karekök almayı unutup c² değerini cevap olarak yazmak.",
+            "Merdiven problemlerinde merdivenin boyunun değişmediğini unutmak."
+          ],
+          "questions": [
+            {
+              "id": "matematik-9-2-q1",
+              "stem": "Dik kenarlarının uzunlukları 6 cm ve 8 cm olan dik üçgenin hipotenüsü kaç cm'dir?",
+              "choices": [
+                "14",
+                "10",
+                "12",
+                "48"
+              ],
+              "answer": 1,
+              "explanation": "1. c² = 6² + 8² = 36 + 64 = 100.\n2. c = √100 = 10 cm.\n3. 14, kenarları toplama hatasıdır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-9-2-q2",
+              "stem": "Bir dik üçgenin hipotenüsü 13 cm, dik kenarlarından biri 5 cm'dir.\nDiğer dik kenarı kaç cm'dir?",
+              "choices": [
+                "8",
+                "18",
+                "12",
+                "14"
+              ],
+              "answer": 2,
+              "explanation": "1. 5² + b² = 13² → 25 + b² = 169.\n2. b² = 169 − 25 = 144.\n3. b = √144 = 12 cm.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-9-2-q3",
+              "stem": "Kenar uzunlukları aşağıda verilen üçgenlerden hangisi dik üçgendir?",
+              "choices": [
+                "7, 24, 25",
+                "5, 6, 8",
+                "4, 5, 6",
+                "8, 10, 13"
+              ],
+              "answer": 0,
+              "explanation": "1. En uzun kenarın karesi, diğer iki kenarın kareleri toplamına eşit olmalı.\n2. 7² + 24² = 49 + 576 = 625 = 25² ✓.\n3. 5² + 6² = 61 ≠ 64 ✗.\n4. 4² + 5² = 41 ≠ 36 ✗.\n5. 8² + 10² = 164 ≠ 169 ✗.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-9-2-q4",
+              "stem": "Kenar uzunlukları 24 cm ve 18 cm olan dikdörtgen şeklindeki bir tabletin ekranının köşegen uzunluğu kaç cm'dir?",
+              "choices": [
+                "42",
+                "36",
+                "21",
+                "30"
+              ],
+              "answer": 3,
+              "explanation": "1. Köşegen, kenarları dik kenar olan dik üçgenin hipotenüsüdür.\n2. d² = 24² + 18² = 576 + 324 = 900.\n3. d = √900 = 30 cm. (18-24-30, 3-4-5 üçlüsünün 6 katıdır.)",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-9-2-q5",
+              "stem": "Dik kenarlarının uzunlukları 2 cm ve 4 cm olan dik üçgenin hipotenüsü kaç cm'dir?",
+              "choices": [
+                "6",
+                "2√5",
+                "2√3",
+                "4√2"
+              ],
+              "answer": 1,
+              "explanation": "1. c² = 2² + 4² = 4 + 16 = 20.\n2. c = √20 = √(4·5) = 2√5 cm.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-9-2-q6",
+              "stem": "5 m uzunluğundaki bir merdiven dik bir duvara dayanmıştır ve merdivenin alt ucu duvardan 3 m uzaktadır. Merdivenin alt ucu duvardan 1 m daha uzaklaştırılırsa merdivenin üst ucu kaç metre aşağı kayar?",
+              "choices": [
+                "1",
+                "2",
+                "0,5",
+                "1,5"
+              ],
+              "answer": 0,
+              "explanation": "1. İlk durumda yükseklik: h² + 3² = 5² → h² = 16 → h = 4 m.\n2. Yeni durumda alt uç 4 m uzakta; merdiven yine 5 m: h² + 4² = 25 → h² = 9 → h = 3 m.\n3. Kayma: 4 − 3 = 1 m.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-9-2-q7",
+              "stem": "Bir şehir haritası koordinat sistemine yerleştirilmiştir. Kütüphane A(1, 1), müze B(7, 9) noktasındadır. Birim uzunluk 1 km'dir.\nKütüphane ile müze arasındaki kuş uçuşu uzaklık kaç km'dir?",
+              "choices": [
+                "14",
+                "12",
+                "10",
+                "8"
+              ],
+              "answer": 2,
+              "explanation": "1. Yatay fark: 7 − 1 = 6 km. Dikey fark: 9 − 1 = 8 km.\n2. Bu farklar dik kenarlar, uzaklık hipotenüstür.\n3. d² = 6² + 8² = 100 → d = 10 km.\n4. 14 cevabı yolları toplama hatasıdır (kuş uçuşu değil).",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-9-2-q8",
+              "stem": "Kenar uzunlukları 40 m ve 30 m olan dikdörtgen şeklindeki bir parkın bir köşesinden karşı köşesine gitmek isteyen Ali, iki seçenek düşünüyor: Parkın kenarları boyunca yürümek ya da parkı köşegen boyunca çaprazlama geçmek. Ali dakikada 80 m yürümektedir.\nAli köşegen boyunca yürürse kenarlar boyunca yürümeye göre kaç saniye kazanır?",
+              "choices": [
+                "10",
+                "20",
+                "25",
+                "15"
+              ],
+              "answer": 3,
+              "explanation": "1. Kenarlar boyunca yol: 40 + 30 = 70 m.\n2. Köşegen: d² = 40² + 30² = 1600 + 900 = 2500 → d = 50 m.\n3. Kısalan yol: 70 − 50 = 20 m.\n4. Dakikada 80 m → 20 m için 20/80 = 1/4 dakika.\n5. 1/4 dakika = 15 saniye.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematik-10",
+      "no": 10,
+      "name": "Eşlik ve Benzerlik",
+      "topics": [
+        {
+          "id": "matematik-10-1",
+          "name": "Eşlik ve Benzerlik",
+          "kazanim": [
+            "Eşlik ve benzerliği ilişkilendirir, eş ve benzer şekillerin kenar ve açı özelliklerini belirler.",
+            "Benzer çokgenlerin benzerlik oranını belirler, bir çokgene eş ve benzer çokgenler oluşturur."
+          ],
+          "summary": "**Eş şekiller:** Biçimleri ve büyüklükleri aynı olan şekillerdir. Biri diğerinin üzerine tam olarak oturur. Eş çokgenlerde karşılık gelen **kenar uzunlukları eşit** ve karşılık gelen **açı ölçüleri eşittir**. Eşlik '≅' sembolüyle gösterilir.\n\n**Benzer şekiller:** Biçimleri aynı, büyüklükleri farklı olabilen şekillerdir. Biri diğerinin büyütülmüş ya da küçültülmüş hâlidir. Benzer çokgenlerde:\n- Karşılık gelen **açılar eşittir**.\n- Karşılık gelen **kenarlar orantılıdır**.\nBenzerlik '~' sembolüyle gösterilir. Eş şekiller aynı zamanda benzerdir (benzerlik oranı 1).\n\n**Benzerlik oranı:** Karşılık gelen kenarların oranıdır. ABC ~ DEF ve |AB| = 6, |DE| = 9 ise benzerlik oranı 6/9 = 2/3'tür. Bu oran tüm karşılık gelen kenarlar için aynıdır. Benzer şekillerin **çevreleri de aynı oranda** büyür.\n\n**Her zaman benzer olanlar:** İki kare, iki eşkenar üçgen, iki daire her zaman benzerdir. Ama iki dikdörtgen, iki eşkenar dörtgen veya iki ikizkenar üçgen her zaman benzer değildir! Örneğin 2×3 ve 2×5 dikdörtgenlerin açıları eşit ama kenarları orantılı değildir. Eşkenar dörtgenlerin kenarları orantılıdır ama açıları farklı olabilir. Benzerlik için **iki şartın birlikte** sağlanması gerekir.\n\n**Gerçek hayatta benzerlik:** Fotoğraf büyütme, maket, harita ve gölge problemleri benzerlikle çözülür. Aynı anda güneş ışığı altındaki cisimlerin boyları ile gölgeleri orantılıdır: 1,5 m boyundaki çocuğun gölgesi 2 m ise gölgesi 12 m olan ağacın boyu 9 m'dir.",
+          "keyPoints": [
+            "Eş: kenarlar ve açılar eşit. Benzer: açılar eşit, kenarlar orantılı.",
+            "Benzerlik oranı = karşılık gelen kenarların oranı; çevreler de aynı oranda.",
+            "İki kare, iki eşkenar üçgen, iki daire her zaman benzerdir.",
+            "Her eş şekil benzerdir, ama her benzer şekil eş değildir.",
+            "Gölge problemlerinde boy/gölge oranı aynı anda tüm cisimler için sabittir."
+          ],
+          "commonMistakes": [
+            "Karşılık gelen kenarları yanlış eşleştirmek (ABC ~ DEF'de AB ↔ DE, BC ↔ EF, AC ↔ DF).",
+            "Benzerlik oranında kenarları çıkarmak (12 − 4 = 8) yerine bölmek gerektiğini unutmak.",
+            "İki dikdörtgenin her zaman benzer olduğunu sanmak.",
+            "Büyütmede kenarlara aynı sayıyı eklemek (oranı korumak için çarpmak gerekir)."
+          ],
+          "questions": [
+            {
+              "id": "matematik-10-1-q1",
+              "stem": "Benzer iki üçgende karşılık gelen kenarlardan biri küçük üçgende 4 cm, büyük üçgende 12 cm'dir.\nKüçük üçgenin büyük üçgene benzerlik oranı kaçtır?",
+              "choices": [
+                "1/3",
+                "3",
+                "1/4",
+                "8"
+              ],
+              "answer": 0,
+              "explanation": "1. Benzerlik oranı = küçük üçgenin kenarı ÷ büyük üçgenin karşılık gelen kenarı.\n2. 4/12 = 1/3.\n3. 3, büyüğün küçüğe oranıdır; 8 ise kenarların farkıdır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-10-1-q2",
+              "stem": "Eş iki çokgen için aşağıdakilerden hangisi her zaman doğrudur?",
+              "choices": [
+                "Karşılık gelen açıları eşittir, kenarları orantılıdır ama eşit değildir.",
+                "Karşılık gelen kenar uzunlukları ve açı ölçüleri eşittir.",
+                "Yalnızca karşılık gelen açıları eşittir.",
+                "Yalnızca çevre uzunlukları eşittir."
+              ],
+              "answer": 1,
+              "explanation": "1. Eş şekiller biçim ve büyüklük olarak aynıdır.\n2. Bu nedenle karşılık gelen kenarlar eşit, karşılık gelen açılar eşittir ✓.\n3. A şıkkı eşliği değil, eş olmayan benzer şekilleri anlatır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-10-1-q3",
+              "stem": "ABC ~ DEF olmak üzere |AB| = 6 cm, |BC| = 8 cm, |AC| = 10 cm ve |DE| = 9 cm'dir.\nBuna göre |EF| kaç cm'dir?",
+              "choices": [
+                "10",
+                "11",
+                "12",
+                "15"
+              ],
+              "answer": 2,
+              "explanation": "1. Karşılık gelen kenarlar: AB ↔ DE, BC ↔ EF, AC ↔ DF.\n2. Oran: |DE|/|AB| = 9/6 = 1,5.\n3. |EF| = |BC|·1,5 = 8·1,5 = 12 cm.\n4. 11 cevabı, 8'e 3 ekleme hatasıdır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-10-1-q4",
+              "stem": "Kenar uzunlukları 4 cm ve 6 cm olan bir dikdörtgen ile benzer olan başka bir dikdörtgenin kısa kenarı 10 cm'dir.\nBu dikdörtgenin uzun kenarı kaç cm'dir?",
+              "choices": [
+                "12",
+                "20",
+                "16",
+                "15"
+              ],
+              "answer": 3,
+              "explanation": "1. Kısa kenarlar karşılık gelir: oran 10/4 = 2,5.\n2. Uzun kenar: 6·2,5 = 15 cm.\n3. 12, kenarlara aynı sayıyı (6) ekleme hatasıdır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-10-1-q5",
+              "stem": "Aşağıdaki şekil çiftlerinden hangisi her zaman birbirine benzerdir?",
+              "choices": [
+                "İki dikdörtgen",
+                "İki ikizkenar üçgen",
+                "İki eşkenar dörtgen",
+                "İki eşkenar üçgen"
+              ],
+              "answer": 3,
+              "explanation": "1. Eşkenar üçgenlerin tüm açıları 60°'dir ve kenarları kendi içinde eşittir; bu yüzden kenarları her zaman orantılıdır → her zaman benzer ✓.\n2. Dikdörtgenlerin açıları eşittir ama kenar oranları farklı olabilir (2×3 ve 2×5).\n3. İkizkenar üçgenlerin açıları farklı olabilir.\n4. Eşkenar dörtgenlerin kenarları orantılıdır ama açıları farklı olabilir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-10-1-q6",
+              "stem": "Güneşli bir günde aynı saatte boyu 1,5 m olan bir çocuğun gölgesinin uzunluğu 2 m, bir ağacın gölgesinin uzunluğu ise 12 m olarak ölçülüyor.\nBuna göre ağacın boyu kaç metredir?",
+              "choices": [
+                "9",
+                "16",
+                "8",
+                "10"
+              ],
+              "answer": 0,
+              "explanation": "1. Aynı anda boy ile gölge orantılıdır: 1,5/2 = h/12.\n2. Gölge 2 m'den 12 m'ye 6 katına çıkmıştır.\n3. Ağacın boyu: 1,5·6 = 9 m.\n4. 16 cevabı oranı ters kurma hatasıdır (12·2 : 1,5 = 16).",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-10-1-q7",
+              "stem": "Kenar uzunlukları 10 cm ve 15 cm olan dikdörtgen şeklindeki bir fotoğraf, benzerliği korunarak büyütülüyor. Büyütülen fotoğrafın kısa kenarı 40 cm oluyor.\nBüyütülen fotoğrafın çevresi kaç cm'dir?",
+              "choices": [
+                "100",
+                "200",
+                "170",
+                "160"
+              ],
+              "answer": 1,
+              "explanation": "1. Benzerlik oranı: 40/10 = 4.\n2. Uzun kenar: 15·4 = 60 cm.\n3. Çevre: 2·(40 + 60) = 200 cm.\n4. Kontrol: eski çevre 50 cm, 50·4 = 200 ✓.\n5. 170 cevabı, iki kenara da aynı sayıyı (30 cm) ekleme hatasıdır: 40 ve 45 cm.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-10-1-q8",
+              "stem": "Benzer iki üçgenin çevreleri 24 cm ve 36 cm'dir. Küçük üçgenin en uzun kenarı 10 cm'dir.\nBüyük üçgenin en uzun kenarı kaç cm'dir?",
+              "choices": [
+                "22",
+                "12",
+                "15",
+                "20"
+              ],
+              "answer": 2,
+              "explanation": "1. Benzer şekillerde çevrelerin oranı benzerlik oranına eşittir: 36/24 = 1,5.\n2. Büyük üçgenin en uzun kenarı: 10·1,5 = 15 cm.\n3. 22 cevabı farkı (12) ekleme hatasıdır.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematik-11",
+      "no": 11,
+      "name": "Dönüşüm Geometrisi",
+      "topics": [
+        {
+          "id": "matematik-11-1",
+          "name": "Öteleme ve Yansıma",
+          "kazanim": [
+            "Nokta, doğru parçası ve diğer düzlemsel şekillerin öteleme altındaki görüntülerini çizer.",
+            "Nokta, doğru parçası ve diğer düzlemsel şekillerin eksenlere göre yansıma altındaki görüntülerini çizer.",
+            "Çokgenlerin öteleme ve eksenlere göre yansımalar sonucunda ortaya çıkan görüntüsünü oluşturur."
+          ],
+          "summary": "**Dönüşüm geometrisi**, şekillerin düzlemde yer değiştirmesini inceler. 8. sınıfta iki dönüşüm öğrenirsin: öteleme ve yansıma. İkisinde de şeklin **boyutu ve biçimi değişmez**; görüntü, şeklin kendisine **eştir**.\n\n**Öteleme (kaydırma):** Şekil, döndürülmeden belirli bir yönde belirli bir miktar kaydırılır.\n- Sağa a birim: x'e a eklenir → (x + a, y)\n- Sola a birim: x'ten a çıkarılır → (x − a, y)\n- Yukarı b birim: y'ye b eklenir → (x, y + b)\n- Aşağı b birim: y'den b çıkarılır → (x, y − b)\nÖrnek: B(−3, 4) noktası 5 birim sağa ötelenirse (2, 4) olur.\n\n**Yansıma (ayna görüntüsü):** Şekil bir doğruya göre ayna gibi yansıtılır. Görüntü ile asıl nokta yansıma doğrusuna eşit uzaklıktadır.\n- **x eksenine göre yansıma:** x aynı kalır, y'nin işareti değişir → (x, −y)\n- **y eksenine göre yansıma:** y aynı kalır, x'in işareti değişir → (−x, y)\nÖrnek: A(2, 5) noktasının x eksenine göre yansıması (2, −5), y eksenine göre yansıması (−2, 5)'tir.\n\nYansımada şeklin **yönü tersine döner** (sağ el sol el olur), ötelemede ise yön aynı kalır.\n\n**Ardışık dönüşümler:** Birden fazla dönüşüm verildiğinde işlemleri **verilen sırayla** tek tek uygula. Her adımda yeni noktayı bul, sonraki dönüşümü bu yeni noktaya uygula.\n\nBir çokgenin görüntüsünü bulmak için her köşesinin görüntüsünü bulup bu noktaları sırayla birleştirirsin. LGS'de genellikle koordinatları verilen bir şeklin ardışık dönüşümler sonunda nereye gideceği sorulur.",
+          "keyPoints": [
+            "Öteleme: sağ/sol → x değişir, yukarı/aşağı → y değişir.",
+            "x eksenine göre yansıma: (x, y) → (x, −y).",
+            "y eksenine göre yansıma: (x, y) → (−x, y).",
+            "Öteleme ve yansımada görüntü, şeklin kendisine eştir.",
+            "Ardışık dönüşümleri verilen sırayla, adım adım uygula."
+          ],
+          "commonMistakes": [
+            "x eksenine göre yansımada x'in işaretini değiştirmek (eksenleri karıştırmak).",
+            "Sola ötelemede x'e eklemek, aşağı ötelemede y'ye eklemek.",
+            "Ardışık dönüşümlerde sırayı değiştirmek ya da bir adımı atlamak.",
+            "Yansımanın şeklin boyutunu değiştirdiğini sanmak."
+          ],
+          "questions": [
+            {
+              "id": "matematik-11-1-q1",
+              "stem": "A(2, 5) noktasının x eksenine göre yansıması aşağıdakilerden hangisidir?",
+              "choices": [
+                "(−2, 5)",
+                "(2, −5)",
+                "(−2, −5)",
+                "(5, 2)"
+              ],
+              "answer": 1,
+              "explanation": "1. x eksenine göre yansımada x değeri aynı kalır, y değerinin işareti değişir.\n2. A(2, 5) → (2, −5).\n3. (−2, 5), y eksenine göre yansımadır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-11-1-q2",
+              "stem": "B(−3, 4) noktası 5 birim sağa ötelenirse görüntüsü hangi nokta olur?",
+              "choices": [
+                "(−8, 4)",
+                "(−3, 9)",
+                "(2, 4)",
+                "(2, 9)"
+              ],
+              "answer": 2,
+              "explanation": "1. Sağa öteleme x değerini artırır, y değişmez.\n2. x: −3 + 5 = 2.\n3. Görüntü: (2, 4).",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-11-1-q3",
+              "stem": "C(4, −1) noktası önce 3 birim sola, sonra 2 birim yukarı ötelenirse görüntüsü hangi nokta olur?",
+              "choices": [
+                "(1, 1)",
+                "(7, 1)",
+                "(1, −3)",
+                "(7, −3)"
+              ],
+              "answer": 0,
+              "explanation": "1. 3 birim sola: x = 4 − 3 = 1 → (1, −1).\n2. 2 birim yukarı: y = −1 + 2 = 1 → (1, 1).",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-11-1-q4",
+              "stem": "D(−5, −2) noktasının y eksenine göre yansıması aşağıdakilerden hangisidir?",
+              "choices": [
+                "(−5, 2)",
+                "(5, 2)",
+                "(2, −5)",
+                "(5, −2)"
+              ],
+              "answer": 3,
+              "explanation": "1. y eksenine göre yansımada y aynı kalır, x'in işareti değişir.\n2. x: −5 → 5.\n3. Görüntü: (5, −2).",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-11-1-q5",
+              "stem": "Öteleme ve yansıma dönüşümleriyle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+              "choices": [
+                "Öteleme, şeklin boyutunu değiştirir.",
+                "Öteleme veya yansıma sonucu elde edilen görüntü, şeklin kendisine eştir.",
+                "Yansımada şeklin yönü hiçbir zaman değişmez.",
+                "Öteleme, şekli kendi etrafında döndürür."
+              ],
+              "answer": 1,
+              "explanation": "1. Öteleme ve yansıma şeklin boyutunu ve biçimini korur; görüntü asıl şekle eştir ✓.\n2. A yanlış: öteleme yalnızca konumu değiştirir.\n3. C yanlış: yansımada şeklin yönü tersine döner (ayna görüntüsü).\n4. D yanlış: ötelemede döndürme yoktur.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-11-1-q6",
+              "stem": "Köşeleri A(1, 2), B(4, 2) ve C(1, 6) olan ABC üçgeni önce x eksenine göre yansıtılıyor, sonra elde edilen üçgen 2 birim sola öteleniyor.\nBuna göre C köşesinin son görüntüsü aşağıdakilerden hangisidir?",
+              "choices": [
+                "(−1, 6)",
+                "(3, −6)",
+                "(−1, −6)",
+                "(−1, −4)"
+              ],
+              "answer": 2,
+              "explanation": "1. x eksenine göre yansıma: C(1, 6) → (1, −6).\n2. 2 birim sola öteleme: x = 1 − 2 = −1 → (−1, −6).\n3. (3, −6) sağa öteleme, (−1, 6) yansımayı atlama hatasıdır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-11-1-q7",
+              "stem": "K(a, 3) noktasının y eksenine göre yansıması (−4, b) noktasıdır.\nBuna göre a + b toplamı kaçtır?",
+              "choices": [
+                "7",
+                "−1",
+                "1",
+                "−7"
+              ],
+              "answer": 0,
+              "explanation": "1. y eksenine göre yansımada (x, y) → (−x, y).\n2. K(a, 3) → (−a, 3).\n3. (−a, 3) = (−4, b) → a = 4 ve b = 3.\n4. a + b = 4 + 3 = 7.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-11-1-q8",
+              "stem": "Köşeleri (1, 1), (3, 1), (3, 3) ve (1, 3) olan bir kare önce 4 birim aşağı öteleniyor, sonra elde edilen kare y eksenine göre yansıtılıyor.\nAşağıdakilerden hangisi son elde edilen karenin köşelerinden biridir?",
+              "choices": [
+                "(1, −3)",
+                "(−1, 3)",
+                "(3, −1)",
+                "(−3, −1)"
+              ],
+              "answer": 3,
+              "explanation": "1. 4 birim aşağı öteleme (y'den 4 çıkar): (1, −3), (3, −3), (3, −1), (1, −1).\n2. y eksenine göre yansıma (x'in işareti değişir): (−1, −3), (−3, −3), (−3, −1), (−1, −1).\n3. Şıklardan yalnızca (−3, −1) bu köşeler arasındadır ✓.\n4. (1, −3) ve (3, −1) yalnızca ötelemeden sonraki köşelerdir; yansıma unutulmuştur.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matematik-12",
+      "no": 12,
+      "name": "Geometrik Cisimler",
+      "topics": [
+        {
+          "id": "matematik-12-1",
+          "name": "Dik Prizmalar",
+          "kazanim": [
+            "Dik prizmaları tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer."
+          ],
+          "summary": "**Prizma**, birbirine eş ve paralel iki tabanı olan, yan yüzleri dörtgen olan geometrik cisimdir. Yan yüzleri tabanlara dik ise **dik prizma** denir; dik prizmanın yan yüzleri dikdörtgendir. Prizma, tabanının şekline göre adlandırılır: üçgen prizma, kare prizma, beşgen prizma, altıgen prizma...\n\n**Temel elemanlar:** Taban, yan yüz, ayrıt (iki yüzün kesiştiği doğru parçası), köşe ve yükseklik (iki taban arasındaki uzaklık).\n\nTabanı **n kenarlı** çokgen olan bir prizmada:\n- Yüz sayısı = n + 2 (2 taban + n yan yüz)\n- Ayrıt sayısı = 3n\n- Köşe sayısı = 2n\nÖrnek: Altıgen prizma (n = 6): 8 yüz, 18 ayrıt, 12 köşe.\n\n**Açınım:** Prizmayı kâğıttan yapıp ayrıtlarından kesip düzleme açtığında elde ettiğin şekildir. Dik prizmanın açınımında iki taban ve yan yüzlerden oluşan bir dikdörtgen şerit bulunur. Bu dikdörtgen şeridin bir kenarı **taban çevresi**, diğer kenarı **prizmanın yüksekliğidir**.\n\n**Yüzey alanı** = 2·(taban alanı) + (taban çevresi)·(yükseklik). Yani açınımdaki tüm şekillerin alanları toplamıdır.\n\n**Hacim** = taban alanı · yükseklik.\n- Dikdörtgenler prizması: a·b·c\n- Küp: a³ (yüzey alanı 6a²)\n- Dik üçgen tabanlı prizma: (dik kenarların çarpımı ÷ 2)·yükseklik\n\nHacim birimleri: 1 dm³ = 1 litre = 1000 cm³. LGS'de bu konu akvaryum, su deposu ve kutu bağlamlarında sorulur. Bir kaba atılan cismin hacmi, suyun yükselme miktarı ile kabın taban alanının çarpımına eşittir.",
+          "keyPoints": [
+            "n-gen prizma: yüz n + 2, ayrıt 3n, köşe 2n.",
+            "Dik prizmanın yan yüzleri dikdörtgendir.",
+            "Yan yüzlerin açınımı: bir kenarı taban çevresi, diğeri yükseklik olan dikdörtgen.",
+            "Hacim = taban alanı · yükseklik; yüzey alanı = 2·taban alanı + taban çevresi · yükseklik.",
+            "1 L = 1 dm³ = 1000 cm³; suya atılan cismin hacmi = taban alanı · yükselme miktarı."
+          ],
+          "commonMistakes": [
+            "Yüzey alanında iki tabandan birini unutmak.",
+            "Hacim ile yüzey alanını karıştırmak.",
+            "Yan yüz açınımında hangi kenarın taban çevresi, hangisinin yükseklik olduğunu karıştırmak.",
+            "cm³ ile litre arasındaki dönüşümde hata yapmak."
+          ],
+          "questions": [
+            {
+              "id": "matematik-12-1-q1",
+              "stem": "Altıgen dik prizmanın kaç yüzü vardır?",
+              "choices": [
+                "6",
+                "12",
+                "8",
+                "18"
+              ],
+              "answer": 2,
+              "explanation": "1. Yüz sayısı = taban kenar sayısı + 2.\n2. Altıgen için n = 6 → 6 + 2 = 8 yüz (2 taban + 6 yan yüz).\n3. 12 köşe sayısı, 18 ayrıt sayısıdır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-1-q2",
+              "stem": "Ayrıt uzunlukları 3 cm, 4 cm ve 5 cm olan dikdörtgenler prizmasının hacmi kaç cm³'tür?",
+              "choices": [
+                "60",
+                "12",
+                "47",
+                "94"
+              ],
+              "answer": 0,
+              "explanation": "1. Hacim = a·b·c.\n2. 3·4·5 = 60 cm³.\n3. 94 ise yüzey alanıdır: 2·(12 + 15 + 20) = 94 cm².",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-1-q3",
+              "stem": "Taban ayrıtı 4 cm, yüksekliği 10 cm olan kare dik prizmanın yüzey alanı kaç cm²'dir?",
+              "choices": [
+                "160",
+                "192",
+                "176",
+                "208"
+              ],
+              "answer": 1,
+              "explanation": "1. İki taban: 2·(4·4) = 32 cm².\n2. Dört yan yüz: 4·(4·10) = 160 cm².\n3. Yüzey alanı: 32 + 160 = 192 cm².\n4. 176, tabanlardan birini unutma hatasıdır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-1-q4",
+              "stem": "15 ayrıtı olan bir dik prizmanın kaç köşesi vardır?",
+              "choices": [
+                "7",
+                "15",
+                "12",
+                "10"
+              ],
+              "answer": 3,
+              "explanation": "1. Prizmada ayrıt sayısı 3n'dir: 3n = 15 → n = 5 (beşgen prizma).\n2. Köşe sayısı 2n = 10.\n3. 7 ise yüz sayısıdır (n + 2).",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-1-q5",
+              "stem": "Tabanı, dik kenarları 3 cm ve 4 cm olan bir dik üçgen olan dik prizmanın yüksekliği 10 cm'dir.\nBu prizmanın hacmi kaç cm³'tür?",
+              "choices": [
+                "120",
+                "60",
+                "70",
+                "30"
+              ],
+              "answer": 1,
+              "explanation": "1. Taban alanı (dik üçgen): (3·4)/2 = 6 cm².\n2. Hacim = taban alanı · yükseklik = 6·10 = 60 cm³.\n3. 120, üçgen alanında 2'ye bölmeyi unutma hatasıdır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-1-q6",
+              "stem": "Taban ayrıtları 60 cm ve 40 cm, yüksekliği 50 cm olan dikdörtgenler prizması şeklindeki bir akvaryumda 30 cm yüksekliğinde su vardır. Akvaryuma bir taş atıldığında taş tamamen suya batıyor ve suyun yüksekliği 35 cm oluyor.\nBuna göre taşın hacmi kaç cm³'tür?",
+              "choices": [
+                "12000",
+                "2400",
+                "1200",
+                "120000"
+              ],
+              "answer": 0,
+              "explanation": "1. Taşın hacmi, suyun yükselen kısmının hacmine eşittir.\n2. Yükselme: 35 − 30 = 5 cm.\n3. Hacim: 60·40·5 = 12000 cm³ (12 litre).\n4. 2400 sadece taban alanıdır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-1-q7",
+              "stem": "Küp şeklindeki bir kutunun yüzey alanı 150 cm²'dir.\nBu kutunun hacmi kaç cm³'tür?",
+              "choices": [
+                "25",
+                "150",
+                "125",
+                "216"
+              ],
+              "answer": 2,
+              "explanation": "1. Küpün 6 eş kare yüzü vardır: bir yüzün alanı 150 : 6 = 25 cm².\n2. Bir ayrıt: √25 = 5 cm.\n3. Hacim: 5³ = 125 cm³.\n4. 25, bir yüzün alanıdır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-1-q8",
+              "stem": "Yüksekliği 10 cm olan bir kare dik prizmanın yan yüzlerinin açınımı, kenar uzunlukları 32 cm ve 10 cm olan bir dikdörtgendir.\nBu prizmanın hacmi kaç cm³'tür?",
+              "choices": [
+                "320",
+                "1024",
+                "160",
+                "640"
+              ],
+              "answer": 3,
+              "explanation": "1. Yan yüz açınımındaki dikdörtgenin bir kenarı yükseklik (10 cm), diğer kenarı taban çevresidir (32 cm).\n2. Taban kare olduğundan bir taban ayrıtı: 32 : 4 = 8 cm.\n3. Taban alanı: 8·8 = 64 cm².\n4. Hacim: 64·10 = 640 cm³.\n5. 320 ise yan yüzlerin toplam alanıdır (32·10), hacim değil.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "matematik-12-2",
+          "name": "Dik Dairesel Silindir",
+          "kazanim": [
+            "Dik dairesel silindirin temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+            "Dik dairesel silindirin yüzey alanı bağıntısını oluşturur, ilgili problemleri çözer.",
+            "Dik dairesel silindirin hacim bağıntısını oluşturur, ilgili problemleri çözer."
+          ],
+          "summary": "**Dik dairesel silindir**, birbirine eş ve paralel iki daire tabanı olan ve yan yüzü tabanlara dik olan geometrik cisimdir. Konserve kutusu, bardak, boru silindire örnektir.\n\n**Temel elemanlar:** İki daire taban, yarıçap (r), yükseklik (h) ve yanal yüz. Silindirin köşesi ve ayrıtı yoktur.\n\n**Açınım:** Silindiri açtığımızda iki daire ve bir **dikdörtgen** elde ederiz. Dikdörtgenin bir kenarı silindirin **yüksekliği (h)**, diğer kenarı taban dairesinin **çevresidir (2πr)**. Çünkü yanal yüz, tabanın çevresine sarılır.\n\n**Alan formülleri:**\n- Taban alanı = πr²\n- Yanal alan = 2πr·h (dikdörtgenin alanı)\n- Yüzey alanı = 2πr² + 2πrh (iki taban + yanal yüz)\n\n**Hacim** = taban alanı · yükseklik = **πr²h**\n\nSorularda genellikle π = 3 alınır, bu yüzden hesaplar kolaylaşır.\nÖrnek: r = 2 cm, h = 5 cm için hacim = 3·4·5 = 60 cm³.\n\n**Yarıçap ve yükseklik değişirse:** Yarıçap 2 katına çıkarsa taban alanı 4 katına çıkar (çünkü r²). Yarıçap 2 katına, yükseklik yarıya inerse hacim 4·(1/2) = 2 katına çıkar.\n\n**Pratik ipuçları:**\n- Açınım dikdörtgeni verilmişse, hangi kenarın taban çevresi olduğuna dikkat et; çevreden yarıçapı bul: 2πr = çevre.\n- Boya silindiri (rulo) bir tam turda yanal alanı kadar yüzey boyar.\n- Hacim birimi: 1 L = 1000 cm³.\nLGS'de silindir genellikle bardak, depo, rulo ve kutu gibi gerçek hayat bağlamlarında sorulur.",
+          "keyPoints": [
+            "Açınım: 2 daire + 1 dikdörtgen (kenarları 2πr ve h).",
+            "Yanal alan = 2πrh; yüzey alanı = 2πr² + 2πrh.",
+            "Hacim = πr²h.",
+            "Yarıçap k katına çıkarsa taban alanı ve hacim k² katına çıkar (h sabitse).",
+            "1 L = 1000 cm³; soruda verilen π değerini kullan (genellikle 3)."
+          ],
+          "commonMistakes": [
+            "Hacimde r² yerine r ya da 2r kullanmak.",
+            "Yüzey alanında tabanlardan birini veya ikisini unutmak.",
+            "Yanal alan ile toplam yüzey alanını karıştırmak.",
+            "Çapı yarıçap sanmak."
+          ],
+          "questions": [
+            {
+              "id": "matematik-12-2-q1",
+              "stem": "Taban yarıçapı 2 cm, yüksekliği 5 cm olan dik dairesel silindirin hacmi kaç cm³'tür? (π = 3 alınız.)",
+              "choices": [
+                "30",
+                "60",
+                "120",
+                "20"
+              ],
+              "answer": 1,
+              "explanation": "1. Hacim = πr²h.\n2. 3·2²·5 = 3·4·5 = 60 cm³.\n3. 30, r² yerine r kullanma hatasıdır (3·2·5).",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-2-q2",
+              "stem": "Dik dairesel silindirin açınımında yanal yüz hangi şekildedir?",
+              "choices": [
+                "Daire",
+                "Üçgen",
+                "Dikdörtgen",
+                "Yamuk"
+              ],
+              "answer": 2,
+              "explanation": "1. Silindirin yanal yüzü açıldığında bir dikdörtgen olur.\n2. Bu dikdörtgenin bir kenarı taban çevresi (2πr), diğeri yüksekliktir (h).\n3. Daireler tabanlardır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-2-q3",
+              "stem": "Taban yarıçapı 3 cm, yüksekliği 10 cm olan dik dairesel silindirin yanal alanı kaç cm²'dir? (π = 3 alınız.)",
+              "choices": [
+                "180",
+                "90",
+                "234",
+                "270"
+              ],
+              "answer": 0,
+              "explanation": "1. Yanal alan = 2πrh.\n2. 2·3·3·10 = 180 cm².\n3. 234, iki taban alanının (2·27 = 54) da eklendiği toplam yüzey alanıdır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-2-q4",
+              "stem": "Taban yarıçapı 5 cm, yüksekliği 4 cm olan dik dairesel silindirin yüzey alanı kaç cm²'dir? (π = 3 alınız.)",
+              "choices": [
+                "120",
+                "300",
+                "195",
+                "270"
+              ],
+              "answer": 3,
+              "explanation": "1. İki taban: 2·πr² = 2·3·25 = 150 cm².\n2. Yanal alan: 2πrh = 2·3·5·4 = 120 cm².\n3. Yüzey alanı: 150 + 120 = 270 cm².\n4. 195, tabanlardan birini unutma hatasıdır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-2-q5",
+              "stem": "Bir dik dairesel silindirin yanal yüzünün açınımı, kenar uzunlukları 36 cm ve 20 cm olan bir dikdörtgendir. Dikdörtgenin 36 cm'lik kenarı taban çemberinin uzunluğuna eşittir.\nBu silindirin hacmi kaç cm³'tür? (π = 3 alınız.)",
+              "choices": [
+                "720",
+                "2160",
+                "4320",
+                "1080"
+              ],
+              "answer": 1,
+              "explanation": "1. Taban çevresi: 2πr = 36 → 2·3·r = 36 → r = 6 cm.\n2. Yükseklik: h = 20 cm.\n3. Hacim: πr²h = 3·36·20 = 2160 cm³.\n4. 720 ise yanal alandır (36·20).",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-2-q6",
+              "stem": "Silindir şeklindeki özdeş bardakların her birinin iç yarıçapı 4 cm, iç yüksekliği 10 cm'dir. 2,4 litre meyve suyu bu bardaklara tamamen dolacak şekilde boşaltılıyor.\nBuna göre kaç bardak tamamen dolar? (π = 3 alınız, 1 L = 1000 cm³)",
+              "choices": [
+                "5",
+                "6",
+                "4",
+                "8"
+              ],
+              "answer": 0,
+              "explanation": "1. Bir bardağın hacmi: πr²h = 3·16·10 = 480 cm³.\n2. Meyve suyu: 2,4 L = 2400 cm³.\n3. Bardak sayısı: 2400 : 480 = 5.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-2-q7",
+              "stem": "Birinci silindirin taban yarıçapı r, yüksekliği h'dir. İkinci silindirin taban yarıçapı 2r, yüksekliği h/2'dir.\nİkinci silindirin hacmi, birinci silindirin hacminin kaç katıdır?",
+              "choices": [
+                "1",
+                "4",
+                "2",
+                "1/2"
+              ],
+              "answer": 2,
+              "explanation": "1. Birinci hacim: πr²h.\n2. İkinci hacim: π·(2r)²·(h/2) = π·4r²·h/2 = 2πr²h.\n3. Oran: 2πr²h ÷ πr²h = 2 kat.\n4. Yarıçap 2 katına çıkınca r² 4 katına çıkar; yükseklik yarıya inince sonuç 2 kat olur.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-2-q8",
+              "stem": "Bir duvar boyacısının kullandığı silindir şeklindeki boya rulosunun yarıçapı 5 cm, uzunluğu 20 cm'dir. Rulo duvar üzerinde kaymadan 10 tam tur dönüyor.\nBuna göre rulonun boyadığı alan kaç cm²'dir? (π = 3 alınız.)",
+              "choices": [
+                "3000",
+                "600",
+                "1500",
+                "6000"
+              ],
+              "answer": 3,
+              "explanation": "1. Rulo bir tam turda yanal alanı kadar yüzey boyar.\n2. Yanal alan: 2πrh = 2·3·5·20 = 600 cm².\n3. 10 tur: 600·10 = 6000 cm².\n4. 600 yalnızca bir turdur.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "matematik-12-3",
+          "name": "Dik Piramit ve Dik Koni",
+          "kazanim": [
+            "Dik piramidi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer.",
+            "Dik koniyi tanır, temel elemanlarını belirler, inşa eder ve açınımını çizer."
+          ],
+          "summary": "**Piramit**, tabanı bir çokgen olan ve yan yüzleri bir tepe noktasında birleşen üçgenlerden oluşan cisimdir. Tabanı düzgün çokgen olan ve tepe noktasından tabana inen dikme tabanın merkezine düşen piramide **dik piramit** denir. Dik piramidin yan yüzleri **eş ikizkenar üçgenlerdir**.\n\nPiramit, tabanının şekline göre adlandırılır: üçgen piramit, kare piramit, altıgen piramit...\n\n**Temel elemanlar:** Taban, yan yüzler, tepe noktası, ayrıtlar, **cisim yüksekliği** (tepe noktasından tabana dik uzaklık) ve **yan yüz yüksekliği** (bir yan yüz üçgeninin tepe noktasından taban kenarına inen yükseklik).\n\nTabanı **n kenarlı** olan piramitte:\n- Yüz sayısı = n + 1\n- Ayrıt sayısı = 2n\n- Köşe sayısı = n + 1\nÖrnek: Kare piramit (n = 4): 5 yüz, 8 ayrıt, 5 köşe.\n\n**Piramidin açınımı:** Taban çokgeni ve her kenarına bağlı birer üçgen. Kare piramidin açınımı 1 kare + 4 eş ikizkenar üçgendir. Açınımın alanı = taban alanı + yan yüzlerin alanları toplamı.\n\nKare dik piramitte cisim yüksekliği, yan yüz yüksekliği ve taban kenarının yarısı bir **dik üçgen** oluşturur. Bu yüzden Pisagor ile birinden diğeri bulunabilir.\n\n**Koni**, bir daire taban ve bir tepe noktasından oluşur. Tepe noktasından inen dikme tabanın merkezine düşüyorsa **dik konidir**. Elemanları: taban yarıçapı (r), yükseklik (h), **ana doğru** (tepe noktasını taban çemberine birleştiren doğru parçası, ℓ). r, h ve ℓ bir dik üçgen oluşturur: **ℓ² = r² + h²**.\n\n**Koninin açınımı:** Bir **daire** (taban) ve bir **daire dilimi** (yanal yüz). Daire diliminin yarıçapı ana doğrudur; yay uzunluğu taban çemberinin uzunluğuna eşittir. Bu yüzden dilimin merkez açısı α için **α/360° = r/ℓ** olur.",
+          "keyPoints": [
+            "n-gen piramit: yüz n + 1, ayrıt 2n, köşe n + 1.",
+            "Dik piramidin yan yüzleri eş ikizkenar üçgenlerdir.",
+            "Kare dik piramitte (cisim yüksekliği)² + (taban kenarının yarısı)² = (yan yüz yüksekliği)².",
+            "Koninin açınımı: 1 daire + 1 daire dilimi; ℓ² = r² + h².",
+            "Koni açınımında dilimin merkez açısı: α/360° = r/ℓ."
+          ],
+          "commonMistakes": [
+            "Piramitte yüz, ayrıt, köşe sayılarını prizma formülleriyle hesaplamak.",
+            "Cisim yüksekliği ile yan yüz yüksekliğini karıştırmak.",
+            "Koninin ana doğrusu ile yüksekliğini aynı sanmak.",
+            "Yan yüz üçgenlerinin alanında 2'ye bölmeyi unutmak."
+          ],
+          "questions": [
+            {
+              "id": "matematik-12-3-q1",
+              "stem": "Kare dik piramidin kaç köşesi vardır?",
+              "choices": [
+                "4",
+                "5",
+                "8",
+                "6"
+              ],
+              "answer": 1,
+              "explanation": "1. Tabanda 4 köşe vardır.\n2. Bir de tepe noktası vardır.\n3. Toplam: 4 + 1 = 5 köşe. (8, ayrıt sayısıdır.)",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-3-q2",
+              "stem": "Dik koninin açınımı hangi düzlemsel şekillerden oluşur?",
+              "choices": [
+                "İki daire ve bir dikdörtgen",
+                "Bir daire ve bir üçgen",
+                "Bir daire ve bir daire dilimi",
+                "Bir kare ve dört üçgen"
+              ],
+              "answer": 2,
+              "explanation": "1. Koninin tabanı bir dairedir.\n2. Yanal yüzü açıldığında bir daire dilimi oluşur.\n3. İki daire ve bir dikdörtgen silindirin, bir kare ve dört üçgen kare piramidin açınımıdır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-3-q3",
+              "stem": "12 ayrıtı olan bir dik piramidin kaç yüzü vardır?",
+              "choices": [
+                "7",
+                "6",
+                "12",
+                "8"
+              ],
+              "answer": 0,
+              "explanation": "1. Piramitte ayrıt sayısı 2n'dir: 2n = 12 → n = 6 (altıgen piramit).\n2. Yüz sayısı: n + 1 = 7 (1 taban + 6 yan yüz).",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-3-q4",
+              "stem": "Yüksekliği 12 cm, taban yarıçapı 5 cm olan dik koninin ana doğrusunun uzunluğu kaç cm'dir?",
+              "choices": [
+                "17",
+                "7",
+                "√119",
+                "13"
+              ],
+              "answer": 3,
+              "explanation": "1. Yükseklik, yarıçap ve ana doğru bir dik üçgen oluşturur; ana doğru hipotenüstür.\n2. ℓ² = 12² + 5² = 144 + 25 = 169.\n3. ℓ = 13 cm.\n4. √119, kareleri çıkarma hatasıdır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-3-q5",
+              "stem": "Tabanı kare olan bir dik piramit için aşağıdakilerden hangisi doğrudur?",
+              "choices": [
+                "Birbirine paralel iki tabanı vardır.",
+                "Yan yüzleri eş ikizkenar üçgenlerdir.",
+                "5 yan yüzü vardır.",
+                "12 ayrıtı vardır."
+              ],
+              "answer": 1,
+              "explanation": "1. A yanlış: piramidin tek tabanı vardır.\n2. B doğru: dik piramidin yan yüzleri eş ikizkenar üçgenlerdir ✓.\n3. C yanlış: 4 yan yüzü vardır (toplam 5 yüz).\n4. D yanlış: 2·4 = 8 ayrıtı vardır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-3-q6",
+              "stem": "Taban ayrıtı 6 cm olan kare dik piramidin yan yüz yüksekliği 5 cm'dir.\nBu piramidin açınımının alanı (yüzey alanı) kaç cm²'dir?",
+              "choices": [
+                "96",
+                "156",
+                "66",
+                "120"
+              ],
+              "answer": 0,
+              "explanation": "1. Taban (kare): 6·6 = 36 cm².\n2. Bir yan yüz (üçgen): (6·5)/2 = 15 cm².\n3. Dört yan yüz: 4·15 = 60 cm².\n4. Toplam: 36 + 60 = 96 cm².\n5. 156, üçgen alanında 2'ye bölmeyi unutma hatasıdır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-3-q7",
+              "stem": "Taban ayrıtı 8 cm olan kare dik piramidin cisim yüksekliği 3 cm'dir.\nBu piramidin yan yüz yüksekliği kaç cm'dir?",
+              "choices": [
+                "4",
+                "√73",
+                "5",
+                "7"
+              ],
+              "answer": 2,
+              "explanation": "1. Tepe noktasından inen dikme, karenin merkezine düşer.\n2. Merkezden bir taban kenarının orta noktasına uzaklık, kenarın yarısıdır: 8 : 2 = 4 cm.\n3. Cisim yüksekliği (3), bu uzaklık (4) ve yan yüz yüksekliği bir dik üçgen oluşturur.\n4. Yan yüz yüksekliği² = 3² + 4² = 25 → 5 cm.\n5. √73, kenarın yarısı yerine tamamını (8) kullanma hatasıdır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "matematik-12-3-q8",
+              "stem": "Taban yarıçapı 3 cm, ana doğrusu 9 cm olan bir dik koni kartondan yapılacaktır.\nKoninin açınımındaki yanal yüzü oluşturan daire diliminin merkez açısı kaç derece olmalıdır?",
+              "choices": [
+                "60",
+                "90",
+                "150",
+                "120"
+              ],
+              "answer": 3,
+              "explanation": "1. Daire diliminin yay uzunluğu, taban çemberinin uzunluğuna eşittir.\n2. Bu nedenle α/360° = r/ℓ.\n3. α/360° = 3/9 = 1/3.\n4. α = 360° : 3 = 120°.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

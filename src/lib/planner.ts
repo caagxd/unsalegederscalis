@@ -1,0 +1,78 @@
+import type { SubjectId } from '../content/types'
+import { SUBJECT_META, getSubject } from './content'
+import { addDays, isWeekend } from './dates'
+import type { TopicStat } from './stats'
+import type { FamilySettings, NewPlanItem } from './types'
+
+// Haftalık program üretici.
+// - Ders sırası LGS ağırlığına göre döner (Türkçe/Mat/Fen iki kat sık).
+// - Her ders için önce zayıf konular (başarı < %60), sonra müfredat sırasıyla az çalışılmış konular.
+// - Her güne yanlış bankası tekrarı; pazar günü deneme.
+
+const ROTATION: SubjectId[] = ['matematik', 'turkce', 'fen', 'inkilap', 'matematik', 'fen', 'turkce', 'ingilizce', 'din']
+const BLOCK = 40
+const REVIEW_MIN = 15
+const EXAM_MIN = 160
+
+export function generateWeek(opts: {
+  start: string
+  settings: Pick<FamilySettings, 'weekday_minutes' | 'weekend_minutes'>
+  topicStats: Map<string, TopicStat>
+  progress: Map<string, number>
+}): NewPlanItem[] {
+  const { start, settings, topicStats, progress } = opts
+  const used = new Set<string>()
+  let rot = 0
+  const items: NewPlanItem[] = []
+
+  const nextTopic = (subject: SubjectId) => {
+    const s = getSubject(subject)
+    if (!s) return null
+    const topics = s.units.flatMap((u) => u.topics).filter((t) => !used.has(t.id))
+    if (!topics.length) return null
+    const weak = topics
+      .filter((t) => (topicStats.get(t.id)?.solved ?? 0) >= 5 && (topicStats.get(t.id)?.accuracy ?? 100) < 60)
+      .sort((a, b) => topicStats.get(a.id)!.accuracy - topicStats.get(b.id)!.accuracy)
+    if (weak.length) return weak[0]
+    // İlerlemesi en düşük konu; eşitlikte müfredatta önce gelen
+    return topics.reduce((best, t) => ((progress.get(t.id) ?? 0) < (progress.get(best.id) ?? 0) ? t : best), topics[0])
+  }
+
+  for (let i = 0; i < 7; i++) {
+    const date = addDays(start, i)
+    const weekend = isWeekend(date)
+    let budget = weekend ? settings.weekend_minutes : settings.weekday_minutes
+    const isSunday = new Date(date + 'T00:00:00').getDay() === 0
+
+    if (isSunday && budget >= EXAM_MIN) {
+      items.push({ date, subject: 'genel', topic_id: null, kind: 'deneme', title: 'Tam LGS denemesi (90 soru) çöz ve Denemeler\'e gir', minutes: EXAM_MIN, target_count: 90, done: false })
+      budget -= EXAM_MIN
+    }
+    if (budget >= 45) {
+      items.push({ date, subject: 'genel', topic_id: null, kind: 'tekrar', title: 'Yanlış bankası tekrarı', minutes: REVIEW_MIN, target_count: null, done: false })
+      budget -= REVIEW_MIN
+    }
+    let misses = 0
+    while (budget >= 25 && misses < ROTATION.length) {
+      const subject = ROTATION[rot++ % ROTATION.length]
+      const topic = nextTopic(subject)
+      if (!topic) { misses++; continue }
+      misses = 0
+      used.add(topic.id)
+      const prog = progress.get(topic.id) ?? 0
+      const minutes = Math.min(BLOCK, budget)
+      const learn = prog < 50
+      items.push({
+        date, subject, topic_id: topic.id, kind: learn ? 'konu' : 'soru',
+        title: learn
+          ? `${SUBJECT_META[subject].name}: ${topic.name} — konu özeti + alıştırma`
+          : `${SUBJECT_META[subject].name}: ${topic.name} — ${subject === 'turkce' || subject === 'matematik' || subject === 'fen' ? 25 : 20} soru çöz`,
+        minutes,
+        target_count: learn ? topic.questions.length : subject === 'turkce' || subject === 'matematik' || subject === 'fen' ? 25 : 20,
+        done: false,
+      })
+      budget -= minutes
+    }
+  }
+  return items
+}

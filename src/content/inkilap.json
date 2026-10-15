@@ -1,0 +1,1877 @@
+{
+  "id": "inkilap",
+  "name": "T.C. İnkılap Tarihi ve Atatürkçülük",
+  "lgsQuestionCount": 10,
+  "units": [
+    {
+      "id": "inkilap-1",
+      "no": 1,
+      "name": "Bir Kahraman Doğuyor",
+      "topics": [
+        {
+          "id": "inkilap-1-1",
+          "name": "Avrupa'daki Gelişmeler ve Osmanlı Devleti",
+          "kazanim": [
+            "İTA.8.1.1. Avrupa'daki gelişmelerin Osmanlı Devleti'ne etkilerini kavrar."
+          ],
+          "summary": "Yeni Çağ ve Yakın Çağ'da Avrupa büyük bir değişim yaşadı. **Coğrafi Keşifler**, **Rönesans** ve **Reform** hareketleri Avrupa'yı bilimde, sanatta ve ekonomide güçlendirdi. 18. yüzyılda yaşanan iki gelişme ise hem dünyayı hem de Osmanlı Devleti'ni derinden etkiledi:\n- **Fransız İhtilali (1789):** Mutlak krallığa karşı yapıldı. **Milliyetçilik, eşitlik, özgürlük, adalet ve insan hakları** gibi fikirleri yaydı. Milliyetçilik fikri, pek çok milletten oluşan Osmanlı Devleti'nde azınlık isyanlarına yol açtı. Bu fikirlerin etkisiyle ilk isyan eden millet **Sırplar**, Osmanlı'dan ayrılarak ilk bağımsızlığını kazanan millet ise **Yunanlılar** oldu.\n- **Sanayi İnkılabı:** İngiltere'de başladı; buhar gücüyle makineli üretime geçildi. Avrupalı devletler **ham madde ve pazar** bulmak için sömürgeciliğe yöneldi. Ucuz Avrupa malları Osmanlı pazarlarını doldurunca el tezgâhlarında üretim yapan ustalar rekabet edemedi.\n\nOsmanlı Devleti dağılmayı önlemek için **ıslahatlar** yaptı:\n- **Tanzimat Fermanı (1839)** ve **Islahat Fermanı (1856):** Kanun önünde eşitlik sağlanmaya çalışıldı, gayrimüslimlere yeni haklar verildi.\n- **I. Meşrutiyet (1876):** Kanun-ı Esasi ilan edildi, halk ilk kez seçimle yönetime katıldı. **II. Meşrutiyet (1908)** ile meclis yeniden açıldı.\n\nAynı dönemde devleti kurtarmak için **fikir akımları** ortaya çıktı: **Osmanlıcılık** (tüm milletleri eşit kabul edip bir arada tutmak), **İslamcılık** (Müslümanları birleştirmek), **Türkçülük** (Türkleri bir bayrak altında toplamak) ve **Batıcılık** (Batı'nın bilim ve teknolojisini örnek almak). Bu akımların hiçbiri devletin dağılmasını önleyemedi. Mustafa Kemal, işte bu fikirlerin tartışıldığı ve imparatorluğun toprak kaybettiği bir dönemde yetişti.",
+          "keyPoints": [
+            "Fransız İhtilali (1789) milliyetçilik fikrini yaydı; çok uluslu Osmanlı'yı en çok bu fikir etkiledi.",
+            "Fransız İhtilali'nin etkisiyle ilk isyan eden millet Sırplar, ilk bağımsız olan millet Yunanlılardır.",
+            "Sanayi İnkılabı ham madde ve pazar arayışını, dolayısıyla sömürgeciliği artırdı.",
+            "Halk, yönetime ilk kez I. Meşrutiyet (1876) ile katıldı; ilk anayasa Kanun-ı Esasi'dir.",
+            "Osmanlıcılık, İslamcılık, Türkçülük ve Batıcılık devleti kurtarmak için ortaya çıkan fikir akımlarıdır."
+          ],
+          "commonMistakes": [
+            "Sanayi İnkılabı'nın Fransa'da başladığını sanmak; Sanayi İnkılabı İngiltere'de başlamıştır.",
+            "İlk isyan eden (Sırplar) ile ilk bağımsız olan (Yunanlılar) milleti karıştırmak.",
+            "Tanzimat Fermanı ile halkın yönetime katıldığını düşünmek; bu I. Meşrutiyet ile olmuştur.",
+            "Osmanlıcılık akımını yalnızca Müslümanları kapsayan bir düşünce sanmak; bu İslamcılıktır."
+          ],
+          "questions": [
+            {
+              "id": "inkilap-1-1-q1",
+              "stem": "Fransız İhtilali'nin yaydığı fikirlerden hangisi, farklı milletlerden oluşan Osmanlı Devleti'ni en çok etkilemiştir?",
+              "choices": [
+                "Mutlakiyet",
+                "Feodalite",
+                "Milliyetçilik",
+                "Merkantilizm"
+              ],
+              "answer": 2,
+              "explanation": "Fransız İhtilali milliyetçilik fikrini yaydı. Her milletin kendi devletini kurma isteği, pek çok milletten oluşan Osmanlı Devleti'nde azınlık isyanlarına yol açtı. Mutlakiyet ihtilalin karşı çıktığı yönetim biçimidir; feodalite ve merkantilizm ihtilalin yaydığı fikirler değildir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-1-1-q2",
+              "stem": "Sanayi İnkılabı'ndan sonra Avrupalı devletlerin sömürgeciliğe yönelmesinin temel nedeni aşağıdakilerden hangisidir?",
+              "choices": [
+                "Nüfuslarının hızla azalması",
+                "Ham madde ve pazar ihtiyacının artması",
+                "Tarımı tamamen bırakmaları",
+                "Din savaşlarının yaygınlaşması"
+              ],
+              "answer": 1,
+              "explanation": "Makineli üretim çok miktarda ham maddeye ihtiyaç duyar ve üretilen malların satılacağı yeni pazarlar gerekir. Bu nedenle Avrupalı devletler ham madde ve pazar bulmak için sömürgeciliğe yöneldi.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-1-1-q3",
+              "stem": "Osmanlı Devleti'nde halk, ilk kez aşağıdaki gelişmelerden hangisiyle seçim yoluyla yönetime katılmıştır?",
+              "choices": [
+                "Tanzimat Fermanı",
+                "Islahat Fermanı",
+                "Sened-i İttifak",
+                "I. Meşrutiyet"
+              ],
+              "answer": 3,
+              "explanation": "1876'da I. Meşrutiyet ilan edildi, ilk anayasa olan Kanun-ı Esasi hazırlandı ve seçimle oluşan bir meclis açıldı. Tanzimat ve Islahat Fermanları eşitlik ve haklarla ilgilidir; halkı yönetime katmamıştır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-1-1-q4",
+              "stem": "“Devlet içindeki bütün milletleri din ve dil ayrımı gözetmeden eşit kabul ederek bir arada tutmak” amacını taşıyan fikir akımı aşağıdakilerden hangisidir?",
+              "choices": [
+                "Osmanlıcılık",
+                "İslamcılık",
+                "Türkçülük",
+                "Batıcılık"
+              ],
+              "answer": 0,
+              "explanation": "Osmanlıcılık, Müslüman ve gayrimüslim tüm unsurları “Osmanlı” kimliği altında eşit kabul ederek devleti bir arada tutmayı amaçlar. İslamcılık yalnızca Müslümanları, Türkçülük Türkleri birleştirmeyi hedefler; Batıcılık ise Batı'yı örnek almayı savunur.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-1-1-q5",
+              "stem": "Bir tarih kitabında şu bilgi yer almaktadır:\n“19. yüzyılda İngiltere'de makinelerle üretilen ucuz kumaşlar Osmanlı çarşılarını doldurdu. Yüzyıllardır el tezgâhında dokuma yapan pek çok usta, bu kumaşlarla rekabet edemeyerek işini kaybetti.”\nBu bilgiye göre aşağıdakilerden hangisi söylenebilir?",
+              "choices": [
+                "Osmanlı Devleti sanayileşmede Avrupa'yı geride bırakmıştır.",
+                "Fransız İhtilali Osmanlı ekonomisini güçlendirmiştir.",
+                "Sanayi İnkılabı Osmanlı'daki yerel üretimi olumsuz etkilemiştir.",
+                "Osmanlı dokuma ustaları hemen makineli üretime geçmiştir."
+              ],
+              "answer": 2,
+              "explanation": "Metinde makineli üretimle yapılan ucuz kumaşların el tezgâhı ustalarını işsiz bıraktığı anlatılıyor. Bu, Sanayi İnkılabı'nın Osmanlı'daki yerel üretime zarar verdiğini gösterir. Diğer seçenekler metinle çelişir ya da metinde yer almaz.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "inkilap-1-1-q6",
+              "stem": "Osmanlı Devleti'nde yapılan bazı düzenlemeler şunlardır:\nI. Tanzimat Fermanı ile kanun önünde eşitlik ilkesi kabul edildi.\nII. Islahat Fermanı ile gayrimüslimlere yeni haklar tanındı.\nIII. I. Meşrutiyet ile Kanun-ı Esasi ilan edildi ve meclis açıldı.\nBu düzenlemelerin ortak amacı aşağıdakilerden hangisidir?",
+              "choices": [
+                "Padişahın yetkilerini sınırsız hâle getirmek",
+                "Avrupa devletleriyle savaşa girmek",
+                "Saltanatı kaldırmak",
+                "Devletin dağılmasını önleyip farklı unsurları bir arada tutmak"
+              ],
+              "answer": 3,
+              "explanation": "Bu ıslahatlarla azınlıkların devlete bağlılığı artırılmak, Avrupa devletlerinin iç işlere karışması önlenmek ve böylece devletin dağılması engellenmek istenmiştir. Hiçbiri saltanatı kaldırmayı ya da savaşı amaçlamamıştır; Meşrutiyet ise padişahın yetkilerini sınırlandırmıştır.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "inkilap-1-2",
+          "name": "Mustafa Kemal'in Çocukluğu, Öğrenimi ve İlk Askerî Görevleri",
+          "kazanim": [
+            "İTA.8.1.2. Mustafa Kemal'in çocukluk ve öğrenim hayatından hareketle onun kişilik özelliklerinin oluşumu hakkında çıkarımlarda bulunur.",
+            "Mustafa Kemal'in fikir hayatını etkileyen olayları ve ilk askerî başarılarını kavrar."
+          ],
+          "summary": "Mustafa Kemal **1881'de Selanik'te** doğdu. Babası **Ali Rıza Efendi**, annesi **Zübeyde Hanım**'dır. Selanik; farklı milletlerin bir arada yaşadığı, ticaretin geliştiği ve yeni fikirlerin hızla yayıldığı bir liman şehriydi.\n\n**Öğrenim hayatı:**\n- Annesinin isteğiyle **mahalle mektebine**, babasının isteğiyle modern eğitim veren **Şemsi Efendi Mektebi**'ne başladı.\n- Babasının ölümünden sonra **Selanik Mülkiye Rüştiyesi**'ne, ardından kendi isteğiyle **Selanik Askerî Rüştiyesi**'ne girdi. Matematik öğretmeni **Mustafa Sabri Bey** ona **“Kemal”** adını verdi.\n- **Manastır Askerî İdadisi**'nde arkadaşı **Ömer Naci**'nin etkisiyle edebiyata ve hitabete ilgi duydu; Fransızca öğrenmeye başladı. Manastır, Balkan milletlerinin milliyetçi isyanlarının yoğun yaşandığı bir şehirdi.\n- **İstanbul'da Harbiye**'yi bitirdi, **1905'te Harp Akademisi'nden kurmay yüzbaşı** olarak mezun oldu.\n\n**İlk görevler ve başarılar:**\n- **Şam**'da görev yaparken arkadaşlarıyla **Vatan ve Hürriyet Cemiyeti**'ni kurdu.\n- **Trablusgarp Savaşı (1911)**'nda İtalyanlara karşı gönüllü olarak savaştı; **Tobruk** ve **Derne**'de başarı gösterdi.\n- **Balkan Savaşları (1912-1913)** sırasında doğduğu şehir Selanik'in kaybedilmesi onu derinden üzdü.\n- **1913'te Sofya'ya askerî ataşe** olarak atandı. Burada meclisin işleyişini, kadınların sosyal hayattaki yerini ve kültürel etkinlikleri gözlemledi.\n\nYaşadığı şehirler, okulları, öğretmenleri ve okuduğu kitaplar Mustafa Kemal'in **vatanseverlik, liderlik, yeniliğe açıklık ve ileri görüşlülük** gibi özelliklerinin oluşmasında etkili oldu.",
+          "keyPoints": [
+            "Mustafa Kemal 1881'de Selanik'te doğdu; babası Ali Rıza Efendi, annesi Zübeyde Hanım'dır.",
+            "“Kemal” adını Selanik Askerî Rüştiyesi'ndeki matematik öğretmeni Mustafa Sabri Bey verdi.",
+            "Manastır Askerî İdadisi'nde Ömer Naci'nin etkisiyle edebiyata ve hitabete ilgi duydu.",
+            "Trablusgarp Savaşı'nda (1911) Tobruk ve Derne'de İtalyanlara karşı savaştı.",
+            "Sofya'da askerî ataşeyken demokratik yönetim ve sosyal hayat hakkında gözlem yaptı."
+          ],
+          "commonMistakes": [
+            "“Kemal” adını Ömer Naci'nin verdiğini sanmak; adı matematik öğretmeni Mustafa Sabri Bey vermiştir.",
+            "Şemsi Efendi Mektebi'ni geleneksel bir mahalle mektebi sanmak; bu okul modern usulde eğitim veriyordu.",
+            "Trablusgarp Savaşı'nı Balkan Savaşları ile karıştırmak; Trablusgarp'ta İtalya'ya karşı savaşılmıştır.",
+            "Vatan ve Hürriyet Cemiyeti'nin İstanbul'da kurulduğunu düşünmek; cemiyet Şam'da kurulmuştur."
+          ],
+          "questions": [
+            {
+              "id": "inkilap-1-2-q1",
+              "stem": "Mustafa Kemal'e “Kemal” adını veren kişi aşağıdakilerden hangisidir?",
+              "choices": [
+                "Ömer Naci",
+                "Mustafa Sabri Bey",
+                "Şemsi Efendi",
+                "Ali Rıza Efendi"
+              ],
+              "answer": 1,
+              "explanation": "Selanik Askerî Rüştiyesi'ndeki matematik öğretmeni Yüzbaşı Mustafa Sabri Bey, öğrencisinin matematikteki başarısını görerek ona “Kemal” (olgunluk, mükemmellik) adını verdi. Ömer Naci edebiyat ilgisini etkileyen arkadaşı, Şemsi Efendi ilk okulunun kurucusu, Ali Rıza Efendi ise babasıdır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-1-2-q2",
+              "stem": "Mustafa Kemal, arkadaşı Ömer Naci'nin etkisiyle edebiyata ve hitabete hangi okulda okurken ilgi duymaya başlamıştır?",
+              "choices": [
+                "Selanik Askerî Rüştiyesi",
+                "İstanbul Harbiye Mektebi",
+                "Harp Akademisi",
+                "Manastır Askerî İdadisi"
+              ],
+              "answer": 3,
+              "explanation": "Mustafa Kemal, Manastır Askerî İdadisi'nde okurken Ömer Naci ile tanıştı ve onun etkisiyle şiire, edebiyata ve güzel konuşmaya (hitabete) ilgi duydu.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-1-2-q3",
+              "stem": "Mustafa Kemal'in 1913'te Sofya'da askerî ataşe olarak bulunması, onun en çok hangi konuda fikir edinmesine katkı sağlamıştır?",
+              "choices": [
+                "Demokratik yönetimin ve sosyal hayatın işleyişi",
+                "Çöl savaşlarında uygulanan taktikler",
+                "Deniz kuvvetlerinin yönetimi",
+                "Halifelik makamının önemi"
+              ],
+              "answer": 0,
+              "explanation": "Mustafa Kemal Sofya'da Bulgar meclisinin çalışmalarını, kadınların sosyal hayattaki yerini, tiyatro ve opera gibi kültürel etkinlikleri gözlemledi. Bu gözlemler onun demokratik yönetim ve çağdaş toplum hayatı hakkında fikir edinmesini sağladı.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-1-2-q4",
+              "stem": "Mustafa Kemal'in Tobruk ve Derne'de İtalyanlara karşı mücadele ettiği savaş aşağıdakilerden hangisidir?",
+              "choices": [
+                "Çanakkale Savaşı",
+                "I. Balkan Savaşı",
+                "Trablusgarp Savaşı",
+                "Kafkas Cephesi"
+              ],
+              "answer": 2,
+              "explanation": "1911'de İtalya'nın Trablusgarp'a (Libya) saldırması üzerine Mustafa Kemal gönüllü olarak bölgeye gitti ve Tobruk ile Derne'de yerel halkı örgütleyerek İtalyanlara karşı başarı kazandı.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-1-2-q5",
+              "stem": "Annesi Zübeyde Hanım'ın isteğiyle mahalle mektebine başlayan Mustafa, kısa süre sonra babası Ali Rıza Efendi'nin isteğiyle modern yöntemlerle eğitim veren Şemsi Efendi Mektebi'ne geçti.\nBu bilgiye göre aşağıdakilerden hangisi söylenebilir?",
+              "choices": [
+                "Mustafa Kemal yalnızca askerî okullarda eğitim almıştır.",
+                "Mustafa Kemal'in ailesinde yeniliğe açık bir tutum bulunmaktadır.",
+                "Selanik'te modern eğitim veren hiçbir okul yoktur.",
+                "Mustafa Kemal'in eğitimine ailesi önem vermemiştir."
+              ],
+              "answer": 1,
+              "explanation": "Babasının oğlunu modern eğitim veren bir okula göndermek istemesi, ailede yeniliğe açık bir tutum olduğunu gösterir. Metinde mahalle mektebi ve Şemsi Efendi Mektebi geçtiği için “yalnızca askerî okul” ve “modern okul yoktur” ifadeleri yanlıştır; ailenin okul seçimiyle ilgilenmesi eğitime önem verdiğini gösterir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "inkilap-1-2-q6",
+              "stem": "Mustafa Kemal'in yetiştiği iki şehirle ilgili şu bilgiler verilmiştir:\nSelanik: Farklı milletlerin bir arada yaşadığı, ticaretin geliştiği ve yeni fikirlerin hızla yayıldığı bir liman şehri\nManastır: Milliyetçilik akımının etkisiyle Balkan milletlerinin isyanlarının yoğun yaşandığı bir şehir\nBu bilgilerden hareketle aşağıdaki yargılardan hangisine ulaşılabilir?",
+              "choices": [
+                "Mustafa Kemal yalnızca İstanbul'daki gelişmelerden etkilenmiştir.",
+                "Manastır'da hiçbir siyasi olay yaşanmamıştır.",
+                "Selanik'te tek bir milletten insanlar yaşamaktadır.",
+                "Mustafa Kemal'in yaşadığı şehirler onun düşünce dünyasının şekillenmesinde etkili olmuştur."
+              ],
+              "answer": 3,
+              "explanation": "Mustafa Kemal, Selanik'te farklı kültürleri ve yeni fikirleri, Manastır'da ise milliyetçi isyanları yakından gördü. Bu ortamlar onun düşünce dünyasını etkiledi. Diğer seçenekler verilen bilgilerle çelişmektedir.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inkilap-2",
+      "no": 2,
+      "name": "Millî Uyanış: Bağımsızlık Yolunda Atılan Adımlar",
+      "topics": [
+        {
+          "id": "inkilap-2-1",
+          "name": "Birinci Dünya Savaşı ve Osmanlı Devleti",
+          "kazanim": [
+            "İTA.8.2.1. Birinci Dünya Savaşı'nın sebeplerini ve savaşın başlamasına yol açan gelişmeleri kavrar.",
+            "İTA.8.2.2. Birinci Dünya Savaşı'nda Osmanlı Devleti'nin durumu hakkında çıkarımlarda bulunur."
+          ],
+          "summary": "**Birinci Dünya Savaşı (1914-1918)**, sömürge rekabeti, ham madde ve pazar arayışı, milliyetçilik ve silahlanma yarışı nedeniyle çıktı. Devletler iki bloğa ayrıldı:\n- **İtilaf Devletleri:** İngiltere, Fransa, Rusya (sonradan İtalya ve ABD de katıldı).\n- **İttifak Devletleri:** Almanya, Avusturya-Macaristan (Osmanlı ve Bulgaristan sonradan katıldı). İtalya önce bu bloktaydı, 1915'te İtilaf tarafına geçti.\n\nSavaşın **görünürdeki sebebi**, Avusturya-Macaristan veliahtının **Saraybosna'da bir Sırp milliyetçisi tarafından öldürülmesidir (1914)**.\n\n**Osmanlı Devleti'nin savaşa girmesi:** Osmanlı, yalnızlıktan kurtulmak ve kaybettiği toprakları geri almak istiyordu. Almanya'dan alınan **Yavuz ve Midilli** gemilerinin Karadeniz'de Rus limanlarını bombalamasıyla İttifak Devletleri safında savaşa girdi.\n\n**Osmanlı cepheleri:**\n- **Taarruz (saldırı) cepheleri:** Kafkas ve Kanal cepheleri. Kafkas'ta **Sarıkamış Harekâtı**'nda askerlerimizin önemli bir kısmı soğuk ve salgın hastalıklar nedeniyle şehit oldu.\n- **Savunma cepheleri:** Çanakkale, Irak, Suriye-Filistin, Hicaz-Yemen.\n- **Yardım cepheleri:** Galiçya, Makedonya, Romanya.\n\n**Çanakkale Cephesi (1915):** 18 Mart 1915'te deniz savaşı kazanıldı. Kara savaşlarında **Mustafa Kemal Arıburnu, Anafartalar ve Conkbayırı**'nda başarı gösterdi ve tanındı. Bu zafer sonucunda İtilaf Devletleri Rusya'ya yardım ulaştıramadı ve savaşın süresi uzadı. Mustafa Kemal 1916'da Kafkas Cephesi'nde **Muş ve Bitlis**'i geri aldı.\n\nSavaş sırasında İtilaf Devletleri **gizli antlaşmalarla** Osmanlı topraklarını kendi aralarında paylaştı. Rusya 1917'de savaştan çekildi; ABD Başkanı **Wilson**, barış ilkelerini yayımladı. Savaşı kaybeden Osmanlı Devleti **30 Ekim 1918'de Mondros Ateşkes Antlaşması**'nı imzaladı.",
+          "keyPoints": [
+            "Savaşın görünürdeki sebebi Avusturya-Macaristan veliahtının Saraybosna'da öldürülmesidir.",
+            "Osmanlı'nın taarruz cepheleri Kafkas ve Kanal; savunma cepheleri Çanakkale, Irak, Suriye-Filistin ve Hicaz-Yemen'dir.",
+            "Çanakkale zaferiyle Rusya'ya yardım ulaştırılamadı ve savaş uzadı; Mustafa Kemal bu cephede tanındı.",
+            "Rusya 1917'de savaştan çekildi; ABD aynı yıl İtilaf safında savaşa girdi.",
+            "Osmanlı Devleti savaştan yenik çıkarak 30 Ekim 1918'de Mondros'u imzaladı."
+          ],
+          "commonMistakes": [
+            "Çanakkale'yi taarruz cephesi sanmak; Çanakkale bir savunma cephesidir.",
+            "Kafkas Cephesi'nde Sarıkamış Harekâtı ile Mustafa Kemal'in Muş ve Bitlis'i geri almasını karıştırmak.",
+            "İtalya'nın savaş boyunca İttifak Devletleri'nde kaldığını düşünmek; 1915'te İtilaf tarafına geçmiştir.",
+            "Yardım cephelerini (Galiçya, Makedonya, Romanya) Osmanlı topraklarında sanmak."
+          ],
+          "questions": [
+            {
+              "id": "inkilap-2-1-q1",
+              "stem": "Birinci Dünya Savaşı'nın görünürdeki (başlatan) sebebi aşağıdakilerden hangisidir?",
+              "choices": [
+                "Fransız İhtilali'nin yaşanması",
+                "Almanya'nın Polonya'ya saldırması",
+                "Avusturya-Macaristan veliahtının Saraybosna'da öldürülmesi",
+                "Rusya'da Bolşevik İhtilali'nin çıkması"
+              ],
+              "answer": 2,
+              "explanation": "1914'te Avusturya-Macaristan veliahtı Saraybosna'da bir Sırp milliyetçisi tarafından öldürüldü; bu olay savaşı başlattı. Almanya'nın Polonya'ya saldırması İkinci Dünya Savaşı'nı başlatmıştır. Bolşevik İhtilali 1917'de, savaş sürerken olmuştur.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-2-1-q2",
+              "stem": "Aşağıdakilerden hangisi Osmanlı Devleti'nin Birinci Dünya Savaşı'nda saldırı (taarruz) amacıyla açtığı cephelerden biridir?",
+              "choices": [
+                "Kafkas Cephesi",
+                "Çanakkale Cephesi",
+                "Irak Cephesi",
+                "Hicaz-Yemen Cephesi"
+              ],
+              "answer": 0,
+              "explanation": "Osmanlı Devleti Kafkas ve Kanal cephelerini saldırı amacıyla açmıştır. Çanakkale, Irak ve Hicaz-Yemen cepheleri ise savunma cepheleridir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-2-1-q3",
+              "stem": "Çanakkale Cephesi'nde kazanılan zaferin aşağıdaki sonuçlarından hangisi Rusya'yı doğrudan etkilemiştir?",
+              "choices": [
+                "Osmanlı Devleti'nin Kafkasya'da kesin zafer kazanması",
+                "Rusya'nın savaşa yeni katılması",
+                "Mondros Ateşkes Antlaşması'nın imzalanması",
+                "İtilaf Devletleri'nin Boğazlar yoluyla Rusya'ya yardım ulaştıramaması"
+              ],
+              "answer": 3,
+              "explanation": "İtilaf Devletleri Boğazları geçerek müttefikleri Rusya'ya silah ve malzeme ulaştırmak istiyordu. Çanakkale zaferiyle bu yardım ulaştırılamadı ve Rusya'nın ekonomik sıkıntıları arttı. Bu durum Rusya'da ihtilalin çıkmasını da kolaylaştırdı.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-2-1-q4",
+              "stem": "Birinci Dünya Savaşı sürerken 1917'de yaşanan ihtilal nedeniyle savaştan çekilen devlet aşağıdakilerden hangisidir?",
+              "choices": [
+                "ABD",
+                "Rusya",
+                "İtalya",
+                "Fransa"
+              ],
+              "answer": 1,
+              "explanation": "1917'de Rusya'da Bolşevik İhtilali oldu ve yeni yönetim savaştan çekildi. ABD aynı yıl savaşa katılmıştır; İtalya 1915'te taraf değiştirmiştir; Fransa savaşı sonuna kadar sürdürmüştür.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-2-1-q5",
+              "stem": "Çanakkale'de Arıburnu'nda düşmanın ilerlediğini gören Mustafa Kemal, askerlerine şöyle seslenmiştir:\n“Ben size taarruzu emretmiyorum, ölmeyi emrediyorum. Biz ölünceye kadar geçecek zaman zarfında yerimize başka kuvvetler ve kumandanlar geçebilir.”\nBu sözlere göre Mustafa Kemal'in amacı aşağıdakilerden hangisidir?",
+              "choices": [
+                "Askerlerini cepheden geri çekmek",
+                "Düşmanla hemen ateşkes imzalamak",
+                "Yardımcı kuvvetler gelene kadar zaman kazanıp düşmanın ilerleyişini durdurmak",
+                "Askerlerini Kafkas Cephesi'ne göndermek"
+              ],
+              "answer": 2,
+              "explanation": "Mustafa Kemal, “Biz ölünceye kadar geçecek zamanda yerimize başka kuvvetler geçebilir” diyerek yardımcı birlikler gelene kadar düşmanı durdurmayı ve zaman kazanmayı amaçladığını belirtmiştir. Geri çekilme ya da ateşkes sözlerde yer almaz.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "inkilap-2-1-q6",
+              "stem": "Birinci Dünya Savaşı sürerken İtilaf Devletleri kendi aralarında gizli antlaşmalar yaptı. Örneğin 1915'te İstanbul ve Boğazların Rusya'ya bırakılması kararlaştırıldı; 1916'da Sykes-Picot Antlaşması ile Orta Doğu'daki Osmanlı toprakları İngiltere ve Fransa arasında paylaşıldı.\nBu bilgilere göre aşağıdakilerden hangisine ulaşılabilir?",
+              "choices": [
+                "Osmanlı Devleti bu gizli antlaşmalara taraf olmuştur.",
+                "Rusya Boğazlar üzerinde hiçbir talepte bulunmamıştır.",
+                "Gizli antlaşmalar savaş sona erdikten sonra yapılmıştır.",
+                "İtilaf Devletleri savaş bitmeden Osmanlı topraklarını paylaşmayı planlamıştır."
+              ],
+              "answer": 3,
+              "explanation": "Metinde antlaşmaların savaş sürerken yapıldığı ve Osmanlı topraklarının paylaşıldığı belirtiliyor. Bu, İtilaf Devletleri'nin savaş bitmeden paylaşım planı yaptığını gösterir. Osmanlı bu antlaşmalara taraf değildir; Rusya'ya Boğazlar vaat edilmiştir.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "inkilap-2-2",
+          "name": "Mondros Ateşkes Antlaşması, Cemiyetler ve Kuva-yı Milliye",
+          "kazanim": [
+            "İTA.8.2.3. Mondros Ateşkes Antlaşması'nın imzalanması ve uygulanması karşısında Osmanlı yönetiminin ve halkın tutumunu kavrar.",
+            "Kuva-yı Milliye'nin oluşum sürecini ve faaliyetlerini kavrar."
+          ],
+          "summary": "Osmanlı Devleti **30 Ekim 1918**'de İtilaf Devletleri ile **Mondros Ateşkes Antlaşması**'nı imzaladı. Önemli maddeleri:\n- Boğazlar İtilaf Devletleri'ne açılacak.\n- Osmanlı ordusu terhis edilecek (askerler silahsızlandırılacak).\n- **7. madde:** İtilaf Devletleri güvenliklerini tehdit eden bir durum görürlerse **herhangi bir stratejik noktayı işgal edebilecek.**\n- **24. madde:** **Vilayet-i Sitte**'de (altı doğu ili) karışıklık çıkarsa buralar işgal edilebilecek. Bu madde ile bölgede bir Ermeni devleti kurulmasına zemin hazırlanmak istendi.\n\nAntlaşmadan sonra Anadolu'da işgaller başladı. **15 Mayıs 1919'da İzmir Yunanlılar tarafından işgal edildi**; gazeteci **Hasan Tahsin** düşmana ilk kurşunu attı.\n\n**İşgallere karşı tutumlar:**\n- **Osmanlı yönetimi (padişah ve İstanbul hükûmeti):** İtilaf Devletleri ile iyi geçinerek devleti kurtarabileceğini düşündü, direnişe karşı çıktı.\n- **Bazı aydınlar:** Kurtuluşu bir büyük devletin **manda ve himayesinde** aradı.\n- **Halk:** Mitingler düzenledi, cemiyetler kurdu ve silahlı direniş başlattı.\n\n**Cemiyetler:** Millî varlığa **zararlı** cemiyetler (Mavri Mira, Pontus, Taşnak, İngiliz Muhipleri Cemiyeti vb.) ve **yararlı** cemiyetler (Redd-i İlhak, Kilikyalılar, Trakya Paşaeli, Doğu Anadolu Müdafaa-i Hukuk vb.) olarak ikiye ayrılır. Yararlı cemiyetler bölgesel çalıştı ve işgallere karşı kuruldu.\n\n**Kuva-yı Milliye (millî kuvvetler):** İşgallere karşı halkın kendi imkânlarıyla oluşturduğu silahlı direniş gruplarıdır. **İlk silahlı direniş Dörtyol'da Fransızlara karşı** yapıldı. Kuva-yı Milliye düzenli ordu kurulana kadar düşmanı oyaladı ve zaman kazandırdı; ancak bölgesel ve disiplinsiz olduğu için büyük bir orduyu yenecek güçte değildi. Bu nedenle daha sonra **düzenli ordu** kuruldu.",
+          "keyPoints": [
+            "Mondros 30 Ekim 1918'de imzalandı; Osmanlı Devleti fiilen sona erdi.",
+            "7. madde İtilaf Devletleri'ne istedikleri stratejik yeri işgal etme imkânı verdi.",
+            "24. madde Vilayet-i Sitte'de Ermeni devleti kurma amacına yönelikti.",
+            "Kuva-yı Milliye'nin ilk silahlı direnişi Dörtyol'da Fransızlara karşıdır.",
+            "Yararlı cemiyetler bölgesel kuruldu ve işgallere karşı mücadele etti."
+          ],
+          "commonMistakes": [
+            "7. madde ile 24. maddeyi karıştırmak: 7. madde genel, 24. madde yalnızca altı doğu ili içindir.",
+            "Kuva-yı Milliye'nin ilk direnişini İzmir'de sanmak; ilk silahlı direniş Dörtyol'dadır, Hasan Tahsin ise Yunanlılara ilk kurşunu atmıştır.",
+            "İstanbul hükûmetinin işgallere karşı ordu gönderdiğini düşünmek; hükûmet direnişe karşı çıkmıştır.",
+            "Redd-i İlhak gibi yararlı cemiyetleri zararlı cemiyetlerle karıştırmak."
+          ],
+          "questions": [
+            {
+              "id": "inkilap-2-2-q1",
+              "stem": "Mondros Ateşkes Antlaşması'nın hangi maddesi, İtilaf Devletleri'ne güvenliklerini tehdit eden bir durum gördüklerinde herhangi bir stratejik noktayı işgal etme imkânı vermiştir?",
+              "choices": [
+                "5. madde",
+                "7. madde",
+                "24. madde",
+                "1. madde"
+              ],
+              "answer": 1,
+              "explanation": "7. madde İtilaf Devletleri'ne “güvenliklerini tehdit eden bir durum” bahanesiyle istedikleri stratejik yeri işgal etme hakkı verdi. 24. madde yalnızca altı doğu ilini (Vilayet-i Sitte), 5. madde ordunun terhisini, 1. madde Boğazların açılmasını düzenler.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-2-2-q2",
+              "stem": "Kuva-yı Milliye ilk silahlı direnişini nerede ve hangi devlete karşı yapmıştır?",
+              "choices": [
+                "Antep'te İngilizlere karşı",
+                "Antalya'da İtalyanlara karşı",
+                "Dörtyol'da Fransızlara karşı",
+                "Erzurum'da Ruslara karşı"
+              ],
+              "answer": 2,
+              "explanation": "Kuva-yı Milliye ilk silahlı direnişini 1918 Aralık ayında Hatay'ın Dörtyol ilçesinde Fransızlara karşı gerçekleştirdi.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-2-2-q3",
+              "stem": "Aşağıdakilerden hangisi millî varlığa yararlı cemiyetlerden biridir?",
+              "choices": [
+                "Mavri Mira",
+                "Pontus Rum Cemiyeti",
+                "İngiliz Muhipleri Cemiyeti",
+                "Redd-i İlhak Cemiyeti"
+              ],
+              "answer": 3,
+              "explanation": "Redd-i İlhak (katılmayı reddetme) Cemiyeti, İzmir'in Yunanistan'a verilmesine karşı kurulmuş yararlı bir cemiyettir. Mavri Mira ve Pontus azınlıkların kurduğu, İngiliz Muhipleri ise İngiliz himayesini savunan zararlı cemiyetlerdir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-2-2-q4",
+              "stem": "Mondros Ateşkes Antlaşması'nın 24. maddesinde Vilayet-i Sitte (altı doğu ili) için özel bir işgal hükmü konulmasının amacı aşağıdakilerden hangisidir?",
+              "choices": [
+                "Bölgede bir Ermeni devleti kurulmasına zemin hazırlamak",
+                "Boğazları kontrol altına almak",
+                "Batı Anadolu'yu Yunanistan'a bırakmak",
+                "Osmanlı ordusunu terhis etmek"
+              ],
+              "answer": 0,
+              "explanation": "24. madde ile altı doğu ilinde karışıklık çıkması durumunda bu bölgelerin işgal edilmesi öngörüldü. Amaç bölgede bir Ermeni devleti kurulmasına ortam hazırlamaktı.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-2-2-q5",
+              "stem": "15 Mayıs 1919'da İzmir'in Yunanlılar tarafından işgal edilmesi üzerine İstanbul'da Sultanahmet başta olmak üzere birçok yerde büyük mitingler yapıldı. Anadolu'nun çeşitli bölgelerinde ise halk silahlı direniş grupları oluşturdu.\nBu bilgilere göre İzmir'in işgali ile ilgili aşağıdakilerden hangisi söylenebilir?",
+              "choices": [
+                "İstanbul hükûmetinin işgale karşı ordu göndermesine neden olmuştur.",
+                "Halk tarafından tepkisiz karşılanmıştır.",
+                "Millî bilincin güçlenmesine ve direnişin yaygınlaşmasına katkı sağlamıştır.",
+                "Mondros Ateşkes Antlaşması'ndan önce gerçekleşmiştir."
+              ],
+              "answer": 2,
+              "explanation": "Mitingler ve silahlı direniş gruplarının kurulması, İzmir'in işgalinin halkta millî bilinci güçlendirdiğini ve direnişi yaygınlaştırdığını gösterir. Metinde hükûmetin ordu gönderdiğinden söz edilmez; halkın tepkisiz kaldığı söylenemez; İzmir'in işgali Mondros'tan (1918) sonradır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "inkilap-2-2-q6",
+              "stem": "Mondros Ateşkes Antlaşması'ndan sonra farklı kesimlerin tutumu aşağıdaki gibidir:\nİstanbul hükûmeti: İtilaf Devletleri ile iyi geçinerek devleti kurtarabileceğine inandı.\nBazı aydınlar: Kurtuluşu bir büyük devletin manda ve himayesinde aradı.\nAnadolu halkı: Cemiyetler kurarak ve silahlanarak işgallere karşı direndi.\nBu bilgilere göre aşağıdakilerden hangisi söylenebilir?",
+              "choices": [
+                "Osmanlı yönetimi ile halk aynı kurtuluş yolunu izlemiştir.",
+                "Manda ve himaye fikri Anadolu halkı tarafından benimsenmiştir.",
+                "Bütün aydınlar silahlı mücadeleyi savunmuştur.",
+                "Mondros'tan sonra kurtuluş için farklı görüşler ortaya çıkmıştır."
+              ],
+              "answer": 3,
+              "explanation": "Hükûmet, bazı aydınlar ve halk farklı kurtuluş yolları önermiştir; bu da farklı görüşlerin ortaya çıktığını gösterir. Diğer seçenekler tablodaki bilgilerle çelişir.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "inkilap-2-3",
+          "name": "Millî Mücadele'nin Hazırlık Dönemi: Samsun'dan Misak-ı Millî'ye",
+          "kazanim": [
+            "Mustafa Kemal'in Millî Mücadele'yi başlatmak amacıyla yaptığı faaliyetleri ve hazırlık döneminde alınan kararları kavrar."
+          ],
+          "summary": "Mustafa Kemal **19 Mayıs 1919**'da 9. Ordu Müfettişi olarak **Samsun**'a çıktı ve Millî Mücadele'yi başlattı.\n- **Havza Genelgesi (Mayıs 1919):** İşgallerin protesto edilmesi, mitingler düzenlenmesi ve İtilaf Devletleri'ne protesto telgrafları çekilmesi istendi.\n- **Amasya Genelgesi (22 Haziran 1919):** Millî Mücadele'nin amacı, gerekçesi ve yöntemi belirtildi. “**Vatanın bütünlüğü, milletin bağımsızlığı tehlikededir.**” “İstanbul hükûmeti üzerine aldığı sorumluluğun gereğini yerine getirememektedir.” “**Milletin bağımsızlığını yine milletin azim ve kararı kurtaracaktır.**” Sivas'ta millî bir kongre toplanması kararlaştırıldı. Bu ifadelerle ilk kez **millî egemenlik** vurgulandı.\n- Mustafa Kemal Temmuz 1919'da askerlik görevinden istifa etti.\n- **Erzurum Kongresi (23 Temmuz - 7 Ağustos 1919):** Toplanış şekli **bölgesel**, aldığı kararlar **millî**dir. “Millî sınırlar içinde vatan bir bütündür, parçalanamaz.” **Manda ve himaye kabul edilemez** kararı ilk kez alındı. **Temsil Heyeti** seçildi.\n- **Sivas Kongresi (4-11 Eylül 1919):** Toplanış ve kararlar bakımından **millî**dir. Tüm cemiyetler **Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti** adıyla birleştirildi. Manda ve himaye **kesin olarak** reddedildi. Temsil Heyeti tüm yurdu temsil etmeye başladı; **İrade-i Milliye** gazetesi çıkarıldı.\n- **Amasya Görüşmeleri (Ekim 1919):** İstanbul hükûmeti Temsil Heyeti'ni resmen muhatap aldı.\n- **Temsil Heyeti 27 Aralık 1919'da Ankara'ya geldi.**\n- **Misak-ı Millî (28 Ocak 1920):** Son Osmanlı Mebusan Meclisi'nde kabul edildi. Mondros imzalandığında Türk askerinin elinde bulunan topraklar bölünmez bir bütündür; Kars, Ardahan, Batum ve Batı Trakya için gerekirse halk oylaması yapılır; kapitülasyonlar kabul edilmez.\n- **16 Mart 1920'de İstanbul resmen işgal edildi**, Mebusan Meclisi dağıtıldı. Bunun üzerine Ankara'da yeni bir meclis açılması için seçim yapıldı.",
+          "keyPoints": [
+            "Amasya Genelgesi Millî Mücadele'nin amacını, gerekçesini ve yöntemini açıklayan ilk belgedir.",
+            "Erzurum Kongresi bölgesel toplanıp millî kararlar almıştır; manda ve himaye ilk kez burada reddedildi.",
+            "Sivas Kongresi'nde cemiyetler Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti adıyla birleştirildi.",
+            "Misak-ı Millî 28 Ocak 1920'de son Osmanlı Mebusan Meclisi'nde kabul edildi.",
+            "İstanbul'un 16 Mart 1920'de resmen işgali TBMM'nin açılmasına giden süreci hızlandırdı."
+          ],
+          "commonMistakes": [
+            "Erzurum Kongresi'ni toplanış bakımından millî sanmak; toplanış bölgesel, kararlar millîdir.",
+            "Manda ve himayenin ilk kez Sivas'ta reddedildiğini sanmak; ilk ret Erzurum'da, kesin ret Sivas'tadır.",
+            "Misak-ı Millî'nin TBMM'de kabul edildiğini düşünmek; son Osmanlı Mebusan Meclisi'nde kabul edilmiştir.",
+            "Havza Genelgesi ile Amasya Genelgesi'nin içeriğini karıştırmak."
+          ],
+          "questions": [
+            {
+              "id": "inkilap-2-3-q1",
+              "stem": "Mustafa Kemal, Millî Mücadele'yi başlatmak için Samsun'a hangi tarihte çıkmıştır?",
+              "choices": [
+                "19 Mayıs 1919",
+                "23 Nisan 1920",
+                "30 Ekim 1918",
+                "22 Haziran 1919"
+              ],
+              "answer": 0,
+              "explanation": "Mustafa Kemal 19 Mayıs 1919'da Samsun'a çıktı. 23 Nisan 1920 TBMM'nin açılışı, 30 Ekim 1918 Mondros'un imzalanması, 22 Haziran 1919 ise Amasya Genelgesi'nin tarihidir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-2-3-q2",
+              "stem": "Manda ve himaye fikrinin kesin olarak reddedildiği ve bütün yararlı cemiyetlerin Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti adıyla birleştirildiği kongre aşağıdakilerden hangisidir?",
+              "choices": [
+                "Erzurum Kongresi",
+                "Balıkesir Kongresi",
+                "Sivas Kongresi",
+                "Alaşehir Kongresi"
+              ],
+              "answer": 2,
+              "explanation": "Sivas Kongresi'nde manda ve himaye tartışılarak kesin biçimde reddedildi ve tüm cemiyetler tek çatı altında birleştirildi. Erzurum'da manda ilk kez reddedilmiş, ancak cemiyetler birleştirilmemişti.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-2-3-q3",
+              "stem": "“Milletin bağımsızlığını yine milletin azim ve kararı kurtaracaktır.” ifadesi ilk kez aşağıdakilerden hangisinde yer almıştır?",
+              "choices": [
+                "Havza Genelgesi",
+                "Amasya Genelgesi",
+                "Misak-ı Millî",
+                "Sivas Kongresi kararları"
+              ],
+              "answer": 1,
+              "explanation": "Bu ifade 22 Haziran 1919'da yayımlanan Amasya Genelgesi'nde yer alır ve millî egemenlik düşüncesinin ilk kez vurgulandığını gösterir. Havza Genelgesi daha çok mitinglerle protesto edilmesini istemiştir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-2-3-q4",
+              "stem": "Erzurum Kongresi doğu illerinin temsilcileriyle toplanmasına rağmen aldığı kararlar millîdir.\nAşağıdaki kararlardan hangisi bu durumu en iyi gösterir?",
+              "choices": [
+                "Kongrenin Erzurum'da toplanması",
+                "Temsilcilerin doğu illerinden gelmesi",
+                "Kongrenin on beş gün sürmesi",
+                "“Millî sınırlar içinde vatan bir bütündür, parçalanamaz.” kararı"
+              ],
+              "answer": 3,
+              "explanation": "“Millî sınırlar içinde vatan bir bütündür” kararı yalnızca doğu illerini değil bütün vatanı kapsar; bu yüzden kararların millî olduğunu gösterir. Toplanma yeri ve temsilcilerin doğu illerinden gelmesi ise kongrenin bölgesel yönünü anlatır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-2-3-q5",
+              "stem": "Misak-ı Millî'nin bazı maddeleri şunlardır:\n- Kars, Ardahan ve Batum'un durumu gerekirse halk oylamasıyla belirlenecektir.\n- Batı Trakya'nın durumu halkın oyuyla belirlenecektir.\n- Mondros imzalandığında Arap çoğunluğun yaşadığı yerlerin geleceği halk oylamasıyla belirlenecektir.\nBu maddelerde aşağıdakilerden hangisine önem verildiği söylenebilir?",
+              "choices": [
+                "Halkın kendi geleceğini belirleme hakkına",
+                "Saltanatın güçlendirilmesine",
+                "Kapitülasyonların sürdürülmesine",
+                "Laiklik ilkesinin uygulanmasına"
+              ],
+              "answer": 0,
+              "explanation": "Üç maddede de bölgelerin geleceğinin halk oylamasıyla belirlenmesi istenmektedir. Bu, halkın kendi geleceğini kendisinin belirlemesi (self-determinasyon) ilkesine önem verildiğini gösterir. Misak-ı Millî kapitülasyonları reddeder; saltanat ve laiklikle ilgili madde verilmemiştir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "inkilap-2-3-q6",
+              "stem": "Mustafa Kemal'in Samsun'a çıktıktan sonra sürdürdüğü hazırlık döneminde aşağıdaki gelişmeler yaşanmıştır:\nI. Sivas Kongresi\nII. Amasya Genelgesi\nIII. Misak-ı Millî'nin kabulü\nIV. Erzurum Kongresi\nBu gelişmelerin oluş sırası aşağıdakilerden hangisinde doğru verilmiştir?",
+              "choices": [
+                "IV, II, I, III",
+                "II, I, IV, III",
+                "II, IV, I, III",
+                "I, II, IV, III"
+              ],
+              "answer": 2,
+              "explanation": "Amasya Genelgesi 22 Haziran 1919, Erzurum Kongresi 23 Temmuz - 7 Ağustos 1919, Sivas Kongresi 4-11 Eylül 1919, Misak-ı Millî ise 28 Ocak 1920 tarihlidir. Doğru sıra II, IV, I, III'tür.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inkilap-3",
+      "no": 3,
+      "name": "Millî Bir Destan: Ya İstiklal Ya Ölüm!",
+      "topics": [
+        {
+          "id": "inkilap-3-1",
+          "name": "TBMM'nin Açılması, İç İsyanlar ve Sevr Antlaşması",
+          "kazanim": [
+            "TBMM'nin açılışını, TBMM'ye karşı çıkan ayaklanmaları ve Sevr Antlaşması'nı Millî Mücadele'ye etkileri açısından değerlendirir."
+          ],
+          "summary": "İstanbul'un işgali ve Mebusan Meclisi'nin dağıtılması üzerine **Türkiye Büyük Millet Meclisi 23 Nisan 1920'de Ankara'da** açıldı. Meclis başkanlığına **Mustafa Kemal** seçildi.\n\n**TBMM'nin özellikleri:**\n- **Güçler birliği** ilkesini benimsedi: yasama, yürütme ve yargı yetkileri mecliste toplandı.\n- Olağanüstü yetkilere sahipti; **millî egemenliğe** dayanıyordu.\n- **Meclis hükûmeti sistemi** uygulandı; bakanlar meclis içinden tek tek seçildi.\n\n**TBMM'ye karşı ayaklanmalar:** Bir kısmı İstanbul hükûmeti ve İtilaf Devletleri'nin kışkırtmasıyla (Anzavur, Düzce, Bolu, Yozgat ayaklanmaları), bir kısmı azınlıklar tarafından (Pontus Rumları), bir kısmı da Kuva-yı Milliye içinden (Çerkez Ethem) çıktı. İstanbul'daki Şeyhülislam'ın, Kuva-yı Milliye'ye karşı fetva yayımlamasına karşılık **Ankara Müftüsü Rifat Börekçi** ve Anadolu müftüleri karşı fetva yayımladı.\n\n**TBMM'nin aldığı önlemler:**\n- **Hıyanet-i Vataniye Kanunu (29 Nisan 1920):** Vatana ihanet edenler cezalandırılacaktı.\n- **İstiklal Mahkemeleri** kuruldu.\n- Düzenli ordu kurulmasına hız verildi.\n\n**Sevr Antlaşması (10 Ağustos 1920):** İtilaf Devletleri ile İstanbul hükûmeti arasında imzalandı. Doğu Anadolu'da bir Ermeni devleti kurulması, İzmir ve çevresinin Yunanistan'a bırakılması, Boğazların uluslararası bir komisyona verilmesi ve kapitülasyonların genişletilmesi gibi ağır maddeler içeriyordu. **Osmanlı Mebusan Meclisi onaylamadığı için hukuken geçersizdir.** TBMM, Sevr'i imzalayanları vatan haini ilan etti.\n\n**Teşkilat-ı Esasiye Kanunu (20 Ocak 1921):** TBMM'nin hazırladığı **ilk anayasa**dır. “**Hâkimiyet kayıtsız şartsız milletindir.**” ilkesiyle millî egemenliği anayasal güvenceye aldı.",
+          "keyPoints": [
+            "TBMM 23 Nisan 1920'de açıldı; başkanı Mustafa Kemal'dir.",
+            "TBMM güçler birliği ilkesini benimsedi ve meclis hükûmeti sistemini uyguladı.",
+            "Hıyanet-i Vataniye Kanunu ve İstiklal Mahkemeleri ayaklanmalara karşı alınan önlemlerdir.",
+            "Sevr Antlaşması Mebusan Meclisi'nce onaylanmadığı için hukuken geçersizdir.",
+            "Teşkilat-ı Esasiye (1921) ilk anayasadır ve millî egemenliği esas alır."
+          ],
+          "commonMistakes": [
+            "Sevr'i TBMM'nin imzaladığını sanmak; Sevr İstanbul hükûmeti tarafından imzalanmıştır.",
+            "TBMM'nin güçler ayrılığı ilkesini uyguladığını düşünmek; güçler birliği uygulanmıştır.",
+            "Hıyanet-i Vataniye Kanunu ile Takrir-i Sükûn Kanunu'nu karıştırmak; Takrir-i Sükûn 1925'te Şeyh Sait İsyanı'ndan sonra çıkarılmıştır.",
+            "Teşkilat-ı Esasiye'yi Kanun-ı Esasi ile karıştırmak; Kanun-ı Esasi Osmanlı'nın 1876 anayasasıdır."
+          ],
+          "questions": [
+            {
+              "id": "inkilap-3-1-q1",
+              "stem": "Türkiye Büyük Millet Meclisi hangi tarihte açılmıştır?",
+              "choices": [
+                "29 Ekim 1923",
+                "19 Mayıs 1919",
+                "28 Ocak 1920",
+                "23 Nisan 1920"
+              ],
+              "answer": 3,
+              "explanation": "TBMM 23 Nisan 1920'de Ankara'da açıldı. 29 Ekim 1923 Cumhuriyetin ilanı, 19 Mayıs 1919 Samsun'a çıkış, 28 Ocak 1920 Misak-ı Millî'nin kabul tarihidir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-3-1-q2",
+              "stem": "TBMM'nin yasama, yürütme ve yargı yetkilerini kendi bünyesinde toplaması aşağıdaki ilkelerden hangisiyle açıklanır?",
+              "choices": [
+                "Güçler ayrılığı",
+                "Güçler birliği",
+                "Laiklik",
+                "Devletçilik"
+              ],
+              "answer": 1,
+              "explanation": "Üç yetkinin tek bir organda, yani mecliste toplanmasına güçler birliği denir. Olağanüstü savaş koşullarında hızlı karar alabilmek için bu ilke benimsenmiştir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-3-1-q3",
+              "stem": "Sevr Antlaşması'nın hukuken geçersiz sayılmasının nedeni aşağıdakilerden hangisidir?",
+              "choices": [
+                "Osmanlı Mebusan Meclisi tarafından onaylanmamış olması",
+                "TBMM tarafından imzalanmış olması",
+                "Yunanistan'ın antlaşmayı imzalamaması",
+                "Antlaşmanın savaş başlamadan yapılması"
+              ],
+              "answer": 0,
+              "explanation": "Bir antlaşmanın yürürlüğe girmesi için meclis tarafından onaylanması gerekir. Mebusan Meclisi dağıtılmış olduğundan Sevr onaylanamadı ve hukuken geçersiz kaldı. TBMM ise Sevr'i hiçbir zaman kabul etmedi.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-3-1-q4",
+              "stem": "TBMM'nin, kendisine karşı çıkan ayaklanmaları önlemek ve vatana ihanet edenleri cezalandırmak amacıyla 1920'de çıkardığı kanun aşağıdakilerden hangisidir?",
+              "choices": [
+                "Takrir-i Sükûn Kanunu",
+                "Tekalif-i Milliye Emirleri",
+                "Hıyanet-i Vataniye Kanunu",
+                "Başkomutanlık Kanunu"
+              ],
+              "answer": 2,
+              "explanation": "Hıyanet-i Vataniye Kanunu 29 Nisan 1920'de çıkarıldı. Takrir-i Sükûn 1925'te, Tekalif-i Milliye ve Başkomutanlık Kanunu ise 1921'de Sakarya öncesinde ordunun ihtiyaçları için çıkarılmıştır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-3-1-q5",
+              "stem": "İstanbul'daki Şeyhülislam, Kuva-yı Milliye'ye katılanlara karşı savaşılmasını dinen uygun gösteren bir fetva yayımladı. Bunun üzerine Ankara Müftüsü Rifat Börekçi ve Anadolu'daki pek çok müftü, Millî Mücadele'nin dinen de haklı olduğunu açıklayan bir karşı fetva yayımladı.\nBu bilgilere göre aşağıdakilerden hangisi söylenebilir?",
+              "choices": [
+                "İstanbul hükûmeti ile TBMM aynı görüşü paylaşmıştır.",
+                "Fetvaların halk üzerinde hiçbir etkisi yoktur.",
+                "Millî Mücadele yalnızca askerî yollarla yürütülmüştür.",
+                "Halkın dinî duygularını kullanarak Millî Mücadele'yi zayıflatma girişimine karşı önlem alınmıştır."
+              ],
+              "answer": 3,
+              "explanation": "Karşı fetva yayımlanması, halkın dinî duyguları kullanılarak Millî Mücadele'den uzaklaştırılmasını önlemeye yöneliktir. Fetvalara karşılık verilmesi fetvaların halk üzerinde etkili olduğunu gösterir; ayrıca bu durum mücadelenin yalnızca askerî yollarla yürütülmediğini de ortaya koyar.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "inkilap-3-1-q6",
+              "stem": "1921 yılında kabul edilen Teşkilat-ı Esasiye Kanunu'nun ilk maddesi şöyledir:\n“Hâkimiyet bilakaydüşart milletindir.” (Egemenlik kayıtsız şartsız milletindir.)\nBu madde aşağıdakilerden hangisinin göstergesidir?",
+              "choices": [
+                "Saltanatın yetkilerinin artırıldığının",
+                "Millî egemenlik ilkesinin anayasal güvenceye alındığının",
+                "Çok partili hayata geçildiğinin",
+                "Halifeliğin kaldırıldığının"
+              ],
+              "answer": 1,
+              "explanation": "Egemenliğin kayıtsız şartsız millete ait olduğunun anayasaya yazılması, millî egemenlik ilkesinin anayasal güvence altına alındığını gösterir. Saltanat 1922'de, halifelik 1924'te kaldırılmıştır; çok partili hayatla ilgisi yoktur.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "inkilap-3-2",
+          "name": "Cephelerde Mücadele ve Büyük Zafer",
+          "kazanim": [
+            "Doğu, Güney ve Batı cephelerinde yapılan mücadeleleri ve bu mücadelelerin sonuçlarını kavrar."
+          ],
+          "summary": "**Doğu Cephesi (Ermenilere karşı):** Kâzım Karabekir komutasındaki düzenli ordu başarı kazandı. **Gümrü Antlaşması (3 Aralık 1920)** imzalandı. Bu antlaşma TBMM'nin **ilk askerî başarısı** ve **ilk uluslararası antlaşmasıdır**.\n\n**Güney Cephesi (Fransızlara karşı):** Düzenli ordu yerine **Kuva-yı Milliye ve halk** savaştı. **Antep, Maraş ve Urfa** halkı büyük kahramanlık gösterdi. Mücadele **Ankara Antlaşması (20 Ekim 1921)** ile sona erdi; Fransa TBMM'yi tanıdı.\n\n**Batı Cephesi (Yunanlılara karşı):**\n- **I. İnönü (Ocak 1921):** Düzenli ordunun ilk zaferi. Sonrasında **Teşkilat-ı Esasiye** kabul edildi, **Londra Konferansı**'na TBMM de davet edildi. **İstiklal Marşı 12 Mart 1921**'de kabul edildi; **Moskova Antlaşması (16 Mart 1921)** imzalandı.\n- **II. İnönü (Mart-Nisan 1921):** Yunan ordusu yine durduruldu.\n- **Kütahya-Eskişehir (Temmuz 1921):** Ordumuz Sakarya'nın doğusuna çekildi. Mustafa Kemal'e **Başkomutanlık Kanunu (5 Ağustos 1921)** ile yetki verildi; **Tekalif-i Milliye Emirleri** ile halktan ordu için malzeme toplandı. Bu sırada **Maarif Kongresi (Temmuz 1921)** toplandı.\n- **Sakarya Meydan Muharebesi (23 Ağustos - 13 Eylül 1921):** Kazanıldı; Mustafa Kemal'e **mareşal rütbesi ve gazi unvanı** verildi. Ardından **Kars Antlaşması** ve **Ankara Antlaşması** imzalandı.\n- **Büyük Taarruz (26 Ağustos 1922):** **30 Ağustos'ta Başkomutan Meydan Muharebesi** kazanıldı, **9 Eylül 1922'de İzmir** kurtarıldı.\n- **Mudanya Ateşkes Antlaşması (11 Ekim 1922):** **Doğu Trakya savaş yapılmadan** geri alındı. Böylece askerî mücadele sona erdi, barış görüşmelerine geçildi.",
+          "keyPoints": [
+            "Gümrü Antlaşması TBMM'nin ilk askerî başarısı ve ilk uluslararası antlaşmasıdır.",
+            "Güney Cephesi'nde düzenli ordu değil, Kuva-yı Milliye ve halk savaştı.",
+            "İstiklal Marşı 12 Mart 1921'de, I. İnönü'den sonra kabul edildi.",
+            "Sakarya zaferinden sonra Mustafa Kemal'e mareşal rütbesi ve gazi unvanı verildi.",
+            "Mudanya ile Doğu Trakya savaşmadan geri alındı."
+          ],
+          "commonMistakes": [
+            "Mudanya'yı barış antlaşması sanmak; Mudanya bir ateşkes antlaşmasıdır, barış Lozan'dır.",
+            "Tekalif-i Milliye'nin Sakarya'dan sonra çıkarıldığını düşünmek; Sakarya'dan öncedir.",
+            "Kars Antlaşması ile Gümrü Antlaşması'nı karıştırmak; Gümrü Ermenistan ile 1920'de, Kars Kafkas cumhuriyetleriyle 1921'de imzalandı.",
+            "Güney Cephesi'nde Kâzım Karabekir'in savaştığını sanmak; o Doğu Cephesi komutanıdır."
+          ],
+          "questions": [
+            {
+              "id": "inkilap-3-2-q1",
+              "stem": "TBMM'nin ilk askerî başarısı sonucunda imzalanan ve TBMM'nin ilk uluslararası antlaşması olan antlaşma aşağıdakilerden hangisidir?",
+              "choices": [
+                "Gümrü Antlaşması",
+                "Moskova Antlaşması",
+                "Ankara Antlaşması",
+                "Mudanya Ateşkes Antlaşması"
+              ],
+              "answer": 0,
+              "explanation": "Doğu Cephesi'nde Ermenilere karşı kazanılan zaferden sonra 3 Aralık 1920'de imzalanan Gümrü Antlaşması, TBMM'nin ilk askerî başarısı ve ilk uluslararası antlaşmasıdır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-3-2-q2",
+              "stem": "Sakarya Meydan Muharebesi'nin kazanılmasından sonra TBMM, Mustafa Kemal'e aşağıdakilerden hangisini vermiştir?",
+              "choices": [
+                "Başkomutanlık yetkisini",
+                "Atatürk soyadını",
+                "Mareşal rütbesini ve gazi unvanını",
+                "Cumhurbaşkanlığı görevini"
+              ],
+              "answer": 2,
+              "explanation": "Sakarya zaferinden sonra TBMM, Mustafa Kemal'e mareşal rütbesi ve gazi unvanı verdi. Başkomutanlık yetkisi Sakarya'dan önce (5 Ağustos 1921), Atatürk soyadı 1934'te verilmiştir; cumhurbaşkanlığı 1923'tedir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-3-2-q3",
+              "stem": "Güney Cephesi'nde Fransızlara karşı yürütülen mücadele ile ilgili aşağıdakilerden hangisi doğrudur?",
+              "choices": [
+                "Kâzım Karabekir komutasındaki düzenli ordu ile yürütülmüştür.",
+                "Yunanlılara karşı yapılan savaşlarla birlikte sona ermiştir.",
+                "Mudanya Ateşkes Antlaşması ile sonuçlanmıştır.",
+                "Kuva-yı Milliye ve halkın direnişiyle yürütülmüştür."
+              ],
+              "answer": 3,
+              "explanation": "Güney Cephesi'nde Antep, Maraş ve Urfa halkı Kuva-yı Milliye ile birlikte Fransızlara karşı direndi. Mücadele 20 Ekim 1921'de Ankara Antlaşması ile sona erdi. Kâzım Karabekir Doğu Cephesi'nde savaşmıştır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-3-2-q4",
+              "stem": "Mudanya Ateşkes Antlaşması'nın en önemli sonucu aşağıdakilerden hangisidir?",
+              "choices": [
+                "Musul'un Türkiye'ye bırakılması",
+                "Doğu Trakya'nın savaş yapılmadan geri alınması",
+                "Kapitülasyonların tamamen kaldırılması",
+                "Hatay'ın anavatana katılması"
+              ],
+              "answer": 1,
+              "explanation": "Mudanya ile Doğu Trakya hiç savaş yapılmadan diplomasi yoluyla geri alındı. Kapitülasyonlar Lozan'da kaldırılmıştır; Hatay 1939'da katılmıştır; Musul ise Türkiye'ye bırakılmamıştır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-3-2-q5",
+              "stem": "Sakarya Meydan Muharebesi öncesinde Başkomutan Mustafa Kemal, Tekalif-i Milliye Emirleri ile halkın elindeki yiyecek, giyecek, taşıma araçları ve silahların bir bölümünün orduya verilmesini istedi. Halk, sahip olduğu imkânları büyük bir özveriyle orduya sundu.\nBu bilgilere göre aşağıdakilerden hangisi söylenebilir?",
+              "choices": [
+                "Millî Mücadele ordu ve millet dayanışmasıyla yürütülmüştür.",
+                "Ordunun bütün ihtiyaçları yabancı devletlerce karşılanmıştır.",
+                "Halk savaşa karşı ilgisiz kalmıştır.",
+                "Tekalif-i Milliye Emirleri Büyük Taarruz'dan sonra çıkarılmıştır."
+              ],
+              "answer": 0,
+              "explanation": "Halkın imkânlarını orduya sunması, savaşın ordu ve millet birlikte yürütüldüğünü gösterir. Metin yabancı yardımdan söz etmez, halkın ilgisiz kaldığını söylemez ve emirlerin Sakarya'dan önce çıkarıldığını belirtir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "inkilap-3-2-q6",
+              "stem": "I. İnönü Savaşı'ndan sonra İtilaf Devletleri, Sevr Antlaşması'nı bazı değişikliklerle kabul ettirmek amacıyla Şubat 1921'de Londra'da bir konferans düzenledi. Bu konferansa İstanbul hükûmetinin yanında TBMM de davet edildi.\nBu davet ile ilgili aşağıdakilerden hangisi söylenebilir?",
+              "choices": [
+                "Sevr Antlaşması'nın tamamen uygulandığını gösterir.",
+                "TBMM'nin Sevr'i kabul ettiğini gösterir.",
+                "TBMM'nin İtilaf Devletleri tarafından fiilen tanındığını gösterir.",
+                "İstanbul hükûmetinin ortadan kalktığını gösterir."
+              ],
+              "answer": 2,
+              "explanation": "İtilaf Devletleri'nin TBMM'yi bir konferansa davet etmesi, onu fiilen muhatap kabul ettiklerini, yani tanıdıklarını gösterir. Sevr'in değiştirilmek istenmesi uygulanamadığını gösterir; İstanbul hükûmeti de davet edildiği için hâlâ vardır.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "inkilap-3-3",
+          "name": "Saltanatın Kaldırılması ve Lozan Barış Antlaşması",
+          "kazanim": [
+            "Lozan Barış Antlaşması'nın sonuçlarını ve Türkiye'nin bağımsızlığı açısından önemini değerlendirir."
+          ],
+          "summary": "Mudanya'dan sonra İtilaf Devletleri barış görüşmeleri için **Lozan Konferansı**'na hem TBMM'yi hem de İstanbul hükûmetini davet etti. Bu ikiliği ortadan kaldırmak için TBMM **1 Kasım 1922'de saltanatı kaldırdı**. Böylece Türk milletini temsil eden tek meşru güç TBMM oldu. Son padişah Vahdettin bir İngiliz gemisiyle ülkeden ayrıldı.\n\nLozan'da Türk heyetine **İsmet Paşa** başkanlık etti. Görüşmeler kesintiye uğradı, sonunda **24 Temmuz 1923**'te **Lozan Barış Antlaşması** imzalandı.\n\n**Önemli maddeler:**\n- **Sınırlar:** Yunanistan sınırı Meriç Nehri oldu; **Karaağaç**, Yunanistan'ın ödemesi gereken savaş tazminatına karşılık Türkiye'ye verildi. **Gökçeada ve Bozcaada** Türkiye'nin oldu. Suriye sınırı 1921 Ankara Antlaşması'ndaki gibi kaldı.\n- **Musul:** Irak sınırı belirlenemedi; sorun İngiltere ile ikili görüşmelere bırakıldı.\n- **Kapitülasyonlar:** Tamamen kaldırıldı.\n- **Osmanlı borçları:** Osmanlı'dan ayrılan devletler arasında paylaştırıldı; Türkiye payını taksitle ödeyecekti.\n- **Azınlıklar:** Türk vatandaşı sayıldı. Türkiye ile Yunanistan arasında **nüfus mübadelesi** yapılacaktı (İstanbul Rumları ve Batı Trakya Türkleri hariç).\n- **Boğazlar:** Geçiş serbest olacak, kıyılar askerden arındırılacak, Boğazları **Türk başkanlığında uluslararası bir komisyon** denetleyecekti.\n\nLozan, Sevr'i geçersiz kılan ve yeni Türk devletinin bağımsızlığının uluslararası alanda tanındığı belgedir. Ancak **Musul, Boğazlar, Hatay, borçlar** gibi bazı sorunlar ileride çözülmek üzere kaldı.",
+          "keyPoints": [
+            "Saltanat 1 Kasım 1922'de kaldırıldı; amaç Lozan'da tek temsilcinin TBMM olmasıydı.",
+            "Lozan 24 Temmuz 1923'te imzalandı; Türk heyeti başkanı İsmet Paşa'dır.",
+            "Kapitülasyonlar Lozan ile tamamen kaldırıldı.",
+            "Musul (Irak sınırı) Lozan'da çözülemedi.",
+            "Karaağaç, Yunanistan'dan savaş tazminatı karşılığında alındı."
+          ],
+          "commonMistakes": [
+            "Saltanat ile halifeliğin aynı anda kaldırıldığını sanmak; halifelik 3 Mart 1924'te kaldırıldı.",
+            "Lozan'da Boğazlar üzerinde tam egemenlik sağlandığını düşünmek; bu Montrö (1936) ile sağlandı.",
+            "Lozan'da Musul sorununun çözüldüğünü sanmak.",
+            "Mondros'ta imza atan Rauf Bey ile Lozan'daki İsmet Paşa'yı karıştırmak."
+          ],
+          "questions": [
+            {
+              "id": "inkilap-3-3-q1",
+              "stem": "TBMM saltanatı hangi tarihte kaldırmıştır?",
+              "choices": [
+                "29 Ekim 1923",
+                "1 Kasım 1922",
+                "3 Mart 1924",
+                "24 Temmuz 1923"
+              ],
+              "answer": 1,
+              "explanation": "Saltanat 1 Kasım 1922'de kaldırıldı. 29 Ekim 1923 Cumhuriyetin ilanı, 3 Mart 1924 halifeliğin kaldırılması, 24 Temmuz 1923 Lozan'ın imzalanma tarihidir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-3-3-q2",
+              "stem": "Lozan Barış Konferansı'nda Türk heyetine başkanlık eden kişi aşağıdakilerden hangisidir?",
+              "choices": [
+                "Rauf Bey",
+                "Fevzi Paşa",
+                "Kâzım Karabekir",
+                "İsmet Paşa"
+              ],
+              "answer": 3,
+              "explanation": "Lozan'da Türk heyetinin başkanı İsmet Paşa'dır (İnönü). Rauf Bey Mondros'u imzalayan Osmanlı heyetinin başkanıdır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-3-3-q3",
+              "stem": "Aşağıdakilerden hangisi Lozan Barış Konferansı'nda çözüme kavuşturulamayarak ileriye bırakılan sorunlardan biridir?",
+              "choices": [
+                "Musul sorunu",
+                "Kapitülasyonlar",
+                "Azınlıkların durumu",
+                "Yunanistan'ın savaş tazminatı"
+              ],
+              "answer": 0,
+              "explanation": "Irak sınırını ilgilendiren Musul sorunu Lozan'da çözülemedi ve İngiltere ile ikili görüşmelere bırakıldı. Kapitülasyonlar kaldırıldı, azınlıklar Türk vatandaşı sayıldı, tazminat karşılığında Karaağaç alındı.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-3-3-q4",
+              "stem": "Lozan Barış Antlaşması'na göre Yunanistan'ın Türkiye'ye ödemesi gereken savaş tazminatı karşılığında Türkiye'ye bırakılan yer aşağıdakilerden hangisidir?",
+              "choices": [
+                "Batı Trakya",
+                "Gökçeada",
+                "Karaağaç",
+                "Musul"
+              ],
+              "answer": 2,
+              "explanation": "Yunanistan savaş tazminatı ödemek yerine Meriç Nehri'nin batısındaki Karaağaç'ı Türkiye'ye bıraktı. Gökçeada da Türkiye'ye verildi, ancak tazminat karşılığı değildir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-3-3-q5",
+              "stem": "Sevr ve Lozan antlaşmalarının bazı maddeleri aşağıda karşılaştırılmıştır:\nKapitülasyonlar: Sevr'de genişletilerek sürdürülecek; Lozan'da tamamen kaldırıldı.\nBoğazlar: Sevr'de yönetimi uluslararası bir komisyona bırakılacak; Lozan'da Türk başkanlığındaki uluslararası bir komisyon denetleyecek.\nDoğu Anadolu: Sevr'de bir Ermeni devleti kurulacak; Lozan'da Türkiye sınırları içinde kaldı.\nBu karşılaştırmaya göre aşağıdakilerden hangisine ulaşılamaz?",
+              "choices": [
+                "Lozan, ekonomik bağımsızlık açısından Sevr'den daha olumludur.",
+                "Lozan ile Boğazlar üzerinde tam egemenlik sağlanmıştır.",
+                "Lozan ile Doğu Anadolu'da toprak bütünlüğü korunmuştur.",
+                "Boğazlar konusunda Lozan'da Türkiye'nin söz hakkı artmıştır."
+              ],
+              "answer": 1,
+              "explanation": "Lozan'da Boğazlar hâlâ uluslararası bir komisyonun denetimindedir; bu nedenle tam egemenlik sağlanmamıştır (tam egemenlik 1936 Montrö ile sağlandı). Kapitülasyonların kalkması ekonomik bağımsızlık, Doğu Anadolu'nun Türkiye'de kalması toprak bütünlüğü, komisyon başkanlığının Türkiye'de olması ise söz hakkının arttığı anlamına gelir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "inkilap-3-3-q6",
+              "stem": "İtilaf Devletleri'nin Lozan Konferansı'na hem TBMM'yi hem de İstanbul hükûmetini davet etmesi üzerine TBMM, 1 Kasım 1922'de saltanatı kaldırdı.\nBu kararla aşağıdakilerden hangisi amaçlanmıştır?",
+              "choices": [
+                "Halifeliği kaldırmak",
+                "Cumhuriyeti ilan etmek",
+                "Lozan Konferansı'na katılmamak",
+                "Konferansta Türkiye'nin tek temsilcisinin TBMM olmasını sağlamak"
+              ],
+              "answer": 3,
+              "explanation": "İki ayrı hükûmetin davet edilmesi Türk tarafında ikilik yaratacaktı. Saltanatın kaldırılmasıyla İstanbul hükûmeti sona erdi ve TBMM tek temsilci oldu. Halifelik 1924'e kadar devam etti; Cumhuriyet 1923'te ilan edildi.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inkilap-4",
+      "no": 4,
+      "name": "Atatürkçülük ve Çağdaşlaşan Türkiye",
+      "topics": [
+        {
+          "id": "inkilap-4-1",
+          "name": "Atatürk İlkeleri",
+          "kazanim": [
+            "Atatürk ilkelerini ve bu ilkelerin Türk toplumunun çağdaşlaşmasındaki önemini kavrar."
+          ],
+          "summary": "**Atatürkçülük**, Türk milletinin çağdaş uygarlık düzeyine ulaşması için Atatürk'ün ortaya koyduğu fikir ve ilkelerin bütünüdür. Altı temel ilke vardır. Bu ilkeler 1931'de Cumhuriyet Halk Fırkası programına alındı, **1937'de anayasaya** girdi.\n- **Cumhuriyetçilik:** Millî egemenliğe dayanan, yöneticilerin seçimle belirlendiği yönetim biçimini benimser. Cumhuriyetin ilanı ve seçimler bu ilkeyle ilgilidir.\n- **Milliyetçilik:** Dil, kültür, tarih ve ülkü birliğine dayanan; **birleştirici ve bütünleştirici** bir anlayıştır. Irk ayrımına dayanmaz. “Ne mutlu Türküm diyene!” sözü bu anlayışı yansıtır.\n- **Halkçılık:** Kanun önünde eşitliği esas alır; hiçbir kişiye, aileye ya da sınıfa ayrıcalık tanımaz. Aşar vergisinin kaldırılması, lakap ve unvanların kaldırılması, Türk Medeni Kanunu ve kadınlara siyasi haklar verilmesi bu ilkeyle ilgilidir.\n- **Devletçilik:** Özel girişimin yetersiz kaldığı alanlarda devletin ekonomik yatırım yapmasıdır. 1929 Dünya Ekonomik Bunalımı'ndan sonra öne çıktı; **I. Beş Yıllık Sanayi Planı**, Sümerbank ve Etibank bu ilkeyle ilgilidir.\n- **Laiklik:** Din ve devlet işlerinin birbirinden ayrılması, devletin bütün inançlara eşit uzaklıkta durması ve **din ve vicdan özgürlüğü**dür. Halifeliğin kaldırılması ve Tevhid-i Tedrisat Kanunu laiklikle ilgilidir.\n- **İnkılapçılık:** Yapılan inkılapları korumayı, geliştirmeyi ve çağın gereklerine göre yenilenmeyi amaçlar. Diğer ilkelerin uygulanmasını güvence altına alır.\n\nTemel ilkeleri tamamlayan **bütünleyici ilkeler** de vardır: millî egemenlik, millî bağımsızlık, millî birlik ve beraberlik, **yurtta barış dünyada barış**, çağdaşlaşma, bilimsellik ve akılcılık, insan ve insanlık sevgisi.",
+          "keyPoints": [
+            "Altı ilke: Cumhuriyetçilik, Milliyetçilik, Halkçılık, Devletçilik, Laiklik, İnkılapçılık.",
+            "İlkeler 1937'de anayasaya girdi.",
+            "Atatürk milliyetçiliği birleştirici ve bütünleştiricidir; ırkçılığı reddeder.",
+            "Devletçilik, özel girişimin yetersiz kaldığı alanlarda devletin yatırım yapmasıdır.",
+            "İnkılapçılık, yapılan inkılapları koruyup geliştirmeyi amaçlar."
+          ],
+          "commonMistakes": [
+            "İlkelerin anayasaya 1931'de girdiğini sanmak; 1931 parti programı, 1937 anayasadır.",
+            "Devletçiliği özel sektörü yasaklamak olarak anlamak; devletçilik özel girişimi destekler, eksik kaldığı yerde devlet devreye girer.",
+            "Laikliği dinsizlik olarak yorumlamak; laiklik din ve vicdan özgürlüğünü güvenceye alır.",
+            "Halkçılık ile Cumhuriyetçiliği karıştırmak: eşitlik vurgusu halkçılığa, seçim ve millî egemenlik vurgusu cumhuriyetçiliğe aittir."
+          ],
+          "questions": [
+            {
+              "id": "inkilap-4-1-q1",
+              "stem": "Din ve devlet işlerinin birbirinden ayrılmasını ve din ve vicdan özgürlüğünü esas alan Atatürk ilkesi aşağıdakilerden hangisidir?",
+              "choices": [
+                "Halkçılık",
+                "Devletçilik",
+                "Laiklik",
+                "Milliyetçilik"
+              ],
+              "answer": 2,
+              "explanation": "Laiklik, din ve devlet işlerinin ayrılmasını ve herkesin inancında özgür olmasını ifade eder.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-4-1-q2",
+              "stem": "Özel girişimin yetersiz kaldığı alanlarda devletin ekonomik yatırımlar yapmasını öngören Atatürk ilkesi aşağıdakilerden hangisidir?",
+              "choices": [
+                "Devletçilik",
+                "İnkılapçılık",
+                "Cumhuriyetçilik",
+                "Laiklik"
+              ],
+              "answer": 0,
+              "explanation": "Devletçilik ilkesine göre devlet, özel sektörün gücünün yetmediği alanlarda fabrika kurmak gibi yatırımlar yapar. I. Beş Yıllık Sanayi Planı bu ilkenin uygulamasıdır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-4-1-q3",
+              "stem": "1934'te “ağa, bey, paşa, efendi” gibi lakap ve unvanların kaldırılması öncelikle hangi Atatürk ilkesiyle ilgilidir?",
+              "choices": [
+                "Devletçilik",
+                "Laiklik",
+                "Cumhuriyetçilik",
+                "Halkçılık"
+              ],
+              "answer": 3,
+              "explanation": "Lakap ve unvanlar toplumda bazı kişilere ayrıcalık ve üstünlük sağlıyordu. Bunların kaldırılması herkesin eşit olmasını amaçladığı için halkçılık ilkesiyle ilgilidir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-4-1-q4",
+              "stem": "Atatürk ilkeleri hangi yıl anayasaya girmiştir?",
+              "choices": [
+                "1924",
+                "1931",
+                "1937",
+                "1946"
+              ],
+              "answer": 2,
+              "explanation": "Atatürk ilkeleri 1931'de Cumhuriyet Halk Fırkası programına alındı, 1937'de yapılan değişiklikle anayasaya girdi.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-4-1-q5",
+              "stem": "Atatürk, Türk milletini dil, kültür ve ülkü birliğine dayanan bir topluluk olarak tanımlamış ve “Ne mutlu Türküm diyene!” sözüyle kendini Türk olarak hisseden herkesi bu milletin bir parçası saymıştır.\nBu açıklamaya göre Atatürk milliyetçiliği ile ilgili aşağıdakilerden hangisi söylenebilir?",
+              "choices": [
+                "Birleştirici ve bütünleştiricidir.",
+                "Irk esasına dayanır.",
+                "Başka milletlere düşmanlığı amaçlar.",
+                "Yalnızca belirli bir bölgede yaşayanları kapsar."
+              ],
+              "answer": 0,
+              "explanation": "Kendini Türk olarak hisseden herkesin milletin parçası sayılması, Atatürk milliyetçiliğinin ırkçı değil, birleştirici ve bütünleştirici olduğunu gösterir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "inkilap-4-1-q6",
+              "stem": "Bir öğretmen derste şöyle demiştir:\n“Toplumumuz yerinde sayamaz. Yaptığımız yenilikleri korumalı, değişen dünyaya göre geliştirmeli, eskiyen kurumların yerine çağın gereklerine uygun yenilerini koymalıyız.”\nÖğretmen hangi Atatürk ilkesini açıklamaktadır?",
+              "choices": [
+                "Devletçilik",
+                "İnkılapçılık",
+                "Halkçılık",
+                "Cumhuriyetçilik"
+              ],
+              "answer": 1,
+              "explanation": "Yenilikleri korumak, geliştirmek ve çağın gereklerine göre yenilenmek inkılapçılık ilkesinin özüdür.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "inkilap-4-2",
+          "name": "Siyasi ve Hukuk Alanındaki İnkılaplar",
+          "kazanim": [
+            "Siyasi alanda ve hukuk alanında yapılan inkılapları amaçları ve sonuçları açısından değerlendirir."
+          ],
+          "summary": "**Siyasi alanda inkılaplar:**\n- **Saltanatın kaldırılması (1 Kasım 1922):** Millî egemenliğin önündeki engel kaldırıldı.\n- **Ankara'nın başkent olması (13 Ekim 1923).**\n- **Cumhuriyetin ilanı (29 Ekim 1923):** Meclis hükûmeti sisteminde bakanlar tek tek seçildiği için hükûmet bunalımı yaşanıyordu; devletin yönetim şeklinin adı da konmamıştı. Cumhuriyetin ilanıyla bu sorunlar çözüldü. **Mustafa Kemal ilk cumhurbaşkanı**, **İsmet Paşa ilk başbakan** oldu.\n- **Halifeliğin kaldırılması (3 Mart 1924):** Aynı gün **Tevhid-i Tedrisat Kanunu** (öğretim birliği) kabul edildi, Şer'iye ve Evkaf Vekâleti kaldırıldı, Diyanet İşleri Başkanlığı kuruldu.\n- **1924 Anayasası** kabul edildi. 1928'de anayasadan “Devletin dini İslam'dır” maddesi çıkarıldı; 1937'de laiklik anayasaya girdi.\n\n**Hukuk alanında inkılaplar:**\n- **Türk Medeni Kanunu (17 Şubat 1926):** İsviçre'den uyarlandı. **Resmî nikâh** zorunlu oldu, **tek eşlilik** getirildi, kadın ve erkek **mirasta eşit** sayıldı, kadına boşanma ve mahkemede tanıklık hakkı tanındı.\n- Borçlar, Ticaret ve Ceza kanunları da çağdaş örneklerden yararlanılarak hazırlandı.\n\n**Kadınlara siyasi haklar:**\n- **1930:** Belediye seçimlerinde seçme ve seçilme hakkı\n- **1933:** Muhtarlık seçimlerinde seçme ve seçilme hakkı\n- **1934:** Milletvekili seçme ve seçilme hakkı. 1935 seçimlerinde 18 kadın milletvekili meclise girdi.\n\nBu inkılaplarla hukuk birliği sağlandı, kadın-erkek eşitliği güçlendi ve millî egemenliğe dayalı çağdaş bir devlet yapısı kuruldu.",
+          "keyPoints": [
+            "Cumhuriyet 29 Ekim 1923'te ilan edildi; ilk cumhurbaşkanı Mustafa Kemal, ilk başbakan İsmet Paşa'dır.",
+            "3 Mart 1924'te halifelik kaldırıldı ve aynı gün Tevhid-i Tedrisat Kanunu kabul edildi.",
+            "Türk Medeni Kanunu 1926'da kabul edildi; resmî nikâh, tek eşlilik ve mirasta eşitlik getirdi.",
+            "Kadınlar 1930'da belediye, 1933'te muhtarlık, 1934'te milletvekili seçimlerinde haklarını aldı."
+          ],
+          "commonMistakes": [
+            "Kadınların milletvekili seçme-seçilme hakkını 1930'da aldığını sanmak; 1930 belediye seçimleridir.",
+            "Tevhid-i Tedrisat'ı Harf İnkılabı ile karıştırmak; Tevhid-i Tedrisat öğretim birliğidir (1924), Harf İnkılabı 1928'dedir.",
+            "Saltanat ile halifeliğin aynı tarihte kaldırıldığını düşünmek.",
+            "Medeni Kanun'un kadınlara milletvekili seçilme hakkı verdiğini sanmak."
+          ],
+          "questions": [
+            {
+              "id": "inkilap-4-2-q1",
+              "stem": "29 Ekim 1923'te Cumhuriyetin ilanından sonra Mustafa Kemal ilk cumhurbaşkanı seçilmiştir. Cumhuriyetin ilk başbakanı aşağıdakilerden hangisidir?",
+              "choices": [
+                "Fethi Bey",
+                "Kâzım Karabekir",
+                "Rauf Bey",
+                "İsmet Paşa"
+              ],
+              "answer": 3,
+              "explanation": "Cumhuriyetin ilanından sonra Mustafa Kemal cumhurbaşkanı seçildi, hükûmeti kurma görevi İsmet Paşa'ya verildi. İsmet Paşa Cumhuriyetin ilk başbakanıdır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-4-2-q2",
+              "stem": "Halifelik hangi tarihte kaldırılmıştır?",
+              "choices": [
+                "1 Kasım 1922",
+                "3 Mart 1924",
+                "29 Ekim 1923",
+                "17 Şubat 1926"
+              ],
+              "answer": 1,
+              "explanation": "Halifelik 3 Mart 1924'te kaldırıldı. 1 Kasım 1922 saltanatın kaldırılması, 29 Ekim 1923 Cumhuriyetin ilanı, 17 Şubat 1926 Türk Medeni Kanunu'nun kabul tarihidir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-4-2-q3",
+              "stem": "Türk kadını milletvekili seçme ve seçilme hakkını hangi yıl elde etmiştir?",
+              "choices": [
+                "1926",
+                "1930",
+                "1934",
+                "1946"
+              ],
+              "answer": 2,
+              "explanation": "Kadınlar 1930'da belediye, 1933'te muhtarlık, 5 Aralık 1934'te ise milletvekili seçme ve seçilme hakkı kazandı.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-4-2-q4",
+              "stem": "3 Mart 1924'te halifeliğin kaldırılmasıyla aynı gün aşağıdakilerden hangisi gerçekleştirilmiştir?",
+              "choices": [
+                "Öğretim birliğini sağlayan Tevhid-i Tedrisat Kanunu kabul edildi.",
+                "Türk Medeni Kanunu kabul edildi.",
+                "Saltanat kaldırıldı.",
+                "Yeni Türk harfleri kabul edildi."
+              ],
+              "answer": 0,
+              "explanation": "3 Mart 1924'te halifelikle birlikte Tevhid-i Tedrisat Kanunu kabul edildi, Şer'iye ve Evkaf Vekâleti kaldırıldı. Medeni Kanun 1926'da, saltanatın kaldırılması 1922'de, Harf İnkılabı 1928'de gerçekleşmiştir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-4-2-q5",
+              "stem": "1926 öncesinde aile ve miras ile ilgili konular farklı kurallara göre düzenleniyor, kadın ve erkek mirasta eşit pay almıyordu. Türk Medeni Kanunu ile resmî nikâh zorunlu hâle geldi, tek eşlilik getirildi ve mirasta kadın-erkek eşitliği sağlandı.\nBu değişikliklerin toplum hayatına etkisi aşağıdakilerden hangisidir?",
+              "choices": [
+                "Saltanatın kaldırılmasını sağlamıştır.",
+                "Ekonomide devletçilik dönemini başlatmıştır.",
+                "Kadınlara milletvekili seçilme hakkını doğrudan tanımıştır.",
+                "Kadın ve erkek arasında hukuki eşitliğin sağlanmasına katkı yapmıştır."
+              ],
+              "answer": 3,
+              "explanation": "Mirasta eşitlik, tek eşlilik ve resmî nikâh, kadın ile erkeğin hukuk önünde eşit olmasına katkı sağlamıştır. Saltanat 1922'de kaldırılmıştır; milletvekilliği hakkı 1934'te ayrı bir düzenlemeyle verilmiştir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "inkilap-4-2-q6",
+              "stem": "1923 sonbaharında, bakanların meclis tarafından tek tek seçilmesi nedeniyle hükûmet kurulamadı. Ayrıca yeni devletin yönetim şeklinin adı henüz konmamıştı. Mustafa Kemal'in önerisiyle 29 Ekim 1923'te Cumhuriyet ilan edildi.\nBu metne göre Cumhuriyetin ilanıyla aşağıdakilerden hangisi amaçlanmıştır?",
+              "choices": [
+                "Halifeliği güçlendirmek",
+                "Devletin yönetim şeklinin adını koymak ve hükûmet bunalımını çözmek",
+                "Lozan Barış Antlaşması'nı imzalamak",
+                "Çok partili hayata geçmek"
+              ],
+              "answer": 1,
+              "explanation": "Metinde hükûmetin kurulamadığı ve yönetim şeklinin adının konmadığı belirtiliyor. Cumhuriyetin ilanıyla rejimin adı konmuş ve cumhurbaşkanının başbakanı ataması sayesinde hükûmet bunalımı çözülmüştür.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "inkilap-4-3",
+          "name": "Eğitim, Toplumsal Hayat ve Ekonomi Alanındaki İnkılaplar",
+          "kazanim": [
+            "Eğitim, kültür, toplumsal hayat ve ekonomi alanlarında yapılan inkılapları ve bu inkılapların Türk toplumuna etkilerini kavrar."
+          ],
+          "summary": "**Eğitim ve kültür alanında:**\n- **Tevhid-i Tedrisat Kanunu (1924):** Bütün okullar Maarif Vekâletine (bugünkü Millî Eğitim Bakanlığı) bağlandı, öğretim birliği sağlandı.\n- **Harf İnkılabı (1 Kasım 1928):** Arap harfleri yerine Latin kökenli **yeni Türk harfleri** kabul edildi. Okuma yazmayı yaygınlaştırmak için **Millet Mektepleri (1929)** açıldı.\n- **Türk Tarih Kurumu (1931)** ve **Türk Dil Kurumu (1932)** kuruldu; amaç millî tarih ve dil üzerine bilimsel çalışmalar yapmaktı.\n- **1933 Üniversite Reformu** ile Darülfünun kapatılarak İstanbul Üniversitesi kuruldu. 1932'de **Halkevleri** açıldı.\n\n**Toplumsal hayatta:**\n- **Şapka Kanunu (1925)** ve **tekke, zaviye ve türbelerin kapatılması (1925).**\n- **Uluslararası saat ve takvim (1925)**, **ölçü birimleri (metre, kilogram – 1931)** kabul edildi.\n- **Soyadı Kanunu (1934):** Herkes soyadı aldı; TBMM Mustafa Kemal'e **“Atatürk”** soyadını verdi. Lakap ve unvanlar kaldırıldı.\n\n**Ekonomi alanında:**\n- **İzmir İktisat Kongresi (17 Şubat 1923):** Ekonomi politikasının ilkeleri belirlendi; **millî ekonomi** hedeflendi.\n- **Aşar vergisinin kaldırılması (1925):** Köylünün yükü hafifletildi.\n- **Kabotaj Kanunu (1926):** Türk limanları arasında taşımacılık hakkı yalnızca Türk gemilerine verildi.\n- **Teşvik-i Sanayi Kanunu (1927):** Özel girişimci desteklendi.\n- 1929 Dünya Ekonomik Bunalımı'ndan sonra **devletçilik** uygulandı: **I. Beş Yıllık Sanayi Planı**, **Sümerbank (1933)** ve **Etibank (1935)** kuruldu. **Merkez Bankası 1930'da** kuruldu.\n\nBu inkılaplar okuryazarlığı artırdı, millî kültürü güçlendirdi ve ekonomik bağımsızlığı amaçladı.",
+          "keyPoints": [
+            "Harf İnkılabı 1 Kasım 1928'de yapıldı; yeni harfler Millet Mektepleri ile halka öğretildi.",
+            "Türk Tarih Kurumu 1931'de, Türk Dil Kurumu 1932'de kuruldu.",
+            "Soyadı Kanunu 1934'te çıktı; Mustafa Kemal'e Atatürk soyadı verildi.",
+            "İzmir İktisat Kongresi (1923) millî ekonomi anlayışını belirledi.",
+            "Kabotaj Kanunu (1926) ile karasularımızda taşımacılık hakkı Türk gemilerine verildi."
+          ],
+          "commonMistakes": [
+            "Millet Mektepleri ile Halkevleri'ni karıştırmak; Millet Mektepleri okuma yazma öğretmek için açılmıştır.",
+            "Aşar vergisinin kaldırılmasını devletin gelirlerini artırmak amacıyla yapılmış sanmak; gelir azalmasına rağmen köylüyü korumak için kaldırılmıştır.",
+            "Kabotaj Kanunu'nu kara taşımacılığıyla ilgili sanmak; deniz taşımacılığıyla ilgilidir.",
+            "İzmir İktisat Kongresi'nin Cumhuriyetin ilanından sonra yapıldığını düşünmek; Şubat 1923'te, Cumhuriyetten önce yapılmıştır."
+          ],
+          "questions": [
+            {
+              "id": "inkilap-4-3-q1",
+              "stem": "Yeni Türk harfleri hangi yıl kabul edilmiştir?",
+              "choices": [
+                "1924",
+                "1926",
+                "1928",
+                "1934"
+              ],
+              "answer": 2,
+              "explanation": "Yeni Türk harfleri 1 Kasım 1928'de kabul edildi.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-4-3-q2",
+              "stem": "Yeni Türk harflerini halka öğretmek ve okuma yazmayı yaygınlaştırmak amacıyla açılan kurumlar aşağıdakilerden hangisidir?",
+              "choices": [
+                "Millet Mektepleri",
+                "Halkevleri",
+                "Köy Enstitüleri",
+                "Darülfünun"
+              ],
+              "answer": 0,
+              "explanation": "Millet Mektepleri 1929'da açıldı; yetişkinlere yeni harflerle okuma yazma öğretildi. Halkevleri kültür çalışmaları için 1932'de açıldı; Köy Enstitüleri 1940'ta kuruldu; Darülfünun Osmanlı'dan kalan üniversitedir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-4-3-q3",
+              "stem": "Türk Tarih Kurumu ve Türk Dil Kurumu'nun kurulmasının ortak amacı aşağıdakilerden hangisidir?",
+              "choices": [
+                "Ekonomiyi kalkındırmak",
+                "Dış politikada barışı sağlamak",
+                "Çok partili hayata geçmek",
+                "Millî kültürü bilimsel olarak araştırmak ve geliştirmek"
+              ],
+              "answer": 3,
+              "explanation": "Bu iki kurum Türk tarihini ve Türk dilini bilimsel yöntemlerle araştırarak millî kültürü güçlendirmek amacıyla kuruldu.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-4-3-q4",
+              "stem": "1926'da çıkarılan Kabotaj Kanunu ile aşağıdakilerden hangisi sağlanmıştır?",
+              "choices": [
+                "Aşar vergisi kaldırıldı.",
+                "Türk limanları arasında taşımacılık hakkı yalnızca Türk gemilerine verildi.",
+                "Yabancı şirketlere yeni ayrıcalıklar tanındı.",
+                "Merkez Bankası kuruldu."
+              ],
+              "answer": 1,
+              "explanation": "Kabotaj Kanunu ile Türk karasularında ve limanları arasında yük ve yolcu taşıma hakkı Türk gemilerine verildi; bu, ekonomik bağımsızlık açısından önemli bir adımdır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-4-3-q5",
+              "stem": "Mustafa Kemal, İzmir İktisat Kongresi'nin açılışında şöyle demiştir:\n“Siyasi, askerî zaferler ne kadar büyük olurlarsa olsunlar, iktisadi zaferlerle taçlandırılmazlarsa kazanılan zaferler payidar olamaz (kalıcı olamaz), az zamanda söner.”\nBu sözle aşağıdakilerden hangisi vurgulanmaktadır?",
+              "choices": [
+                "Askerî başarıların ekonomiden daha önemli olduğu",
+                "Ekonominin tamamen yabancı sermayeye bırakılması gerektiği",
+                "Ekonomik bağımsızlık sağlanmadan siyasi bağımsızlığın kalıcı olamayacağı",
+                "Zaferlerin yalnızca savaş alanında kazanılacağı"
+              ],
+              "answer": 2,
+              "explanation": "Mustafa Kemal, askerî ve siyasi zaferlerin ekonomik başarılarla desteklenmezse kalıcı olamayacağını söylemektedir; yani ekonomik bağımsızlık tam bağımsızlığın şartıdır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "inkilap-4-3-q6",
+              "stem": "Ürünün belirli bir kısmının vergi olarak alınması esasına dayanan aşar vergisi, devlet gelirleri içinde önemli bir yere sahipti. Buna rağmen bu vergi 1925'te kaldırıldı.\nBu durum aşağıdakilerden hangisinin göstergesidir?",
+              "choices": [
+                "Nüfusun büyük kısmını oluşturan köylünün durumunun iyileştirilmesine önem verildiğinin",
+                "Devletin gelirlerinin artırılmak istendiğinin",
+                "Sanayinin tamamen devletleştirildiğinin",
+                "Tarımın önemini yitirdiğinin"
+              ],
+              "answer": 0,
+              "explanation": "Devlet, gelirlerinin azalmasını göze alarak köylünün üzerindeki ağır yükü kaldırmıştır. Bu, nüfusun çoğunluğunu oluşturan köylüye önem verildiğini gösterir. Vergi kaldırıldığı için gelirlerin artırılması amaçlanmamıştır.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inkilap-5",
+      "no": 5,
+      "name": "Demokratikleşme Çabaları",
+      "topics": [
+        {
+          "id": "inkilap-5-1",
+          "name": "Çok Partili Hayata Geçiş Denemeleri",
+          "kazanim": [
+            "Atatürk döneminde çok partili siyasi hayata geçiş denemelerini ve bu denemelerin sonuçlarını kavrar."
+          ],
+          "summary": "Atatürk, millî egemenliğin tam olarak gerçekleşmesi için **çok partili demokratik hayatı** önemsiyordu.\n\n**I. TBMM'de gruplar:** Mecliste Mustafa Kemal'i destekleyen **Birinci Grup** ile ona karşı görüşleri olan **İkinci Grup** vardı. Bu durum mecliste farklı görüşlerin tartışıldığını gösterir.\n\n**Cumhuriyet Halk Fırkası (9 Eylül 1923):** Mustafa Kemal tarafından kuruldu; Türkiye Cumhuriyeti'nin ilk siyasi partisidir.\n\n**Terakkiperver Cumhuriyet Fırkası (17 Kasım 1924):** **İlk muhalefet partisi**dir. Kâzım Karabekir, Rauf Orbay, Ali Fuat Cebesoy ve Refet Bele gibi Millî Mücadele'nin önde gelen isimleri tarafından kuruldu. Ekonomide liberal görüşleri savundu. **Şeyh Sait İsyanı (1925)** sırasında parti üyelerinin isyanla ilişkili olduğu düşünüldü ve **Haziran 1925'te kapatıldı**.\n\n**Serbest Cumhuriyet Fırkası (12 Ağustos 1930):** 1929 Dünya Ekonomik Bunalımı'nın etkilerinin görüldüğü bir dönemde, **Atatürk'ün isteğiyle Ali Fethi Okyar** tarafından kuruldu. Amaç, mecliste hükûmeti denetleyecek bir muhalefet oluşturmaktı. Parti kısa sürede büyük ilgi gördü; ancak **inkılaplara karşı olanlar da partinin çevresinde toplanmaya başladı**. Fethi Bey, Atatürk'e karşı mücadele etmek istemediğini belirterek partisini **17 Kasım 1930'da kendisi kapattı**.\n\nBu denemeler kısa sürse de Türkiye'nin demokrasi deneyimine katkı sağladı. **Çok partili hayata kesin geçiş** Atatürk'ün ölümünden sonra gerçekleşti: **1945'te Millî Kalkınma Partisi**, **1946'da Demokrat Parti** kuruldu. **1946** seçimleri ilk çok partili seçimdir. **1950** seçimlerinde Demokrat Parti iktidara geldi.",
+          "keyPoints": [
+            "İlk muhalefet partisi Terakkiperver Cumhuriyet Fırkası'dır (1924).",
+            "TCF, Şeyh Sait İsyanı'ndan sonra 1925'te kapatıldı.",
+            "Serbest Cumhuriyet Fırkası 1930'da Atatürk'ün isteğiyle Fethi Okyar tarafından kuruldu.",
+            "SCF, rejim karşıtlarının çevresinde toplanması üzerine kurucusu tarafından kapatıldı.",
+            "Çok partili hayata kesin geçiş 1946'dadır."
+          ],
+          "commonMistakes": [
+            "İlk muhalefet partisini Serbest Cumhuriyet Fırkası sanmak; ilk muhalefet partisi TCF'dir.",
+            "SCF'nin mahkeme ya da meclis kararıyla kapatıldığını düşünmek; kurucusu Fethi Bey tarafından kapatılmıştır.",
+            "Çok partili hayata Atatürk döneminde kesin olarak geçildiğini sanmak.",
+            "TCF'nin kurucusu Kâzım Karabekir ile SCF'nin kurucusu Fethi Okyar'ı karıştırmak."
+          ],
+          "questions": [
+            {
+              "id": "inkilap-5-1-q1",
+              "stem": "Türkiye Cumhuriyeti'nin ilk muhalefet partisi aşağıdakilerden hangisidir?",
+              "choices": [
+                "Serbest Cumhuriyet Fırkası",
+                "Terakkiperver Cumhuriyet Fırkası",
+                "Demokrat Parti",
+                "Millî Kalkınma Partisi"
+              ],
+              "answer": 1,
+              "explanation": "17 Kasım 1924'te kurulan Terakkiperver Cumhuriyet Fırkası ilk muhalefet partisidir. SCF 1930'da, Millî Kalkınma Partisi 1945'te, Demokrat Parti 1946'da kurulmuştur.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-5-1-q2",
+              "stem": "Atatürk'ün isteğiyle 1930'da Serbest Cumhuriyet Fırkası'nı kuran kişi aşağıdakilerden hangisidir?",
+              "choices": [
+                "Kâzım Karabekir",
+                "Rauf Orbay",
+                "Celal Bayar",
+                "Ali Fethi Okyar"
+              ],
+              "answer": 3,
+              "explanation": "Serbest Cumhuriyet Fırkası Ali Fethi Okyar tarafından kuruldu. Kâzım Karabekir ve Rauf Orbay TCF'nin kurucuları arasındadır; Celal Bayar Demokrat Parti'nin kurucularındandır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-5-1-q3",
+              "stem": "Terakkiperver Cumhuriyet Fırkası'nın kapatılmasına yol açan olay aşağıdakilerden hangisidir?",
+              "choices": [
+                "Şeyh Sait İsyanı",
+                "Menemen Olayı",
+                "İzmir Suikast Girişimi",
+                "Çerkez Ethem İsyanı"
+              ],
+              "answer": 0,
+              "explanation": "1925'te çıkan Şeyh Sait İsyanı'ndan sonra TCF'nin bazı üyelerinin isyanla ilişkili olduğu düşünüldü ve parti Haziran 1925'te kapatıldı. İzmir Suikast Girişimi 1926'da, Menemen Olayı 1930'da yaşanmıştır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-5-1-q4",
+              "stem": "Atatürk'ün Serbest Cumhuriyet Fırkası'nın kurulmasını istemesinin temel nedeni aşağıdakilerden hangisidir?",
+              "choices": [
+                "Tek parti yönetimini güçlendirmek",
+                "Halifeliği yeniden kurmak",
+                "Mecliste hükûmeti denetleyecek bir muhalefet oluşturmak",
+                "Dış politikada yeni ittifaklar kurmak"
+              ],
+              "answer": 2,
+              "explanation": "Atatürk, hükûmetin mecliste denetlenmesini ve halkın farklı görüşlerinin temsil edilmesini istiyordu. Bu nedenle bir muhalefet partisinin kurulmasını teşvik etti.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-5-1-q5",
+              "stem": "Serbest Cumhuriyet Fırkası'nın İzmir'deki mitingine büyük kalabalıklar katıldı. Ancak kısa sürede inkılaplara karşı olan kişiler de partinin çevresinde toplanmaya başladı. Bunun üzerine Fethi Bey, Atatürk'e karşı mücadele etmek istemediğini belirterek partisini kapattı.\nBu metinden aşağıdakilerden hangisine ulaşılabilir?",
+              "choices": [
+                "SCF halktan hiç destek görmemiştir.",
+                "SCF, TBMM kararıyla kapatılmıştır.",
+                "Fethi Bey inkılaplara karşı bir politika izlemiştir.",
+                "Çok partili hayat denemesi, rejim karşıtlarının partiyi kullanması nedeniyle başarısız olmuştur."
+              ],
+              "answer": 3,
+              "explanation": "Metinde rejim karşıtlarının partinin çevresinde toplanması üzerine partinin kapatıldığı belirtilmektedir. Mitinge büyük kalabalıklar katıldığı için destek görmediği söylenemez; parti kurucusu tarafından kapatılmıştır; Fethi Bey'in inkılap karşıtı olduğu metinde yer almaz.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "inkilap-5-1-q6",
+              "stem": "Bazı siyasi partilerin kuruluş ve kapanış bilgileri şöyledir:\nTerakkiperver Cumhuriyet Fırkası: 1924'te kuruldu, 1925'te kapatıldı.\nSerbest Cumhuriyet Fırkası: Ağustos 1930'da kuruldu, Kasım 1930'da kapandı.\nDemokrat Parti: 1946'da kuruldu, 1950'de iktidara geldi.\nBu bilgilere göre aşağıdakilerden hangisi söylenebilir?",
+              "choices": [
+                "Çok partili hayata Atatürk döneminde kesin olarak geçilmiştir.",
+                "Atatürk döneminde çok partili hayata geçiş denemeleri kısa sürmüştür.",
+                "İlk muhalefet partisi 1946'da kurulmuştur.",
+                "Atatürk döneminde hiç muhalefet partisi kurulmamıştır."
+              ],
+              "answer": 1,
+              "explanation": "TCF yaklaşık yedi ay, SCF yaklaşık üç ay yaşamıştır; bu, Atatürk dönemindeki denemelerin kısa sürdüğünü gösterir. Kesin geçiş 1946'dadır; ilk muhalefet partisi 1924'te kurulmuştur.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "inkilap-5-2",
+          "name": "Cumhuriyete Yönelik Tehditler",
+          "kazanim": [
+            "Cumhuriyet ve inkılaplara yönelik tehditleri ve bu tehditlere karşı alınan önlemleri kavrar."
+          ],
+          "summary": "Cumhuriyetin ilk yıllarında yeni rejime ve inkılaplara karşı bazı tehditler ortaya çıktı.\n\n**Şeyh Sait İsyanı (1925):** Doğu Anadolu'da başladı. İsyancılar din istismarı yaparak halkı yeni rejime karşı kışkırtmaya çalıştı. Hükûmet isyanı bastırmak için **Takrir-i Sükûn Kanunu**'nu çıkardı; bu kanun hükûmete olağanüstü yetkiler verdi. İstiklal Mahkemeleri yeniden kuruldu.\n- **Sonuçları:** Terakkiperver Cumhuriyet Fırkası kapatıldı, bazı gazeteler kapatıldı ve çok partili hayat denemesi sona erdi. İsyan, **Musul sorununun Türkiye aleyhine sonuçlanmasında** da etkili oldu; çünkü Türkiye'nin askerî gücü isyanla uğraşırken İngiltere'nin elini güçlendirdi.\n\n**İzmir Suikast Girişimi (1926):** Mustafa Kemal'e İzmir ziyareti sırasında suikast düzenlenmesi planlandı. Plan uygulanmadan ortaya çıkarıldı ve sorumlular yargılandı.\n\n**Menemen Olayı (23 Aralık 1930):** Derviş Mehmet ve yanındakiler, Menemen'de rejim karşıtı bir ayaklanma başlattı. Olayı bastırmak isteyen **yedek subay öğretmen Mustafa Fehmi Kubilay** şehit edildi; bekçiler Hasan ve Şevki de hayatını kaybetti. Olayın sorumluları yargılanarak cezalandırıldı.\n- Menemen Olayı ve Serbest Cumhuriyet Fırkası deneyimi, inkılapların halka yeterince benimsetilmediğini gösterdi. Bu nedenle **1932'de Halkevleri** açıldı.\n\nBu olayların ortak özelliği, **Cumhuriyete ve inkılaplara yönelmiş olmalarıdır**. Devlet, bu tehditlere karşı hukuki önlemler aldı ve inkılapları halka anlatma çalışmalarını artırdı.",
+          "keyPoints": [
+            "Şeyh Sait İsyanı (1925) üzerine Takrir-i Sükûn Kanunu çıkarıldı.",
+            "Şeyh Sait İsyanı TCF'nin kapatılmasına ve Musul sorununun Türkiye aleyhine sonuçlanmasına etki etti.",
+            "İzmir Suikast Girişimi (1926) uygulanmadan ortaya çıkarıldı.",
+            "Menemen Olayı'nda (1930) öğretmen Kubilay şehit edildi.",
+            "İnkılapları halka benimsetmek için 1932'de Halkevleri açıldı."
+          ],
+          "commonMistakes": [
+            "Takrir-i Sükûn Kanunu ile Hıyanet-i Vataniye Kanunu'nu karıştırmak.",
+            "Menemen Olayı'nı SCF'nin kapanma sebebi sanmak; SCF Kasım 1930'da kapanmış, Menemen Aralık 1930'da yaşanmıştır.",
+            "Şeyh Sait İsyanı'nın yalnızca iç politikayı etkilediğini düşünmek; Musul sorununu da etkilemiştir.",
+            "Kubilay ile İzmir'de ilk kurşunu atan Hasan Tahsin'i karıştırmak."
+          ],
+          "questions": [
+            {
+              "id": "inkilap-5-2-q1",
+              "stem": "1930'daki Menemen Olayı'nda şehit edilen yedek subay öğretmen aşağıdakilerden hangisidir?",
+              "choices": [
+                "Hasan Tahsin",
+                "Şemsi Efendi",
+                "Mustafa Fehmi Kubilay",
+                "Ömer Naci"
+              ],
+              "answer": 2,
+              "explanation": "Menemen Olayı'nda isyancıları durdurmak isteyen yedek subay öğretmen Mustafa Fehmi Kubilay şehit edildi. Hasan Tahsin İzmir'in işgalinde ilk kurşunu atan gazetecidir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-5-2-q2",
+              "stem": "Şeyh Sait İsyanı'nı bastırmak için çıkarılan ve hükûmete olağanüstü yetkiler veren kanun aşağıdakilerden hangisidir?",
+              "choices": [
+                "Takrir-i Sükûn Kanunu",
+                "Hıyanet-i Vataniye Kanunu",
+                "Kabotaj Kanunu",
+                "Teşvik-i Sanayi Kanunu"
+              ],
+              "answer": 0,
+              "explanation": "Takrir-i Sükûn (huzuru sağlama) Kanunu 1925'te Şeyh Sait İsyanı üzerine çıkarıldı. Hıyanet-i Vataniye Kanunu 1920'de çıkarılmıştır; diğerleri ekonomiyle ilgili kanunlardır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-5-2-q3",
+              "stem": "Şeyh Sait İsyanı'nın Türk dış politikasına etkisi aşağıdakilerden hangisidir?",
+              "choices": [
+                "Hatay'ın anavatana katılmasını hızlandırmıştır.",
+                "Musul sorununun Türkiye aleyhine sonuçlanmasında etkili olmuştur.",
+                "Balkan Antantı'nın kurulmasını sağlamıştır.",
+                "Boğazlar sorununu Türkiye lehine çözmüştür."
+              ],
+              "answer": 1,
+              "explanation": "İsyan, Türkiye'nin Musul konusunda İngiltere karşısında elini zayıflattı ve sorunun Türkiye aleyhine sonuçlanmasında etkili oldu. Hatay 1939'da, Balkan Antantı 1934'te, Montrö 1936'da gerçekleşmiştir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-5-2-q4",
+              "stem": "Şeyh Sait İsyanı, İzmir Suikast Girişimi ve Menemen Olayı'nın ortak özelliği aşağıdakilerden hangisidir?",
+              "choices": [
+                "Dış devletlerle yapılmış savaşlar olmaları",
+                "Atatürk'ün ölümünden sonra yaşanmaları",
+                "Çok partili hayata geçişi hızlandırmaları",
+                "Cumhuriyete ve inkılaplara yönelmiş olmaları"
+              ],
+              "answer": 3,
+              "explanation": "Bu üç olay da yeni rejimi ve inkılapları hedef almıştır. Hepsi Atatürk döneminde ve ülke içinde yaşanmıştır; çok partili hayatı hızlandırmamış, aksine olumsuz etkilemiştir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-5-2-q5",
+              "stem": "Menemen Olayı'ndan sonra yapılan değerlendirmelerde, olay sırasında çevredeki bazı kişilerin tepkisiz kalması dikkat çekti ve inkılapların halka daha iyi anlatılması gerektiği sonucuna varıldı. 1932'de açılan Halkevleri ile inkılapların halka benimsetilmesi amaçlandı.\nBu bilgilere göre aşağıdakilerden hangisi söylenebilir?",
+              "choices": [
+                "Yaşanan olaylar, inkılapların halka benimsetilmesi için yeni kurumlar açılmasına yol açmıştır.",
+                "Menemen Olayı'na çevredeki herkes büyük tepki göstermiştir.",
+                "Halkevleri Menemen Olayı'ndan önce açılmıştır.",
+                "İnkılapların halka anlatılmasına gerek görülmemiştir."
+              ],
+              "answer": 0,
+              "explanation": "Metinde olaydan çıkarılan ders sonucunda Halkevleri'nin açıldığı belirtilmektedir. Diğer seçenekler metinle çelişir: bazı kişiler tepkisiz kalmış, Halkevleri 1932'de açılmış ve inkılapların anlatılması gerekli görülmüştür.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "inkilap-5-2-q6",
+              "stem": "Şeyh Sait İsyanı'ndan sonra çıkarılan Takrir-i Sükûn Kanunu'na dayanılarak bazı gazeteler kapatıldı. Bir süre sonra Terakkiperver Cumhuriyet Fırkası da kapatıldı.\nBu uygulamaların siyasi hayata etkisi aşağıdakilerden hangisidir?",
+              "choices": [
+                "Çok partili hayata kesin olarak geçilmiştir.",
+                "Basın özgürlüğü genişletilmiştir.",
+                "Muhalefet ortadan kalkmış ve tek partili döneme dönülmüştür.",
+                "Demokrat Parti kurulmuştur."
+              ],
+              "answer": 2,
+              "explanation": "TCF'nin kapatılmasıyla mecliste muhalefet partisi kalmadı ve tek partili yönetime dönüldü. Gazetelerin kapatılması basın özgürlüğünü daraltmıştır; Demokrat Parti 1946'da kurulmuştur.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inkilap-6",
+      "no": 6,
+      "name": "Atatürk Dönemi Türk Dış Politikası",
+      "topics": [
+        {
+          "id": "inkilap-6-1",
+          "name": "Lozan'dan Kalan Sorunlar: Mübadele, Yabancı Okullar, Borçlar ve Musul",
+          "kazanim": [
+            "Lozan Barış Antlaşması'ndan kalan sorunları ve bu sorunların çözüm yollarını kavrar."
+          ],
+          "summary": "Atatürk dönemi dış politikasının temeli **“Yurtta sulh, cihanda sulh.”** (yurtta barış, dünyada barış) ilkesidir. Türkiye, Lozan'da çözülemeyen ya da uygulamada sorun çıkan konuları **barışçı yollarla** çözmeye çalıştı.\n\n**Nüfus mübadelesi:** Lozan'a göre Türkiye'deki Rumlar ile Yunanistan'daki Türkler yer değiştirecekti; **İstanbul Rumları ve Batı Trakya Türkleri** bu değişimin dışında tutuldu. Ancak taraflar, kimlerin **“yerleşik” (etabli)** sayılacağı konusunda anlaşamadı. Sorun **1930'da imzalanan Türk-Yunan Dostluk Antlaşması** ile çözüldü ve iki ülke yakınlaştı.\n\n**Yabancı okullar:** Lozan'dan sonra yabancı okulların **Türk yasalarına uyması** istendi. Türkçe, tarih ve coğrafya derslerinin Türk öğretmenler tarafından okutulması zorunlu oldu; okullarda dinî simgeler kaldırıldı. Kurallara uymayan bazı okullar kapandı.\n\n**Osmanlı borçları:** Lozan'da Osmanlı'dan ayrılan devletler arasında paylaştırıldı. Türkiye payına düşen borcu **1929'da ödemeye başladı**. 1929 Dünya Ekonomik Bunalımı nedeniyle ödemelere bir süre ara verildi; son taksit **1954'te** ödendi.\n\n**Musul sorunu:** Lozan'da İngiltere ile anlaşma sağlanamadı. İkili görüşmelerden (Haliç Konferansı, 1924) sonuç çıkmayınca sorun **Milletler Cemiyeti**'ne götürüldü. Cemiyet, İngiltere'nin etkisiyle Musul'un Irak'a bırakılmasını önerdi. **Şeyh Sait İsyanı** da Türkiye'nin elini zayıflattı. **5 Haziran 1926 Ankara Antlaşması** ile Musul Irak'a bırakıldı; Musul petrollerinin gelirinden **25 yıl boyunca %10** pay Türkiye'ye verilecekti. Türkiye daha sonra bu pay yerine bir defaya mahsus tazminat almayı kabul etti.",
+          "keyPoints": [
+            "Atatürk dönemi dış politikasının temeli “Yurtta sulh, cihanda sulh.” ilkesidir.",
+            "Mübadeledeki “etabli” sorunu 1930 Türk-Yunan Dostluk Antlaşması ile çözüldü.",
+            "Yabancı okullar Türk yasalarına uymak zorunda bırakıldı.",
+            "Osmanlı borçlarının ödenmesi 1929'da başladı, 1954'te bitti.",
+            "Musul 1926 Ankara Antlaşması ile Irak'a bırakıldı; Türkiye'ye petrol gelirinden pay verildi."
+          ],
+          "commonMistakes": [
+            "1926 Ankara Antlaşması'nı (İngiltere-Irak ile, Musul) 1921 Ankara Antlaşması (Fransa ile) ile karıştırmak.",
+            "Batı Trakya Türklerinin de mübadeleye dahil olduğunu sanmak.",
+            "Musul sorununun Lozan'da çözüldüğünü düşünmek.",
+            "Borç ödemelerinin Atatürk döneminde bittiğini sanmak; son ödeme 1954'tedir."
+          ],
+          "questions": [
+            {
+              "id": "inkilap-6-1-q1",
+              "stem": "Lozan'da İngiltere ile anlaşma sağlanamayan ve Türkiye-Irak sınırını ilgilendiren sorun aşağıdakilerden hangisidir?",
+              "choices": [
+                "Hatay sorunu",
+                "Boğazlar sorunu",
+                "Yabancı okullar sorunu",
+                "Musul sorunu"
+              ],
+              "answer": 3,
+              "explanation": "Musul, o dönemde İngiliz mandası altındaki Irak ile Türkiye arasındaki sınırı ilgilendiren bir sorundu ve Lozan'da çözülemedi. Hatay Suriye sınırıyla ilgilidir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-6-1-q2",
+              "stem": "Lozan Barış Antlaşması'na göre Türkiye, nüfus mübadelesini hangi devletle yapmıştır?",
+              "choices": [
+                "Bulgaristan",
+                "Yunanistan",
+                "İtalya",
+                "İran"
+              ],
+              "answer": 1,
+              "explanation": "Lozan'a göre Türkiye'deki Rumlar ile Yunanistan'daki Türkler yer değiştirecekti; mübadele Yunanistan ile yapılmıştır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-6-1-q3",
+              "stem": "Musul sorunu aşağıdakilerden hangisiyle sonuçlanmıştır?",
+              "choices": [
+                "1926 Ankara Antlaşması ile Musul Irak'a bırakıldı; Türkiye'ye 25 yıl petrol gelirinden %10 pay verilmesi kararlaştırıldı.",
+                "Musul halk oylamasıyla Türkiye'ye katıldı.",
+                "Musul bağımsız bir devlet oldu.",
+                "Musul, Milletler Cemiyeti'nin doğrudan yönetimine bırakıldı."
+              ],
+              "answer": 0,
+              "explanation": "5 Haziran 1926'da Türkiye, İngiltere ve Irak arasında imzalanan Ankara Antlaşması ile Musul Irak'a bırakıldı ve Türkiye'ye 25 yıl süreyle petrol gelirinin %10'u verilmesi kararlaştırıldı.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-6-1-q4",
+              "stem": "Lozan'dan sonra Türkiye'deki yabancı okullarla ilgili yapılan düzenleme aşağıdakilerden hangisidir?",
+              "choices": [
+                "Bütün yabancı okullar hemen kapatıldı.",
+                "Yabancı okullar kapitülasyonlardan doğan ayrıcalıklarını sürdürdü.",
+                "Yabancı okulların Türk yasalarına uyması ve Türkçe, tarih, coğrafya derslerinin Türk öğretmenlerce okutulması istendi.",
+                "Yabancı okulların yalnızca yabancı öğrencilere eğitim vermesi istendi."
+              ],
+              "answer": 2,
+              "explanation": "Yabancı okullar Türk yasalarına tabi tutuldu ve millî derslerin Türk öğretmenler tarafından verilmesi zorunlu oldu. Kurallara uymayan bazı okullar kapandı, ancak hepsi kapatılmadı. Kapitülasyonlar Lozan'da kaldırılmıştı.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-6-1-q5",
+              "stem": "Lozan'a göre İstanbul'daki Rumlar ile Batı Trakya'daki Türkler mübadele dışında tutulmuştu. Ancak Türkiye ile Yunanistan, “yerleşik (etabli)” sayılacak kişilerin kimler olduğu konusunda anlaşamadı. Sorun, 1930'da imzalanan Türk-Yunan Dostluk Antlaşması ile çözüldü.\nBu bilgilere göre aşağıdakilerden hangisine ulaşılabilir?",
+              "choices": [
+                "Mübadele sorunu Milletler Cemiyeti kararıyla çözülmüştür.",
+                "Lozan'daki bazı maddelerin uygulanmasında yorum farklılıkları sorun yaratmıştır.",
+                "Türkiye ile Yunanistan arasındaki sorun savaşla sonuçlanmıştır.",
+                "Batı Trakya Türkleri de mübadeleye dahil edilmiştir."
+              ],
+              "answer": 1,
+              "explanation": "Tarafların “etabli” kavramını farklı yorumlaması, Lozan'ın uygulanmasında sorun çıktığını gösterir. Sorun Milletler Cemiyeti ya da savaşla değil, ikili dostluk antlaşmasıyla çözülmüştür; Batı Trakya Türkleri mübadele dışındadır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "inkilap-6-1-q6",
+              "stem": "Lozan'da Osmanlı borçları, Osmanlı'dan ayrılan devletler arasında paylaştırıldı. Türkiye payına düşen borcu 1929'dan itibaren taksitlerle ödemeye başladı. 1929 Dünya Ekonomik Bunalımı nedeniyle ödemelere bir süre ara verildi ve son taksit 1954'te ödendi.\nBu bilgilere göre aşağıdakilerden hangisine ulaşılamaz?",
+              "choices": [
+                "Borçlar Osmanlı'dan ayrılan devletler arasında paylaştırılmıştır.",
+                "Dünya ekonomisindeki gelişmeler borç ödemelerini etkilemiştir.",
+                "Borç ödemeleri Atatürk'ün ölümünden sonra da sürmüştür.",
+                "Türkiye borçlarını tek seferde ödemiştir."
+              ],
+              "answer": 3,
+              "explanation": "Metinde borçların taksitlerle ödendiği belirtildiği için “tek seferde ödenmiştir” yargısına ulaşılamaz. Diğer yargılar metinde açıkça yer alır; son ödemenin 1954'te yapılması, ödemelerin Atatürk'ün ölümünden (1938) sonra da sürdüğünü gösterir.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "inkilap-6-2",
+          "name": "Barış Politikası, Montrö ve Hatay",
+          "kazanim": [
+            "Atatürk döneminde Türkiye'nin barışı korumaya yönelik ittifakları ile Boğazlar ve Hatay sorunlarının çözümünü kavrar."
+          ],
+          "summary": "1930'larda dünyada savaş tehlikesi arttı: İtalya ve Almanya yayılmacı bir politika izlemeye başladı. Türkiye, **barışı korumak ve güvenliğini sağlamak** için uluslararası iş birliğine önem verdi.\n- **Milletler Cemiyeti (1932):** Türkiye, cemiyetin daveti üzerine **18 Temmuz 1932**'de üye oldu.\n- **Balkan Antantı (9 Şubat 1934):** Türkiye, **Yunanistan, Yugoslavya ve Romanya** ile imzalandı. Amaç Balkanlarda barışı korumak ve İtalya'nın yayılmacı politikasına karşı ortak güvenliği sağlamaktı. Bulgaristan katılmadı.\n- **Sadabat Paktı (8 Temmuz 1937):** Türkiye, **İran, Irak ve Afganistan** arasında Tahran'daki Sadabat Sarayı'nda imzalandı. Doğu sınırlarının güvenliği amaçlandı.\n\n**Montrö Boğazlar Sözleşmesi (20 Temmuz 1936):** İtalya'nın Habeşistan'ı işgal etmesi, Almanya'nın silahlanması ve Milletler Cemiyeti'nin bunları önleyememesi üzerine Türkiye, Lozan'daki Boğazlar düzeninin değiştirilmesini istedi. Montrö ile **uluslararası Boğazlar Komisyonu kaldırıldı, yetkileri Türkiye'ye verildi**; Türkiye Boğazlara **asker yerleştirme ve silahlandırma** hakkı kazandı. Savaş zamanında Türkiye savaşan taraf ise savaş gemilerinin geçişi Türkiye'nin iznine bağlandı. Böylece **Boğazlar üzerinde tam egemenlik** sağlandı.\n\n**Hatay sorunu:** 1921 Ankara Antlaşması ile Hatay Fransız mandasındaki Suriye sınırları içinde kalmış, ancak özel bir yönetim tanınmıştı. 1936'da Fransa Suriye'ye bağımsızlık vermeyi kabul edince Türkiye konuyu Milletler Cemiyeti'ne götürdü. **1937**'de Hatay'ın **iç işlerinde bağımsız, dış işlerinde Suriye'ye bağlı** olmasına karar verildi. **1938'de Hatay Devleti** kuruldu. Hatay Meclisi **29 Haziran 1939'da Türkiye'ye katılma kararı** aldı. Atatürk Hatay'ın katılışını göremedi.",
+          "keyPoints": [
+            "Türkiye 1932'de Milletler Cemiyeti'ne üye oldu.",
+            "Balkan Antantı (1934): Türkiye, Yunanistan, Yugoslavya, Romanya.",
+            "Sadabat Paktı (1937): Türkiye, İran, Irak, Afganistan.",
+            "Montrö (1936) ile Boğazlar Komisyonu kaldırıldı ve Boğazlarda tam egemenlik sağlandı.",
+            "Hatay 1938'de bağımsız devlet oldu, 1939'da Türkiye'ye katıldı."
+          ],
+          "commonMistakes": [
+            "Balkan Antantı'na Bulgaristan'ın katıldığını sanmak.",
+            "Balkan Antantı ile Sadabat Paktı'nın üyelerini karıştırmak.",
+            "Hatay'ın Atatürk hayattayken Türkiye'ye katıldığını düşünmek; katılım 1939'dadır.",
+            "Montrö'de Boğazların silahsızlandırıldığını sanmak; aksine silahlandırma hakkı alınmıştır."
+          ],
+          "questions": [
+            {
+              "id": "inkilap-6-2-q1",
+              "stem": "Türkiye Milletler Cemiyeti'ne hangi yıl üye olmuştur?",
+              "choices": [
+                "1923",
+                "1926",
+                "1932",
+                "1939"
+              ],
+              "answer": 2,
+              "explanation": "Türkiye, Milletler Cemiyeti'nin daveti üzerine 18 Temmuz 1932'de cemiyete üye oldu.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-6-2-q2",
+              "stem": "Aşağıdaki devletlerden hangisi 1934'te Türkiye ile birlikte Balkan Antantı'nı imzalayan devletlerden biridir?",
+              "choices": [
+                "Romanya",
+                "Bulgaristan",
+                "İtalya",
+                "İran"
+              ],
+              "answer": 0,
+              "explanation": "Balkan Antantı Türkiye, Yunanistan, Yugoslavya ve Romanya arasında imzalandı. Bulgaristan katılmadı; İtalya'nın yayılmacılığı antantın nedenlerindendir; İran Sadabat Paktı üyesidir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-6-2-q3",
+              "stem": "Montrö Boğazlar Sözleşmesi ile aşağıdakilerden hangisi gerçekleşmiştir?",
+              "choices": [
+                "Boğazların kıyıları askerden arındırıldı.",
+                "Boğazların yönetimi Milletler Cemiyeti'ne bırakıldı.",
+                "Musul sorunu çözüldü.",
+                "Uluslararası Boğazlar Komisyonu kaldırıldı ve yetkileri Türkiye'ye verildi."
+              ],
+              "answer": 3,
+              "explanation": "Montrö ile Lozan'da kurulan uluslararası komisyon kaldırıldı, yetkileri Türkiye'ye geçti ve Türkiye Boğazları silahlandırma hakkı kazandı. Kıyıların askerden arındırılması Lozan'ın hükmüydü.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-6-2-q4",
+              "stem": "Hatay sorunu ile ilgili olarak Milletler Cemiyeti 1937'de aşağıdaki kararlardan hangisini almıştır?",
+              "choices": [
+                "Hatay doğrudan Türkiye'ye katılacak.",
+                "Hatay iç işlerinde bağımsız, dış işlerinde Suriye'ye bağlı olacak.",
+                "Hatay tamamen Fransa'ya bırakılacak.",
+                "Hatay'da nüfus mübadelesi yapılacak."
+              ],
+              "answer": 1,
+              "explanation": "Milletler Cemiyeti 1937'de Hatay'ın iç işlerinde bağımsız, dış işlerinde Suriye'ye bağlı ayrı bir yönetime sahip olmasını kararlaştırdı. Hatay 1938'de bağımsız devlet oldu, 1939'da Türkiye'ye katıldı.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-6-2-q5",
+              "stem": "1930'ların ortasında İtalya Habeşistan'ı işgal etti, Almanya hızla silahlandı ve Milletler Cemiyeti bu gelişmeleri durduramadı. Türkiye, Lozan'daki Boğazlar düzeninin ülkenin güvenliğini sağlamaya yetmediğini belirterek yeni bir düzenleme yapılmasını istedi.\nBu metne göre Türkiye'nin Boğazlar düzeninin değiştirilmesini istemesinin temel nedeni aşağıdakilerden hangisidir?",
+              "choices": [
+                "Artan savaş tehlikesi karşısında güvenliğini sağlamak",
+                "Boğazları ticaret gemilerine kapatmak",
+                "Milletler Cemiyeti'nden ayrılmak",
+                "Balkan Antantı'nı sona erdirmek"
+              ],
+              "answer": 0,
+              "explanation": "Metinde artan savaş tehlikesi ve mevcut düzenin güvenliği sağlamaya yetmediği vurgulanıyor. Türkiye bu nedenle Boğazlar üzerinde tam egemenlik istemiştir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "inkilap-6-2-q6",
+              "stem": "Atatürk “Yurtta sulh, cihanda sulh.” sözüyle dış politikanın temel ilkesini belirtmiştir. Bu dönemde Türkiye Milletler Cemiyeti'ne üye olmuş, Balkan Antantı'nı ve Sadabat Paktı'nı imzalamıştır.\nBu gelişmeler Atatürk dönemi dış politikasının hangi özelliğini yansıtmaktadır?",
+              "choices": [
+                "Yayılmacı ve saldırgan olduğunu",
+                "Diğer devletlerden tamamen uzak durduğunu",
+                "Barışçı olduğunu ve bölgesel iş birliğine önem verdiğini",
+                "Tek bir büyük devlete bağımlı olduğunu"
+              ],
+              "answer": 2,
+              "explanation": "Uluslararası kuruluşa üyelik ve komşu ülkelerle yapılan paktlar, Türkiye'nin barışı korumak için iş birliğine önem verdiğini gösterir.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inkilap-7",
+      "no": 7,
+      "name": "Atatürk'ün Ölümü ve Sonrası",
+      "topics": [
+        {
+          "id": "inkilap-7-1",
+          "name": "Atatürk'ün Ölümü, Mirası ve İnönü Dönemi",
+          "kazanim": [
+            "Atatürk'ün ölümünün ardından Türkiye'deki gelişmeleri ve Atatürk'ün Türk milletine bıraktığı mirası kavrar."
+          ],
+          "summary": "Atatürk, bir süredir tedavi gördüğü hastalığı nedeniyle **10 Kasım 1938'de saat 09.05'te İstanbul'daki Dolmabahçe Sarayı'nda** hayatını kaybetti. Ölümü bütün yurtta ve dünyada büyük üzüntüyle karşılandı.\n- Naaşı Ankara'ya getirilerek **21 Kasım 1938**'de geçici olarak **Ankara Etnografya Müzesi**'ne konuldu.\n- **Anıtkabir** tamamlanınca **10 Kasım 1953**'te buraya nakledildi.\n\n**İnönü dönemi:** Atatürk'ün ölümünün ertesi günü, **11 Kasım 1938'de İsmet İnönü** TBMM tarafından cumhurbaşkanı seçildi. İnönü, Cumhuriyet Halk Partisi'nin **değişmez genel başkanı** oldu ve kendisine **“Millî Şef”** unvanı verildi. Atatürk ise **“Ebedî Şef”** olarak anıldı.\n\n**Atatürk'ün vasiyeti:** Atatürk, 1938'de yazdığı vasiyetinde bütün mal varlığını Cumhuriyet Halk Partisi'ne bıraktı. Bu varlıktan elde edilecek gelirden kız kardeşi **Makbule Hanım**'a ve manevi evlatlarına pay ayrılmasını, **İsmet İnönü'nün çocuklarının yüksek öğrenimine** yardım edilmesini istedi. Geri kalan gelirin **Türk Tarih Kurumu** ve **Türk Dil Kurumu**'na verilmesini vasiyet etti.\n\n**Atatürk'ün eserleri ve mirası:**\n- **Nutuk (1927):** Millî Mücadele ve Cumhuriyetin kuruluşunu anlattığı eseridir. Sonunda **Gençliğe Hitabe** yer alır.\n- **Geometri kitabı (1937):** Açı, üçgen, kenar, çap gibi **Türkçe geometri terimlerini** kullanarak bilim dilinin Türkçeleşmesine katkı sağladı.\n- En büyük mirası; bağımsız Türkiye Cumhuriyeti, Atatürk ilkeleri ve **çağdaş uygarlık düzeyine ulaşma** hedefidir. Atatürk, “Benim manevi mirasım ilim ve akıldır.” sözüyle bu mirası özetlemiştir.",
+          "keyPoints": [
+            "Atatürk 10 Kasım 1938'de Dolmabahçe Sarayı'nda vefat etti.",
+            "11 Kasım 1938'de İsmet İnönü cumhurbaşkanı seçildi ve “Millî Şef” unvanını aldı.",
+            "Naaşı önce Etnografya Müzesi'ne konuldu, 1953'te Anıtkabir'e nakledildi.",
+            "Vasiyetinde gelirin bir kısmını Türk Tarih Kurumu ve Türk Dil Kurumu'na bıraktı.",
+            "Geometri kitabıyla Türkçe bilim terimlerinin yerleşmesine katkı sağladı."
+          ],
+          "commonMistakes": [
+            "“Millî Şef” ve “Ebedî Şef” unvanlarını karıştırmak: Millî Şef İnönü, Ebedî Şef Atatürk'tür.",
+            "Atatürk'ün naaşının doğrudan Anıtkabir'e konulduğunu sanmak.",
+            "Atatürk'ün Ankara'da vefat ettiğini düşünmek; İstanbul'da Dolmabahçe Sarayı'nda vefat etmiştir.",
+            "Atatürk'ün ölümünden sonra cumhurbaşkanı olan kişinin Celal Bayar olduğunu sanmak; Bayar 1950'de cumhurbaşkanı olmuştur."
+          ],
+          "questions": [
+            {
+              "id": "inkilap-7-1-q1",
+              "stem": "Atatürk'ün ölümünden sonra TBMM tarafından cumhurbaşkanı seçilen kişi aşağıdakilerden hangisidir?",
+              "choices": [
+                "Celal Bayar",
+                "İsmet İnönü",
+                "Fevzi Çakmak",
+                "Fethi Okyar"
+              ],
+              "answer": 1,
+              "explanation": "11 Kasım 1938'de İsmet İnönü cumhurbaşkanı seçildi. Celal Bayar 1950'de cumhurbaşkanı olmuştur.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-7-1-q2",
+              "stem": "Atatürk'ün naaşı Anıtkabir'e nakledilinceye kadar geçici olarak nerede bekletilmiştir?",
+              "choices": [
+                "Dolmabahçe Sarayı",
+                "Birinci TBMM binası",
+                "Çankaya Köşkü",
+                "Ankara Etnografya Müzesi"
+              ],
+              "answer": 3,
+              "explanation": "Atatürk'ün naaşı 21 Kasım 1938'de Ankara Etnografya Müzesi'ne konuldu, 10 Kasım 1953'te Anıtkabir'e nakledildi.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-7-1-q3",
+              "stem": "Atatürk vasiyetinde, mal varlığından elde edilecek gelirin bir bölümünü hangi kurumlara bırakmıştır?",
+              "choices": [
+                "Türk Tarih Kurumu ve Türk Dil Kurumu",
+                "Halkevleri ve Köy Enstitüleri",
+                "Ankara Üniversitesi ve İstanbul Üniversitesi",
+                "Sümerbank ve Etibank"
+              ],
+              "answer": 0,
+              "explanation": "Atatürk vasiyetinde gelirin belirli paylar ayrıldıktan sonra kalan kısmının Türk Tarih Kurumu ve Türk Dil Kurumu'na verilmesini istemiştir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-7-1-q4",
+              "stem": "Atatürk'ün ölümünden sonra İsmet İnönü'ye, Cumhuriyet Halk Partisi'nin değişmez genel başkanlığı ile birlikte verilen unvan aşağıdakilerden hangisidir?",
+              "choices": [
+                "Gazi",
+                "Başkomutan",
+                "Millî Şef",
+                "Ebedî Şef"
+              ],
+              "answer": 2,
+              "explanation": "İnönü'ye “Millî Şef” unvanı verildi. “Ebedî Şef” Atatürk için kullanılan unvandır; “Gazi” unvanı Sakarya'dan sonra Mustafa Kemal'e verilmiştir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-7-1-q5",
+              "stem": "Atatürk, 1936-1937 yıllarında hazırladığı Geometri kitabında “müselles” yerine “üçgen”, “zaviye” yerine “açı”, “dıl” yerine “kenar” gibi Türkçe terimler kullanmıştır.\nAtatürk'ün bu çalışmasının amacı aşağıdakilerden hangisidir?",
+              "choices": [
+                "Osmanlıca terimleri yaygınlaştırmak",
+                "Bilim dilinin Türkçeleşmesine katkı sağlamak",
+                "Matematik dersini okullardan kaldırmak",
+                "Yabancı dil öğretimini artırmak"
+              ],
+              "answer": 1,
+              "explanation": "Atatürk, geometri terimlerini Türkçeleştirerek bilimin Türkçe öğretilebilmesini ve bilim dilinin Türkçeleşmesini amaçlamıştır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "inkilap-7-1-q6",
+              "stem": "Atatürk vasiyetinde mal varlığını Cumhuriyet Halk Partisi'ne bıraktı. Gelirinden kız kardeşine ve manevi evlatlarına pay ayrılmasını, İsmet İnönü'nün çocuklarının yüksek öğrenimine yardım edilmesini istedi. Geri kalan gelirin Türk Tarih Kurumu ve Türk Dil Kurumu'na verilmesini vasiyet etti.\nBu vasiyete göre aşağıdakilerden hangisi söylenebilir?",
+              "choices": [
+                "Atatürk tüm mal varlığını yalnızca ailesine bırakmıştır.",
+                "Atatürk eğitime hiçbir katkı öngörmemiştir.",
+                "Atatürk mal varlığını yabancı kurumlara bağışlamıştır.",
+                "Atatürk ölümünden sonra da bilim ve kültür çalışmalarının desteklenmesini istemiştir."
+              ],
+              "answer": 3,
+              "explanation": "Gelirin Türk Tarih Kurumu ve Türk Dil Kurumu'na bırakılması, Atatürk'ün bilim ve kültür çalışmalarının ölümünden sonra da sürmesini istediğini gösterir. Yükseköğrenime yardım da eğitime katkı öngördüğünü gösterir.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        },
+        {
+          "id": "inkilap-7-2",
+          "name": "İkinci Dünya Savaşı ve Sonrasında Türkiye",
+          "kazanim": [
+            "İkinci Dünya Savaşı sırasında ve sonrasında Türkiye'nin izlediği politikaları ve savaşın Türkiye'ye etkilerini kavrar."
+          ],
+          "summary": "**İkinci Dünya Savaşı (1939-1945)**, Almanya'nın **1 Eylül 1939'da Polonya'ya saldırmasıyla** başladı. Savaşta **Mihver Devletleri** (Almanya, İtalya, Japonya) ile **Müttefik Devletler** (İngiltere, Fransa, sonradan SSCB ve ABD) karşı karşıya geldi.\n\n**Türkiye'nin politikası:** Cumhurbaşkanı İsmet İnönü, Türkiye'yi **savaşın dışında tutmaya** çalıştı.\n- **1939:** İngiltere ve Fransa ile karşılıklı yardım (ittifak) antlaşması imzalandı.\n- **1941:** Almanya ile saldırmazlık antlaşması imzalandı.\n- **1943:** Adana Görüşmesi ve Kahire Konferansı'nda Müttefikler Türkiye'yi savaşa sokmak istedi; Türkiye ordusunun hazır olmadığını belirterek savaşa girmedi.\n- **Şubat 1945:** Kurulacak **Birleşmiş Milletler'e kurucu üye** olabilmek için Almanya ve Japonya'ya savaş ilan etti, ancak fiilen savaşmadı.\n\n**Savaşın Türkiye'ye etkileri:** Türkiye savaşa girmese de ordunun sürekli hazır tutulması üretimi azalttı. Yokluk, karaborsa ve fiyat artışları yaşandı. **Millî Korunma Kanunu (1940)** çıkarıldı, **Varlık Vergisi (1942)** alındı, **ekmek karneyle** dağıtıldı, şehirlerde karartma uygulandı.\n\n**Savaş sonrası:** SSCB, 1925'te Türkiye ile imzaladığı dostluk antlaşmasını yenilemedi; **Kars ve Ardahan'ı** istedi, **Boğazlarda üs** talep etti. Türkiye bu talepleri reddetti ve **Batı Bloku'na yakınlaştı**:\n- **Truman Doktrini (1947)** ile ABD'den askerî ve ekonomik yardım aldı.\n- **Marshall Planı (1948)** ile ekonomik yardım aldı.\n- **Avrupa Konseyi'ne (1949)** üye oldu.\n- **Kore Savaşı (1950)**'na asker gönderdi ve **1952'de NATO**'ya üye oldu.\n\nİç politikada ise **1946**'da çok partili hayata geçildi, **1950** seçimlerinde Demokrat Parti iktidara geldi.",
+          "keyPoints": [
+            "II. Dünya Savaşı 1 Eylül 1939'da Almanya'nın Polonya'ya saldırmasıyla başladı.",
+            "Türkiye savaş boyunca savaşa girmemeye çalıştı; 1945'te BM'ye kurucu üye olmak için sembolik olarak savaş ilan etti.",
+            "Savaş yıllarında Millî Korunma Kanunu, Varlık Vergisi ve ekmek karnesi uygulandı.",
+            "SSCB'nin talepleri Türkiye'yi Batı Bloku'na yöneltti.",
+            "Türkiye 1952'de NATO'ya üye oldu."
+          ],
+          "commonMistakes": [
+            "Türkiye'nin II. Dünya Savaşı'nda fiilen savaştığını sanmak.",
+            "Marshall Planı'nı askerî bir ittifak sanmak; ekonomik yardım programıdır.",
+            "Türkiye'nin NATO'ya kuruluşunda (1949) katıldığını düşünmek; Türkiye 1952'de üye olmuştur.",
+            "I. Dünya Savaşı'nın başlama nedeni (Saraybosna) ile II. Dünya Savaşı'nınkini (Polonya) karıştırmak."
+          ],
+          "questions": [
+            {
+              "id": "inkilap-7-2-q1",
+              "stem": "İkinci Dünya Savaşı'nı başlatan olay aşağıdakilerden hangisidir?",
+              "choices": [
+                "Avusturya-Macaristan veliahtının Saraybosna'da öldürülmesi",
+                "Japonya'nın Pearl Harbor'a saldırması",
+                "Almanya'nın Polonya'ya saldırması",
+                "İtalya'nın Habeşistan'ı işgal etmesi"
+              ],
+              "answer": 2,
+              "explanation": "II. Dünya Savaşı 1 Eylül 1939'da Almanya'nın Polonya'ya saldırmasıyla başladı. Saraybosna olayı I. Dünya Savaşı'nı başlatmıştır; Pearl Harbor saldırısı (1941) ABD'nin savaşa girmesine yol açmıştır; Habeşistan'ın işgali 1935-1936'dadır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-7-2-q2",
+              "stem": "Türkiye NATO'ya hangi yıl üye olmuştur?",
+              "choices": [
+                "1945",
+                "1947",
+                "1949",
+                "1952"
+              ],
+              "answer": 3,
+              "explanation": "NATO 1949'da kuruldu; Türkiye 1952'de üye oldu. 1945 BM'nin kuruluşu, 1947 Truman Doktrini'nin ilan edildiği yıldır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "inkilap-7-2-q3",
+              "stem": "Türkiye'nin Şubat 1945'te Almanya ve Japonya'ya savaş ilan etmesinin temel nedeni aşağıdakilerden hangisidir?",
+              "choices": [
+                "Almanya'dan toprak almak",
+                "Kurulacak Birleşmiş Milletler'e kurucu üye olabilmek",
+                "SSCB ile ittifak kurmak",
+                "Balkan Antantı'nı yeniden canlandırmak"
+              ],
+              "answer": 1,
+              "explanation": "Müttefikler, kurulacak Birleşmiş Milletler'e katılabilmek için belirli bir tarihe kadar Mihver Devletleri'ne savaş ilan etmeyi şart koşmuştu. Türkiye bu nedenle savaş ilan etti ancak fiilen savaşmadı.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-7-2-q4",
+              "stem": "Aşağıdakilerden hangisi İkinci Dünya Savaşı yıllarında Türkiye'de ekonomik sıkıntılarla mücadele için yapılan uygulamalardan biridir?",
+              "choices": [
+                "Ekmeğin karneyle dağıtılması",
+                "Kapitülasyonların yeniden verilmesi",
+                "Kabotaj Kanunu'nun kaldırılması",
+                "Saltanatın yeniden kurulması"
+              ],
+              "answer": 0,
+              "explanation": "Savaş yıllarında yaşanan yokluk nedeniyle ekmek karneyle dağıtıldı; ayrıca Millî Korunma Kanunu ve Varlık Vergisi gibi uygulamalar yapıldı. Diğer seçenekler bu dönemde yapılmamıştır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "inkilap-7-2-q5",
+              "stem": "1945'te SSCB, Türkiye ile 1925'te imzaladığı dostluk antlaşmasını yenilemeyeceğini bildirdi; Kars ve Ardahan'ı istedi, Boğazlarda üs talep etti. Türkiye bu talepleri reddetti. Ardından Truman Doktrini ve Marshall Planı'ndan yararlandı, 1952'de NATO'ya katıldı.\nBu bilgilere göre aşağıdakilerden hangisi söylenebilir?",
+              "choices": [
+                "Türkiye savaştan sonra tarafsızlık politikasını sürdürmüştür.",
+                "Türkiye SSCB'nin taleplerini kabul etmiştir.",
+                "Türkiye'nin Batı'ya yakınlaşmasında hiçbir dış etken yoktur.",
+                "SSCB'nin talepleri Türkiye'nin Batı Bloku'na yönelmesinde etkili olmuştur."
+              ],
+              "answer": 3,
+              "explanation": "SSCB'nin toprak ve üs talepleri Türkiye'yi güvenlik arayışına yöneltti; Türkiye ABD yardımları ve NATO üyeliği ile Batı Bloku'na katıldı. Metinde talepler reddedilmiştir ve Batı ile ittifak kurulduğu için tarafsızlık sürdürülmemiştir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "inkilap-7-2-q6",
+              "stem": "Ayşe: “Türkiye İkinci Dünya Savaşı'na girmedi ama savaştan etkilendi.”\nAşağıdaki bilgilerden hangisi Ayşe'nin görüşünü destekler?",
+              "choices": [
+                "Türkiye 1932'de Milletler Cemiyeti'ne üye oldu.",
+                "Savaş yıllarında ordunun sürekli hazır tutulması nedeniyle üretim azaldı, yokluk ve karaborsa yaşandı.",
+                "Atatürk 1938'de vefat etti.",
+                "Türkiye 1952'de NATO'ya katıldı."
+              ],
+              "answer": 1,
+              "explanation": "Savaş sırasında üretimin azalması, yokluk ve karaborsa yaşanması, Türkiye'nin savaşa girmeden de savaştan etkilendiğini gösterir. Diğer bilgiler savaş yıllarındaki etkiyi göstermez; Milletler Cemiyeti üyeliği ve Atatürk'ün vefatı savaştan önce, NATO üyeliği ise savaştan sonradır.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

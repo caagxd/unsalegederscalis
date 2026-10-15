@@ -1,0 +1,1158 @@
+{
+  "id": "ingilizce",
+  "name": "İngilizce",
+  "lgsQuestionCount": 10,
+  "units": [
+    {
+      "id": "ingilizce-1",
+      "no": 1,
+      "name": "Friendship",
+      "topics": [
+        {
+          "id": "ingilizce-1-1",
+          "name": "Friendship: Davet Etme, Kabul ve Ret, Özür Dileme",
+          "kazanim": [
+            "Davet etme, daveti kabul etme ve kibarca reddetme ile ilgili ifadeleri anlar ve kullanır.",
+            "Özür dileme ve gerekçe belirtme ile ilgili ifadeleri anlar ve kullanır.",
+            "İyi bir arkadaşın özelliklerini anlatan basit metinleri anlar."
+          ],
+          "summary": "Bu ünitede arkadaşlarımızı bir yere **davet etmeyi**, davete **evet/hayır** demeyi, **özür dilemeyi** ve **gerekçe (neden) belirtmeyi** öğreniyoruz.\n\n**Davet etme (Inviting):**\n- Would you like to come to my birthday party?\n- Do you want to join us? / How about going to the cinema?\n- Let's go to the park on Sunday.\n\n**Kabul etme (Accepting):**\n- Sure, I'd love to! / That sounds great! / Why not? / Of course.\n\n**Kibarca reddetme (Refusing):** Reddederken genellikle bir **gerekçe** veririz.\n- Sorry, I can't. I have to study for my exam.\n- I'm afraid I can't. I'm going to visit my grandparents.\n- I'd love to, but I'm busy. Maybe another time.\n\n**Özür dileme (Apologizing):**\n- I'm sorry for being late. / I'm really sorry about that.\n- I apologize. It won't happen again.\n\n**Gerekçe belirtme:** **because** ve **so** bağlaçlarını kullanırız.\n- I can't come **because** I have a headache.\n- I was ill, **so** I stayed at home.\n\n**İyi bir arkadaşın özellikleri (Qualities of a good friend):**\n- honest (dürüst), trustworthy / reliable (güvenilir), supportive (destekleyici), caring (ilgili), generous (cömert), funny (komik)\n- keeps secrets (sır tutar), is always there for me (her zaman yanımdadır), I can count on her (ona güvenebilirim)\n\n**Olumsuz özellikler:** selfish (bencil), rude (kaba), jealous (kıskanç), talks behind your back (arkandan konuşur).\n\n**Faydalı kelimeler:** invite, invitation, accept, refuse, apologize, excuse, argue (tartışmak), make up (barışmak).",
+          "keyPoints": [
+            "Davet: Would you like to...? / Do you want to...? / How about + V-ing? / Let's + fiil.",
+            "Kabul: Sure, I'd love to. / That sounds great! / Why not?",
+            "Ret: Sorry, I can't. / I'm afraid I can't. / I'd love to, but... ve ardından gerekçe.",
+            "Özür: I'm sorry for + V-ing (I'm sorry for being late).",
+            "Trustworthy, honest, supportive iyi arkadaş; selfish, rude, jealous olumsuz özelliklerdir."
+          ],
+          "commonMistakes": [
+            "“I'd love to, but...” ifadesini kabul sanmak; “but” sonrası geldiği için bu bir reddetmedir.",
+            "How about'tan sonra fiilin yalın hâlini kullanmak: “How about go” yanlış, “How about going” doğrudur.",
+            "Ret cevabından sonra çelişkili gerekçe seçmek: “Sure, I'd love to. I have to study.” uyumsuzdur.",
+            "“I'm sorry for late” demek; doğrusu “I'm sorry for being late”tir."
+          ],
+          "questions": [
+            {
+              "id": "ingilizce-1-1-q1",
+              "stem": "A good friend never tells your secrets to other people. You can always believe him or her. He or she is ______.",
+              "choices": [
+                "selfish",
+                "trustworthy",
+                "rude",
+                "jealous"
+              ],
+              "answer": 1,
+              "explanation": "Sırlarını başkasına söylemeyen ve her zaman güvenebileceğin kişi “trustworthy” (güvenilir) biridir. Selfish bencil, rude kaba, jealous kıskanç anlamına gelir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-1-1-q2",
+              "stem": "Ali: Would you like to come to my birthday party on Saturday?\nMert: ______ I have to visit my grandparents.",
+              "choices": [
+                "Sure, I'd love to.",
+                "That sounds great!",
+                "Yes, of course.",
+                "Sorry, I can't."
+              ],
+              "answer": 3,
+              "explanation": "Mert'in verdiği gerekçe (büyükanne ve büyükbabasını ziyaret etmek zorunda olması) daveti reddettiğini gösterir. Bu yüzden “Sorry, I can't.” doğru cevaptır. Diğer seçenekler daveti kabul eder ve gerekçeyle çelişir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-1-1-q3",
+              "stem": "Which of the following is NOT a way of refusing an invitation?",
+              "choices": [
+                "I'm afraid I can't.",
+                "Maybe another time.",
+                "Why not? Count me in.",
+                "I'd love to, but I'm busy."
+              ],
+              "answer": 2,
+              "explanation": "“Why not? Count me in.” (Neden olmasın? Ben de varım.) bir daveti kabul etme ifadesidir. Diğer üç ifade kibarca reddetmek için kullanılır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-1-1-q4",
+              "stem": "Elif: You didn't come to my party yesterday. I waited for you!\nZehra: ______ My little brother was ill, so I stayed at home.",
+              "choices": [
+                "I'm really sorry about that.",
+                "Thanks for inviting me again.",
+                "I'd love to come.",
+                "Let's meet at the party."
+              ],
+              "answer": 0,
+              "explanation": "Zehra partiye gitmediği için özür dilemeli ve ardından gerekçesini söylemelidir. “I'm really sorry about that.” özür ifadesidir. Diğer seçenekler geçmişte kaçırılan bir partiye uygun düşmez.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-1-1-q5",
+              "stem": "My best friend is Deniz. We have known each other since primary school. She is very honest and she never talks behind my back. When I have a problem, she listens to me patiently and gives me good advice. We sometimes argue, but we always make up quickly. The only thing I don't like about her is that she is often late.\n\nAccording to the text, which of the following is NOT true about Deniz?",
+              "choices": [
+                "She is honest.",
+                "She gives good advice.",
+                "She is always on time.",
+                "She has known the writer since primary school."
+              ],
+              "answer": 2,
+              "explanation": "Metnin sonunda Deniz'in sık sık geç kaldığı (she is often late) belirtiliyor. Bu nedenle “She is always on time.” (Her zaman dakiktir.) ifadesi doğru değildir. Diğer bilgiler metinde açıkça yer alır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-1-1-q6",
+              "stem": "100 students answered the question: 'What is the most important quality of a good friend?'\nHonesty: 40 students\nBeing supportive: 30 students\nBeing funny: 20 students\nBeing generous: 10 students\n\nAccording to the survey, which of the following is correct?",
+              "choices": [
+                "Most students think being generous is the most important quality.",
+                "More students chose being supportive than being funny.",
+                "Being funny is the least popular quality.",
+                "Honesty and being funny have the same number of votes."
+              ],
+              "answer": 1,
+              "explanation": "Being supportive 30 oy, being funny 20 oy almıştır; yani destekleyici olmayı seçen öğrenci daha fazladır. En çok oyu honesty (40), en az oyu being generous (10) almıştır; honesty ile being funny'nin oyları farklıdır.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ingilizce-2",
+      "no": 2,
+      "name": "Teen Life",
+      "topics": [
+        {
+          "id": "ingilizce-2-1",
+          "name": "Teen Life: Sevdiklerimiz, Sevmediklerimiz ve Tercihlerimiz",
+          "kazanim": [
+            "Sevdiği ve sevmediği şeyleri ifade eder; tercihlerini nedenleriyle belirtir.",
+            "Gençlerin günlük hayatı ve boş zaman etkinlikleriyle ilgili metinleri anlar."
+          ],
+          "summary": "Bu ünitede gençlerin günlük hayatını, **hobilerini**, **sevdiği ve sevmediği şeyleri** ve **tercihlerini** anlatmayı öğreniyoruz.\n\n**Sevdiğimiz şeyler (Likes)** – güçlüden hafife:\n- I **adore** / **love** / **am crazy about** playing basketball.\n- I **am keen on** / **am fond of** / **am into** reading comics.\n- I **like** / **enjoy** listening to music.\n\n**Fark etmez:** I **don't mind** doing homework.\n\n**Sevmediğimiz şeyler (Dislikes):**\n- I **don't like** / **dislike** going shopping.\n- I **hate** / **can't stand** / **detest** horror films.\n\n**Önemli kural:** Bu fiil ve kalıplardan sonra fiil genellikle **-ing** alır: I enjoy **swimming**. She is keen on **dancing**.\n\n**Tercih belirtme (Preferences):**\n- I **prefer** reading books **to** watching TV.\n- I**'d rather** stay at home **than** go out.\n- Why? **Because** books are more exciting.\n\n**Sıklık zarfları (Adverbs of frequency):** always (her zaman), usually (genellikle), often (sık sık), sometimes (bazen), rarely / seldom (nadiren), never (asla).\n- I **usually** hang out with my friends at weekends.\n\n**Boş zaman etkinlikleri:** hang out with friends, go to the cinema, play video games, surf the net, do sports, go to concerts, read novels.\n\n**Örnek diyalog:**\n- A: What do you do in your free time?\n- B: I'm into music. I usually play the guitar. I can't stand sitting at home doing nothing!",
+          "keyPoints": [
+            "Love, adore, enjoy, be keen on, be fond of, be into, can't stand, hate'ten sonra fiil -ing alır.",
+            "Prefer A to B: A'yı B'ye tercih ederim (I prefer reading to watching TV).",
+            "Would rather + yalın fiil + than: I'd rather walk than take the bus.",
+            "Sıklık: always > usually > often > sometimes > rarely/seldom > never.",
+            "“I don't mind” fark etmez, sorun değil anlamındadır."
+          ],
+          "commonMistakes": [
+            "“I'm keen on play” demek; doğrusu “I'm keen on playing”dir.",
+            "“I can't stand” ifadesini olumlu sanmak; çok sevmemek anlamındadır.",
+            "Prefer kalıbında “than” kullanmak: “I prefer tea than coffee” yanlış, “I prefer tea to coffee” doğrudur.",
+            "Rarely ve seldom'ı “sık sık” sanmak; ikisi de “nadiren” demektir."
+          ],
+          "questions": [
+            {
+              "id": "ingilizce-2-1-q1",
+              "stem": "I really ______ horror films. They are too scary for me, so I never watch them.",
+              "choices": [
+                "adore",
+                "am keen on",
+                "am fond of",
+                "can't stand"
+              ],
+              "answer": 3,
+              "explanation": "Cümlede korku filmlerinin çok korkutucu olduğu ve hiç izlenmediği söyleniyor. Bu nedenle sevmemeyi anlatan “can't stand” (dayanamamak) doğru cevaptır. Diğer üçü sevmeyi anlatır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-2-1-q2",
+              "stem": "Ece goes to the gym four or five days a week. She ______ goes to the gym.",
+              "choices": [
+                "usually",
+                "never",
+                "rarely",
+                "seldom"
+              ],
+              "answer": 0,
+              "explanation": "Haftada dört beş gün spor salonuna gitmek “genellikle” (usually) anlamına gelir. Never hiçbir zaman, rarely ve seldom ise nadiren demektir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-2-1-q3",
+              "stem": "Kerem: Do you prefer reading books or watching TV?\nNil: ______",
+              "choices": [
+                "Yes, I do. I like it.",
+                "I watch it at weekends.",
+                "I prefer reading books to watching TV. Books are more exciting.",
+                "No, I don't prefer."
+              ],
+              "answer": 2,
+              "explanation": "Soruda iki seçenek arasında tercih soruluyor. Tercihi ve nedenini doğru kalıpla (prefer A to B) veren tek cevap “I prefer reading books to watching TV. Books are more exciting.” cümlesidir. “Yes, I do.” ve “No, I don't prefer.” bu tür bir soruya uygun cevap değildir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-2-1-q4",
+              "stem": "My brother is crazy about ______ computer games. He plays them every evening.",
+              "choices": [
+                "play",
+                "playing",
+                "to playing",
+                "plays"
+              ],
+              "answer": 1,
+              "explanation": "“Be crazy about” kalıbında “about” bir edattır ve kendisinden sonra gelen fiil -ing alır: crazy about playing.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-2-1-q5",
+              "stem": "Can: I love playing chess. I hate going shopping. I enjoy doing sports.\nSelin: I can't stand playing chess. I adore going shopping. I enjoy doing sports.\nArda: I'm keen on playing chess. I dislike going shopping. I don't like doing sports.\n\nAccording to the information above, which of the following is correct?",
+              "choices": [
+                "Arda and Selin both like playing chess.",
+                "All of them hate going shopping.",
+                "Can is fond of going shopping.",
+                "Can and Selin both enjoy doing sports."
+              ],
+              "answer": 3,
+              "explanation": "Can ve Selin “I enjoy doing sports.” demiştir. Selin satranca dayanamaz; Selin alışverişe bayılır; Can alışverişten nefret eder. Bu yüzden diğer seçenekler yanlıştır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-2-1-q6",
+              "stem": "Hi, I'm Burak. I'm fourteen. On weekdays I'm very busy with school, so I rarely have free time. At weekends I usually hang out with my friends. We often go to the park and play basketball. I'm not keen on computer games because I think they are a waste of time. I'd rather spend time outdoors.\n\nWhich of the following is true about Burak?",
+              "choices": [
+                "He has a lot of free time on weekdays.",
+                "He is fond of computer games.",
+                "He prefers outdoor activities to computer games.",
+                "He never meets his friends at weekends."
+              ],
+              "answer": 2,
+              "explanation": "Burak bilgisayar oyunlarını sevmediğini ve zamanını dışarıda geçirmeyi tercih ettiğini (I'd rather spend time outdoors) söylüyor. Hafta içi nadiren boş zamanı olduğunu ve hafta sonları arkadaşlarıyla buluştuğunu belirttiği için diğer seçenekler yanlıştır.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ingilizce-3",
+      "no": 3,
+      "name": "In the Kitchen",
+      "topics": [
+        {
+          "id": "ingilizce-3-1",
+          "name": "In the Kitchen: Tarifler ve Süreç Anlatma",
+          "kazanim": [
+            "Basit bir süreci (yemek tarifi gibi) sıralama sözcükleri kullanarak anlatır.",
+            "Mutfak ve yemek yapımıyla ilgili kelimeleri tanır ve kullanır."
+          ],
+          "summary": "Bu ünitede bir **yemek tarifini** (recipe) adım adım anlatmayı ve mutfakla ilgili kelimeleri öğreniyoruz.\n\n**Sıralama sözcükleri (Sequence words):**\n- **First / Firstly / First of all** → ilk adım\n- **Then / Next / After that** → sonraki adımlar\n- **Finally / Lastly** → son adım\n\n**Yemek yapma fiilleri:**\n- **chop** (doğramak), **slice** (dilimlemek), **grate** (rendelemek), **peel** (soymak)\n- **boil** (haşlamak/kaynatmak), **fry** (kızartmak), **bake** (fırında pişirmek)\n- **mix / stir** (karıştırmak), **pour** (dökmek), **add** (eklemek), **heat** (ısıtmak), **serve** (servis etmek)\n\n**Miktar ifadeleri:** a cup of flour, a pinch of salt (bir tutam tuz), two tablespoons of oil, a slice of bread, a glass of milk.\n\n**Mutfak eşyaları:** pan (tava), pot / saucepan (tencere), oven (fırın), bowl (kâse), knife (bıçak), plate (tabak).\n\n**Tarif anlatırken emir cümleleri kullanırız:**\n- **First**, chop the onions. **Then**, fry them in a pan. **After that**, add the tomatoes. **Finally**, serve it hot.\n\n**Süreçleri edilgen yapı ile de anlatabiliriz (is/are + V3):** İşi kimin yaptığı önemli değilse kullanılır.\n- The potatoes **are peeled**. Then they **are boiled**.\n- Turkish tea **is grown** in Rize.\n\n**Örnek tarif – Menemen:** First, chop the onions and peppers. Then, fry them in oil. After that, add the tomatoes. Next, break the eggs and stir. Finally, add some salt and serve it hot.",
+          "keyPoints": [
+            "Sıra: First → Then / Next / After that → Finally.",
+            "Chop, slice, grate, peel, boil, fry, bake, stir, pour, add temel mutfak fiilleridir.",
+            "Bake fırında pişirmek, fry yağda kızartmak, boil suda haşlamaktır.",
+            "Tarifler emir cümleleriyle (Chop the onions.) anlatılır.",
+            "Edilgen yapı: is/are + V3 (The eggs are mixed.)"
+          ],
+          "commonMistakes": [
+            "Bake ile fry'ı karıştırmak: kek fırında pişirilir (bake), patates kızartılır (fry).",
+            "İlk adımda “Finally”, son adımda “First” kullanmak.",
+            "Edilgen yapıda “be” fiilini unutmak: “The onions chopped” yerine “The onions are chopped”.",
+            "Slice (dilimlemek) ile chop (küçük parçalara doğramak) arasındaki farkı gözden kaçırmak."
+          ],
+          "questions": [
+            {
+              "id": "ingilizce-3-1-q1",
+              "stem": "We put the cake mixture in the ______ and bake it for 40 minutes.",
+              "choices": [
+                "fridge",
+                "sink",
+                "oven",
+                "plate"
+              ],
+              "answer": 2,
+              "explanation": "“Bake” fırında pişirmek demektir; kek fırına (oven) konur. Fridge buzdolabı, sink lavabo, plate tabaktır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-3-1-q2",
+              "stem": "Which word do we use for the LAST step of a recipe?",
+              "choices": [
+                "Finally",
+                "First",
+                "Then",
+                "Next"
+              ],
+              "answer": 0,
+              "explanation": "“Finally” (son olarak) son adımı gösterir. First ilk adımı, Then ve Next ara adımları gösterir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-3-1-q3",
+              "stem": "Firstly, peel the potatoes. ______, cut them into small pieces.",
+              "choices": [
+                "Finally",
+                "First of all",
+                "Lastly",
+                "Then"
+              ],
+              "answer": 3,
+              "explanation": "İlk adımdan sonra gelen ikinci adım için “Then” (sonra) kullanılır. “First of all” ilk adım, “Finally” ve “Lastly” son adım içindir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-3-1-q4",
+              "stem": "Gül is making a salad. She ______ the cucumbers into thin pieces with a knife.",
+              "choices": [
+                "boils",
+                "slices",
+                "bakes",
+                "pours"
+              ],
+              "answer": 1,
+              "explanation": "Salatalığı bıçakla ince parçalara ayırmak “slice” (dilimlemek) ile anlatılır. Boil haşlamak, bake fırında pişirmek, pour dökmektir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-3-1-q5",
+              "stem": "HOW TO MAKE MENEMEN\n- First, chop the onions and peppers.\n- Then, heat some oil in a pan and fry the onions and peppers.\n- After that, add the chopped tomatoes and cook for five minutes.\n- Next, break the eggs into the pan and stir.\n- Finally, add some salt and serve it hot.\n\nAccording to the recipe, what do we do just before we break the eggs?",
+              "choices": [
+                "We add the tomatoes and cook them.",
+                "We serve it hot.",
+                "We add some salt.",
+                "We chop the onions and peppers."
+              ],
+              "answer": 0,
+              "explanation": "Yumurtalar “Next” adımında kırılır. Bundan hemen önceki adım (After that) domateslerin eklenip beş dakika pişirilmesidir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-3-1-q6",
+              "stem": "Turkish tea is very popular. It is grown in Rize. First, the fresh tea leaves are picked. Then, they are carried to the factories. After that, the leaves are dried and processed. Finally, the tea is packed and sold all over the country.\n\nWhich of the following is NOT mentioned in the text?",
+              "choices": [
+                "Where the tea is grown",
+                "What happens to the leaves after they are picked",
+                "How much the tea costs",
+                "What happens to the leaves in the factories"
+              ],
+              "answer": 2,
+              "explanation": "Metinde çayın nerede yetiştiği (Rize), toplandıktan sonra fabrikaya taşındığı ve fabrikada kurutulup işlendiği anlatılıyor. Çayın fiyatından (how much it costs) söz edilmiyor.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ingilizce-4",
+      "no": 4,
+      "name": "On the Phone",
+      "topics": [
+        {
+          "id": "ingilizce-4-1",
+          "name": "On the Phone: Telefon Konuşmaları ve Plan Yapma",
+          "kazanim": [
+            "Telefon konuşmalarında kullanılan ifadeleri anlar ve kullanır.",
+            "Telefonda plan yapar, mesaj bırakır ve basit bilgi alışverişinde bulunur."
+          ],
+          "summary": "Bu ünitede **telefonda konuşmayı**, **mesaj bırakmayı** ve **plan yapmayı** öğreniyoruz.\n\n**Telefonu açma ve kendini tanıtma:**\n- Hello, this is Kemal. (Telefonda “I am Kemal” yerine “This is Kemal” deriz.)\n- Can I speak to Ayşe, please? / Is that Deniz? – Yes, speaking.\n- Who's calling, please? – This is Mr. Demir.\n\n**Bekletme ve bağlama:**\n- **Hold on**, please. / Just a moment. / Hold the line, please.\n- I'll **put you through**. (Sizi bağlıyorum.)\n\n**Kişi müsait değilse:**\n- Sorry, she's not available / she's out at the moment.\n- **Would you like to leave a message?** (Mesaj bırakmak ister misiniz?)\n- **Can I take a message?** (Mesajınızı alabilir miyim?)\n- **Can I leave a message?** (Arayan kişi sorar.)\n- Please tell him to **call me back**.\n\n**Sorunlar:**\n- Sorry, you have **the wrong number**.\n- Could you **speak up**, please? I can't hear you.\n- The line is **busy / engaged**.\n\n**Plan yapma ve buluşma ayarlama:**\n- Are you free on Saturday? / Let's meet at 3 p.m.\n- What time shall we meet? – How about 10 a.m.?\n- I'm going to visit my aunt on Saturday. (Plan: be going to)\n\n**Faydalı kelimeler:** dial (numarayı çevirmek), **hang up** (telefonu kapatmak), **pick up** (telefonu açmak), call back (geri aramak), text message (kısa mesaj), voicemail (sesli mesaj), cell phone / mobile phone.",
+          "keyPoints": [
+            "Telefonda kendini tanıtırken “This is ...” denir.",
+            "Hold on / Just a moment: bekleyin; put you through: bağlıyorum.",
+            "Would you like to leave a message? / Can I take a message? kişiyi arayana sorulur.",
+            "Hang up: telefonu kapatmak; pick up: telefonu açmak; call back: geri aramak.",
+            "Planlar için be going to kullanılır: I'm going to visit my aunt."
+          ],
+          "commonMistakes": [
+            "Telefonda “I am Kemal” demek; doğal kullanım “This is Kemal”dir.",
+            "“Can I leave a message?” (arayan sorar) ile “Can I take a message?” (telefonu açan sorar) cümlelerini karıştırmak.",
+            "Hang up ile hold on'u karıştırmak.",
+            "“Yes, speaking.” ifadesinin “Evet, benim” anlamına geldiğini bilmemek."
+          ],
+          "questions": [
+            {
+              "id": "ingilizce-4-1-q1",
+              "stem": "Caller: Hello, can I speak to Mr. Yılmaz, please?\nSecretary: ______ I'll put you through.",
+              "choices": [
+                "You have the wrong number.",
+                "Hold on, please.",
+                "Goodbye, see you later.",
+                "Sorry, he isn't here today."
+              ],
+              "answer": 1,
+              "explanation": "Sekreter “I'll put you through.” (Sizi bağlıyorum.) diyor; bu yüzden önce “Hold on, please.” (Lütfen bekleyin.) demesi gerekir. Kişinin olmadığını ya da yanlış numara olduğunu söylemek bağlama ifadesiyle çelişir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-4-1-q2",
+              "stem": "A: Good morning, Star Hotel. Who's calling, please?\nB: ______",
+              "choices": [
+                "I'm fine, thanks.",
+                "Yes, I'd love to.",
+                "It's five o'clock.",
+                "This is Kemal Demir."
+              ],
+              "answer": 3,
+              "explanation": "“Who's calling, please?” (Kim arıyor?) sorusuna telefonda “This is ...” kalıbıyla cevap verilir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-4-1-q3",
+              "stem": "Receptionist: I'm sorry, Ms. Kaya is in a meeting right now. ______\nCaller: Yes, please. Tell her to call me back.",
+              "choices": [
+                "Would you like to leave a message?",
+                "Can I leave a message?",
+                "Could you speak up, please?",
+                "What's your phone number?"
+              ],
+              "answer": 0,
+              "explanation": "Arayan kişi “Yes, please. Tell her to call me back.” diyerek mesaj bırakıyor. Bu yüzden resepsiyonistin “Mesaj bırakmak ister misiniz?” diye sorması gerekir. “Can I leave a message?” arayan kişinin sorduğu sorudur; diğer sorulara “Yes, please.” cevabı uymaz.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-4-1-q4",
+              "stem": "When you finish a phone call and put the phone down, you ______.",
+              "choices": [
+                "hold on",
+                "call back",
+                "hang up",
+                "pick up"
+              ],
+              "answer": 2,
+              "explanation": "Telefon konuşmasını bitirip telefonu kapatmak “hang up” ile ifade edilir. Hold on beklemek, call back geri aramak, pick up telefonu açmaktır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-4-1-q5",
+              "stem": "Ayşe: Hello, is that Deniz?\nDeniz: Yes, speaking. Hi Ayşe!\nAyşe: Are you free on Saturday? Let's go to the science museum.\nDeniz: I'd love to, but I'm going to visit my aunt on Saturday. What about Sunday?\nAyşe: Sunday is OK for me. What time shall we meet?\nDeniz: How about 10 a.m. in front of the museum?\nAyşe: Great! See you then.\n\nWhich of the following is true according to the conversation?",
+              "choices": [
+                "Deniz refuses to go to the museum on any day.",
+                "They are going to meet at Ayşe's house.",
+                "Ayşe is busy on Sunday.",
+                "They are going to meet on Sunday morning."
+              ],
+              "answer": 3,
+              "explanation": "Deniz cumartesi müsait olmadığı için pazar gününü öneriyor; saat 10'da (sabah) müzenin önünde buluşmaya karar veriyorlar. Buluşma yeri Ayşe'nin evi değildir ve Ayşe pazar günü müsaittir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-4-1-q6",
+              "stem": "PHONE MESSAGE\nTo: Mr. Arslan\nFrom: Ms. Öztürk (ABC Company)\nDay / Time: Monday, 3 p.m.\nMessage: The meeting on Tuesday is cancelled. Please call Ms. Öztürk back before 5 p.m. today.\nPhone: 0312 555 12 34\n\nWhat should Mr. Arslan do?",
+              "choices": [
+                "He should go to the meeting on Tuesday.",
+                "He should call Ms. Öztürk back before 5 p.m. on Monday.",
+                "He should send an e-mail to ABC Company.",
+                "He should call Ms. Öztürk on Tuesday morning."
+              ],
+              "answer": 1,
+              "explanation": "Mesaj pazartesi saat 3'te alınmış ve “bugün saat 5'ten önce” geri aranması istenmiştir; yani pazartesi saat 5'ten önce aramalıdır. Toplantı iptal edildiği için salı günü toplantıya gitmesi gerekmez; e-posta istenmemiştir.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ingilizce-5",
+      "no": 5,
+      "name": "The Internet",
+      "topics": [
+        {
+          "id": "ingilizce-5-1",
+          "name": "The Internet: İnternet Kullanımı ve Çevrim İçi Güvenlik",
+          "kazanim": [
+            "İnternet kullanımıyla ilgili kelime ve ifadeleri anlar ve kullanır.",
+            "İnternet alışkanlıklarıyla ilgili basit sorular sorar, cevap verir ve çevrim içi güvenlik kurallarını anlar."
+          ],
+          "summary": "Bu ünitede **internetle ilgili kelimeleri**, internet **alışkanlıklarımızı** anlatmayı ve **çevrim içi güvenlik** kurallarını öğreniyoruz.\n\n**Temel kelimeler:**\n- **download** (indirmek) ↔ **upload** (yüklemek)\n- **log in / sign in** (giriş yapmak) ↔ **log out** (çıkış yapmak); **sign up** (üye olmak)\n- **username** (kullanıcı adı), **password** (şifre), **account** (hesap)\n- **search** (aramak), **surf the net** (internette gezinmek), **browser** (tarayıcı), **website**, **link**\n- **social media**, **post** (paylaşım yapmak), **share**, **comment**, **chat online**\n- **attachment** (e-posta eki), **online / offline**\n\n**İnternet alışkanlıkları hakkında sorular:**\n- How often do you use the internet? – Every day. / About two hours a day.\n- What do you use the internet for? – I use it for my homework and for chatting with my friends.\n- Do you agree that the internet is useful? – Yes, I do. / I don't think so.\n\n**Çevrim içi güvenlik (Online safety) – should / shouldn't:**\n- You **should** use strong passwords.\n- **Never** share your password with anyone.\n- You **shouldn't** accept friend requests from strangers.\n- Don't click on links from unknown e-mails.\n- Don't share your home address or phone number online.\n\n**Sorunlar:**\n- **Internet addiction** (internet bağımlılığı): Spending too much time online, feeling tired, getting bad grades.\n- **Cyberbullying** (siber zorbalık): Hurting or threatening someone online.\n\n**Örnek:** I'm a big fan of the internet, but I'm careful. I never share personal information online.",
+          "keyPoints": [
+            "Download indirmek, upload yüklemek; log in giriş, log out çıkış yapmaktır.",
+            "How often...? sıklık, What... for? amaç sorar.",
+            "Güvenlik önerileri should / shouldn't / never ile verilir.",
+            "Internet addiction: internette aşırı zaman geçirmek; cyberbullying: internette zorbalık.",
+            "Kişisel bilgiler ve şifre kimseyle paylaşılmamalıdır."
+          ],
+          "commonMistakes": [
+            "Download ile upload'ı karıştırmak.",
+            "“How often do you use the internet?” sorusuna amaç belirten cevap vermek (I use it for chatting).",
+            "Sign up (üye olmak) ile sign in (giriş yapmak) farkını gözden kaçırmak.",
+            "Grafik sorularında yarısı (half) ve çoğunluk (most) ifadelerini sayılarla karşılaştırmadan seçmek."
+          ],
+          "questions": [
+            {
+              "id": "ingilizce-5-1-q1",
+              "stem": "You need a username and a ______ to log in to your e-mail account.",
+              "choices": [
+                "password",
+                "download",
+                "browser",
+                "search"
+              ],
+              "answer": 0,
+              "explanation": "Bir hesaba giriş yapmak için kullanıcı adı ve şifre (password) gerekir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-5-1-q2",
+              "stem": "I want to ______ this song to my phone, so I can listen to it offline.",
+              "choices": [
+                "upload",
+                "download",
+                "log out",
+                "chat"
+              ],
+              "answer": 1,
+              "explanation": "Şarkıyı internetsiz dinleyebilmek için telefona indirmek (download) gerekir. Upload, cihazdan internete yüklemek demektir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-5-1-q3",
+              "stem": "Which of the following is good advice for online safety?",
+              "choices": [
+                "Accept every friend request.",
+                "Click on all the links in e-mails from strangers.",
+                "Post your home address on social media.",
+                "Never share your password with anyone."
+              ],
+              "answer": 3,
+              "explanation": "Şifreyi kimseyle paylaşmamak temel bir güvenlik kuralıdır. Diğer seçenekler çevrim içi güvenliği tehlikeye atar.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-5-1-q4",
+              "stem": "Mom: How often do you use the internet, Emre?\nEmre: ______",
+              "choices": [
+                "I use it for chatting.",
+                "Yes, I do.",
+                "About two hours a day.",
+                "On my laptop."
+              ],
+              "answer": 2,
+              "explanation": "“How often” sıklık sorar; “About two hours a day.” (Günde yaklaşık iki saat.) sıklık bildiren tek cevaptır. “I use it for chatting.” amaç, “On my laptop.” araç bildirir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-5-1-q5",
+              "stem": "What do the students in Class 8-A mainly use the internet for? (30 students)\nSocial media: 12 students\nOnline games: 9 students\nHomework and research: 6 students\nWatching videos: 3 students\n\nAccording to the results, which of the following is correct?",
+              "choices": [
+                "More students use the internet for online games than for homework.",
+                "Most students use the internet for watching videos.",
+                "Half of the students use the internet for social media.",
+                "The same number of students use it for homework and for online games."
+              ],
+              "answer": 0,
+              "explanation": "Online oyun için 9, ödev için 6 öğrenci interneti kullanıyor; 9 > 6 olduğu için “More students use the internet for online games than for homework.” ifadesi doğrudur. En az tercih edilen video izlemedir (3); sosyal medya 12 öğrencidir ve bu 30'un yarısı (15) değildir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-5-1-q6",
+              "stem": "Kaan spends almost six hours a day online. He plays games until midnight, so he feels tired at school. His grades are getting worse, and he doesn't go out with his friends anymore. His parents are worried about him.\n\nWhat is Kaan's problem?",
+              "choices": [
+                "He doesn't have a computer.",
+                "He is a victim of cyberbullying.",
+                "He is addicted to the internet.",
+                "He spends a lot of time outdoors."
+              ],
+              "answer": 2,
+              "explanation": "Kaan günde altı saat internette kalıyor, gece yarısına kadar oyun oynuyor, notları düşüyor ve arkadaşlarıyla dışarı çıkmıyor. Bunlar internet bağımlılığının (internet addiction) belirtileridir. Metinde siber zorbalıktan söz edilmiyor.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ingilizce-6",
+      "no": 6,
+      "name": "Adventures",
+      "topics": [
+        {
+          "id": "ingilizce-6-1",
+          "name": "Adventures: Karşılaştırma ve Tercih Bildirme",
+          "kazanim": [
+            "Macera sporlarını ve etkinliklerini karşılaştırır.",
+            "Tercihlerini nedenleriyle ifade eder."
+          ],
+          "summary": "Bu ünitede **macera sporlarını**, **karşılaştırma (comparative)** ve **üstünlük (superlative)** yapılarını, ayrıca **tercih bildirmeyi** öğreniyoruz.\n\n**Macera sporları (Extreme sports):** bungee jumping, skydiving (paraşütle atlama), paragliding (yamaç paraşütü), rafting, scuba diving (tüplü dalış), rock climbing (kaya tırmanışı), canoeing (kano), skiing, surfing, hiking (doğa yürüyüşü).\n\n**Sıfatlar:** exciting, thrilling (heyecan verici), dangerous, risky (riskli), safe (güvenli), challenging (zorlayıcı), boring, enjoyable, fun, scary.\n\n**Karşılaştırma (Comparative) – iki şey:**\n- Kısa sıfat: safe → **safer than**, fast → **faster than**\n- Uzun sıfat: exciting → **more exciting than**, dangerous → **more dangerous than**\n- Düzensiz: good → **better than**, bad → **worse than**\n- Rafting is **more exciting than** hiking.\n\n**Üstünlük (Superlative) – üç veya daha fazla şey:**\n- safe → **the safest**, high → **the highest**\n- dangerous → **the most dangerous**\n- good → **the best**, bad → **the worst**\n- Skydiving is **the most thrilling** sport I've ever tried.\n\n**Tercih bildirme ve neden söyleme:**\n- Would you rather go rafting or paragliding? – I'**d rather** go rafting **because** I'm afraid of heights.\n- I **prefer** canoeing **to** rock climbing because it's safer.\n- Which one do you prefer? – I prefer scuba diving. It's more interesting.\n\n**Güvenlik ekipmanları:** helmet (kask), life jacket (can yeleği), harness (emniyet kemeri), safety equipment, guide / instructor (rehber/eğitmen).",
+          "keyPoints": [
+            "Comparative: kısa sıfat + -er than / more + uzun sıfat + than.",
+            "Superlative: the + kısa sıfat + -est / the most + uzun sıfat.",
+            "Good → better → the best; bad → worse → the worst.",
+            "Would you rather A or B? sorusuna I'd rather ... because ... ile cevap verilir.",
+            "Thrilling, exciting, risky, challenging macera bağlamındaki önemli sıfatlardır."
+          ],
+          "commonMistakes": [
+            "Uzun sıfatlara -er eklemek: “excitinger” yanlış, “more exciting” doğrudur.",
+            "İki şeyi karşılaştırırken “the most” kullanmak.",
+            "Superlative'de “the” kelimesini unutmak.",
+            "“Would you rather...?” sorusuna “Yes, I would.” diye cevap vermek; bu soru seçim ister."
+          ],
+          "questions": [
+            {
+              "id": "ingilizce-6-1-q1",
+              "stem": "Rafting is ______ than walking in the park.",
+              "choices": [
+                "exciting",
+                "excitinger",
+                "the most exciting",
+                "more exciting"
+              ],
+              "answer": 3,
+              "explanation": "İki şey karşılaştırılıyor ve cümlede “than” var. “Exciting” uzun bir sıfat olduğu için “more exciting than” kullanılır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-6-1-q2",
+              "stem": "Which of the following is an extreme sport?",
+              "choices": [
+                "Bungee jumping",
+                "Playing chess",
+                "Watching TV",
+                "Reading comics"
+              ],
+              "answer": 0,
+              "explanation": "Bungee jumping (yüksekten iple atlama) bir macera sporudur. Diğerleri sakin etkinliklerdir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-6-1-q3",
+              "stem": "Mount Everest is ______ mountain in the world.",
+              "choices": [
+                "higher",
+                "high",
+                "the highest",
+                "more high"
+              ],
+              "answer": 2,
+              "explanation": "Dünyadaki tüm dağlar arasında en yüksek olanı anlatıldığı için üstünlük yapısı (the highest) kullanılır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-6-1-q4",
+              "stem": "Can: Would you rather go scuba diving or paragliding?\nAylin: ______",
+              "choices": [
+                "Yes, I would.",
+                "I'd rather go scuba diving because I'm afraid of heights.",
+                "I went paragliding last summer.",
+                "Paragliding is in Fethiye."
+              ],
+              "answer": 1,
+              "explanation": "Soru iki etkinlik arasında tercih istiyor. Tercihi ve nedenini veren tek cevap “I'd rather go scuba diving because I'm afraid of heights.” cümlesidir. “Yes, I would.” bir seçim belirtmez; diğerleri tercih bildirmez.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-6-1-q5",
+              "stem": "Activity | Danger level | Price | Excitement\nRock climbing | high | 50 TL | 4 stars\nCanoeing | low | 20 TL | 2 stars\nSkydiving | very high | 200 TL | 5 stars\nHiking | very low | free | 1 star\n\nAccording to the table, which of the following is correct?",
+              "choices": [
+                "Canoeing is more exciting than rock climbing.",
+                "Hiking is more expensive than canoeing.",
+                "Rock climbing is safer than canoeing.",
+                "Skydiving is the most expensive and the most dangerous activity."
+              ],
+              "answer": 3,
+              "explanation": "Skydiving 200 TL ile en pahalı, “very high” tehlike düzeyiyle en tehlikeli etkinliktir. Canoeing (2 yıldız) rock climbing'den (4 yıldız) daha az heyecanlıdır; hiking ücretsizdir; rock climbing'in tehlike düzeyi canoeing'den yüksektir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-6-1-q6",
+              "stem": "Last summer, Zeynep and her family went to Antalya. They tried rafting in Köprülü Canyon. At first, Zeynep was nervous because the water was fast and cold, but their guide was very experienced and gave them clear instructions. After the tour, Zeynep said, 'It was the most thrilling experience of my life. I'd definitely do it again!'\n\nWhich of the following is NOT true according to the text?",
+              "choices": [
+                "Zeynep felt nervous at the beginning.",
+                "They had an experienced guide.",
+                "Zeynep didn't enjoy rafting at all.",
+                "Zeynep wants to try rafting again."
+              ],
+              "answer": 2,
+              "explanation": "Zeynep raftingi hayatının en heyecan verici deneyimi olarak tanımlıyor ve tekrar yapmak istiyor. Bu nedenle “hiç keyif almadı” ifadesi yanlıştır. Diğer bilgiler metinde yer alır.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ingilizce-7",
+      "no": 7,
+      "name": "Tourism",
+      "topics": [
+        {
+          "id": "ingilizce-7-1",
+          "name": "Tourism: Yerleri Tanıtma ve Deneyimleri Anlatma",
+          "kazanim": [
+            "Turistik yerleri tanıtır ve karşılaştırır.",
+            "Seyahat deneyimleri hakkında soru sorar ve cevap verir; tercihlerini belirtir."
+          ],
+          "summary": "Bu ünitede **turistik yerleri tanıtmayı**, **seyahat deneyimlerimizi** anlatmayı ve **tatil tercihlerimizi** belirtmeyi öğreniyoruz.\n\n**Turizmle ilgili kelimeler:**\n- **sightseeing** (gezip görme), **historical places**, **ancient city** (antik kent), **museum**, **palace**, **mosque**\n- **souvenir** (hatıra eşya), **guide** (rehber), **tour**, **brochure**, **passport**, **luggage** (bagaj)\n- **accommodation** (konaklama): hotel, hostel, guesthouse, campsite\n- **breathtaking** (nefes kesici), **crowded** (kalabalık), **peaceful**, **famous for**, **worth seeing** (görülmeye değer)\n\n**Deneyim sorma (Have you ever...?):** Hayatında bir şeyi yapıp yapmadığını sorarız.\n- **Have you ever been to** Cappadocia? – Yes, I **have**. / No, I **haven't**. I've **never** been there.\n- Geçmişte ne zaman olduğunu söylerken **Simple Past** kullanırız: I **went** there **two years ago**.\n\n**Yer tanıtma:**\n- Mardin **is famous for** its stone houses.\n- You **can** visit Ephesus Ancient City.\n- Don't forget to **taste** the local food!\n- The best time to visit is spring because summers are very hot.\n\n**Otelde:**\n- How long are you going to stay? – For three nights.\n- I'd like a single / double room, please.\n- What time is breakfast?\n\n**Tatil tercihleri:**\n- I prefer **historical places** to beaches because I love learning about history.\n- I'd rather stay in a hotel than a campsite.\n\n**Türkiye'den örnekler:** Cappadocia is famous for its fairy chimneys and hot air balloons. Pamukkale is famous for its white travertines. Ephesus is an ancient city in İzmir.",
+          "keyPoints": [
+            "Have you ever been to ...? → deneyim sorusu; Yes, I have. / No, I haven't.",
+            "Geçmişte belirli bir zaman verilirse Simple Past kullanılır: I went there last year.",
+            "Souvenir hatıra eşya, accommodation konaklama, sightseeing gezip görmedir.",
+            "Be famous for: ... ile ünlü olmak.",
+            "Tercih: I prefer A to B / I'd rather A than B."
+          ],
+          "commonMistakes": [
+            "“Have you ever went...?” demek; doğrusu “Have you ever been / gone...?”dir.",
+            "“Have you ever been to...?” sorusuna “Yes, I did.” diye cevap vermek; doğrusu “Yes, I have.”dir.",
+            "Belirli geçmiş zamanla present perfect kullanmak: “I have been there last year” yanlıştır.",
+            "Souvenir ile luggage'ı karıştırmak."
+          ],
+          "questions": [
+            {
+              "id": "ingilizce-7-1-q1",
+              "stem": "Have you ever ______ to Cappadocia?",
+              "choices": [
+                "go",
+                "went",
+                "been",
+                "going"
+              ],
+              "answer": 2,
+              "explanation": "“Have you ever ...?” yapısında fiilin üçüncü hâli kullanılır. Bir yere gidip gelme deneyimi “been to” ile anlatılır: Have you ever been to Cappadocia?",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-7-1-q2",
+              "stem": "Tourists usually buy ______ to remember the places they visit.",
+              "choices": [
+                "souvenirs",
+                "passports",
+                "tickets",
+                "luggage"
+              ],
+              "answer": 0,
+              "explanation": "Gezilen yerleri hatırlamak için alınan eşyalara “souvenir” (hatıra eşya) denir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-7-1-q3",
+              "stem": "Hotel receptionist: ______\nTourist: For three nights, please.",
+              "choices": [
+                "How much is the room?",
+                "How long are you going to stay?",
+                "Where are you from?",
+                "What time is breakfast?"
+              ],
+              "answer": 1,
+              "explanation": "“For three nights” (üç gece) bir süre bildirir. Bu cevaba uygun soru “How long are you going to stay?” (Ne kadar kalacaksınız?) sorusudur.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-7-1-q4",
+              "stem": "Which place is the best choice for a tourist who wants to learn about history?",
+              "choices": [
+                "A shopping mall",
+                "A water park",
+                "A ski resort",
+                "An ancient city like Ephesus"
+              ],
+              "answer": 3,
+              "explanation": "Tarih öğrenmek isteyen biri için en uygun yer Efes gibi bir antik kenttir. Alışveriş merkezi, su parkı ve kayak merkezi tarihle ilgili değildir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-7-1-q5",
+              "stem": "VISIT MARDIN!\nMardin is famous for its stone houses and narrow streets. You can visit Dara Ancient City and Deyrulzafaran Monastery. Don't forget to taste the local food!\nAccommodation: There are boutique hotels and guesthouses.\nBest time to visit: Spring and autumn, because summers are very hot.\n\nAccording to the brochure, which of the following is correct?",
+              "choices": [
+                "Mardin is famous for its modern skyscrapers.",
+                "There aren't any places to stay in Mardin.",
+                "It is better to visit Mardin in spring or autumn.",
+                "Summer is the best time to visit Mardin."
+              ],
+              "answer": 2,
+              "explanation": "Broşürde en uygun ziyaret zamanının ilkbahar ve sonbahar olduğu, yazların çok sıcak geçtiği yazıyor. Mardin taş evleriyle ünlüdür ve butik oteller ile pansiyonlar vardır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-7-1-q6",
+              "stem": "Tom: Have you ever visited Istanbul?\nAyla: Yes, I have. I went there two years ago.\nTom: What did you like most?\nAyla: The Bosphorus tour. The view was breathtaking!\nTom: I've never been there, but I'm going to visit it next summer.\n\nWhich of the following is true?",
+              "choices": [
+                "Ayla has visited Istanbul before, but Tom hasn't.",
+                "Tom went to Istanbul two years ago.",
+                "Ayla didn't like the Bosphorus tour.",
+                "Tom is going to visit Istanbul next winter."
+              ],
+              "answer": 0,
+              "explanation": "Ayla İstanbul'a iki yıl önce gitmiş; Tom ise “I've never been there” diyerek hiç gitmediğini söylüyor. Ayla Boğaz turunu en çok beğendiğini söylemiş, Tom ise gelecek yaz gidecek.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ingilizce-8",
+      "no": 8,
+      "name": "Chores",
+      "topics": [
+        {
+          "id": "ingilizce-8-1",
+          "name": "Chores: Ev İşleri, Sorumluluklar ve Zorunluluklar",
+          "kazanim": [
+            "Ev işleriyle ilgili kelimeleri tanır ve sorumluluklarını ifade eder.",
+            "Zorunluluk bildiren yapıları (have to, must, don't have to) kullanır; ev işleriyle ilgili duygularını belirtir."
+          ],
+          "summary": "Bu ünitede **ev işlerini** (household chores), **sorumluluklarımızı** ve **zorunlulukları** anlatmayı öğreniyoruz.\n\n**Ev işleri (Chores):**\n- **do** the dishes / do the washing-up (bulaşık yıkamak), **do** the laundry (çamaşır yıkamak), **do** the shopping\n- **make** the bed (yatağı toplamak), **make** breakfast\n- **set** the table (sofrayı kurmak) ↔ **clear** the table (sofrayı toplamak)\n- **take out** the rubbish / trash (çöpü çıkarmak)\n- **vacuum** the carpet (süpürmek), **mop** the floor (paspaslamak), **dust** the furniture (toz almak)\n- **iron** the clothes (ütü yapmak), **water** the plants, **feed** the cat, **tidy** the room\n\n**Sorumluluk:**\n- I'**m responsible for** taking out the rubbish.\n- It's my **duty** to feed the cat.\n\n**Zorunluluk:**\n- **have to / has to:** I **have to** tidy my room. She **has to** do the laundry.\n- **must:** Kural ya da güçlü zorunluluk: Students **must** wear a uniform.\n- **don't have to:** Gerekli değil: I **don't have to** cook. My mother cooks.\n- **mustn't:** Yasak: You **mustn't** play with fire.\n\n**Duygularımızı belirtme:**\n- I **don't mind** doing the washing-up. (Sorun değil.)\n- I **hate** ironing. It's boring.\n- I **can't stand** cleaning the bathroom.\n- I **enjoy** cooking. It's fun!\n\n**Yardım isteme ve teklif etme:**\n- Can you help me with the housework? – **Of course.** I'll vacuum the carpets.\n- **Could you** take out the rubbish, please? – Sure, no problem.",
+          "keyPoints": [
+            "Make the bed, do the dishes, do the laundry, set/clear the table kalıp ifadelerdir.",
+            "Have to / has to ve must zorunluluk bildirir.",
+            "Don't have to: gerekli değil; mustn't: yasak.",
+            "I'm responsible for + V-ing: ... yapmaktan sorumluyum.",
+            "I don't mind (sorun değil), I hate / I can't stand (sevmem) duyguları anlatır."
+          ],
+          "commonMistakes": [
+            "“Do the bed” demek; doğrusu “make the bed”dir.",
+            "Don't have to (gerekli değil) ile mustn't (yasak) anlamlarını karıştırmak.",
+            "Üçüncü tekil şahısta “have to” kullanmak: “She have to” yanlış, “She has to” doğrudur.",
+            "Set the table (sofrayı kurmak) ile clear the table (sofrayı toplamak) ifadelerini karıştırmak."
+          ],
+          "questions": [
+            {
+              "id": "ingilizce-8-1-q1",
+              "stem": "I ______ my bed every morning before I go to school.",
+              "choices": [
+                "do",
+                "make",
+                "take",
+                "wash"
+              ],
+              "answer": 1,
+              "explanation": "Yatağı toplamak İngilizcede “make the bed” kalıbıyla söylenir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-8-1-q2",
+              "stem": "After dinner, we take the dirty plates away. We ______ the table.",
+              "choices": [
+                "feed",
+                "vacuum",
+                "iron",
+                "clear"
+              ],
+              "answer": 3,
+              "explanation": "Yemekten sonra kirli tabakları kaldırmak “clear the table” (sofrayı toplamak) olarak ifade edilir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-8-1-q3",
+              "stem": "Students ______ wear a uniform at our school. It's a school rule.",
+              "choices": [
+                "must",
+                "mustn't",
+                "don't have to",
+                "can't"
+              ],
+              "answer": 0,
+              "explanation": "Okul kuralı olduğu için bir zorunluluk vardır; bu “must” ile anlatılır. Mustn't ve can't yasak, don't have to ise gereksizlik bildirir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-8-1-q4",
+              "stem": "Mom: Can you help me with the housework, Sarp?\nSarp: ______ I'll vacuum the carpets.",
+              "choices": [
+                "No, thanks.",
+                "I'm afraid not.",
+                "Of course.",
+                "Sorry, I'm busy."
+              ],
+              "answer": 2,
+              "explanation": "Sarp halıları süpüreceğini söyleyerek yardım etmeyi kabul ediyor. Bu yüzden “Of course.” doğru cevaptır. Diğer seçenekler reddetme ifadesidir ve devamındaki cümleyle çelişir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-8-1-q5",
+              "stem": "HOUSEHOLD CHORES IN THE AKSOY FAMILY\nMother: cooking, doing the laundry\nFather: doing the shopping, taking out the rubbish\nEce: washing the dishes, feeding the cat\nCan: vacuuming, watering the plants\n\nAccording to the chart, which of the following is correct?",
+              "choices": [
+                "Can has to do the laundry.",
+                "Ece is responsible for feeding the cat.",
+                "Father cooks the meals.",
+                "Mother waters the plants."
+              ],
+              "answer": 1,
+              "explanation": "Tabloda kediyi besleme görevi Ece'ye verilmiştir. Çamaşırı anne yıkar, yemeği anne pişirir, çiçekleri Can sular.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-8-1-q6",
+              "stem": "Melis: I don't mind doing the washing-up, but I hate ironing. It's so boring!\nKerem: I'm responsible for taking out the rubbish. It's easy, so I don't complain. But I can't stand cleaning the bathroom.\n\nWhich of the following is true?",
+              "choices": [
+                "Both Melis and Kerem love ironing.",
+                "Kerem complains about taking out the rubbish.",
+                "Melis enjoys ironing because it is fun.",
+                "Melis doesn't like ironing, and Kerem doesn't like cleaning the bathroom."
+              ],
+              "answer": 3,
+              "explanation": "Melis ütüden nefret ettiğini (I hate ironing), Kerem de banyo temizlemeye dayanamadığını (I can't stand cleaning the bathroom) söylüyor. Kerem çöp çıkarmaktan şikâyet etmiyor; Melis ütüyü sıkıcı buluyor.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ingilizce-9",
+      "no": 9,
+      "name": "Science",
+      "topics": [
+        {
+          "id": "ingilizce-9-1",
+          "name": "Science: Bilim İnsanları, Buluşlar ve Deneyler",
+          "kazanim": [
+            "Bilim, bilim insanları ve buluşlarla ilgili kelime ve ifadeleri anlar ve kullanır.",
+            "Geçmişteki bilimsel olayları ve şu anda süren çalışmaları anlatır; basit bir deney sürecini anlar."
+          ],
+          "summary": "Bu ünitede **bilimle ilgili kelimeleri**, **bilim insanlarını ve buluşlarını**, **deney sürecini** anlatmayı öğreniyoruz.\n\n**Bilimle ilgili kelimeler:**\n- **scientist** (bilim insanı), **experiment** (deney), **laboratory / lab**, **research** (araştırma)\n- **discover** (keşfetmek) → discovery; **invent** (icat etmek) → invention, inventor\n- **observe** (gözlemlemek), **test**, **result** (sonuç), **hypothesis** (hipotez)\n- **microscope**, **test tube**, **telescope**\n\n**Geçmişteki olaylar (Simple Past):**\n- Aziz Sancar **won** the Nobel Prize in Chemistry in 2015.\n- Marie Curie **discovered** radium.\n\n**Edilgen yapı – geçmiş (was/were + V3):** Buluşu kimin yaptığı “by” ile verilir.\n- The telephone **was invented by** Alexander Graham Bell in 1876.\n- Radium **was discovered by** Marie and Pierre Curie.\n\n**Şu anda süren işler (Present Continuous):**\n- Scientists **are working on** a new vaccine.\n- I **am observing** cells under the microscope.\n\n**Deney süreci:** First, we ask a question. Then, we make a hypothesis. Next, we do an experiment and observe. Finally, we write the results.\n\n**Türk bilim insanları:**\n- **Aziz Sancar:** 2015 Nobel Kimya Ödülü (DNA onarımı üzerine çalışmaları)\n- **Cahit Arf:** Matematikçi; “Arf invariant” (Arf değişmezi) ile tanınır.\n- **Gazi Yaşargil:** Mikro beyin cerrahisinin öncülerinden biri.\n\n**Örnek cümle:** Science helps us understand the world. Thanks to scientists, we have medicines, computers and the internet.",
+          "keyPoints": [
+            "Discover: var olanı bulmak; invent: yeni bir şey icat etmek.",
+            "Geçmiş edilgen: was/were + V3 + by (was invented by).",
+            "Şu anda süren çalışmalar Present Continuous ile anlatılır (are working on).",
+            "Deney sırası: question → hypothesis → experiment → observe → results.",
+            "Aziz Sancar 2015'te Nobel Kimya Ödülü'nü kazandı."
+          ],
+          "commonMistakes": [
+            "Discover ile invent'i karıştırmak: radyum keşfedilir (discover), telefon icat edilir (invent).",
+            "Edilgen yapıda be fiilini unutmak: “The telephone invented by Bell” yanlıştır.",
+            "Aziz Sancar'ın Nobel'i fizik ya da tıp alanında aldığını sanmak; kimya alanındadır.",
+            "Deney metinlerinde sonucu (result) ile yöntemi karıştırmak."
+          ],
+          "questions": [
+            {
+              "id": "ingilizce-9-1-q1",
+              "stem": "Scientists do ______ in laboratories to test their ideas.",
+              "choices": [
+                "souvenirs",
+                "inventions",
+                "experiments",
+                "chores"
+              ],
+              "answer": 2,
+              "explanation": "Bilim insanları fikirlerini test etmek için laboratuvarda deney (experiment) yapar.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-9-1-q2",
+              "stem": "The telephone ______ by Alexander Graham Bell in 1876.",
+              "choices": [
+                "invented",
+                "was invented",
+                "is inventing",
+                "invents"
+              ],
+              "answer": 1,
+              "explanation": "Telefon, Bell tarafından icat edilmiştir; işi yapan “by” ile verildiği ve olay geçmişte olduğu için geçmiş zaman edilgen yapı (was + V3) kullanılır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-9-1-q3",
+              "stem": "Aziz Sancar, a Turkish scientist, won the Nobel Prize in ______ in 2015.",
+              "choices": [
+                "Physics",
+                "Literature",
+                "Medicine",
+                "Chemistry"
+              ],
+              "answer": 3,
+              "explanation": "Aziz Sancar, DNA onarımı üzerine yaptığı çalışmalarla 2015 Nobel Kimya Ödülü'nü kazanmıştır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-9-1-q4",
+              "stem": "Teacher: What are you doing in the lab, Elif?\nElif: ______",
+              "choices": [
+                "I'm observing some cells under the microscope.",
+                "I observed them yesterday.",
+                "Yes, I am.",
+                "It's a microscope."
+              ],
+              "answer": 0,
+              "explanation": "Soru şu anda ne yapıldığını soruyor (Present Continuous). Şu an yapılan işi anlatan tek cevap “I'm observing some cells under the microscope.” cümlesidir. “Yes, I am.” bir “What” sorusuna cevap olamaz.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-9-1-q5",
+              "stem": "Cahit Arf was a famous Turkish mathematician. He was born in Selanik (Thessaloniki) in 1910. He did his doctorate in mathematics in Germany. His work, the 'Arf invariant', is used by mathematicians all over the world. His portrait was on the back of the 10 Turkish lira banknote.\n\nWhich of the following questions CANNOT be answered according to the text?",
+              "choices": [
+                "Where was Cahit Arf born?",
+                "When did Cahit Arf die?",
+                "Which banknote had his portrait on it?",
+                "Where did he do his doctorate?"
+              ],
+              "answer": 1,
+              "explanation": "Metinde Cahit Arf'ın nerede doğduğu (Selanik), hangi banknotta portresinin olduğu (10 TL) ve doktorasını nerede yaptığı (Almanya) yer alıyor. Ne zaman öldüğüne dair bilgi yoktur.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-9-1-q6",
+              "stem": "SCIENCE PROJECT: Does light affect plant growth?\nWe put two similar plants in two pots. Plant A was kept in a sunny room. Plant B was kept in a dark cupboard. We watered both plants every day. After two weeks, Plant A was 15 cm tall and green, but Plant B was only 5 cm tall and yellow.\n\nWhat is the result of this experiment?",
+              "choices": [
+                "Plants don't need water to grow.",
+                "Plant B grew faster than Plant A.",
+                "Plants need light to grow healthily.",
+                "Dark places are better for plants."
+              ],
+              "answer": 2,
+              "explanation": "İki bitki de sulanmış, tek fark ışık olmuştur. Işıkta kalan bitki daha uzun ve yeşil, karanlıkta kalan kısa ve sarı kalmıştır. Bu, bitkilerin sağlıklı büyümek için ışığa ihtiyaç duyduğunu gösterir.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ingilizce-10",
+      "no": 10,
+      "name": "Natural Forces",
+      "topics": [
+        {
+          "id": "ingilizce-10-1",
+          "name": "Natural Forces: Doğal Afetler, Tahminler ve Sebep-Sonuç",
+          "kazanim": [
+            "Doğal afetler ve çevre sorunlarıyla ilgili kelimeleri tanır ve kullanır.",
+            "Geleceğe yönelik tahminlerde bulunur, sebep-sonuç ilişkisi kurar ve öneriler verir."
+          ],
+          "summary": "Bu ünitede **doğal afetleri**, **çevre sorunlarını**, geleceğe yönelik **tahminleri** ve **sebep-sonuç** ilişkilerini anlatmayı öğreniyoruz.\n\n**Doğal afetler (Natural disasters):**\n- **earthquake** (deprem), **flood** (sel), **landslide** (heyelan), **avalanche** (çığ)\n- **drought** (kuraklık), **wildfire / forest fire** (orman yangını)\n- **tornado** (hortum), **hurricane** (kasırga), **tsunami**, **volcanic eruption** (yanardağ patlaması)\n\n**Çevre sorunları:** global warming (küresel ısınma), climate change (iklim değişikliği), pollution (kirlilik), deforestation (ormansızlaşma), erosion (erozyon).\n\n**Tahmin (Prediction) – will / won't:**\n- Temperatures **will** rise in the future.\n- There **won't** be enough water if we waste it.\n- I think there **will** be more floods.\n\n**Sebep-sonuç (Cause and effect):**\n- **If** people cut down trees, there **will** be more floods and landslides.\n- **If** we don't save water, there **will** be droughts.\n- The village was flooded **because** it rained heavily. / It rained heavily, **so** the river overflowed.\n\n**Öneri verme – should / shouldn't:**\n- During an earthquake, you **should** **drop, cover and hold on**.\n- You **shouldn't** use the elevator. Stay away from windows.\n- You **should** prepare an **emergency kit**: water, canned food, a first aid kit, a flashlight, extra batteries, a whistle and important documents.\n\n**Örnek:** Earthquakes are very common in Türkiye, so we should always be prepared.",
+          "keyPoints": [
+            "Earthquake, flood, landslide, avalanche, drought, wildfire temel afet kelimeleridir.",
+            "Tahminler will / won't + yalın fiil ile yapılır.",
+            "If + Simple Present, ... will + yalın fiil: sebep-sonuç bildirir.",
+            "Deprem anında: drop, cover and hold on; asansör kullanılmaz.",
+            "Should / shouldn't öneri bildirir."
+          ],
+          "commonMistakes": [
+            "Drought (kuraklık) ile flood (sel) anlamlarını karıştırmak.",
+            "If cümleciğinde will kullanmak: “If it will rain” yanlış, “If it rains” doğrudur.",
+            "Will'den sonra fiile -s veya -ing eklemek: “will rises” yanlıştır.",
+            "Landslide (heyelan) ile avalanche'ı (çığ) karıştırmak."
+          ],
+          "questions": [
+            {
+              "id": "ingilizce-10-1-q1",
+              "stem": "A long period with little or no rain is called a ______.",
+              "choices": [
+                "flood",
+                "drought",
+                "landslide",
+                "tornado"
+              ],
+              "answer": 1,
+              "explanation": "Uzun süre çok az yağmur yağması ya da hiç yağmaması kuraklık (drought) demektir. Flood sel, landslide heyelan, tornado hortumdur.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-10-1-q2",
+              "stem": "During an earthquake, you should ______.",
+              "choices": [
+                "use the elevator",
+                "stand near the windows",
+                "drop, cover and hold on",
+                "run down the stairs quickly"
+              ],
+              "answer": 2,
+              "explanation": "Deprem sırasında “çök, kapan, tutun” (drop, cover and hold on) kuralı uygulanmalıdır. Asansör kullanmak, pencere yanında durmak ve merdivenlerden koşmak tehlikelidir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-10-1-q3",
+              "stem": "Scientists think global temperatures ______ rise in the future if we don't reduce pollution.",
+              "choices": [
+                "will",
+                "did",
+                "was",
+                "are"
+              ],
+              "answer": 0,
+              "explanation": "Cümle gelecekle ilgili bir tahmin bildiriyor (in the future) ve fiil yalın hâldedir (rise). Bu yüzden “will” kullanılır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-10-1-q4",
+              "stem": "If people cut down too many trees, ______.",
+              "choices": [
+                "the air will be cleaner",
+                "animals will have more homes",
+                "there won't be any erosion",
+                "there will be more floods and landslides"
+              ],
+              "answer": 3,
+              "explanation": "Ağaçlar toprağı tutar. Ağaçlar kesilirse sel ve heyelan artar. Diğer seçenekler ağaç kesiminin olumsuz sonuçlarıyla çelişir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-10-1-q5",
+              "stem": "Natural disasters in a country between 2020 and 2025:\nFloods: 24\nEarthquakes: 10\nWildfires: 18\nAvalanches: 3\n\nAccording to the table, which of the following is correct?",
+              "choices": [
+                "Earthquakes were the most common disaster.",
+                "Floods happened more often than wildfires.",
+                "There were more avalanches than earthquakes.",
+                "Wildfires happened less often than avalanches."
+              ],
+              "answer": 1,
+              "explanation": "Sel 24, orman yangını 18 kez yaşanmıştır; 24 > 18 olduğu için sel daha sık görülmüştür. En sık görülen afet seldir; çığ (3) depremden (10) ve yangından (18) azdır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "ingilizce-10-1-q6",
+              "stem": "PREPARE AN EMERGENCY KIT!\nYou should have water, canned food, a first aid kit, a flashlight with extra batteries, a whistle and copies of important documents. Keep your kit in an easy-to-reach place and check it every six months.\n\nWhich of the following is NOT mentioned as something to put in an emergency kit?",
+              "choices": [
+                "A laptop",
+                "A whistle",
+                "A flashlight",
+                "Canned food"
+              ],
+              "answer": 0,
+              "explanation": "Metinde düdük (whistle), el feneri (flashlight) ve konserve yiyecek (canned food) sayılıyor; dizüstü bilgisayardan (laptop) söz edilmiyor.",
+              "difficulty": 3,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
