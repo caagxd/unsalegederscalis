@@ -2,8 +2,8 @@
 
 Bir 8. sınıf öğrencisinin LGS'ye hazırlanması için telefona kurulabilen web uygulaması (PWA) ve ailenin takip paneli.
 
-**Öğrenci:** günlük plan · konu anlatımı ve alıştırma · çözdüğü soruları kaydetme · 📸 yanlış soru bankası (aralıklı tekrar) · deneme takibi · çıkmış sorular (MEB) · XP, seviye, seri, rozet
-**Veli:** haftalık karne · ders ve konu bazında başarı · en zayıf konular · deneme net grafiği · yanlış fotoğraflarını görme · not bırakma · yapay zekâ ile üretilen soruları kontrol etme
+**Öğrenci:** günlük plan (otomatik + elle "bugün bunu çalıştım") · konu anlatımı, konu videoları ve tekrar etmeyen alıştırma turları · ders bazında karma test · çalışma sayacı · çözdüğü soruları kaydetme · 📸 yanlış soru bankası (aralıklı tekrar) · 📱 günlük ekran süresi (ekran görüntüsüyle) · deneme takibi · çıkmış sorular (MEB) · XP, seviye, seri, rozet
+**Veli:** haftalık karne · ders ve konu bazında başarı · en zayıf konular · deneme net grafiği · yanlış fotoğraflarını ve ekran süresi görüntülerini görme · okulda gelinen üniteyi ayarlama · not bırakma · yapay zekâ ile üretilen soruları kontrol etme
 
 ---
 
@@ -31,10 +31,22 @@ cp .env.example .env
 
    ve iki değeri doldurun.
 
+### Veritabanı güncellemeleri
+
+`supabase/migrations/` içindeki dosyaları **numara sırasıyla** SQL Editor'de çalıştırın. Her biri bir kez çalıştırılır; tekrar çalıştırmak zararsızdır.
+
+| Dosya | Ne ekler |
+|---|---|
+| `001_init.sql` | Temel tablolar, güvenlik kuralları, fotoğraf deposu |
+| `002_features.sql` | Ekran süresi, konu videoları (aile ekler), okul ilerlemesi ayarı |
+
+002 çalıştırılmadan da uygulama açılır; yalnızca bu üç özellik kaydedilemez.
+
 ## 3. Yayına alma (Vercel, ücretsiz)
 
 1. Bu klasörü bir GitHub deposuna gönderin.
 2. https://vercel.com → **Add New Project** → depoyu seçin (Vite otomatik algılanır).
+   Supabase bağlantı bilgileri (URL + publishable key) `src/lib/db.ts` içinde üretim varsayılanı olarak durur; başka bir Supabase projesine geçerseniz orayı ya da ortam değişkenlerini güncelleyin.
 3. **Environment Variables**: `VITE_SUPABASE_URL` ve `VITE_SUPABASE_ANON_KEY` (publishable key) ekleyin → **Deploy**.
    Supabase'i Vercel'in **Supabase entegrasyonu** ile bağladıysanız bu adımı atlayın: uygulama, entegrasyonun oluşturduğu `NEXT_PUBLIC_SUPABASE_URL` ve `NEXT_PUBLIC_SUPABASE_ANON_KEY` / `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` değişkenlerini de okur.
    Değişken ekledikten ya da değiştirdikten sonra **Redeploy** gerekir; değerler build sırasında pakete gömülür.

@@ -16,20 +16,25 @@ const EXAM_MIN = 160
 
 export function generateWeek(opts: {
   start: string
-  settings: Pick<FamilySettings, 'weekday_minutes' | 'weekend_minutes'>
+  settings: Pick<FamilySettings, 'weekday_minutes' | 'weekend_minutes' | 'school_progress'>
   topicStats: Map<string, TopicStat>
   progress: Map<string, number>
 }): NewPlanItem[] {
   const { start, settings, topicStats, progress } = opts
-  const used = new Set<string>()
+  const used = new Map<string, number>() // konu → bu hafta kaç kez planlandı
   let rot = 0
   const items: NewPlanItem[] = []
 
   const nextTopic = (subject: SubjectId) => {
     const s = getSubject(subject)
     if (!s) return null
-    const topics = s.units.flatMap((u) => u.topics).filter((t) => !used.has(t.id))
-    if (!topics.length) return null
+    // Okulda henüz işlenmeyen üniteler programa girmez (ayar yoksa sınırsız)
+    const limit = settings.school_progress?.[subject]
+    const allowed = s.units.filter((u) => !limit || u.no <= limit).flatMap((u) => u.topics)
+    if (!allowed.length) return null
+    // Bu hafta en az planlanmış konular arasından seç; hepsi planlandıysa döngü yeniden başlar
+    const minUse = Math.min(...allowed.map((t) => used.get(t.id) ?? 0))
+    const topics = allowed.filter((t) => (used.get(t.id) ?? 0) === minUse)
     const weak = topics
       .filter((t) => (topicStats.get(t.id)?.solved ?? 0) >= 5 && (topicStats.get(t.id)?.accuracy ?? 100) < 60)
       .sort((a, b) => topicStats.get(a.id)!.accuracy - topicStats.get(b.id)!.accuracy)
@@ -58,10 +63,11 @@ export function generateWeek(opts: {
       const topic = nextTopic(subject)
       if (!topic) { misses++; continue }
       misses = 0
-      used.add(topic.id)
+      const repeat = (used.get(topic.id) ?? 0) > 0
+      used.set(topic.id, (used.get(topic.id) ?? 0) + 1)
       const prog = progress.get(topic.id) ?? 0
       const minutes = Math.min(BLOCK, budget)
-      const learn = prog < 50
+      const learn = prog < 50 && !repeat
       items.push({
         date, subject, topic_id: topic.id, kind: learn ? 'konu' : 'soru',
         title: learn

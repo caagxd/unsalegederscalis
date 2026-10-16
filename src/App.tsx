@@ -18,6 +18,9 @@ import ParentWrong from './pages/parent/ParentWrong'
 import ParentExams from './pages/parent/ParentExams'
 import ParentQuestions from './pages/parent/ParentQuestions'
 import ParentSettings from './pages/parent/ParentSettings'
+import ScreenTimePage from './pages/ScreenTimePage'
+import MixedTest from './pages/student/MixedTest'
+import { FocusTimerPill } from './components/FocusTimer'
 
 function Splash({ text = 'Yükleniyor…' }: { text?: string }) {
   return (
@@ -64,6 +67,7 @@ export default function App() {
           <Route path="/veli/denemeler" element={<ParentExams />} />
           <Route path="/veli/sorular" element={<ParentQuestions />} />
           <Route path="/veli/ayarlar" element={<ParentSettings />} />
+          <Route path="/veli/ekran" element={<ScreenTimePage />} />
           <Route path="/ders/:subjectId" element={<SubjectDetail />} />
           <Route path="/konu/:topicId" element={<TopicPage />} />
           <Route path="/program" element={<Plan />} />
@@ -90,12 +94,14 @@ export default function App() {
         <Route path="/" element={<Today />} />
         <Route path="/dersler" element={<Subjects />} />
         <Route path="/ders/:subjectId" element={<SubjectDetail />} />
+        <Route path="/ders/:subjectId/test" element={<MixedTest />} />
         <Route path="/konu/:topicId" element={<TopicPage />} />
         <Route path="/yanlislar" element={<WrongBank />} />
         <Route path="/denemeler" element={<Exams />} />
         <Route path="/program" element={<Plan />} />
         <Route path="/cikmis" element={<PastPapers />} />
         <Route path="/daha" element={<More />} />
+        <Route path="/ekran" element={<ScreenTimePage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <BottomNav items={[
@@ -105,6 +111,7 @@ export default function App() {
         { to: '/denemeler', label: 'Denemeler', icon: '📝' },
         { to: '/daha', label: 'Ben', icon: '🙂', badge: unseen },
       ]} />
+      <FocusTimerPill />
       <Toast />
     </>
   )

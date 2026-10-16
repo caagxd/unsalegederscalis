@@ -34,6 +34,8 @@ export const isWeekend = (iso: string) => {
 const DAYS = ['Pazar', 'Pazartesi', 'Salı', 'Çarşamba', 'Perşembe', 'Cuma', 'Cumartesi']
 const MONTHS = ['Oca', 'Şub', 'Mar', 'Nis', 'May', 'Haz', 'Tem', 'Ağu', 'Eyl', 'Eki', 'Kas', 'Ara']
 
+export const fmtMinutes = (m: number) => (m >= 60 ? `${Math.floor(m / 60)}s ${m % 60}dk` : `${m}dk`)
+
 export const dayName = (iso: string) => DAYS[new Date(iso + 'T00:00:00').getDay()]
 export function shortDate(iso: string) {
   const d = new Date(iso + 'T00:00:00')

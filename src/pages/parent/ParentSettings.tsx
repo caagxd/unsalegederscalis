@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useApp, useData } from '../../app/AppProvider'
 import { CreateStudent } from '../../components/CreateStudent'
 import { Page, PageHeader } from '../../components/ui'
-import { contentStats } from '../../lib/content'
+import { SUBJECT_META, contentStats, subjects } from '../../lib/content'
 import { repo } from '../../lib/db'
 
 export default function ParentSettings() {
@@ -45,6 +45,8 @@ export default function ParentSettings() {
           <button className="btn-primary w-full" onClick={save}>Kaydet</button>
         </section>
 
+        <SchoolProgress />
+
         <section className="card space-y-2">
           <h2 className="font-extrabold">Aile</h2>
           <ul className="text-sm">
@@ -65,5 +67,43 @@ export default function ParentSettings() {
         <button className="btn-ghost w-full" onClick={() => repo.signOut()}>Çıkış yap</button>
       </Page>
     </>
+  )
+}
+
+// Okulda hangi üniteye gelindiği: program ve karma test bu üniteye kadar olan konuları kullanır.
+function SchoolProgress() {
+  const { refresh, celebrate } = useApp()
+  const d = useData()
+  const [sp, setSp] = useState(d.settings.school_progress ?? {})
+  const [err, setErr] = useState<string | null>(null)
+
+  async function save() {
+    setErr(null)
+    try {
+      await repo.updateSettings({ school_progress: sp })
+      await refresh()
+      celebrate('Kaydedildi ✓')
+    } catch (e) {
+      setErr((e as Error).message.includes('school_progress') ? 'Önce 002 veritabanı güncellemesini çalıştırın (README).' : (e as Error).message)
+    }
+  }
+
+  return (
+    <section className="card space-y-3">
+      <h2 className="font-extrabold">🏫 Okulda nereye gelindi?</h2>
+      <p className="text-xs text-slate-500">Program ve karma testler yalnızca okulda işlenmiş ünitelerden konu seçer. Okulda yeni üniteye geçildikçe güncelleyin.</p>
+      {subjects.map((s) => (
+        <div key={s.id} className="flex items-center gap-2">
+          <span className="w-24 shrink-0 text-sm font-bold">{SUBJECT_META[s.id].emoji} {SUBJECT_META[s.id].short}</span>
+          <select className="input py-2 text-sm" value={sp[s.id] ?? ''}
+            onChange={(e) => { const v = e.target.value; const next = { ...sp }; if (v) next[s.id] = Number(v); else delete next[s.id]; setSp(next) }}>
+            <option value="">Sınırsız (tüm üniteler)</option>
+            {s.units.map((u) => <option key={u.id} value={u.no}>{u.no}. {u.name}</option>)}
+          </select>
+        </div>
+      ))}
+      {err && <p className="text-sm font-semibold text-rose-600">{err}</p>}
+      <button className="btn-primary w-full" onClick={save}>Kaydet</button>
+    </section>
   )
 }

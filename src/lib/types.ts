@@ -15,6 +15,8 @@ export interface FamilySettings {
   exam_date: string // YYYY-MM-DD
   weekday_minutes: number
   weekend_minutes: number
+  /** Okulda her derste en son işlenen ünite numarası; olmayan ders = sınırsız */
+  school_progress: Partial<Record<SubjectId, number>>
 }
 
 export interface DailyLog {
@@ -99,6 +101,24 @@ export interface QuestionReview {
   question_id: string
   status: 'dogru' | 'hatali'
   note: string | null
+}
+
+export interface ScreenTime {
+  id: string
+  date: string
+  minutes: number
+  photo_path: string | null
+  note: string | null
+  created_at: string
+}
+
+export interface TopicVideo {
+  id: string
+  topic_id: string
+  youtube_id: string
+  title: string | null
+  added_by: string
+  created_at: string
 }
 
 export type NewDailyLog = Omit<DailyLog, 'id' | 'created_at'>

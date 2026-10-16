@@ -12,7 +12,7 @@ export const SUBJECT_META: Record<SubjectId, { name: string; short: string; coun
 }
 export const SUBJECT_IDS = ORDER
 
-const modules = import.meta.glob<{ default: Subject }>('../content/*.json', { eager: true })
+const modules = import.meta.glob<{ default: Subject }>(['../content/*.json', '!../content/videos.json'], { eager: true })
 
 export const subjects: Subject[] = ORDER
   .map((id) => Object.values(modules).find((m) => m.default.id === id)?.default)

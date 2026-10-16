@@ -12,6 +12,9 @@ export const XP = {
   planDone: 15,
   examAdded: 50,
   topicRead: 5,
+  manualDone: 5, // elle eklenen ve tamamlanan çalışma (puan avcılığını önlemek için düşük)
+  screenLogged: 5, // ekran süresini dürüstçe girmek
+  focusPerTenMin: 5, // çalışma sayacı
 } as const
 
 /** Seviye n'e ulaşmak için toplam XP: 50·n·(n-1) → 0, 100, 300, 600, 1000, ... */

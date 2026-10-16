@@ -1,7 +1,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
 import { repo } from '../lib/db'
 import type {
-  DailyLog, Exam, FamilySettings, ParentNote, Profile, QuestionReview, QuizAttempt, WrongItem, XpEvent,
+  DailyLog, Exam, FamilySettings, ParentNote, Profile, QuestionReview, QuizAttempt, ScreenTime, TopicVideo, WrongItem, XpEvent,
 } from '../lib/types'
 
 export interface AppData {
@@ -14,6 +14,8 @@ export interface AppData {
   xp: XpEvent[]
   notes: ParentNote[]
   reviews: QuestionReview[]
+  screenTime: ScreenTime[]
+  videos: TopicVideo[]
 }
 
 interface Ctx {
@@ -44,11 +46,14 @@ export function AppProvider({ children }: { children: ReactNode }) {
   }, [loadProfile])
 
   const refresh = useCallback(async () => {
-    const [settings, profiles, logs, attempts, exams, wrong, xp, notes, reviews] = await Promise.all([
+    // 002 migrasyonuyla gelen tablolar henüz yoksa uygulama yine açılsın
+    const optional = <T,>(p: Promise<T[]>) => p.catch(() => [] as T[])
+    const [settings, profiles, logs, attempts, exams, wrong, xp, notes, reviews, screenTime, videos] = await Promise.all([
       repo.getSettings(), repo.familyProfiles(), repo.listLogs(), repo.listAttempts(), repo.listExams(),
       repo.listWrong(), repo.listXp(), repo.listNotes(), repo.listReviews(),
+      optional(repo.listScreenTime()), optional(repo.listVideos()),
     ])
-    setData({ settings, profiles, logs, attempts, exams, wrong, xp, notes, reviews })
+    setData({ settings, profiles, logs, attempts, exams, wrong, xp, notes, reviews, screenTime, videos })
   }, [])
 
   useEffect(() => {

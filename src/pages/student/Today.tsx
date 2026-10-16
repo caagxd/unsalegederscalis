@@ -1,12 +1,13 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useApp, useData } from '../../app/AppProvider'
-import { useAward } from '../../app/useAward'
+import { usePlanAward } from '../../app/useAward'
+import { PlanItemModal } from '../../components/PlanItemModal'
 import { LogModal } from '../../components/LogModal'
 import { Page, ProgressBar } from '../../components/ui'
 import { SUBJECT_META } from '../../lib/content'
 import { repo } from '../../lib/db'
-import { daysBetween, today } from '../../lib/dates'
+import { addDays, daysBetween, today } from '../../lib/dates'
 import { XP, levelInfo } from '../../lib/gamify'
 import { isDue } from '../../lib/srs'
 import { daySummaries, pct, streak } from '../../lib/stats'
@@ -17,7 +18,8 @@ const KIND_ICON = { konu: '📘', soru: '✏️', tekrar: '🔁', deneme: '📝'
 export default function Today() {
   const { profile, refresh } = useApp()
   const d = useData()
-  const award = useAward()
+  const awardPlan = usePlanAward()
+  const [adding, setAdding] = useState(false)
   const [plan, setPlan] = useState<PlanItem[] | null>(null)
   const [logOpen, setLogOpen] = useState(false)
 
@@ -34,7 +36,7 @@ export default function Today() {
 
   async function toggle(item: PlanItem) {
     await repo.updatePlanItem(item.id, { done: !item.done })
-    if (!item.done) await award('plan', XP.planDone, '· görev tamam')
+    if (!item.done) await awardPlan(item.id, XP.planDone)
     await refresh()
   }
 
@@ -85,6 +87,17 @@ export default function Today() {
           </div>
         ))}
 
+        {!d.screenTime.some((x) => x.date === addDays(today(), -1)) && (
+          <Link to="/ekran" className="card flex items-center gap-3 border-indigo-100 bg-indigo-50">
+            <span className="text-3xl">📱</span>
+            <div className="flex-1">
+              <div className="font-extrabold text-indigo-700">Dünkü ekran süreni gir</div>
+              <div className="text-sm text-indigo-600">Telefonundaki Ekran Süresi görüntüsünü ekle.</div>
+            </div>
+            <span className="text-indigo-300">›</span>
+          </Link>
+        )}
+
         {due > 0 && (
           <Link to="/yanlislar" className="card flex items-center gap-3 border-rose-100 bg-rose-50">
             <span className="text-3xl">🔁</span>
@@ -99,7 +112,10 @@ export default function Today() {
         <section className="card">
           <div className="mb-2 flex items-center justify-between">
             <h2 className="font-extrabold">Bugünün planı</h2>
-            <Link to="/program" className="text-sm font-bold text-brand-600">Program ›</Link>
+            <div className="flex gap-3">
+              <button onClick={() => setAdding(true)} className="text-sm font-bold text-brand-600">+ Ekle</button>
+              <Link to="/program" className="text-sm font-bold text-brand-600">Program ›</Link>
+            </div>
           </div>
           {plan === null ? <p className="text-sm text-slate-400">…</p> : plan.length === 0 ? (
             <div className="py-4 text-center">
@@ -148,6 +164,7 @@ export default function Today() {
         </section>
       </Page>
       {logOpen && <LogModal open onClose={() => setLogOpen(false)} />}
+      {adding && <PlanItemModal onClose={() => setAdding(false)} />}
     </div>
   )
 }

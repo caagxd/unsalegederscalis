@@ -45,6 +45,7 @@ export default function More() {
         <nav className="card divide-y divide-slate-100 p-0">
           {[
             ['/program', '🗓️', 'Çalışma programı'],
+            ['/ekran', '📱', 'Ekran süresi raporum'],
             ['/cikmis', '🗂️', 'Çıkmış sorular & MEB kaynakları'],
           ].map(([to, e, l]) => (
             <Link key={to} to={to} className="flex items-center gap-3 px-4 py-3.5 font-bold"><span className="text-xl">{e}</span><span className="flex-1">{l}</span><span className="text-slate-300">›</span></Link>

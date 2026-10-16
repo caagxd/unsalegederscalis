@@ -13,14 +13,19 @@ export default function SubjectDetail() {
   const m = SUBJECT_META[s.id]
   const prog = topicProgress(d.attempts)
   const stats = topicStats(d.logs, d.attempts)
+  const limit = d.settings.school_progress?.[s.id]
 
   return (
     <>
       <PageHeader title={`${m.emoji} ${s.name}`} subtitle={`LGS'de ${m.count} soru`} back />
       <Page>
+        <Link to={`/ders/${s.id}/test`} className="btn-primary w-full py-3">🎲 Karma test · 10 soru</Link>
         {s.units.map((u) => (
-          <section key={u.id} className="card">
-            <h2 className="mb-2 text-xs font-extrabold uppercase tracking-wide text-slate-400">{u.no}. Ünite · {u.name}</h2>
+          <section key={u.id} className={`card ${limit && u.no > limit ? 'opacity-60' : ''}`}>
+            <h2 className="mb-2 flex items-center justify-between text-xs font-extrabold uppercase tracking-wide text-slate-400">
+              <span>{u.no}. Ünite · {u.name}</span>
+              {limit && u.no > limit && <span className="chip bg-slate-100 normal-case tracking-normal text-slate-500">okulda henüz işlenmedi</span>}
+            </h2>
             <ul className="divide-y divide-slate-100">
               {u.topics.map((t) => {
                 const p = prog.get(t.id) ?? 0

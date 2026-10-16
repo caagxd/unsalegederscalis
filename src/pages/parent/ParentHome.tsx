@@ -6,7 +6,7 @@ import { CreateStudent } from '../../components/CreateStudent'
 import { Page, PageHeader, ProgressBar, Stat } from '../../components/ui'
 import { SUBJECT_IDS, SUBJECT_META, getTopic } from '../../lib/content'
 import { repo } from '../../lib/db'
-import { addDays, daysBetween, localDate, shortDate, today, weekStart } from '../../lib/dates'
+import { addDays, daysBetween, fmtMinutes, localDate, shortDate, today, weekStart } from '../../lib/dates'
 import { levelInfo } from '../../lib/gamify'
 import { daySummaries, examTotals, pct, streak, subjectStats, topicStats, weakestTopics, wrongStats } from '../../lib/stats'
 import type { PlanItem } from '../../lib/types'
@@ -39,6 +39,11 @@ export default function ParentHome() {
   const prevExam = d.exams[d.exams.length - 2]
   const lastActivity = [...d.xp].sort((a, b) => b.created_at.localeCompare(a.created_at))[0]
   const totalXp = d.xp.reduce((n, e) => n + e.amount, 0)
+
+  const st7 = d.screenTime.filter((s) => s.date > addDays(today(), -7))
+  const screenSummary = st7.length
+    ? `Son 7 günde ${st7.length} gün girildi · ortalama ${fmtMinutes(Math.round(st7.reduce((n, s) => n + s.minutes, 0) / st7.length))}`
+    : 'Son 7 günde kayıt yok'
 
   async function sendNote() {
     if (!note.trim()) return
@@ -132,6 +137,15 @@ export default function ParentHome() {
             ) : <div className="text-sm text-slate-400">henüz yok</div>}
           </Link>
         </div>
+
+        <Link to="/veli/ekran" className="card flex items-center gap-3">
+          <span className="text-2xl">📱</span>
+          <span className="flex-1">
+            <span className="block font-bold">Ekran süresi</span>
+            <span className="block text-xs text-slate-500">{screenSummary}</span>
+          </span>
+          <span className="text-slate-300">›</span>
+        </Link>
 
         <Link to="/program" className="card flex items-center gap-3"><span className="text-2xl">🗓️</span><span className="flex-1 font-bold">Haftalık programı gör</span><span className="text-slate-300">›</span></Link>
 

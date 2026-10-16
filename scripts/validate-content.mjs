@@ -4,7 +4,8 @@ import { readFileSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 
 const dir = new URL('../src/content/', import.meta.url).pathname
-const files = readdirSync(dir).filter((f) => f.endsWith('.json'))
+// videos.json ders değil, konu → video eşlemesidir
+const files = readdirSync(dir).filter((f) => f.endsWith('.json') && f !== 'videos.json')
 const errors = []
 const ids = new Set()
 let totals = { units: 0, topics: 0, questions: 0 }
@@ -40,5 +41,20 @@ for (const f of files) {
   console.log(`${s.id.padEnd(10)} ${String(s.units.length).padStart(2)} ünite ${String(t).padStart(3)} konu ${String(q).padStart(4)} soru  cevap dağılımı A/B/C/D: ${answers.join('/')}`)
 }
 console.log(`TOPLAM     ${totals.units} ünite, ${totals.topics} konu, ${totals.questions} soru`)
+
+// ── Tekrar eden / çok benzer sorular ──
+// Soru kökü + şıklar normalize edilip kelime üçlülerine bölünür; aynı derste Jaccard ≥ 0.8 olanlar hata sayılır.
+const norm = (s) => s.toLocaleLowerCase('tr').replace(/[^\p{L}\p{N}\s]/gu, ' ').split(/\s+/).filter(Boolean)
+const shingles = (w) => { const out = new Set(); for (let i = 0; i + 2 < w.length; i++) out.add(w.slice(i, i + 3).join(' ')); if (!out.size) out.add(w.join(' ')); return out }
+const jaccard = (a, b) => { let n = 0; for (const x of a) if (b.has(x)) n++; return n / (a.size + b.size - n) }
+let similar = 0
+for (const f of files) {
+  let s; try { s = JSON.parse(readFileSync(join(dir, f), 'utf8')) } catch { continue }
+  const qs = s.units.flatMap((u) => u.topics.flatMap((t) => t.questions.map((q) => ({ id: q.id, sh: shingles(norm(q.stem + ' ' + q.choices.join(' '))) }))))
+  for (let i = 0; i < qs.length; i++)
+    for (let j = i + 1; j < qs.length; j++)
+      if (jaccard(qs[i].sh, qs[j].sh) >= 0.8) { similar++; errors.push(`çok benzer sorular: ${qs[i].id} ~ ${qs[j].id}`) }
+}
+if (!similar) console.log('✓ Tekrar eden soru yok')
 if (errors.length) { console.error(`\n${errors.length} sorun:\n` + errors.map((e) => ' - ' + e).join('\n')); process.exit(1) }
 console.log('✓ Şema denetimi temiz')

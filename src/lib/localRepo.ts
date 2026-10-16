@@ -1,6 +1,6 @@
 import { addDays, today } from './dates'
 import type { Repo } from './repo'
-import type { FamilySettings, Profile, Role } from './types'
+import type { FamilySettings, Profile, Role, ScreenTime } from './types'
 
 // Demo modu: Supabase ayarlanmamışken her şey bu cihazda saklanır.
 // Tablolar localStorage'da, fotoğraflar IndexedDB'de tutulur.
@@ -75,7 +75,7 @@ export class LocalRepo implements Repo {
 
   async getSettings(): Promise<FamilySettings> {
     const s = JSON.parse(localStorage.getItem(PREFIX + 'settings') ?? 'null')
-    return { id: FAMILY, join_code: 'DEMO1234', exam_date: '2027-06-13', weekday_minutes: 90, weekend_minutes: 180, ...s }
+    return { id: FAMILY, join_code: 'DEMO1234', exam_date: '2027-06-13', weekday_minutes: 90, weekend_minutes: 180, school_progress: {}, ...s }
   }
   async updateSettings(patch: Partial<FamilySettings>) {
     localStorage.setItem(PREFIX + 'settings', JSON.stringify({ ...(await this.getSettings()), ...patch }))
@@ -138,6 +138,32 @@ export class LocalRepo implements Repo {
   async addNote(text: string) { insert('parent_notes', { text, author_id: 'demo-parent', seen: false }) }
   async markNoteSeen(id: string) { update('parent_notes', id, { seen: true }) }
   async deleteNote(id: string) { remove('parent_notes', [id]) }
+
+  async listScreenTime() {
+    return read<ScreenTime>('screen_time').sort((a, b) => b.date.localeCompare(a.date))
+  }
+  async saveScreenTime(entry: { date: string; minutes: number; note: string | null }, photo?: Blob) {
+    const existing = read<ScreenTime>('screen_time').find((s) => s.date === entry.date)
+    let photo_path = existing?.photo_path ?? null
+    if (photo) {
+      photo_path = `${FAMILY}/ekran/${crypto.randomUUID()}.jpg`
+      await idbOp('readwrite', (s) => s.put(photo, photo_path!))
+      if (existing?.photo_path) await idbOp('readwrite', (s) => s.delete(existing.photo_path!))
+    }
+    if (existing) update('screen_time', existing.id, { ...entry, photo_path })
+    else insert('screen_time', { ...entry, photo_path })
+  }
+  async deleteScreenTime(item: ScreenTime) {
+    if (item.photo_path) await idbOp('readwrite', (s) => s.delete(item.photo_path!))
+    remove('screen_time', [item.id])
+  }
+
+  async listVideos() { return read<never>('topic_videos') }
+  async addVideo(topic_id: string, youtube_id: string, title: string | null) {
+    if (read<{ topic_id: string; youtube_id: string }>('topic_videos').some((v) => v.topic_id === topic_id && v.youtube_id === youtube_id)) return
+    insert('topic_videos', { topic_id, youtube_id, title, added_by: this.role === 'parent' ? 'demo-parent' : 'demo-student' })
+  }
+  async deleteVideo(id: string) { remove('topic_videos', [id]) }
 
   async listReviews() { return read<never>('question_reviews') }
   async setReview(question_id: string, status: string, note?: string) {

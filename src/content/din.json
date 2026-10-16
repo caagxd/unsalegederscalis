@@ -113,6 +113,146 @@
               "explanation": "Ayet, toplumların durumunun değişmesini önce kendi tutum ve çabalarını değiştirmelerine bağlar. Bu, toplumsal yasalarda insan çabasının önemini gösterir.",
               "difficulty": 3,
               "verified": false
+            },
+            {
+              "id": "din-1-1-q7",
+              "stem": "Allah'ın evrende koyduğu ve değişmeden işleyen yasalara ne ad verilir?",
+              "choices": [
+                "Ecel",
+                "Tevekkül",
+                "Rızık",
+                "Sünnetullah"
+              ],
+              "answer": 3,
+              "explanation": "Allah'ın evrene koyduğu değişmez yasalara sünnetullah (Allah'ın yasaları) denir. Tevekkül tedbirden sonra Allah'a güvenmek, rızık Allah'ın verdiği nimetler, ecel ise hayatın sona ereceği zamandır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-1-1-q8",
+              "stem": "Aşağıdakilerden hangisi fiziksel yasalara bir örnektir?",
+              "choices": [
+                "Serbest bırakılan bir cismin yerçekimi nedeniyle yere düşmesi",
+                "Canlıların beslenerek büyümesi",
+                "Bir tohumun uygun koşullarda filizlenmesi",
+                "Dayanışmanın güçlü olduğu toplumların gelişmesi"
+              ],
+              "answer": 0,
+              "explanation": "Yerçekimi, maddeyle ve hareketle ilgili bir fiziksel yasadır. Tohumun filizlenmesi ve canlıların büyümesi biyolojik yasalara, dayanışmanın toplumu güçlendirmesi ise toplumsal yasalara örnektir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-1-1-q9",
+              "stem": "Kader ile kaza arasındaki ilişkiyi en doğru açıklayan ifade aşağıdakilerden hangisidir?",
+              "choices": [
+                "Kader ve kaza aynı anlama gelen iki kelimedir.",
+                "Kaza önceden belirlenir, kader ise sonradan ortaya çıkar.",
+                "Kader, Allah'ın her şeyi önceden bilip belirlemesi; kaza ise bunların zamanı gelince gerçekleşmesidir.",
+                "Kader yalnızca insanlar için, kaza ise yalnızca diğer canlılar için geçerlidir."
+              ],
+              "answer": 2,
+              "explanation": "Kader, Allah'ın olmuş ve olacak her şeyi önceden bilmesi ve belirlemesidir. Kaza ise kaderde belirlenenlerin zamanı gelince gerçekleşmesidir. Bu iki kavram birbiriyle ilişkilidir ama aynı anlama gelmez.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-1-1-q10",
+              "stem": "“Güneş de kendi yörüngesinde akıp gitmektedir. Bu, mutlak güç sahibi, hakkıyla bilen Allah'ın takdiri (düzenlemesi)dir.” (Yâsîn suresi, 38. ayet)\n“Ne güneş aya yetişebilir, ne de gece gündüzü geçebilir. Her biri bir yörüngede yüzmektedir.” (Yâsîn suresi, 40. ayet)\nBu ayetlerde evrendeki yasalardan hangisine dikkat çekilmektedir?",
+              "choices": [
+                "Fiziksel yasalara",
+                "Toplumsal yasalara",
+                "Ahlaki kurallara",
+                "Biyolojik yasalara"
+              ],
+              "answer": 0,
+              "explanation": "Ayetlerde Güneş'in ve Ay'ın belirli yörüngelerde hareket etmesi, gece ile gündüzün düzenli birbirini izlemesi anlatılır. Bunlar gök cisimlerinin hareketiyle ilgili fiziksel yasalardır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-1-1-q11",
+              "stem": "Bilim insanları aynı deneyi aynı koşullarda tekrarladıklarında her seferinde aynı sonucu elde eder.\nBu durum aşağıdakilerden hangisinin göstergesidir?",
+              "choices": [
+                "İnsanın doğa yasalarını dilediği gibi değiştirebildiğinin",
+                "Evrendeki yasaların değişmez ve düzenli olduğunun",
+                "Doğadaki olayların tesadüfen gerçekleştiğinin",
+                "Doğa yasalarının kişiden kişiye değiştiğinin"
+              ],
+              "answer": 1,
+              "explanation": "Aynı koşullarda hep aynı sonucun alınması, olayların belirli ve değişmeyen yasalara göre gerçekleştiğini gösterir. Bilim de bu düzenli yasaları keşfetmeye dayanır. Tesadüf ya da kişiye göre değişen yasalar olsaydı deney sonuçları tutarlı olmazdı.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-1-1-q12",
+              "stem": "Aşağıdaki davranışlardan hangisi evrendeki yasaları dikkate alarak hareket etmeye örnek değildir?",
+              "choices": [
+                "Deprem bölgesinde binaları depreme dayanıklı yapmak",
+                "Hastalıktan korunmak için aşı olmak",
+                "Tohumu ekmek için uygun mevsimi beklemek",
+                "Fırtına uyarısı yapıldığı hâlde balık tutmak için denize açılmak"
+              ],
+              "answer": 3,
+              "explanation": "Fırtınada denize açılmak, rüzgârın ve dalgaların etkisini, yani doğa yasalarını görmezden gelmektir. Depreme dayanıklı bina yapmak, ekim için uygun mevsimi beklemek ve aşı olmak ise fiziksel ve biyolojik yasaları dikkate alan davranışlardır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-1-1-q13",
+              "stem": "“O, yedi göğü tabaka tabaka yaratandır. Rahman'ın yaratışında hiçbir uyumsuzluk göremezsin. Bir kere daha bak! Hiçbir çatlak (ve düzensizlik) görüyor musun?” (Mülk suresi, 3. ayet)\nBu ayetten aşağıdakilerden hangisi çıkarılabilir?",
+              "choices": [
+                "Göklerin düzeni insanın iradesine bağlıdır.",
+                "Evrendeki yasalar zamanla bozulur.",
+                "Evrende kusursuz bir düzen ve uyum vardır.",
+                "Evrendeki düzen kendiliğinden oluşmuştur."
+              ],
+              "answer": 2,
+              "explanation": "Ayette Allah'ın yaratışında hiçbir uyumsuzluk ve çatlak bulunmadığı vurgulanır. Buradan evrende kusursuz bir düzen ve uyum olduğu sonucu çıkar. Ayet, düzeni Allah'ın yaratmasına bağlar; düzenin kendiliğinden oluştuğu, insana bağlı olduğu ya da bozulduğu söylenmez.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-1-1-q14",
+              "stem": "Dünya'nın Güneş'e olan uzaklığı, atmosferdeki gazların oranı ve suyun özellikleri canlıların yaşamına uygun bir ölçüdedir. Bilim insanları bu ölçülerdeki büyük bir değişikliğin canlı yaşamını imkânsız hâle getirebileceğini belirtir. Kur'an'da da “...Her şey O'nun katında bir ölçü iledir.” (Ra'd suresi, 8. ayet) buyrulur.\nBu metinden aşağıdakilerden hangisi çıkarılamaz?",
+              "choices": [
+                "Evrendeki düzen belli bir ölçüye göre kurulmuştur.",
+                "Evrendeki ölçüler zamanla rastgele değişmektedir.",
+                "Evrendeki ölçüler canlı yaşamına uygun biçimde belirlenmiştir.",
+                "Evrende hassas bir denge vardır."
+              ],
+              "answer": 1,
+              "explanation": "Metinde evrendeki ölçülerin canlı yaşamına uygun olduğu, hassas bir denge bulunduğu ve her şeyin bir ölçüyle yaratıldığı anlatılır. Ölçülerin rastgele değiştiğine dair bir bilgi yoktur; aksine metin ölçülerin belirli ve dengeli olduğunu vurgular.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-1-1-q15",
+              "stem": "Hz. Ömer, Şam'a giderken orada veba salgını olduğunu öğrenince yolculuğa devam etmeyip geri dönmeye karar verdi. Kendisine “Allah'ın kaderinden mi kaçıyorsun?” diye sorulunca “Evet, Allah'ın kaderinden yine Allah'ın kaderine kaçıyoruz.” cevabını verdi. (Buhârî, Müslim)\nHz. Ömer'in bu tutumundan aşağıdakilerden hangisi çıkarılabilir?",
+              "choices": [
+                "İnsanın hiçbir konuda seçme hakkı yoktur.",
+                "Hastalıktan korunmaya çalışmak kadere karşı gelmektir.",
+                "Tehlikeden korunmak için tedbir almak da kader inancının bir parçasıdır.",
+                "Salgın hastalıklar evrendeki yasalarla açıklanamaz."
+              ],
+              "answer": 2,
+              "explanation": "Hz. Ömer, salgının olduğu yere girmemeyi seçerek tedbir almış ve bunu da kaderin içinde görmüştür. Buna göre tedbir almak kadere aykırı değildir; insan iradesini kullanarak kendini korumakla sorumludur.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-1-1-q16",
+              "stem": "I. Mevsimlerin oluşması\nII. Yumurtadan civciv çıkması\nIII. Bilgiye önem veren toplumların ilerlemesi\nIV. Bitkilerin fotosentez yaparak besin üretmesi\nYukarıdaki örneklerden hangileri biyolojik yasalarla ilgilidir?",
+              "choices": [
+                "II ve IV",
+                "I ve III",
+                "I ve II",
+                "III ve IV"
+              ],
+              "answer": 0,
+              "explanation": "Civcivin yumurtadan çıkması ve bitkilerin fotosentez yapması canlıların yaşamıyla ilgili olduğu için biyolojik yasalara örnektir. Mevsimlerin oluşması Dünya'nın hareketleriyle ilgili fiziksel bir yasadır. Bilgiye önem veren toplumların ilerlemesi ise toplumsal bir yasadır.",
+              "difficulty": 3,
+              "verified": false
             }
           ]
         },
@@ -220,6 +360,146 @@
               ],
               "answer": 0,
               "explanation": "İslam'a göre insan iradesini kullanarak çalışmalı, sonra sonucu Allah'a bırakmalıdır. Zeynep bunu yapmıştır. Can ise çaba göstermeden kaderi bahane etmiştir; bu tevekkül değildir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-1-2-q7",
+              "stem": "İnsanın iyi ile kötü arasında seçim yapabilme gücüne ne ad verilir?",
+              "choices": [
+                "Ecel",
+                "Kaza",
+                "Cüzi irade",
+                "Rızık"
+              ],
+              "answer": 2,
+              "explanation": "Allah insanı akıl ve irade sahibi yaratmıştır. İnsanın seçme gücüne cüzi irade denir ve insan bu iradesiyle yaptığı davranışlardan sorumludur.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-1-2-q8",
+              "stem": "Her canlının hayatının sona ereceği, Allah tarafından belirlenmiş zamana ne ad verilir?",
+              "choices": [
+                "Tevekkül",
+                "Rızık",
+                "Ecel",
+                "İrade"
+              ],
+              "answer": 2,
+              "explanation": "Ecel, her canlının ömrünün sona ereceği zamandır. Ecel geldiğinde ne öne alınabilir ne de geciktirilebilir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-1-2-q9",
+              "stem": "Ayete'l-Kürsî, Bakara suresinin kaçıncı ayetidir?",
+              "choices": [
+                "185",
+                "255",
+                "256",
+                "286"
+              ],
+              "answer": 1,
+              "explanation": "Ayete'l-Kürsî, Bakara suresinin 255. ayetidir. Bu ayette Allah'ın sıfatları anlatılır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-1-2-q10",
+              "stem": "Aşağıdakilerden hangisi Ayete'l-Kürsî'de anlatılan konulardan biri değildir?",
+              "choices": [
+                "Allah'ı uyuklamanın ve uykunun tutmadığı",
+                "Gökleri ve yeri korumanın Allah'a ağır gelmediği",
+                "Göklerde ve yerde ne varsa Allah'a ait olduğu",
+                "Zekâtın verileceği yerler"
+              ],
+              "answer": 3,
+              "explanation": "Ayete'l-Kürsî'de Allah'ın diri ve her şeyi ayakta tutan olduğu, O'nu uyuklama ve uykunun tutmadığı, göklerde ve yerde olanların O'na ait olduğu ve gökleri ve yeri korumanın O'na ağır gelmediği anlatılır. Zekâtın verileceği yerler ise Tevbe suresinin 60. ayetinde bildirilir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-1-2-q11",
+              "stem": "Aşağıdakilerden hangisi tevekküle uygun bir davranıştır?",
+              "choices": [
+                "Kapısını kilitlemeden “Allah korur.” diyerek evden çıkan bir kişi",
+                "Tarlasını ekmeden bol ürün bekleyen bir çiftçi",
+                "Hastalandığı hâlde doktora gitmeyip kendiliğinden iyileşmeyi bekleyen bir kişi",
+                "Yola çıkmadan önce aracının bakımını yaptırıp emniyet kemerini takan, sonra Allah'a güvenerek yola çıkan bir sürücü"
+              ],
+              "answer": 3,
+              "explanation": "Tevekkül, gerekli bütün tedbirleri aldıktan sonra sonucu Allah'a bırakmaktır. Aracının bakımını yaptırıp emniyet kemerini takan sürücü önce tedbir almış, sonra Allah'a güvenmiştir. Diğer kişiler tedbir almadan sonuç beklediği için tevekküle uygun davranmamıştır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-1-2-q12",
+              "stem": "Rızık kavramıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+              "choices": [
+                "Rızık kazanmak için çalışmak gerekir.",
+                "Bilgi ve sağlık da birer rızıktır.",
+                "İnsan rızkını helal yoldan kazanmalıdır.",
+                "Rızık yalnızca yiyecek ve içeceklerden ibarettir."
+              ],
+              "answer": 3,
+              "explanation": "Rızık, Allah'ın canlıların yararlanması için verdiği her türlü nimettir. Yiyecek ve içeceğin yanında giyecek, bilgi, sağlık ve sevgi de rızıktır. Bu nedenle rızkı yalnızca yiyecek ve içecekle sınırlamak yanlıştır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-1-2-q13",
+              "stem": "“De ki: ‘Hak, Rabbinizdendir. Artık dileyen iman etsin, dileyen inkâr etsin.’...” (Kehf suresi, 29. ayet)\nBu ayetten aşağıdakilerden hangisi çıkarılabilir?",
+              "choices": [
+                "İnanç konusunda insanlar zorlanmalıdır.",
+                "İnsan, inanç konusunda seçme özgürlüğüne sahiptir.",
+                "İnsanın davranışlarında hiçbir seçme hakkı yoktur.",
+                "İnsan yaptığı seçimlerden sorumlu tutulmaz."
+              ],
+              "answer": 1,
+              "explanation": "Ayette “dileyen iman etsin, dileyen inkâr etsin” denilerek seçimin insana bırakıldığı belirtilir. Bu, insanın irade sahibi olduğunu ve inanç konusunda seçme özgürlüğüne sahip olduğunu gösterir. İrade sahibi olan insan, yaptığı seçimlerden de sorumludur.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-1-2-q14",
+              "stem": "Hz. Peygamber şöyle buyurmuştur: “Allah, hiçbir hastalık indirmemiştir ki onun şifasını da indirmiş olmasın.” (Buhârî)\nBu hadis aşağıdaki tutumlardan hangisini desteklemez?",
+              "choices": [
+                "Hastalanınca doktora başvurmak",
+                "Hastalığı kader olarak görüp tedavi olmaktan kaçınmak",
+                "Hastalıkların tedavisi için bilimsel araştırma yapmak",
+                "Tedavi sürecinde doktorun önerilerine uymak"
+              ],
+              "answer": 1,
+              "explanation": "Hadis, her hastalığın bir şifası olduğunu bildirerek insanları tedavi aramaya yöneltir. Doktora gitmek, araştırma yapmak ve tedaviye uymak bu anlayışla uyumludur. Hastalığı bahane edip tedaviden kaçınmak ise hadisin mesajına aykırıdır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-1-2-q15",
+              "stem": "I. “O, yeryüzünü sizin ayaklarınızın altına serendir. Haydi onun üzerinde yürüyün ve Allah'ın rızkından yiyin. Dönüş ancak O'nadır.” (Mülk suresi, 15. ayet)\nII. “Hiç kimse elinin emeğinden daha hayırlı bir lokma yememiştir.” (Buhârî)\nBu ayet ve hadisin ortak mesajı aşağıdakilerden hangisidir?",
+              "choices": [
+                "Rızık, çalışarak ve emek vererek kazanılmalıdır.",
+                "Çalışmak rızka ulaşmada etkili değildir.",
+                "Rızık yalnızca miras yoluyla elde edilir.",
+                "Rızık yalnızca yiyecekten ibarettir."
+              ],
+              "answer": 0,
+              "explanation": "Ayette yeryüzünde yürüyüp Allah'ın rızkından yararlanmaya çağrılır; hadiste ise en hayırlı lokmanın kişinin kendi emeğiyle kazandığı lokma olduğu belirtilir. İkisi de rızkın çalışarak kazanılması gerektiğini vurgular.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-1-2-q16",
+              "stem": "“Allah, bir kimseyi ancak gücünün yettiği şeyle yükümlü kılar. Onun kazandığı iyilik kendi yararına, kötülük de kendi zararınadır...” (Bakara suresi, 286. ayet)\nBu ayette aşağıdakilerden hangisine değinilmemiştir?",
+              "choices": [
+                "Ecelin öne alınamayacağına ve geciktirilemeyeceğine",
+                "İnsanın gücü oranında sorumlu tutulduğuna",
+                "İnsanın yaptığı kötülüğün kendi zararına olduğuna",
+                "İnsanın yaptığı iyiliğin kendi yararına olduğuna"
+              ],
+              "answer": 0,
+              "explanation": "Ayette insanın gücü oranında sorumlu olduğu, yaptığı iyiliğin kendi yararına, kötülüğün de kendi zararına olduğu bildirilir. Ecelin öne alınamayacağı ve geciktirilemeyeceği ise bu ayette yer almaz; bu konu A'râf suresinin 34. ayetinde geçer.",
               "difficulty": 3,
               "verified": false
             }
@@ -337,6 +617,146 @@
               "explanation": "Ayet sevilen şeylerden başkalarıyla paylaşmayı, hadis ise komşunun ihtiyacıyla ilgilenmeyi öğütler. Her ikisi de paylaşma ve yardımlaşmanın önemini vurgular.",
               "difficulty": 3,
               "verified": false
+            },
+            {
+              "id": "din-2-1-q7",
+              "stem": "Zekât kelimesinin sözlük anlamı aşağıdakilerden hangisidir?",
+              "choices": [
+                "Artma, temizlenme, bereket",
+                "Dua etme, yalvarma",
+                "Sabretme, dayanma",
+                "Yolculuk etme, göç etme"
+              ],
+              "answer": 0,
+              "explanation": "Zekât sözlükte artma, temizlenme ve bereket anlamlarına gelir. Zekât veren kişi malını ve gönlünü arındırır, malı bereketlenir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-2-1-q8",
+              "stem": "Zekât ibadeti ne zaman farz kılınmıştır?",
+              "choices": [
+                "Hz. Ebubekir'in halifeliği döneminde",
+                "Hicretin onuncu yılında Mekke'de",
+                "Hicretin ikinci yılında Medine'de",
+                "İlk vahiyle birlikte Mekke'de"
+              ],
+              "answer": 2,
+              "explanation": "Zekât, hicretin ikinci yılında Medine'de farz kılınmıştır. Zekât İslam'ın beş şartından biridir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-2-1-q9",
+              "stem": "Bir Müslümanın zekâtla yükümlü olması için temel ihtiyaçları ve borçları dışında sahip olması gereken en az mal miktarına ne ad verilir?",
+              "choices": [
+                "Nisap",
+                "Sadaka",
+                "Öşür",
+                "Fitre"
+              ],
+              "answer": 0,
+              "explanation": "Zekâtla yükümlü olmak için gereken en az mal miktarına nisap denir. Nisap yaklaşık 80,18 gram altın ya da bu değerde mal veya paradır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-2-1-q10",
+              "stem": "Aşağıdakilerden hangisi zekâtın topluma sağladığı yararlardan biri değildir?",
+              "choices": [
+                "Zengin ile yoksul arasında sevgi bağı kurulması",
+                "Toplumda yardımlaşma ve dayanışmanın güçlenmesi",
+                "Zenginler ile yoksullar arasındaki farkın artması",
+                "Yoksulların zenginlere karşı kıskançlık duymasının azalması"
+              ],
+              "answer": 2,
+              "explanation": "Zekât, zenginin malından yoksula pay ayrılmasını sağladığı için gelir farkını azaltır, artırmaz. Ayrıca toplumda dayanışmayı güçlendirir, kıskançlığı önler ve zengin ile yoksul arasında sevgi bağı kurar.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-2-1-q11",
+              "stem": "Temel ihtiyaçları ve borçları dışında 400.000 TL birikimi olan Selim Bey'in bu birikimi nisap miktarının üzerindedir ve birikiminin üzerinden bir yıl geçmiştir.\nSelim Bey'in bu birikimi için vermesi gereken zekât kaç TL'dir?",
+              "choices": [
+                "4.000 TL",
+                "20.000 TL",
+                "40.000 TL",
+                "10.000 TL"
+              ],
+              "answer": 3,
+              "explanation": "Paranın zekâtı kırkta bir (%2,5) oranında verilir. 400.000 ÷ 40 = 10.000 TL olur. Bu nedenle Selim Bey'in vermesi gereken zekât 10.000 TL'dir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-2-1-q12",
+              "stem": "Zekâtın verileceği yerler arasında sayılan “yolda kalmış yolcu” ifadesiyle kimler kastedilmektedir?",
+              "choices": [
+                "Memleketinde malı olsa bile yolculuk sırasında parasız kalan kişiler",
+                "Başka şehirde yaşayan bütün akrabalar",
+                "Sürekli yolculuk yapan zengin tüccarlar",
+                "Tatile çıkan herkes"
+              ],
+              "answer": 0,
+              "explanation": "Yolda kalmış yolcu, kendi memleketinde malı olsa bile yolculuk sırasında parasız kalan ve ihtiyaç içine düşen kişidir. Böyle birine, memleketine dönebilmesi ve ihtiyacını karşılayabilmesi için zekât verilebilir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-2-1-q13",
+              "stem": "“Onların mallarından, onları kendisiyle arındıracağın ve temizleyeceğin bir sadaka (zekât) al ve onlara dua et...” (Tevbe suresi, 103. ayet)\nBu ayette zekâtın hangi yönü vurgulanmaktadır?",
+              "choices": [
+                "Zekâtın yalnızca akrabalara verilmesi",
+                "Zekâtın, veren kişiyi manevi olarak arındırması",
+                "Zekâtın oranının kırkta bir olması",
+                "Zekâtın malın üzerinden bir yıl geçmeden verilmesi"
+              ],
+              "answer": 1,
+              "explanation": "Ayette zekâtın, verenleri “arındıracak ve temizleyecek” bir ibadet olduğu belirtilir. Bu, zekâtın kişiyi cimrilik gibi kötü duygulardan arındıran manevi yönüne dikkat çeker. Zekâtın oranı, kime verileceği ya da zamanıyla ilgili bir bilgi ayette yer almaz.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-2-1-q14",
+              "stem": "“Mallarında (yardım) isteyen ve (iffetinden dolayı isteyemeyip) mahrum olanlar için bir hak vardır.” (Zâriyât suresi, 19. ayet)\nBu ayetten hareketle aşağıdakilerden hangisi söylenemez?",
+              "choices": [
+                "İhtiyacını dile getiremeyenler de gözetilmelidir.",
+                "Paylaşmak, ihtiyaç sahibinin hakkını ona vermektir.",
+                "Varlıklı kişilerin mallarında ihtiyaç sahiplerinin hakkı vardır.",
+                "Yardım yalnızca dilenen kişilere yapılmalıdır."
+              ],
+              "answer": 3,
+              "explanation": "Ayette hem yardım isteyenlerin hem de utandığı için isteyemeyenlerin mallarda hakkı olduğu bildirilir. Bu nedenle yardımın yalnızca isteyenlere yapılması gerektiği söylenemez; ihtiyacını dile getiremeyenler de araştırılıp gözetilmelidir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-2-1-q15",
+              "stem": "“Namazı kılın, zekâtı verin. Rükû edenlerle birlikte siz de rükû edin.” (Bakara suresi, 43. ayet)\nBu ayetten zekâtla ilgili aşağıdakilerden hangisi çıkarılabilir?",
+              "choices": [
+                "Zekât, isteğe bağlı bir iyiliktir.",
+                "Zekât, Allah'ın emrettiği bir ibadettir.",
+                "Zekât yalnızca Ramazan ayında verilir.",
+                "Zekât yalnızca para olarak verilir."
+              ],
+              "answer": 1,
+              "explanation": "Ayette zekât vermek, namaz kılmakla birlikte açık bir emir olarak yer alır. Bu, zekâtın Allah'ın emrettiği farz bir ibadet olduğunu gösterir. Zekâtın zamanı ya da hangi mallardan verileceği bu ayette belirtilmez.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-2-1-q16",
+              "stem": "Zekât vermekle yükümlü olan Ayşe Hanım, zekâtını vermek için şu kişileri düşünmektedir:\nI. İhtiyaç sahibi teyzesi\nII. Kendi oğlu\nIII. Borcunu ödeyemeyen komşusu\nIV. Kendi annesi\nAyşe Hanım bu kişilerden hangilerine zekât verebilir?",
+              "choices": [
+                "II ve IV",
+                "III ve IV",
+                "I ve II",
+                "I ve III"
+              ],
+              "answer": 3,
+              "explanation": "Kişi bakmakla sorumlu olduğu anne-babasına, büyükanne-büyükbabasına, çocuklarına, torunlarına ve eşine zekât veremez. Bu yüzden oğluna ve annesine zekât veremez. İhtiyaç sahibi teyzeye ve borçlu komşuya ise zekât verilebilir.",
+              "difficulty": 3,
+              "verified": false
             }
           ]
         },
@@ -443,6 +863,146 @@
               ],
               "answer": 3,
               "explanation": "Çeşme yıllarca kullanılır ve insanlar yararlandıkça sevabı devam eder; bu nedenle sadaka-i câriyedir. Diğerleri de iyiliktir ancak etkisi kalıcı değildir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-2-2-q7",
+              "stem": "Mâûn suresi Kur'an-ı Kerim'in kaçıncı suresidir?",
+              "choices": [
+                "109",
+                "107",
+                "103",
+                "114"
+              ],
+              "answer": 1,
+              "explanation": "Mâûn suresi Kur'an-ı Kerim'in 107. suresidir ve yedi ayettir. Asr suresi 103., Kâfirûn suresi 109., Nâs suresi ise 114. suredir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-2-2-q8",
+              "stem": "Sadakayı zekâttan ayıran özelliklerden biri aşağıdakilerden hangisidir?",
+              "choices": [
+                "Sadakanın belirli bir miktarının ve nisap şartının olmaması",
+                "Sadakanın yalnızca zenginler tarafından verilebilmesi",
+                "Sadakanın yalnızca Ramazan ayında verilmesi",
+                "Sadaka için malın üzerinden bir yıl geçmesinin gerekmesi"
+              ],
+              "answer": 0,
+              "explanation": "Zekâtın belirli bir oranı, nisap şartı ve bir yıl geçme şartı vardır. Sadakanın ise belirli bir miktarı, zamanı ve nisap şartı yoktur; herkes gücü oranında sadaka verebilir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-2-2-q9",
+              "stem": "Fitrenin miktarı neye göre belirlenir?",
+              "choices": [
+                "Kişinin sahip olduğu altın miktarına göre",
+                "Kişinin yıllık gelirinin kırkta birine göre",
+                "Bir kişinin bir günlük yiyecek ihtiyacına göre",
+                "Tarladan elde edilen ürünün onda birine göre"
+              ],
+              "answer": 2,
+              "explanation": "Fitrenin miktarı, bir kişinin bir günlük yiyecek ihtiyacı esas alınarak belirlenir. Kırkta bir oranı zekâtla ilgilidir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-2-2-q10",
+              "stem": "Fitre verilmesinin amaçlarından biri aşağıdakilerden hangisidir?",
+              "choices": [
+                "Ramazan orucunun yerine geçmek",
+                "İhtiyaç sahiplerinin de bayram sevincine ortak olmasını sağlamak",
+                "Kurban ibadetini yerine getirmek",
+                "Malın zekâtını ödemek"
+              ],
+              "answer": 1,
+              "explanation": "Fitre, Ramazan ayında verilir ve bayram namazından önce ödenmesi uygundur. Böylece ihtiyaç sahipleri de bayram ihtiyaçlarını karşılayarak bayram sevincine ortak olur. Fitre, zekâtın ya da kurbanın yerine geçmez.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-2-2-q11",
+              "stem": "Mâûn suresinin ana fikri aşağıdakilerden hangisidir?",
+              "choices": [
+                "Öldükten sonra dirilişin delilleri anlatılır.",
+                "Kur'an'ın parça parça indirilişi anlatılır.",
+                "İbadet ile yardımlaşma birbirinden ayrılmaz; gösterişe dayalı ibadet ve yardımı esirgemek kınanır.",
+                "İnanç konusunda taviz verilmeyeceği vurgulanır."
+              ],
+              "answer": 2,
+              "explanation": "Mâûn suresinde yetimi itip kakan, yoksulu doyurmaya teşvik etmeyen, namazını ciddiye almayan, gösteriş yapan ve en küçük yardımı bile esirgeyenler kınanır. Sure, ibadet ile yardımlaşmanın birbirinden ayrılamayacağını gösterir. İnançta taviz vermeme Kâfirûn suresinin, diriliş ise Yâsîn suresinin 78-83. ayetlerinin konusudur.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-2-2-q12",
+              "stem": "“Sadakaları açıktan verirseniz ne güzel! Fakat onları gizleyerek fakirlere verirseniz bu, sizin için daha hayırlıdır...” (Bakara suresi, 271. ayet)\nBu ayette sadaka verirken hangi tutumun daha hayırlı olduğu belirtilmiştir?",
+              "choices": [
+                "Sadakayı gizlice vermek",
+                "Sadakayı yalnızca akrabalara vermek",
+                "Sadakayı herkesin önünde vermek",
+                "Sadakayı yalnızca Ramazan'da vermek"
+              ],
+              "answer": 0,
+              "explanation": "Ayette açıktan verilen sadakanın da güzel olduğu, ancak gizlice verilmesinin daha hayırlı olduğu bildirilir. Gizli vermek, gösterişten uzak durmayı ve yardım edilen kişinin onurunu korumayı sağlar.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-2-2-q13",
+              "stem": "“Mallarını Allah yolunda harcayanların durumu, yedi başak bitiren ve her başakta yüz tane bulunan bir tohum gibidir. Allah, dilediğine kat kat verir...” (Bakara suresi, 261. ayet)\nBu ayetten aşağıdakilerden hangisi çıkarılabilir?",
+              "choices": [
+                "Sadaka vermek malın azalıp tükenmesine yol açar.",
+                "Allah yolunda yapılan harcamaların karşılığı kat kat verilir.",
+                "Yalnızca tarım ürünlerinden sadaka verilir.",
+                "Yardım yalnızca zenginlere yapılmalıdır."
+              ],
+              "answer": 1,
+              "explanation": "Ayette Allah yolunda harcanan mal, yedi başak bitiren ve her başağında yüz tane bulunan bir tohuma benzetilir. Bu benzetme, iyilik için yapılan harcamaların karşılığının kat kat verileceğini anlatır. Tohum örneği bir benzetmedir; sadakanın yalnızca tarım ürünlerinden verileceği anlamına gelmez.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-2-2-q14",
+              "stem": "“Ey iman edenler! Kazandıklarınızın iyilerinden ve yerden sizin için çıkardıklarımızdan Allah yolunda harcayın. Kendinizin göz yummadan alıcısı olmayacağınız bayağı şeyleri vermeye kalkışmayın...” (Bakara suresi, 267. ayet)\nBu ayete göre aşağıdaki davranışlardan hangisi uygun değildir?",
+              "choices": [
+                "Yardım kampanyasına temiz ve kullanılabilir kıyafetler göndermek",
+                "Sevdiği kitaplardan birini kütüphanesi olmayan bir okula bağışlamak",
+                "Kazancının bir kısmıyla ihtiyaç sahiplerine taze yiyecek almak",
+                "Kendisinin artık giymeyeceği kadar yıpranmış ve yırtık kıyafetleri yardım olarak vermek"
+              ],
+              "answer": 3,
+              "explanation": "Ayette, kişinin kendisinin almak istemeyeceği bayağı şeyleri vermemesi, kazandıklarının iyisinden vermesi öğütlenir. Yıpranmış ve yırtık kıyafetleri yardım olarak vermek bu öğüde aykırıdır. Diğer davranışlarda ise iyi ve kullanılabilir şeyler paylaşılmaktadır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-2-2-q15",
+              "stem": "Hz. Peygamber şöyle buyurmuştur:\nI. “Veren el, alan elden üstündür.” (Buhârî, Müslim)\nII. “Sadaka malı eksiltmez.” (Müslim)\nBu hadislerden aşağıdakilerden hangisi çıkarılamaz?",
+              "choices": [
+                "Sadaka vermekten, malın azalacağı düşüncesiyle kaçınmak yersizdir.",
+                "Paylaşmak insana değer kazandırır.",
+                "İslam, vermeyi ve paylaşmayı teşvik eder.",
+                "Yardım almak her durumda yasaklanmıştır."
+              ],
+              "answer": 3,
+              "explanation": "Hadislerde vermenin değerli olduğu ve sadakanın malı eksiltmediği bildirilerek paylaşma teşvik edilir. Ancak yardım almanın yasak olduğuna dair bir ifade yoktur; ihtiyaç sahibinin yardım alması meşrudur. Zekât ve sadakanın ihtiyaç sahiplerine verilmesi de bunu gösterir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-2-2-q16",
+              "stem": "“Gördün mü, o hesap ve ceza gününü yalanlayanı! İşte o, yetimi itip kakan, yoksula yedirmeyi özendirmeyen kimsedir. Yazıklar olsun o namaz kılanlara ki, onlar namazlarını ciddiye almazlar. Onlar (namazlarıyla) gösteriş yaparlar. Ufacık bir yardıma bile engel olurlar.” (Mâûn suresi, 1-7. ayetler)\nBu surede aşağıdakilerden hangisine değinilmemiştir?",
+              "choices": [
+                "Namazın ciddiye alınmamasına",
+                "Yetime kötü davranılmasına",
+                "Fitrenin bayram namazından önce verilmesi gerektiğine",
+                "Gösteriş için ibadet edilmesine"
+              ],
+              "answer": 2,
+              "explanation": "Surede yetimi itip kakmak, yoksulu doyurmaya teşvik etmemek, namazı ciddiye almamak, gösteriş yapmak ve küçük bir yardımı bile engellemek kınanır. Fitrenin ne zaman verileceğiyle ilgili bir bilgi surede yer almaz.",
               "difficulty": 3,
               "verified": false
             }
@@ -561,6 +1121,146 @@
               "explanation": "Ağaç dikmeyi teşvik eden hadis ve buna dayanan ağaçlandırma etkinliği, dinin çevreyi korumaya verdiği önemi gösterir.",
               "difficulty": 3,
               "verified": false
+            },
+            {
+              "id": "din-3-1-q7",
+              "stem": "Asr suresi Kur'an-ı Kerim'in kaçıncı suresidir?",
+              "choices": [
+                "112",
+                "109",
+                "107",
+                "103"
+              ],
+              "answer": 3,
+              "explanation": "Asr suresi Kur'an-ı Kerim'in 103. suresidir. Mâûn 107., Kâfirûn 109., İhlâs ise 112. suredir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-3-1-q8",
+              "stem": "Aşağıdakilerden hangisi dinin bireye sağladığı katkılardan biridir?",
+              "choices": [
+                "İnsanı sorumluluklarından uzaklaştırması",
+                "Zor zamanlarda insana umut ve huzur vermesi",
+                "Kişinin bencil davranmasına yol açması",
+                "İnsanın hayatı anlamsız görmesine neden olması"
+              ],
+              "answer": 1,
+              "explanation": "Din, insana hayatın anlamı ve amacı hakkında bilgi verir, zor zamanlarda umut ve huzur sağlar, doğru ile yanlışı ayırt etmeye yardımcı olur. Diğer ifadeler dinin bireye katkılarıyla bağdaşmaz.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-3-1-q9",
+              "stem": "İslam dininin insan için temel amacı aşağıdakilerden hangisidir?",
+              "choices": [
+                "İnsanın dünya ve ahiret mutluluğunu sağlamak",
+                "İnsanı toplumdan uzaklaştırmak",
+                "Yalnızca dünya hayatını düzenlemek",
+                "Yalnızca belirli bir topluma yol göstermek"
+              ],
+              "answer": 0,
+              "explanation": "İslam dini insanın hem dünya hem de ahiret mutluluğunu amaçlar. Bunun için can, akıl, nesil, mal ve din olmak üzere beş temel değeri korumayı esas alır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-3-1-q10",
+              "stem": "Dinin korumayı amaçladığı temel değerlerle ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+              "choices": [
+                "Alkolün yasaklanması – Akıl",
+                "İnanç özgürlüğünün korunması – Din",
+                "Hırsızlığın yasaklanması – Nesil",
+                "Cana kıymanın yasaklanması – Can"
+              ],
+              "answer": 2,
+              "explanation": "Hırsızlığın yasaklanması malın korunmasıyla ilgilidir, nesille değil. Alkolün yasaklanması aklın, inanç özgürlüğü dinin, cana kıymanın yasaklanması ise canın korunmasıyla ilgilidir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-3-1-q11",
+              "stem": "Ezan sesiyle güne başlanması, bayramlarda büyüklerin elinin öpülmesi ve kandil gecelerinde komşulara ikramda bulunulması aşağıdakilerden hangisine örnektir?",
+              "choices": [
+                "Dinin teknoloji üzerindeki etkisine",
+                "Dinin sporla ilişkisine",
+                "Dinin bilimsel araştırmalara etkisine",
+                "Dinin kültür ve gelenekler üzerindeki etkisine"
+              ],
+              "answer": 3,
+              "explanation": "Verilen örneklerin hepsi dinî inanç ve ibadetlerden doğup toplumun günlük hayatına ve geleneklerine yerleşmiş uygulamalardır. Bu durum, dinin toplumların kültürünü ve geleneklerini etkilediğini gösterir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-3-1-q12",
+              "stem": "“İnsanların kendi işledikleri (kötülükler) sebebiyle karada ve denizde bozulma ortaya çıkmıştır...” (Rûm suresi, 41. ayet)\nBu ayet dikkate alındığında aşağıdakilerden hangisi yapılmalıdır?",
+              "choices": [
+                "Ormanları yerleşim alanı açmak için yok etmek",
+                "Suyu bilinçsizce tüketmek",
+                "Atıkları denizlere bırakmak",
+                "Doğal kaynakları korumak ve çevreyi kirletmemek"
+              ],
+              "answer": 3,
+              "explanation": "Ayette karada ve denizde ortaya çıkan bozulmanın insanların yaptıkları yüzünden olduğu bildirilir. Bu, insanın çevreye zarar vermekten kaçınması ve doğayı koruması gerektiğini gösterir. Diğer davranışlar çevrenin bozulmasına yol açar.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-3-1-q13",
+              "stem": "“Andolsun zamana ki, insan gerçekten ziyan içindedir. Ancak, iman edip de salih ameller işleyenler, birbirlerine hakkı tavsiye edenler, birbirlerine sabrı tavsiye edenler başka.” (Asr suresi, 1-3. ayetler)\nBu sureden aşağıdakilerden hangisi çıkarılamaz?",
+              "choices": [
+                "Kurtuluş için yalnızca iman etmek yeterlidir.",
+                "İman ile güzel davranışlar birlikte önemlidir.",
+                "Zamanın değerini bilmek önemlidir.",
+                "İnsanlar birbirine hakkı ve sabrı öğütlemelidir."
+              ],
+              "answer": 0,
+              "explanation": "Surede zamana yemin edilmesi zamanın değerine dikkat çeker. Ziyandan kurtulanlar; iman eden, salih amel işleyen, hakkı ve sabrı tavsiye edenlerdir. Bu nedenle kurtuluş için yalnızca iman etmenin yeterli olduğu söylenemez; iman, güzel davranışlarla birlikte anılmıştır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-3-1-q14",
+              "stem": "“Ey iman edenler! Mallarınızı aranızda batıl yollarla yemeyin. Ancak karşılıklı rıza ile yapılan ticaretle olursa başka. Kendinizi helak etmeyin...” (Nisâ suresi, 29. ayet)\nBu ayette dinin korumayı amaçladığı temel değerlerden hangilerine değinilmiştir?",
+              "choices": [
+                "Mal ve can",
+                "Din ve akıl",
+                "Akıl ve nesil",
+                "Nesil ve mal"
+              ],
+              "answer": 0,
+              "explanation": "Ayette malların haksız yollarla yenmemesi istenerek malın, “Kendinizi helak etmeyin.” denilerek de canın korunmasına vurgu yapılır. Akıl, nesil ve din değerlerine bu ayette doğrudan değinilmez.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-3-1-q15",
+              "stem": "Ramazan ayında komşular birbirini iftara davet eder, ihtiyaç sahiplerine erzak dağıtılır, camilerde teravih namazı cemaatle kılınır. Bayramda ise küsler barışır, akrabalar birbirini ziyaret eder.\nBu metinde dinin aşağıdaki işlevlerinden hangisine vurgu yapılmaktadır?",
+              "choices": [
+                "Sanat eserlerinin üretilmesine katkı sağlamasına",
+                "Kişinin yalnız yaşamayı tercih etmesine yol açmasına",
+                "Toplumsal dayanışma ve birlikteliği güçlendirmesine",
+                "Bilimsel çalışmaların yapılmasını sağlamasına"
+              ],
+              "answer": 2,
+              "explanation": "Metindeki iftar daveti, erzak dağıtımı, cemaatle namaz, barışma ve akraba ziyareti insanları bir araya getiren davranışlardır. Bunlar dinin toplumda dayanışmayı ve birlikteliği güçlendirdiğini gösterir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-3-1-q16",
+              "stem": "“(Mallarınızı) Allah yolunda harcayın. Kendi kendinizi tehlikeye atmayın. İyilik edin...” (Bakara suresi, 195. ayet)\nAyetteki “Kendi kendinizi tehlikeye atmayın.” ifadesiyle aşağıdaki davranışlardan hangisi arasında ilişki kurulamaz?",
+              "choices": [
+                "Sigara ve benzeri zararlı alışkanlıklardan uzak durmak",
+                "Okul kütüphanesinden kitap ödünç almak",
+                "Araçta emniyet kemeri takmak",
+                "Trafik kurallarına uymak"
+              ],
+              "answer": 1,
+              "explanation": "Emniyet kemeri takmak, zararlı alışkanlıklardan uzak durmak ve trafik kurallarına uymak kişinin kendi canını tehlikeden korumasıyla ilgilidir. Kütüphaneden kitap ödünç almak güzel bir davranıştır ama canı tehlikeden korumakla ilgili değildir.",
+              "difficulty": 3,
+              "verified": false
             }
           ]
         }
@@ -675,6 +1375,146 @@
               "explanation": "Mekkelilerin “Senin yalan söylediğini hiç görmedik.” demesi, Hz. Muhammed'in doğru sözlülüğünün herkesçe bilindiğini gösterir.",
               "difficulty": 3,
               "verified": false
+            },
+            {
+              "id": "din-4-1-q7",
+              "stem": "Hz. Muhammed'in ahlakını öven “Sen elbette yüce bir ahlak üzeresin.” ayeti hangi surede yer alır?",
+              "choices": [
+                "Kalem suresi",
+                "Asr suresi",
+                "Ahzâb suresi",
+                "Mâûn suresi"
+              ],
+              "answer": 0,
+              "explanation": "Bu ayet Kalem suresinin 4. ayetidir. Ahzâb suresinin 21. ayetinde ise Allah'ın Resulünde güzel bir örnek olduğu bildirilir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-4-1-q8",
+              "stem": "Gençliğinde Hz. Muhammed'in de katıldığı, haksızlığa uğrayanlara yardım etmek amacıyla Mekke'de kurulan birlik aşağıdakilerden hangisidir?",
+              "choices": [
+                "Muhacirler",
+                "Hilfu'l-Fudûl (Erdemliler Birliği)",
+                "Ensar",
+                "Ehl-i Suffe"
+              ],
+              "answer": 1,
+              "explanation": "Hilfu'l-Fudûl, haksızlığa uğrayan herkese yardım etmek amacıyla kurulan bir birliktir. Ensar Medineli Müslümanlara, muhacirler Mekke'den göç edenlere, Ehl-i Suffe ise Mescid-i Nebevi'de eğitim gören sahabilere verilen addır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-4-1-q9",
+              "stem": "Mekkelilerin Hz. Muhammed'e verdiği “el-Emîn” unvanının anlamı aşağıdakilerden hangisidir?",
+              "choices": [
+                "Güvenilir kişi",
+                "Bilgili kişi",
+                "Cesur kişi",
+                "Cömert kişi"
+              ],
+              "answer": 0,
+              "explanation": "El-Emîn, güvenilir kişi demektir. Hz. Muhammed peygamberlikten önce de dürüstlüğü ve güvenilirliğiyle tanındığı için Mekkeliler ona bu unvanı vermiştir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-4-1-q10",
+              "stem": "Aşağıdakilerden hangisi Hz. Muhammed'in adaletli oluşunu gösteren bir davranıştır?",
+              "choices": [
+                "Torunlarını kucağına alıp sevmesi",
+                "Hira mağarasında tefekküre çekilmesi",
+                "Hendek Savaşı öncesinde Medine'nin çevresine hendek kazdırması",
+                "Suç işleyen kişi soylu bir aileden de olsa kuralların herkese eşit uygulanmasını istemesi"
+              ],
+              "answer": 3,
+              "explanation": "Kuralların kişinin soyuna ve makamına bakılmaksızın herkese eşit uygulanmasını istemek adaletin gereğidir. Hendek kazdırması istişareyi, torunlarını sevmesi merhameti gösterir; Hira'da tefekküre çekilmesi ise adaletle ilgili değildir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-4-1-q11",
+              "stem": "“Allah, size, emanetleri mutlaka ehline vermenizi ve insanlar arasında hükmettiğiniz zaman adaletle hükmetmenizi emrediyor...” (Nisâ suresi, 58. ayet)\nBu ayette hangi iki değer birlikte vurgulanmıştır?",
+              "choices": [
+                "Cesaret ve merhamet",
+                "Cömertlik ve tevazu",
+                "Emanete sadakat ve adalet",
+                "Sabır ve şükür"
+              ],
+              "answer": 2,
+              "explanation": "Ayette emanetlerin ehline verilmesi ve insanlar arasında adaletle hükmedilmesi emredilir. Bu nedenle ayette emanete sadakat ve adalet birlikte vurgulanmıştır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-4-1-q12",
+              "stem": "Hz. Muhammed peygamberlikten önce Hz. Hatice'nin ticaret kervanını yönetmiş, alışverişte dürüst davranmış ve kendisine emanet edilen malları en iyi şekilde korumuştur. Bu durum Hz. Hatice'nin ona olan güvenini artırmıştır.\nBu bilgiler Hz. Muhammed'in hangi özelliğini öne çıkarmaktadır?",
+              "choices": [
+                "Savaşlarda cesur olmasını",
+                "Şiir yazmadaki ustalığını",
+                "İstişareye önem vermesini",
+                "Ticarette dürüst ve güvenilir olmasını"
+              ],
+              "answer": 3,
+              "explanation": "Hz. Muhammed'in ticarette dürüst davranması ve emanet edilen malları koruması, onun güvenilir ve doğru bir insan olduğunu gösterir. Metinde savaş, şiir ya da istişareyle ilgili bir bilgi yoktur.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-4-1-q13",
+              "stem": "“Ey iman edenler! Allah için hakkı titizlikle ayakta tutan, adalet ile şahitlik eden kimseler olun. Bir topluma olan kininiz, sakın ha sizi adaletsizliğe itmesin. Adil olun...” (Mâide suresi, 8. ayet)\nBu ayetten aşağıdakilerden hangisi çıkarılabilir?",
+              "choices": [
+                "Şahitlik yaparken kendi çıkarımızı gözetmeliyiz.",
+                "Adalet, sevmediğimiz kişilere karşı bile korunmalıdır.",
+                "Kızgın olduğumuz kişilere karşı adaletli olmak gerekmez.",
+                "Adalet yalnızca yakınlarımıza karşı gösterilmelidir."
+              ],
+              "answer": 1,
+              "explanation": "Ayette bir topluma duyulan kinin insanı adaletsizliğe itmemesi istenir. Bu, adaletin sevmediğimiz ya da kızdığımız kişilere karşı bile korunması gerektiğini gösterir. Ayette adaletle şahitlik etmek de emredildiği için şahitlikte kişisel çıkar gözetilmez.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-4-1-q14",
+              "stem": "Hz. Peygamber şöyle buyurmuştur: “Münafığın alameti üçtür: Konuştuğu zaman yalan söyler, söz verdiğinde sözünde durmaz, kendisine bir şey emanet edildiğinde ona hıyanet eder.” (Buhârî, Müslim)\nBu hadiste aşağıdaki davranışlardan hangisine değinilmemiştir?",
+              "choices": [
+                "Başkalarının kusurlarını araştırmak",
+                "Sözünde durmamak",
+                "Yalan söylemek",
+                "Emanete hıyanet etmek"
+              ],
+              "answer": 0,
+              "explanation": "Hadiste yalan söylemek, sözünde durmamak ve emanete hıyanet etmek münafığın alametleri olarak sayılır. Başkalarının kusurlarını araştırmak da kötü bir davranıştır, ancak bu hadiste yer almaz.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-4-1-q15",
+              "stem": "Hz. Peygamber şöyle buyurmuştur: “Doğruluk iyiliğe, iyilik de cennete götürür...” (Buhârî, Müslim)\nAşağıdaki davranışlardan hangisi bu hadisle aynı doğrultudadır?",
+              "choices": [
+                "Arkadaşına verdiği sözü önemsemeyip unutan Deniz'in davranışı",
+                "Ödevini yapmadığı hâlde yaptığını söyleyen Ali'nin davranışı",
+                "Kırdığı vazoyu kardeşinin kırdığını söyleyen Emre'nin davranışı",
+                "Kasiyerin yanlışlıkla fazla verdiği para üstünü geri götüren Elif'in davranışı"
+              ],
+              "answer": 3,
+              "explanation": "Hadis doğruluğu teşvik eder. Fazla verilen para üstünü geri götürmek dürüst bir davranıştır. Diğer davranışlarda yalan söyleme ve sözünde durmama vardır; bunlar doğrulukla bağdaşmaz.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-4-1-q16",
+              "stem": "“Ey iman edenler! Allah'a karşı gelmekten sakının ve doğrularla beraber olun.” (Tevbe suresi, 119. ayet)\nBu ayetteki öğüdü dikkate alan bir öğrenci arkadaş seçerken öncelikle neye dikkat eder?",
+              "choices": [
+                "Kendisine her konuda hak veren kişileri seçmeye",
+                "Yalnızca maddi durumu iyi olan kişilerle arkadaşlık kurmaya",
+                "Dürüst ve sözüne güvenilir kişilerle arkadaşlık kurmaya",
+                "Kopya çekmeyi alışkanlık hâline getirenlerle grup kurmaya"
+              ],
+              "answer": 2,
+              "explanation": "Ayette doğrularla, yani dürüst ve güvenilir insanlarla beraber olunması öğütlenir. Bu öğüdü dikkate alan biri arkadaşlarını seçerken dürüstlüğü ve güvenilirliği ölçü alır.",
+              "difficulty": 3,
+              "verified": false
             }
           ]
         },
@@ -781,6 +1621,146 @@
               ],
               "answer": 0,
               "explanation": "Ece karar vermeden önce arkadaşlarına danışmış ve çoğunluğun görüşüne uymuştur. Hz. Muhammed de Uhud Savaşı öncesinde ashabına danışmış ve çoğunluğun görüşüne uymuştur. Diğer seçenekler güvenilirlik, affedicilik ve sabırla ilgilidir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-4-2-q7",
+              "stem": "Kâfirûn suresi kaç ayettir?",
+              "choices": [
+                "Altı",
+                "Beş",
+                "Üç",
+                "Yedi"
+              ],
+              "answer": 0,
+              "explanation": "Kâfirûn suresi Mekke'de inmiş olup altı ayettir. Mâûn suresi yedi, Asr suresi ise üç ayettir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-4-2-q8",
+              "stem": "“(Ey Muhammed!) Seni ancak âlemlere rahmet olarak gönderdik.” (Enbiyâ suresi, 107. ayet)\nBu ayet Hz. Muhammed'in öncelikle hangi özelliğini vurgular?",
+              "choices": [
+                "Hitabet yeteneğini",
+                "Merhametini",
+                "Ticaretteki başarısını",
+                "Savaştaki cesaretini"
+              ],
+              "answer": 1,
+              "explanation": "Ayette Hz. Muhammed'in bütün âlemlere rahmet olarak gönderildiği bildirilir. Rahmet; merhamet, şefkat ve iyilik demektir. Bu nedenle ayet onun merhametini öne çıkarır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-4-2-q9",
+              "stem": "Bir konuda karar vermeden önce başkalarının görüşüne başvurmaya ne ad verilir?",
+              "choices": [
+                "Tevekkül",
+                "Hicret",
+                "İstişare",
+                "Tebliğ"
+              ],
+              "answer": 2,
+              "explanation": "Bir konuda karar vermeden önce başkalarının görüşünü almaya istişare (danışma) denir. Hz. Muhammed önemli konularda ashabıyla istişare ederdi.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-4-2-q10",
+              "stem": "Hz. Peygamber, susuzluktan toprağı yalayan bir köpeği gören ve kuyudan su çıkarıp ona içiren bir adamın bu davranışı sebebiyle Allah tarafından bağışlandığını haber vermiştir. (Buhârî, Müslim)\nBu hadis öncelikle aşağıdakilerden hangisini teşvik eder?",
+              "choices": [
+                "Suyu dikkatsizce kullanmayı",
+                "Kuyu kazmayı meslek edinmeyi",
+                "Yalnızca insanlara yardım etmeyi",
+                "Hayvanlara merhametli davranmayı"
+              ],
+              "answer": 3,
+              "explanation": "Hadiste susuz bir hayvana su veren kişinin bu iyiliği sebebiyle bağışlandığı bildirilir. Bu, merhametin yalnızca insanlarla sınırlı olmadığını, hayvanlara da merhametli davranılması gerektiğini gösterir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-4-2-q11",
+              "stem": "Bedir Savaşı öncesinde Hz. Peygamber ordunun konaklayacağı yeri belirlemişti. Sahabilerden Hubâb b. Münzir, bu yerin vahiyle mi yoksa görüşle mi seçildiğini sordu. Görüşle seçildiğini öğrenince su kaynaklarına daha yakın bir yer önerdi. Hz. Peygamber bu öneriyi kabul ederek ordunun yerini değiştirdi.\nBu olay Hz. Muhammed'le ilgili aşağıdakilerden hangisini gösterir?",
+              "choices": [
+                "Kararlarını hiç kimseye danışmadan aldığını",
+                "Savaş kararlarında yalnızca kendi görüşünü uyguladığını",
+                "Sahabilerin görüş bildirmesini istemediğini",
+                "Uygun bulduğu farklı görüşlere değer verdiğini"
+              ],
+              "answer": 3,
+              "explanation": "Hz. Peygamber, sahabisinin önerisini dinlemiş ve daha uygun bulduğu için kendi belirlediği yeri değiştirmiştir. Bu, onun istişareye ve farklı görüşlere değer verdiğini gösterir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-4-2-q12",
+              "stem": "Bir gün Hz. Peygamber'in yanından bir cenaze geçti, Hz. Peygamber ayağa kalktı. Kendisine bunun bir Yahudi'nin cenazesi olduğu söylenince “O da bir insan değil mi?” buyurdu. (Buhârî)\nBu davranış Hz. Peygamber'in hangi özelliğini göstermektedir?",
+              "choices": [
+                "Ticaretteki dürüstlüğünü",
+                "Farklı inançtaki insanlara saygı göstermesini",
+                "İstişareye önem vermesini",
+                "Savaştaki cesaretini"
+              ],
+              "answer": 1,
+              "explanation": "Hz. Peygamber, farklı inançtan birinin cenazesine de saygı göstererek ayağa kalkmıştır. Bu davranış, onun her insana değer verdiğini ve farklı inançlara karşı hoşgörülü olduğunu gösterir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-4-2-q13",
+              "stem": "“De ki: ‘Ey Kâfirler! Ben sizin kulluk ettiklerinize kulluk etmem. Siz de benim kulluk ettiğime kulluk edecek değilsiniz. Ben sizin kulluk ettiklerinize kulluk edecek değilim. Siz de benim kulluk ettiğime kulluk edecek değilsiniz. Sizin dininiz size, benim dinim de banadır.’” (Kâfirûn suresi, 1-6. ayetler)\nBu sureden aşağıdakilerden hangisi çıkarılamaz?",
+              "choices": [
+                "Farklı inançtaki insanlarla hiçbir şekilde iletişim kurulmamalıdır.",
+                "Kimse inancını değiştirmeye zorlanmamalıdır.",
+                "İnanç konusunda taviz verilmez.",
+                "Herkes kendi inancından sorumludur."
+              ],
+              "answer": 0,
+              "explanation": "Surede inanç konusunda taviz verilmeyeceği ve herkesin kendi dinini yaşayacağı vurgulanır; bu da inançta zorlama olmadığını ve herkesin kendi inancından sorumlu olduğunu gösterir. Ancak farklı inançtakilerle iletişim kurulmaması gerektiğine dair bir ifade yoktur. Hz. Peygamber de farklı inançtan insanlarla barış içinde yaşamıştır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-4-2-q14",
+              "stem": "“...İşleri, aralarında şûra (danışma) ile olanlar...” (Şûrâ suresi, 38. ayet)\nBu ayette övülen tutum aşağıdaki durumlardan hangisiyle örtüşür?",
+              "choices": [
+                "Bir apartman yöneticisinin aidatları kimseye danışmadan artırması",
+                "Bir öğrencinin grup ödevini arkadaşlarına danışmadan tek başına değiştirmesi",
+                "Bir ailenin taşınacakları evi seçerken bütün aile bireylerinin görüşünü alması",
+                "Bir şirket müdürünün çalışanlarını ilgilendiren önemli kararları kimseye sormadan alması"
+              ],
+              "answer": 2,
+              "explanation": "Ayette işlerini aralarında danışarak yürütenler övülür. Taşınacakları evi seçerken bütün aile bireylerinin görüşünü alan aile bu tutuma uygun davranmıştır. Diğer örneklerde başkalarını ilgilendiren kararlar danışılmadan alınmıştır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-4-2-q15",
+              "stem": "Hz. Peygamber şöyle buyurmuştur: “Yeryüzündekilere merhamet edin ki gökteki de size merhamet etsin.” (Tirmizî)\nBu hadisten aşağıdakilerden hangisi çıkarılabilir?",
+              "choices": [
+                "Merhametin yalnızca aile bireylerine gösterilmesi gerektiği",
+                "Hayvanlara merhamet etmenin önemsiz olduğu",
+                "Merhametin bütün canlıları kapsaması gerektiği",
+                "Merhametin yalnızca güçlü olanlara gösterilmesi gerektiği"
+              ],
+              "answer": 2,
+              "explanation": "Hadiste “yeryüzündekilere” merhamet edilmesi istenir. Bu ifade insan, hayvan ve bitki gibi yeryüzündeki bütün canlıları kapsar. Bu nedenle merhamet belirli kişilerle sınırlandırılamaz.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-4-2-q16",
+              "stem": "Hz. Peygamber Medine'ye hicret ettikten sonra Müslümanlar, Yahudiler ve şehirdeki diğer gruplarla bir sözleşme yaptı. Bu sözleşmeyle farklı inançtaki toplulukların can ve mal güvenliği ile inançlarını yaşama özgürlüğü güvence altına alındı.\nBu bilgilerden aşağıdakilerden hangisine ulaşılamaz?",
+              "choices": [
+                "Hz. Peygamber toplumsal barışı sağlamaya çalışmıştır.",
+                "Hz. Peygamber Medine'de yalnızca Müslümanların haklarını korumuştur.",
+                "Hz. Peygamber farklı inançtaki insanlarla bir arada yaşamayı önemsemiştir.",
+                "Hz. Peygamber inanç özgürlüğüne saygı göstermiştir."
+              ],
+              "answer": 1,
+              "explanation": "Metinde sözleşmenin farklı inançtaki toplulukların can, mal ve inanç özgürlüğünü güvence altına aldığı belirtilir. Bu nedenle Hz. Peygamber'in yalnızca Müslümanların haklarını koruduğu sonucuna ulaşılamaz. Diğer ifadeler metinle uyumludur.",
               "difficulty": 3,
               "verified": false
             }
@@ -897,6 +1877,146 @@
               "explanation": "İlk emrin “Oku!” olması, İslam'ın okumayı, öğrenmeyi ve bilgiyi ne kadar önemsediğini gösterir.",
               "difficulty": 3,
               "verified": false
+            },
+            {
+              "id": "din-5-1-q7",
+              "stem": "Kur'an-ı Kerim'in indirilmeye başlandığı gece aşağıdakilerden hangisidir?",
+              "choices": [
+                "Miraç gecesi",
+                "Kadir gecesi",
+                "Berat gecesi",
+                "Regaip gecesi"
+              ],
+              "answer": 1,
+              "explanation": "Kur'an-ı Kerim, 610 yılının Ramazan ayında Kadir gecesi indirilmeye başlanmıştır. Kadir suresinin ilk ayetinde de bu bilgi yer alır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-5-1-q8",
+              "stem": "Hz. Muhammed'e ilk vahyin geldiği yer aşağıdakilerden hangisidir?",
+              "choices": [
+                "Hira mağarası",
+                "Uhud dağı",
+                "Sevr mağarası",
+                "Safa tepesi"
+              ],
+              "answer": 0,
+              "explanation": "İlk vahiy, Mekke yakınlarındaki Hira mağarasında gelmiştir. Sevr mağarası ise hicret sırasında Hz. Muhammed ile Hz. Ebubekir'in saklandığı mağaradır.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-5-1-q9",
+              "stem": "Hz. Peygamber döneminde inen ayetleri yazıya geçiren sahabilere ne ad verilir?",
+              "choices": [
+                "Ensar",
+                "Muhacirler",
+                "Vahiy kâtipleri",
+                "Müezzinler"
+              ],
+              "answer": 2,
+              "explanation": "İnen ayetleri Hz. Peygamber'in gözetiminde yazıya geçiren sahabilere vahiy kâtipleri denir. Zeyd bin Sâbit en önemli vahiy kâtiplerindendir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-5-1-q10",
+              "stem": "Kur'an-ı Kerim'in Hz. Ebubekir döneminde kitap hâline getirilmesinin temel nedeni aşağıdakilerden hangisidir?",
+              "choices": [
+                "Hz. Peygamber döneminde ayetlerin hiç yazılmamış olması",
+                "Kur'an'ın başka dillere çevrilmesi ihtiyacının doğması",
+                "Mushafın İslam merkezlerine gönderilmek istenmesi",
+                "Yemâme Savaşı'nda çok sayıda hafızın şehit olması"
+              ],
+              "answer": 3,
+              "explanation": "Yemâme Savaşı'nda pek çok hafızın şehit olması üzerine Hz. Ömer'in önerisiyle Kur'an kitap hâline getirilmiştir. Ayetler Hz. Peygamber döneminde zaten yazılmıştı; Mushafın çoğaltılıp İslam merkezlerine gönderilmesi ise Hz. Osman döneminde olmuştur.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-5-1-q11",
+              "stem": "Hz. Peygamber döneminde vahiy kâtiplerinin ayetleri yazdığı malzemeler arasında aşağıdakilerden hangisi yer almaz?",
+              "choices": [
+                "Kemik",
+                "Deri",
+                "Hurma yaprağı",
+                "Matbaada basılmış kâğıt"
+              ],
+              "answer": 3,
+              "explanation": "Vahiy kâtipleri ayetleri deri, kemik ve hurma yaprağı gibi malzemelere yazmıştır. O dönemde matbaa yoktu; bu yüzden matbaada basılmış kâğıt kullanılmamıştır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-5-1-q12",
+              "stem": "Hz. Peygamber, her Ramazan ayında o güne kadar inen ayetleri Cebrail'e okur, Cebrail de ona okurdu. (Buhârî)\nBu uygulamanın Kur'an'ın korunmasına katkısı aşağıdakilerden hangisidir?",
+              "choices": [
+                "Kur'an'ın kitap hâline getirilmesini sağlamıştır.",
+                "Kur'an'ın başka dillere çevrilmesini sağlamıştır.",
+                "İnen ayetlerin doğru şekilde kontrol edilip pekiştirilmesini sağlamıştır.",
+                "Mushafın çoğaltılarak farklı şehirlere gönderilmesini sağlamıştır."
+              ],
+              "answer": 2,
+              "explanation": "Ayetlerin karşılıklı okunması, inen ayetlerin doğru ezberlenip ezberlenmediğinin kontrol edilmesini ve pekiştirilmesini sağlamıştır. Kitap hâline getirme Hz. Ebubekir, çoğaltma ise Hz. Osman döneminde yapılmıştır. Günümüzde Ramazan'da yapılan mukabele geleneği de bu uygulamaya dayanır.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-5-1-q13",
+              "stem": "“Yaratan Rabbinin adıyla oku! O, insanı ‘alak’tan yarattı. Oku! Senin Rabbin en cömert olandır. O, kalemle yazmayı öğretendir, insana bilmediğini öğretendir.” (Alak suresi, 1-5. ayetler)\nBu ayetlerde aşağıdakilerden hangisine değinilmemiştir?",
+              "choices": [
+                "Kalemin ve yazının önemine",
+                "İnsanın yaratılışına",
+                "Kur'an'ın kitap hâline getirilmesine",
+                "Allah'ın insana bilmediğini öğrettiğine"
+              ],
+              "answer": 2,
+              "explanation": "Ayetlerde insanın alaktan yaratıldığı, Allah'ın kalemle yazmayı öğrettiği ve insana bilmediğini öğrettiği bildirilir. Kur'an'ın kitap hâline getirilmesi ise bu ayetler indikten çok sonra, Hz. Ebubekir döneminde gerçekleşmiştir ve ayetlerde yer almaz.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-5-1-q14",
+              "stem": "“İnkâr edenler, ‘Kur'an ona bir defada toptan indirilseydi ya!’ dediler. Biz, Kur'an'la senin kalbini pekiştirmek için onu böyle kısım kısım indirdik ve onu ağır ağır okuduk.” (Furkân suresi, 32. ayet)\nBu ayette Kur'an'ın kısım kısım indirilmesinin hangi hikmetine değinilmiştir?",
+              "choices": [
+                "Kur'an'ın başka dillere çevrilmesine",
+                "Hz. Peygamber'in kalbinin pekiştirilmesine",
+                "Hükümlerin toplumda zamanla uygulanmasına",
+                "Kur'an'ın kitap hâline getirilmesine"
+              ],
+              "answer": 1,
+              "explanation": "Ayette Kur'an'ın kısım kısım indirilmesinin amacı “senin kalbini pekiştirmek” olarak açıkça belirtilir. Hükümlerin zamanla uygulanması da parça parça inişin hikmetlerinden biridir, ancak bu ayette söz konusu edilmez.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-5-1-q15",
+              "stem": "Hz. Osman döneminde İslam toprakları genişlemiş, farklı bölgelerdeki Müslümanlar arasında Kur'an'ın okunuşuyla ilgili anlaşmazlıklar ortaya çıkmıştı. Bunun üzerine Hz. Osman, Hz. Ebubekir döneminde hazırlanan Mushafı esas alarak çoğaltılmasını sağladı ve nüshaları önemli İslam merkezlerine gönderdi.\nBu metinden aşağıdakilerden hangisine ulaşılamaz?",
+              "choices": [
+                "Hz. Osman döneminde Kur'an'a yeni ayetler eklenmiştir.",
+                "Çoğaltma işinde Hz. Ebubekir döneminde hazırlanan Mushaf esas alınmıştır.",
+                "Mushafın çoğaltılması, Müslümanlar arasındaki birliği korumaya yöneliktir.",
+                "Hz. Osman döneminde İslam'ın yayıldığı bölgeler genişlemiştir."
+              ],
+              "answer": 0,
+              "explanation": "Metinde Hz. Osman'ın mevcut Mushafı esas alarak çoğalttığı anlatılır; yeni ayet eklendiğine dair bir bilgi yoktur. Vahiy Hz. Peygamber'in vefatıyla sona ermiştir. Diğer ifadeler metinden çıkarılabilir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-5-1-q16",
+              "stem": "I. “Şüphesiz, biz onu (Kur'an'ı) Kadir gecesinde indirdik.” (Kadr suresi, 1. ayet)\nII. “(O sayılı günler), insanlar için bir hidayet rehberi, doğru yolun ve hak ile batılı birbirinden ayırmanın apaçık delilleri olarak Kur'an'ın kendisinde indirildiği Ramazan ayıdır...” (Bakara suresi, 185. ayet)\nBu iki ayet birlikte değerlendirildiğinde aşağıdaki sonuçlardan hangisine ulaşılır?",
+              "choices": [
+                "Kadir gecesi Ramazan ayı içindedir.",
+                "Kur'an yalnızca Ramazan ayında okunmalıdır.",
+                "Kadir gecesi Ramazan ayının dışındadır.",
+                "Kur'an'ın tamamı tek gecede okunmalıdır."
+              ],
+              "answer": 0,
+              "explanation": "Birinci ayette Kur'an'ın Kadir gecesinde, ikinci ayette ise Ramazan ayında indirildiği bildirilir. İki bilgi birlikte düşünüldüğünde Kadir gecesinin Ramazan ayı içinde olduğu sonucuna ulaşılır.",
+              "difficulty": 3,
+              "verified": false
             }
           ]
         },
@@ -1003,6 +2123,146 @@
               ],
               "answer": 2,
               "explanation": "İnsanların düşünmeye ve akıl yürütmeye çağrılması, Kur'an'ın akla ve düşünmeye önem verdiğini gösterir.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-5-2-q7",
+              "stem": "Kur'an-ı Kerim'in ilk suresi aşağıdakilerden hangisidir?",
+              "choices": [
+                "Fâtiha",
+                "Alak",
+                "Bakara",
+                "Nâs"
+              ],
+              "answer": 0,
+              "explanation": "Mushaftaki sıralamaya göre Kur'an'ın ilk suresi Fâtiha, son suresi Nâs'tır. Alak suresi ise ilk ayetleri ilk inen suredir; Mushafta ilk sırada yer almaz.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-5-2-q8",
+              "stem": "Hicretten sonra inen surelere ne ad verilir?",
+              "choices": [
+                "Cüz",
+                "Mekkî sureler",
+                "Kıssa",
+                "Medenî sureler"
+              ],
+              "answer": 3,
+              "explanation": "Hicretten önce inen surelere Mekkî, hicretten sonra inen surelere ise Medenî sureler denir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-5-2-q9",
+              "stem": "Kur'an-ı Kerim, okuma kolaylığı için kaç cüze ayrılmıştır?",
+              "choices": [
+                "114",
+                "40",
+                "23",
+                "30"
+              ],
+              "answer": 3,
+              "explanation": "Kur'an-ı Kerim okuma kolaylığı için 30 cüze ayrılmıştır. 114 sure sayısıdır; 23 ise Kur'an'ın yaklaşık kaç yılda indirildiğini gösterir.",
+              "difficulty": 1,
+              "verified": false
+            },
+            {
+              "id": "din-5-2-q10",
+              "stem": "Aşağıdakilerden hangisi Kur'an'ın ana konularından ahlak konusuna örnektir?",
+              "choices": [
+                "Allah'ın birliğinin anlatılması",
+                "Hz. Musa ile Firavun arasında geçen olayların anlatılması",
+                "Doğruluğun, adaletin ve merhametin öğütlenmesi",
+                "Namazın ve orucun emredilmesi"
+              ],
+              "answer": 2,
+              "explanation": "Doğruluk, adalet ve merhamet gibi güzel davranışların öğütlenmesi ahlak konusudur. Hz. Musa ile Firavun'un anlatılması kıssa, namaz ve oruç ibadet, Allah'ın birliği ise inanç konusuna örnektir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-5-2-q11",
+              "stem": "“Biz onu, akıl erdiresiniz diye Arapça bir Kur'an olarak indirdik.” (Yûsuf suresi, 2. ayet)\nBu ayette Kur'an'ın hangi özelliğine değinilmiştir?",
+              "choices": [
+                "Kıssalar içermesine",
+                "Arapça indirilmiş olmasına",
+                "114 sureden oluşmasına",
+                "Son ilahi kitap olmasına"
+              ],
+              "answer": 1,
+              "explanation": "Ayette Kur'an'ın Arapça olarak indirildiği açıkça belirtilir. Ayrıca “akıl erdiresiniz diye” ifadesi, Kur'an'ın anlaşılmak için indirildiğini gösterir. Diğer özellikler bu ayette yer almaz.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-5-2-q12",
+              "stem": "“Bir şeyi dilediği zaman, O'nun emri o şeye ancak ‘Ol!’ demektir. O da hemen oluverir.” (Yâsîn suresi, 82. ayet)\nBu ayet Allah'ın hangi özelliğini öne çıkarmaktadır?",
+              "choices": [
+                "Adaletini",
+                "Affediciliğini",
+                "Merhametini",
+                "Her şeye gücünün yetmesini"
+              ],
+              "answer": 3,
+              "explanation": "Ayette Allah'ın bir şeyin olmasını dilediğinde ona yalnızca “Ol!” dediği ve onun hemen olduğu bildirilir. Bu, Allah'ın kudretini, yani her şeye gücünün yettiğini gösterir.",
+              "difficulty": 2,
+              "verified": false
+            },
+            {
+              "id": "din-5-2-q13",
+              "stem": "“O, sizin için yeşil ağaçtan ateş yaratandır. Şimdi siz ondan yakıp duruyorsunuz. Gökleri ve yeri yaratan Allah'ın, onların benzerini yaratmaya gücü yetmez mi? Evet yeter. O, hakkıyla yaratandır, hakkıyla bilendir.” (Yâsîn suresi, 80-81. ayetler)\nBu ayetlerde öldükten sonra dirilişin mümkün olduğunu göstermek için aşağıdakilerden hangisine başvurulmamıştır?",
+              "choices": [
+                "Yeşil ağaçtan ateş çıkarılmasına",
+                "Önceki peygamberlerin kıssalarına",
+                "Göklerin yaratılmasına",
+                "Yerin yaratılmasına"
+              ],
+              "answer": 1,
+              "explanation": "Ayetlerde yeşil ağaçtan ateş yaratılması ile göklerin ve yerin yaratılması örnek gösterilerek Allah'ın insanları yeniden yaratmaya gücünün yeteceği anlatılır. Önceki peygamberlerin kıssalarına ise bu ayetlerde yer verilmez.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-5-2-q14",
+              "stem": "“Bu Kur'an, ayetlerini düşünsünler ve akıl sahipleri öğüt alsınlar diye sana indirdiğimiz mübarek bir kitaptır.” (Sâd suresi, 29. ayet)\nBu ayete göre aşağıdakilerden hangisi Kur'an'ın indiriliş amacına en uygun tutumdur?",
+              "choices": [
+                "Kur'an'ı yalnızca evde süs olarak saklamak",
+                "Kur'an'ı anlamını düşünerek okumak ve ondan öğüt almak",
+                "Ayetlerle hayat arasında hiçbir bağ kurmamak",
+                "Kur'an'ı anlamını hiç merak etmeden okumakla yetinmek"
+              ],
+              "answer": 1,
+              "explanation": "Ayette Kur'an'ın, ayetleri üzerinde düşünülsün ve ondan öğüt alınsın diye indirildiği belirtilir. Bu nedenle Kur'an'ı anlamını düşünerek okumak ve ondan hayatına yön verecek öğütler almak bu amaca en uygun tutumdur.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-5-2-q15",
+              "stem": "“Andolsun ki, onların kıssalarında akıl sahipleri için ibret vardır...” (Yûsuf suresi, 111. ayet)\nBu ayete göre Kur'an'daki kıssaların temel amacı aşağıdakilerden hangisidir?",
+              "choices": [
+                "İnsanların geçmişteki olaylardan ders çıkarmasını sağlamak",
+                "İnsanları eğlendirmek",
+                "Yalnızca tarihî bilgi vermek",
+                "Geçmiş toplumların soy ağaçlarını kaydetmek"
+              ],
+              "answer": 0,
+              "explanation": "Ayette kıssalarda akıl sahipleri için ibret olduğu bildirilir. İbret, bir olaydan ders çıkarmak demektir. Bu nedenle kıssaların temel amacı, insanların geçmişte yaşananlardan ders almasını sağlamaktır.",
+              "difficulty": 3,
+              "verified": false
+            },
+            {
+              "id": "din-5-2-q16",
+              "stem": "Kur'an'ın ana konuları inanç, ibadet, ahlak ve kıssalar gibi başlıklar altında incelenir.\nAşağıdaki ayetlerden hangisi ibadet konusuyla ilgilidir?",
+              "choices": [
+                "“Andolsun ki, onların kıssalarında akıl sahipleri için ibret vardır...” (Yûsuf suresi, 111. ayet)",
+                "“...Bir topluma olan kininiz, sakın ha sizi adaletsizliğe itmesin...” (Mâide suresi, 8. ayet)",
+                "“Namazı kılın, zekâtı verin...” (Bakara suresi, 43. ayet)",
+                "“Gökleri ve yeri yaratan Allah'ın, onların benzerini yaratmaya gücü yetmez mi?...” (Yâsîn suresi, 81. ayet)"
+              ],
+              "answer": 2,
+              "explanation": "Namaz kılmak ve zekât vermek ibadettir; bu yüzden Bakara suresinin 43. ayeti ibadet konusuyla ilgilidir. Yûsuf suresindeki ayet kıssalarla, Yâsîn suresindeki ayet inançla (ahiret), Mâide suresindeki ayet ise ahlakla (adalet) ilgilidir.",
               "difficulty": 3,
               "verified": false
             }

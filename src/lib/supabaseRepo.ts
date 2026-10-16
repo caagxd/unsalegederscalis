@@ -1,7 +1,7 @@
 import { createClient, type SupabaseClient } from '@supabase/supabase-js'
 import { addDays, today } from './dates'
 import { studentEmail, type Repo } from './repo'
-import type { DailyLog, Exam, FamilySettings, ParentNote, PlanItem, Profile, QuestionReview, QuizAttempt, WrongItem, XpEvent } from './types'
+import type { DailyLog, Exam, FamilySettings, ParentNote, PlanItem, Profile, QuestionReview, QuizAttempt, ScreenTime, TopicVideo, WrongItem, XpEvent } from './types'
 
 const BUCKET = 'wrong-photos'
 
@@ -93,7 +93,9 @@ export class SupabaseRepo implements Repo {
   }
 
   async getSettings() {
-    return check(await this.sb.from('families').select('*').eq('id', await this.familyId()).single()) as FamilySettings
+    const row = check(await this.sb.from('families').select('*').eq('id', await this.familyId()).single()) as FamilySettings
+    // 002 migrasyonu çalıştırılmadıysa sütun yoktur
+    return { ...row, school_progress: row.school_progress ?? {} }
   }
 
   async updateSettings(patch: Partial<FamilySettings>) {
@@ -173,6 +175,33 @@ export class SupabaseRepo implements Repo {
   async deleteNote(id: string) { check(await this.sb.from('parent_notes').delete().eq('id', id)) }
 
   async listReviews() { return rows<QuestionReview>(await this.sb.from('question_reviews').select('question_id,status,note')) }
+  async listScreenTime() { return rows<ScreenTime>(await this.sb.from('screen_time').select('*').order('date', { ascending: false }).limit(120)) }
+
+  async saveScreenTime(entry: { date: string; minutes: number; note: string | null }, photo?: Blob) {
+    const fam = await this.familyId()
+    const existing = (await this.listScreenTime()).find((s) => s.date === entry.date)
+    let photo_path = existing?.photo_path ?? null
+    if (photo) {
+      const path = `${fam}/ekran/${crypto.randomUUID()}.jpg`
+      const up = await this.sb.storage.from(BUCKET).upload(path, photo, { contentType: 'image/jpeg' })
+      if (up.error) throw new Error('Ekran görüntüsü yüklenemedi: ' + up.error.message)
+      if (existing?.photo_path) await this.sb.storage.from(BUCKET).remove([existing.photo_path])
+      photo_path = path
+    }
+    check(await this.sb.from('screen_time').upsert({ ...entry, photo_path }, { onConflict: 'family_id,date' }))
+  }
+
+  async deleteScreenTime(item: ScreenTime) {
+    if (item.photo_path) await this.sb.storage.from(BUCKET).remove([item.photo_path])
+    check(await this.sb.from('screen_time').delete().eq('id', item.id))
+  }
+
+  async listVideos() { return rows<TopicVideo>(await this.sb.from('topic_videos').select('*').order('created_at')) }
+  async addVideo(topic_id: string, youtube_id: string, title: string | null) {
+    check(await this.sb.from('topic_videos').insert({ topic_id, youtube_id, title }))
+  }
+  async deleteVideo(id: string) { check(await this.sb.from('topic_videos').delete().eq('id', id)) }
+
   async setReview(question_id: string, status: 'dogru' | 'hatali', note?: string) {
     check(await this.sb.from('question_reviews').upsert({ question_id, status, note: note ?? null, updated_at: new Date().toISOString() }))
   }

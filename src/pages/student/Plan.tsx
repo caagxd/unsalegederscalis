@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useApp, useData } from '../../app/AppProvider'
-import { useAward } from '../../app/useAward'
+import { usePlanAward } from '../../app/useAward'
+import { PlanItemModal } from '../../components/PlanItemModal'
 import { Page, PageHeader, ProgressBar } from '../../components/ui'
 import { SUBJECT_META } from '../../lib/content'
 import { repo } from '../../lib/db'
@@ -16,7 +17,8 @@ const KIND_ICON = { konu: '📘', soru: '✏️', tekrar: '🔁', deneme: '📝'
 export default function Plan() {
   const { profile, refresh } = useApp()
   const d = useData()
-  const award = useAward()
+  const awardPlan = usePlanAward()
+  const [adding, setAdding] = useState(false)
   const [start, setStart] = useState(weekStart(today()))
   const [items, setItems] = useState<PlanItem[] | null>(null)
   const [busy, setBusy] = useState(false)
@@ -43,7 +45,7 @@ export default function Plan() {
   async function toggle(it: PlanItem) {
     if (!isStudent) return
     await repo.updatePlanItem(it.id, { done: !it.done })
-    if (!it.done) await award('plan', XP.planDone, '· görev tamam')
+    if (!it.done) await awardPlan(it.id, XP.planDone)
     await refresh()
   }
 
@@ -54,6 +56,7 @@ export default function Plan() {
     <>
       <PageHeader title="Çalışma Programı" back subtitle={`${shortDate(start)} – ${shortDate(end)}`}
         right={<div className="flex gap-1">
+          {isStudent && <button className="btn-primary px-3 py-2" onClick={() => setAdding(true)} aria-label="Görev ekle">+</button>}
           <button className="btn-ghost px-3 py-2" onClick={() => setStart(addDays(start, -7))}>‹</button>
           <button className="btn-ghost px-3 py-2" onClick={() => setStart(addDays(start, 7))}>›</button>
         </div>} />
@@ -66,7 +69,8 @@ export default function Plan() {
           )}
           <p className="text-xs text-slate-500">
             Program; hafta içi {d.settings.weekday_minutes} dk, hafta sonu {d.settings.weekend_minutes} dk çalışmaya göre, zayıf konuların önce gelecek şekilde hazırlanır.
-            Pazar günleri tam deneme vardır.{!isStudent && ' Süreleri Ayarlar\'dan değiştirebilirsiniz.'}
+            Pazar günleri tam deneme vardır.
+            {Object.keys(d.settings.school_progress ?? {}).length > 0 && ' Yalnızca okulda işlenmiş üniteler planlanır.'}{!isStudent && ' Süreleri Ayarlar\'dan değiştirebilirsiniz.'}
           </p>
         </section>
 
@@ -89,6 +93,10 @@ export default function Plan() {
                       <Link to={it.topic_id ? `/konu/${it.topic_id}` : it.kind === 'tekrar' ? '/yanlislar' : '/denemeler'}
                         className={`flex-1 text-sm ${it.done ? 'text-slate-400 line-through' : ''}`}>{KIND_ICON[it.kind]} {it.title}</Link>
                       <span className="text-xs text-slate-400">{it.minutes}dk</span>
+                      {isStudent && !it.done && (
+                        <button className="px-1 text-slate-300 hover:text-rose-500" aria-label="Görevi sil"
+                          onClick={async () => { await repo.deletePlanItems([it.id]); await load() }}>×</button>
+                      )}
                     </li>
                   ))}
                 </ul>
@@ -97,6 +105,7 @@ export default function Plan() {
           )
         })}
       </Page>
+      {adding && <PlanItemModal onClose={() => setAdding(false)} onSaved={load} />}
     </>
   )
 }

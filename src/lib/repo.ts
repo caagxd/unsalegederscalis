@@ -1,6 +1,6 @@
 import type {
   DailyLog, Exam, FamilySettings, NewDailyLog, NewExam, NewPlanItem, ParentNote, PlanItem,
-  Profile, QuestionReview, QuizAttempt, WrongItem, XpEvent,
+  Profile, QuestionReview, QuizAttempt, ScreenTime, TopicVideo, WrongItem, XpEvent,
 } from './types'
 import type { SubjectId } from '../content/types'
 
@@ -54,6 +54,15 @@ export interface Repo {
 
   listReviews(): Promise<QuestionReview[]>
   setReview(questionId: string, status: QuestionReview['status'], note?: string): Promise<void>
+
+  /** Gün başına tek kayıt; aynı gün tekrar girilirse güncellenir. photo verilmezse eski fotoğraf korunur. */
+  listScreenTime(): Promise<ScreenTime[]>
+  saveScreenTime(entry: { date: string; minutes: number; note: string | null }, photo?: Blob): Promise<void>
+  deleteScreenTime(item: ScreenTime): Promise<void>
+
+  listVideos(): Promise<TopicVideo[]>
+  addVideo(topicId: string, youtubeId: string, title: string | null): Promise<void>
+  deleteVideo(id: string): Promise<void>
 }
 
 export const studentEmail = (username: string) =>
