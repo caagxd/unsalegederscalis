@@ -10,6 +10,16 @@ function check<T>(res: { data: T; error: { message: string } | null }): T {
   return res.data
 }
 
+// Supabase Auth, tetikleyici hatalarının ayrıntısını tarayıcıya göndermez; anlaşılır mesaja çevir
+function friendlyAuthError(msg: string, databaseHint?: string) {
+  if (/already registered|already exists/i.test(msg)) return 'Bu e-posta ya da kullanıcı adı zaten kayıtlı. Giriş yapmayı deneyin.'
+  if (/database error/i.test(msg)) return databaseHint ?? 'Hesap oluşturulamadı (veritabanı hatası). Lütfen tekrar deneyin.'
+  if (/password/i.test(msg)) return 'Şifre en az 8 karakter olmalı.'
+  if (/rate limit|too many/i.test(msg)) return 'Çok fazla deneme yapıldı. Birkaç dakika sonra tekrar deneyin.'
+  if (/invalid.*email|email.*invalid/i.test(msg)) return 'E-posta adresi geçersiz.'
+  return msg
+}
+
 function rows<T>(res: { data: unknown; error: { message: string } | null }): T[] {
   if (res.error) throw new Error(res.error.message)
   return (res.data ?? []) as T[]
@@ -60,7 +70,7 @@ export class SupabaseRepo implements Repo {
       email, password,
       options: { data: { role: 'parent', display_name: name, family_code: familyCode ?? '' } },
     })
-    if (error) throw new Error(error.message)
+    if (error) throw new Error(friendlyAuthError(error.message, familyCode ? 'Aile kodu bulunamadı. Kodu diğer velinin Ayarlar sayfasından tekrar kontrol edin.' : undefined))
   }
 
   async createStudent(username: string, pin: string, name: string) {
@@ -73,7 +83,7 @@ export class SupabaseRepo implements Repo {
       email: studentEmail(username), password: pin,
       options: { data: { role: 'student', display_name: name, family_code: settings.join_code } },
     })
-    if (error) throw new Error(error.message)
+    if (error) throw new Error(friendlyAuthError(error.message, 'Öğrenci hesabı oluşturulamadı. Bu ailede zaten bir öğrenci hesabı olabilir.'))
   }
 
   async signOut() {

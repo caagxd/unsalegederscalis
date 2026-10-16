@@ -9,6 +9,7 @@ export default function Login() {
   const [info, setInfo] = useState<string | null>(null)
   const [busy, setBusy] = useState(false)
   const [f, setF] = useState({ username: '', pin: '', email: '', password: '', name: '', code: '' })
+  const [secondParent, setSecondParent] = useState(false)
   const set = (k: keyof typeof f) => (e: { target: { value: string } }) => setF({ ...f, [k]: e.target.value })
 
   async function run(fn: () => Promise<void>) {
@@ -21,7 +22,10 @@ export default function Login() {
     if (tab === 'ogrenci') run(() => repo.signInStudent(f.username, f.pin))
     else if (tab === 'veli') run(() => repo.signInParent(f.email, f.password))
     else run(async () => {
-      await repo.signUpParent(f.email, f.password, f.name, f.code || undefined)
+      // Aile kodu yalnızca "ikinci veli" seçiliyse gönderilir; tarayıcının otomatik doldurması yeni kaydı bozmasın
+      const code = secondParent ? f.code.trim().toUpperCase() : ''
+      if (secondParent && !/^[0-9A-F]{8}$/.test(code)) throw new Error('Aile kodu 8 karakter olmalı (rakam ve A–F harfleri). Diğer velinin Ayarlar sayfasından kopyalayın.')
+      await repo.signUpParent(f.email.trim(), f.password, f.name.trim(), code || undefined)
       setInfo('Hesap oluşturuldu. Giriş yapılmadıysa e-postanızı onaylayıp "Veli" sekmesinden girin.')
     })
   }
@@ -59,10 +63,21 @@ export default function Login() {
                 <div><label className="label">E-posta</label><input className="input" type="email" autoComplete="email" value={f.email} onChange={set('email')} required /></div>
                 <div><label className="label">Şifre</label><input className="input" type="password" minLength={8} autoComplete={tab === 'kayit' ? 'new-password' : 'current-password'} value={f.password} onChange={set('password')} required /></div>
                 {tab === 'kayit' && (
-                  <div>
-                    <label className="label">Aile kodu (isteğe bağlı)</label>
-                    <input className="input uppercase" value={f.code} onChange={set('code')} placeholder="İkinci veli iseniz" />
-                    <p className="mt-1 text-xs text-slate-400">Boş bırakırsanız yeni bir aile oluşturulur. Diğer veli kodu Ayarlar'da görür.</p>
+                  <div className="space-y-2">
+                    <label className="flex items-center gap-2 text-sm font-semibold text-slate-600">
+                      <input type="checkbox" className="h-4 w-4" checked={secondParent} onChange={(e) => setSecondParent(e.target.checked)} />
+                      Ailede zaten bir veli hesabı var, ona katılıyorum
+                    </label>
+                    {secondParent ? (
+                      <div>
+                        <label className="label">Aile kodu</label>
+                        <input className="input font-mono uppercase tracking-widest" name="lgs-family-code" autoComplete="off" autoCorrect="off" autoCapitalize="characters" spellCheck={false}
+                          maxLength={8} value={f.code} onChange={set('code')} placeholder="ör. 3FA9C21B" />
+                        <p className="mt-1 text-xs text-slate-400">Kodu diğer veli, kendi hesabında Ayarlar sayfasında görür.</p>
+                      </div>
+                    ) : (
+                      <p className="text-xs text-slate-400">İlk veli sizseniz işaretlemeyin; yeni bir aile oluşturulur.</p>
+                    )}
                   </div>
                 )}
               </>
