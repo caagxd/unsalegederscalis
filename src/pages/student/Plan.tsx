@@ -9,7 +9,7 @@ import { repo } from '../../lib/db'
 import { addDays, dayName, shortDate, today, weekStart } from '../../lib/dates'
 import { XP } from '../../lib/gamify'
 import { generateWeek } from '../../lib/planner'
-import { pct, topicProgress, topicStats } from '../../lib/stats'
+import { examMisses, pct, topicProgress, topicStats } from '../../lib/stats'
 import type { PlanItem } from '../../lib/types'
 
 const KIND_ICON = { konu: '📘', soru: '✏️', tekrar: '🔁', deneme: '📝' }
@@ -36,7 +36,7 @@ export default function Plan() {
     try {
       await repo.deletePlanItems(pending.map((i) => i.id))
       const from = start < today() ? today() : start
-      const week = generateWeek({ start: from, settings: d.settings, topicStats: topicStats(d.logs, d.attempts), progress: topicProgress(d.attempts) })
+      const week = generateWeek({ start: from, settings: d.settings, topicStats: topicStats(d.logs, d.attempts), progress: topicProgress(d.attempts), examMisses: examMisses(d.exams) })
       await repo.addPlanItems(week.filter((w) => w.date <= end))
       await load()
     } finally { setBusy(false) }

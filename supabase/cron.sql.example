@@ -1,0 +1,27 @@
+-- Bildirim zamanlayıcısı. 003 migrasyonu ve "notify" Edge Function kurulduktan sonra SQL Editor'de çalıştırın.
+-- <CRON_SECRET> yerine Edge Function sırlarına girdiğiniz CRON_SECRET değerini yazın.
+create extension if not exists pg_cron;
+create extension if not exists pg_net;
+
+-- Tekrar çalıştırılabilsin diye eski işleri kaldır
+select cron.unschedule(jobname) from cron.job where jobname in ('lgs-gunluk', 'lgs-haftalik');
+
+-- Her gün 20:00 (Türkiye) = 17:00 UTC: öğrenciye hatırlatma
+select cron.schedule('lgs-gunluk', '0 17 * * *', $$
+  select net.http_post(
+    url := 'https://fljftbkkyyuvlzcqxahb.supabase.co/functions/v1/notify',
+    body := '{"mode":"daily"}'::jsonb,
+    headers := '{"Content-Type":"application/json","x-cron-secret":"<CRON_SECRET>"}'::jsonb
+  );
+$$);
+
+-- Her pazar 20:30 (Türkiye) = 17:30 UTC: velilere haftalık karne
+select cron.schedule('lgs-haftalik', '30 17 * * 0', $$
+  select net.http_post(
+    url := 'https://fljftbkkyyuvlzcqxahb.supabase.co/functions/v1/notify',
+    body := '{"mode":"weekly"}'::jsonb,
+    headers := '{"Content-Type":"application/json","x-cron-secret":"<CRON_SECRET>"}'::jsonb
+  );
+$$);
+
+select jobname, schedule, active from cron.job where jobname like 'lgs-%';

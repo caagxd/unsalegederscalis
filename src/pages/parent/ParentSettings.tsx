@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useApp, useData } from '../../app/AppProvider'
 import { CreateStudent } from '../../components/CreateStudent'
+import { NotificationSettings } from '../../components/NotificationSettings'
 import { Page, PageHeader } from '../../components/ui'
 import { SUBJECT_META, contentStats, subjects } from '../../lib/content'
 import { repo } from '../../lib/db'
@@ -44,6 +45,8 @@ export default function ParentSettings() {
           <p className="text-xs text-slate-400">Program üretici bu süreleri kullanır. Okul + etüt + dershane yükü düşünülerek gerçekçi tutun. Hiç uyulmayan bir program, hiç olmamasından kötüdür.</p>
           <button className="btn-primary w-full" onClick={save}>Kaydet</button>
         </section>
+
+        <NotificationSettings />
 
         <SchoolProgress />
 

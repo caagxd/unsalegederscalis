@@ -20,6 +20,7 @@ import ParentQuestions from './pages/parent/ParentQuestions'
 import ParentSettings from './pages/parent/ParentSettings'
 import ScreenTimePage from './pages/ScreenTimePage'
 import MixedTest from './pages/student/MixedTest'
+import MebExam from './pages/student/MebExam'
 import { FocusTimerPill } from './components/FocusTimer'
 
 function Splash({ text = 'Yükleniyor…' }: { text?: string }) {
@@ -100,6 +101,7 @@ export default function App() {
         <Route path="/denemeler" element={<Exams />} />
         <Route path="/program" element={<Plan />} />
         <Route path="/cikmis" element={<PastPapers />} />
+        <Route path="/cikmis/:examId/:sessionId" element={<MebExam />} />
         <Route path="/daha" element={<More />} />
         <Route path="/ekran" element={<ScreenTimePage />} />
         <Route path="*" element={<Navigate to="/" replace />} />

@@ -51,6 +51,10 @@ export interface Exam {
   name: string
   source: string | null
   results: ExamResults
+  /** Denemede yanlış yapılan konuların id'leri (003 migrasyonu) */
+  wrong_topics?: string[]
+  /** MEB çıkmış sınavı optik ayrıntısı */
+  details?: { meb?: string; session?: string; wrong?: Partial<Record<SubjectId, number[]>> } | null
   created_at: string
 }
 
@@ -118,6 +122,18 @@ export interface TopicVideo {
   youtube_id: string
   title: string | null
   added_by: string
+  created_at: string
+}
+
+export type RewardMetric = 'soru' | 'aktif_gun' | 'plan' | 'tekrar' | 'deneme'
+
+export interface Reward {
+  id: string
+  title: string
+  metric: RewardMetric
+  target: number
+  active: boolean
+  claimed_weeks: string[]
   created_at: string
 }
 

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { useApp, useData } from '../../app/AppProvider'
 import { usePlanAward } from '../../app/useAward'
 import { PlanItemModal } from '../../components/PlanItemModal'
+import { RewardsCard } from '../../components/Rewards'
 import { LogModal } from '../../components/LogModal'
 import { Page, ProgressBar } from '../../components/ui'
 import { SUBJECT_META } from '../../lib/content'
@@ -78,6 +79,8 @@ export default function Today() {
         </div>
 
         <button className="btn-primary w-full py-3.5 text-base" onClick={() => setLogOpen(true)}>➕ Çözdüğüm soruları gir</button>
+
+        <RewardsCard />
 
         {notes.map((n) => (
           <div key={n.id} className="card border-amber-200 bg-amber-50">

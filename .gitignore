@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 .env
+
+# Yerel sırlar (VAPID özel anahtarı, cron sırrı)
+supabase/.secrets.local/

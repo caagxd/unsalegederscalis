@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useApp, useData } from '../../app/AppProvider'
 import { ActivityChart } from '../../components/ActivityChart'
+import { NotificationSettings } from '../../components/NotificationSettings'
 import { Page, PageHeader, ProgressBar } from '../../components/ui'
 import { repo } from '../../lib/db'
 import { localDate, shortDate } from '../../lib/dates'
@@ -68,6 +69,8 @@ export default function More() {
             </ul>
           </section>
         )}
+
+        <NotificationSettings />
 
         <section className="card text-sm text-slate-600">
           <h2 className="mb-1 font-extrabold text-slate-900">👀 Ailem neyi görüyor?</h2>

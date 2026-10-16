@@ -1,7 +1,7 @@
 import { createClient, type SupabaseClient } from '@supabase/supabase-js'
 import { addDays, today } from './dates'
 import { studentEmail, type Repo } from './repo'
-import type { DailyLog, Exam, FamilySettings, ParentNote, PlanItem, Profile, QuestionReview, QuizAttempt, ScreenTime, TopicVideo, WrongItem, XpEvent } from './types'
+import type { DailyLog, Exam, FamilySettings, ParentNote, PlanItem, Profile, QuestionReview, QuizAttempt, Reward, RewardMetric, ScreenTime, TopicVideo, WrongItem, XpEvent } from './types'
 
 const BUCKET = 'wrong-photos'
 
@@ -128,7 +128,14 @@ export class SupabaseRepo implements Repo {
   async addAttempt(a: Parameters<Repo['addAttempt']>[0]) { check(await this.sb.from('quiz_attempts').insert(a)) }
 
   async listExams() { return rows<Exam>(await this.sb.from('exams').select('*').order('date')) }
-  async addExam(e: Parameters<Repo['addExam']>[0]) { check(await this.sb.from('exams').insert(e)) }
+  async addExam(e: Parameters<Repo['addExam']>[0]) {
+    // 003 migrasyonu yoksa da çalışsın: boş ek alanları gönderme
+    const { wrong_topics, details, ...base } = e
+    const row = { ...base, ...(wrong_topics?.length ? { wrong_topics } : {}), ...(details ? { details } : {}) }
+    const res = await this.sb.from('exams').insert(row)
+    if (res.error?.message.match(/wrong_topics|details/)) throw new Error('Konu etiketleri için 003 veritabanı güncellemesini çalıştırın (README).')
+    check(res)
+  }
   async deleteExam(id: string) { check(await this.sb.from('exams').delete().eq('id', id)) }
 
   async listWrong() { return rows<WrongItem>(await this.sb.from('wrong_bank').select('*').order('created_at', { ascending: false })) }
@@ -141,16 +148,36 @@ export class SupabaseRepo implements Repo {
     check(await this.sb.from('wrong_bank').insert({ ...meta, photo_path: path, next_review: addDays(today(), 1) }))
   }
 
+  async addWrongRef(ref: string, meta: Parameters<Repo['addWrongRef']>[1]) {
+    check(await this.sb.from('wrong_bank').insert({ ...meta, photo_path: ref, next_review: addDays(today(), 1) }))
+  }
+
+  async listRewards() { return rows<Reward>(await this.sb.from('rewards').select('*').order('created_at')) }
+  async addReward(r: { title: string; metric: RewardMetric; target: number }) { check(await this.sb.from('rewards').insert(r)) }
+  async updateReward(id: string, patch: Parameters<Repo['updateReward']>[1]) { check(await this.sb.from('rewards').update(patch).eq('id', id)) }
+  async deleteReward(id: string) { check(await this.sb.from('rewards').delete().eq('id', id)) }
+
+  async savePushSubscription(sub: { endpoint: string; p256dh: string; auth: string }) {
+    check(await this.sb.from('push_subscriptions').upsert(sub, { onConflict: 'endpoint' }))
+  }
+  async deletePushSubscription(endpoint: string) { check(await this.sb.from('push_subscriptions').delete().eq('endpoint', endpoint)) }
+  async sendTestPush() {
+    const { data, error } = await this.sb.functions.invoke('notify', { body: { mode: 'test' } })
+    if (error) throw new Error('Bildirim sunucusuna ulaşılamadı. Edge Function kurulumu tamam mı? (README)')
+    return (data as { message?: string })?.message ?? 'Gönderildi'
+  }
+
   async updateWrong(id: string, patch: Parameters<Repo['updateWrong']>[1]) {
     check(await this.sb.from('wrong_bank').update(patch).eq('id', id))
   }
 
   async deleteWrong(item: Parameters<Repo['deleteWrong']>[0]) {
-    await this.sb.storage.from(BUCKET).remove([item.photo_path])
+    if (!item.photo_path.startsWith('meb:')) await this.sb.storage.from(BUCKET).remove([item.photo_path])
     check(await this.sb.from('wrong_bank').delete().eq('id', item.id))
   }
 
   async photoUrl(path: string) {
+    if (path.startsWith('meb:')) return path
     const hit = this.urlCache.get(path)
     if (hit && hit.exp > Date.now()) return hit.url
     const { data, error } = await this.sb.storage.from(BUCKET).createSignedUrl(path, 3600)

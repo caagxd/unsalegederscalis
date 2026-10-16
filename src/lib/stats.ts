@@ -101,3 +101,10 @@ export function examTrend(exams: Exam[]) {
     ...Object.fromEntries(SUBJECT_IDS.map((id) => [id, round1(net(e.results[id]))])),
   }))
 }
+
+/** Denemelerde etiketlenen yanlış konular: konu → kaç denemede yanlış yapıldı */
+export function examMisses(exams: Exam[]) {
+  const m = new Map<string, number>()
+  for (const e of exams) for (const t of e.wrong_topics ?? []) m.set(t, (m.get(t) ?? 0) + 1)
+  return m
+}

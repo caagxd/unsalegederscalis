@@ -19,8 +19,21 @@ export function generateWeek(opts: {
   settings: Pick<FamilySettings, 'weekday_minutes' | 'weekend_minutes' | 'school_progress'>
   topicStats: Map<string, TopicStat>
   progress: Map<string, number>
+  /** Denemelerde etiketlenen yanlış konular (konu → deneme sayısı) */
+  examMisses?: Map<string, number>
 }): NewPlanItem[] {
   const { start, settings, topicStats, progress } = opts
+  const misses = opts.examMisses ?? new Map<string, number>()
+  // Zayıflık puanı: düşük başarı ve denemelerde tekrar eden yanlışlar (her deneme = 15 puan)
+  const weakness = (id: string) => {
+    const st = topicStats.get(id)
+    const acc = st && st.solved >= 5 ? 100 - st.accuracy : 0
+    return acc + (misses.get(id) ?? 0) * 15
+  }
+  const isWeak = (id: string) => {
+    const st = topicStats.get(id)
+    return (st && st.solved >= 5 && st.accuracy < 60) || (misses.get(id) ?? 0) >= 2
+  }
   const used = new Map<string, number>() // konu → bu hafta kaç kez planlandı
   let rot = 0
   const items: NewPlanItem[] = []
@@ -35,9 +48,7 @@ export function generateWeek(opts: {
     // Bu hafta en az planlanmış konular arasından seç; hepsi planlandıysa döngü yeniden başlar
     const minUse = Math.min(...allowed.map((t) => used.get(t.id) ?? 0))
     const topics = allowed.filter((t) => (used.get(t.id) ?? 0) === minUse)
-    const weak = topics
-      .filter((t) => (topicStats.get(t.id)?.solved ?? 0) >= 5 && (topicStats.get(t.id)?.accuracy ?? 100) < 60)
-      .sort((a, b) => topicStats.get(a.id)!.accuracy - topicStats.get(b.id)!.accuracy)
+    const weak = topics.filter((t) => isWeak(t.id)).sort((a, b) => weakness(b.id) - weakness(a.id))
     if (weak.length) return weak[0]
     // İlerlemesi en düşük konu; eşitlikte müfredatta önce gelen
     return topics.reduce((best, t) => ((progress.get(t.id) ?? 0) < (progress.get(best.id) ?? 0) ? t : best), topics[0])

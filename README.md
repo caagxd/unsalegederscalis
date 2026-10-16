@@ -2,7 +2,7 @@
 
 Bir 8. sınıf öğrencisinin LGS'ye hazırlanması için telefona kurulabilen web uygulaması (PWA) ve ailenin takip paneli.
 
-**Öğrenci:** günlük plan (otomatik + elle "bugün bunu çalıştım") · konu anlatımı, konu videoları ve tekrar etmeyen alıştırma turları · ders bazında karma test · çalışma sayacı · çözdüğü soruları kaydetme · 📸 yanlış soru bankası (aralıklı tekrar) · 📱 günlük ekran süresi (ekran görüntüsüyle) · deneme takibi · çıkmış sorular (MEB) · XP, seviye, seri, rozet
+**Öğrenci:** MEB çıkmış sınavlarını uygulama içinde optik formla çözme (2022–2026, otomatik puanlama) · haftalık ödül hedefleri · bildirimler · günlük plan (otomatik + elle "bugün bunu çalıştım") · konu anlatımı, konu videoları ve tekrar etmeyen alıştırma turları · ders bazında karma test · çalışma sayacı · çözdüğü soruları kaydetme · 📸 yanlış soru bankası (aralıklı tekrar) · 📱 günlük ekran süresi (ekran görüntüsüyle) · deneme takibi · çıkmış sorular (MEB) · XP, seviye, seri, rozet
 **Veli:** haftalık karne · ders ve konu bazında başarı · en zayıf konular · deneme net grafiği · yanlış fotoğraflarını ve ekran süresi görüntülerini görme · okulda gelinen üniteyi ayarlama · not bırakma · yapay zekâ ile üretilen soruları kontrol etme
 
 ---
@@ -39,8 +39,18 @@ cp .env.example .env
 |---|---|
 | `001_init.sql` | Temel tablolar, güvenlik kuralları, fotoğraf deposu |
 | `002_features.sql` | Ekran süresi, konu videoları (aile ekler), okul ilerlemesi ayarı |
+| `003_rewards_push_exams.sql` | Ödül sözleşmeleri, bildirim abonelikleri, deneme konu etiketleri |
 
-002 çalıştırılmadan da uygulama açılır; yalnızca bu üç özellik kaydedilemez.
+Migrasyon çalıştırılmadan da uygulama açılır; yalnızca o migrasyonun özellikleri kaydedilemez.
+
+### Bildirimler (Web Push) — bir kerelik kurulum
+
+Android'de ve iPhone'da (iOS 16.4+, uygulama **ana ekrana eklenmiş** olmalı) çalışır. Öğrenciye her akşam 20:00 hatırlatma, velilere pazar 20:30 haftalık karne gider.
+
+1. **Sırlar:** `supabase/.secrets.local/edge-function-secrets.txt` dosyasındaki üç satırı Supabase → **Edge Functions → Secrets** bölümüne ekleyin. Bu klasör git'e girmez; dosya yoksa `node` ile yeni VAPID anahtarı üretip `src/lib/push.ts` içindeki herkese açık anahtarı da güncelleyin.
+2. **Fonksiyon:** Supabase → **Edge Functions → Deploy a new function → Via Editor**. Adı `notify` olsun, `supabase/functions/notify/index.ts` içeriğini yapıştırıp **Deploy**. Ardından fonksiyon ayarlarında **Verify JWT / Enforce JWT verification** seçeneğini **kapatın** (zamanlayıcı kendi sırrıyla çağırır; "deneme bildirimi" kullanıcı oturumunu kendisi doğrular).
+3. **Zamanlayıcı:** `supabase/.secrets.local/cron.sql` dosyasını SQL Editor'de çalıştırın (şablonu: `supabase/cron.sql.example`).
+4. **Telefonlarda:** Öğrenci **Ben → Bildirimleri aç**, veli **Ayarlar → Bildirimleri aç**. Ardından **Deneme bildirimi** ile test edin.
 
 ## 3. Yayına alma (Vercel, ücretsiz)
 
@@ -99,3 +109,6 @@ Yapı:
 - `src/lib/planner.ts` — haftalık program üretici.
 - `src/lib/stats.ts` — net hesabı (D − Y/3), ağırlıklı net (TR/MAT/FEN ×4), konu başarıları.
 - `src/lib/gamify.ts` — XP, seviye, rozetler.
+- `src/lib/rewards.ts` — ödül sözleşmesi ölçümleri (haftalık soru, aktif gün, plan uyumu, tekrar, deneme).
+- `src/content/mebExams.ts` — MEB çıkmış sınav kitapçıkları (bağlantı + cevap anahtarı). PDF'ler kopyalanmaz, MEB sunucusundan gösterilir.
+- `supabase/functions/notify` — bildirim gönderici Edge Function.

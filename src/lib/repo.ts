@@ -1,6 +1,6 @@
 import type {
   DailyLog, Exam, FamilySettings, NewDailyLog, NewExam, NewPlanItem, ParentNote, PlanItem,
-  Profile, QuestionReview, QuizAttempt, ScreenTime, TopicVideo, WrongItem, XpEvent,
+  Profile, QuestionReview, QuizAttempt, Reward, RewardMetric, ScreenTime, TopicVideo, WrongItem, XpEvent,
 } from './types'
 import type { SubjectId } from '../content/types'
 
@@ -35,6 +35,8 @@ export interface Repo {
 
   listWrong(): Promise<WrongItem[]>
   addWrong(photo: Blob, meta: { subject: SubjectId; topic_id: string | null; note: string | null }): Promise<void>
+  /** Fotoğraf yerine MEB PDF sayfasına referans: "meb:<sınav>:<oturum>:<sayfa>" */
+  addWrongRef(ref: string, meta: { subject: SubjectId; topic_id: string | null; note: string | null }): Promise<void>
   updateWrong(id: string, patch: Partial<WrongItem>): Promise<void>
   deleteWrong(item: WrongItem): Promise<void>
   photoUrl(path: string): Promise<string>
@@ -59,6 +61,16 @@ export interface Repo {
   listScreenTime(): Promise<ScreenTime[]>
   saveScreenTime(entry: { date: string; minutes: number; note: string | null }, photo?: Blob): Promise<void>
   deleteScreenTime(item: ScreenTime): Promise<void>
+
+  listRewards(): Promise<Reward[]>
+  addReward(r: { title: string; metric: RewardMetric; target: number }): Promise<void>
+  updateReward(id: string, patch: Partial<Pick<Reward, 'active' | 'claimed_weeks' | 'title' | 'target'>>): Promise<void>
+  deleteReward(id: string): Promise<void>
+
+  /** Web Push: bu cihazın aboneliği */
+  savePushSubscription(sub: { endpoint: string; p256dh: string; auth: string }): Promise<void>
+  deletePushSubscription(endpoint: string): Promise<void>
+  sendTestPush(): Promise<string>
 
   listVideos(): Promise<TopicVideo[]>
   addVideo(topicId: string, youtubeId: string, title: string | null): Promise<void>

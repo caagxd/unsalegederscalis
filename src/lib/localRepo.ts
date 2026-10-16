@@ -1,6 +1,6 @@
 import { addDays, today } from './dates'
 import type { Repo } from './repo'
-import type { FamilySettings, Profile, Role, ScreenTime } from './types'
+import type { FamilySettings, Profile, Reward, RewardMetric, Role, ScreenTime } from './types'
 
 // Demo modu: Supabase ayarlanmamışken her şey bu cihazda saklanır.
 // Tablolar localStorage'da, fotoğraflar IndexedDB'de tutulur.
@@ -108,12 +108,25 @@ export class LocalRepo implements Repo {
       success_count: 0, review_count: 0, status: 'aktif',
     })
   }
+  async addWrongRef(ref: string, meta: object) {
+    insert('wrong_bank', { ...meta, photo_path: ref, next_review: addDays(today(), 1), interval_days: 1, success_count: 0, review_count: 0, status: 'aktif' })
+  }
   async updateWrong(id: string, patch: object) { update('wrong_bank', id, patch) }
+
+  async listRewards() { return read<Reward>('rewards') }
+  async addReward(r: { title: string; metric: RewardMetric; target: number }) { insert('rewards', { ...r, active: true, claimed_weeks: [] }) }
+  async updateReward(id: string, patch: object) { update('rewards', id, patch) }
+  async deleteReward(id: string) { remove('rewards', [id]) }
+
+  async savePushSubscription() { throw new Error('Bildirimler demo modunda çalışmaz') }
+  async deletePushSubscription() { /* demo */ }
+  async sendTestPush(): Promise<string> { throw new Error('Bildirimler demo modunda çalışmaz') }
   async deleteWrong(item: { id: string; photo_path: string }) {
-    await idbOp('readwrite', (s) => s.delete(item.photo_path))
+    if (!item.photo_path.startsWith('meb:')) await idbOp('readwrite', (s) => s.delete(item.photo_path))
     remove('wrong_bank', [item.id])
   }
   async photoUrl(path: string) {
+    if (path.startsWith('meb:')) return path
     const hit = this.urls.get(path)
     if (hit) return hit
     const blob = await idbOp<Blob | undefined>('readonly', (s) => s.get(path))

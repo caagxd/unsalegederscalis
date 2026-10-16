@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom'
 import { useApp, useData } from '../../app/AppProvider'
 import { ActivityChart } from '../../components/ActivityChart'
 import { CreateStudent } from '../../components/CreateStudent'
+import { RewardsManager } from '../../components/Rewards'
 import { Page, PageHeader, ProgressBar, Stat } from '../../components/ui'
 import { SUBJECT_IDS, SUBJECT_META, getTopic } from '../../lib/content'
 import { repo } from '../../lib/db'
 import { addDays, daysBetween, fmtMinutes, localDate, shortDate, today, weekStart } from '../../lib/dates'
 import { levelInfo } from '../../lib/gamify'
-import { daySummaries, examTotals, pct, streak, subjectStats, topicStats, weakestTopics, wrongStats } from '../../lib/stats'
+import { daySummaries, examMisses, examTotals, pct, streak, subjectStats, topicStats, weakestTopics, wrongStats } from '../../lib/stats'
 import type { PlanItem } from '../../lib/types'
 
 export default function ParentHome() {
@@ -40,6 +41,7 @@ export default function ParentHome() {
   const lastActivity = [...d.xp].sort((a, b) => b.created_at.localeCompare(a.created_at))[0]
   const totalXp = d.xp.reduce((n, e) => n + e.amount, 0)
 
+  const examMissList = [...examMisses(d.exams).entries()].sort((x, y) => y[1] - x[1]).slice(0, 5)
   const st7 = d.screenTime.filter((s) => s.date > addDays(today(), -7))
   const screenSummary = st7.length
     ? `Son 7 günde ${st7.length} gün girildi · ortalama ${fmtMinutes(Math.round(st7.reduce((n, s) => n + s.minutes, 0) / st7.length))}`
@@ -74,6 +76,8 @@ export default function ParentHome() {
           </div>
           {lastActivity && <p className="mt-3 text-xs text-slate-400">Son aktivite: {shortDate(localDate(lastActivity.created_at))} {new Date(lastActivity.created_at).toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' })}</p>}
         </section>
+
+        <RewardsManager />
 
         <section className="card">
           <h2 className="mb-1 font-extrabold">Günlük soru (son 14 gün)</h2>
@@ -116,6 +120,22 @@ export default function ParentHome() {
             </ul>
           )}
         </section>
+
+        {examMissList.length > 0 && (
+          <section className="card">
+            <h2 className="mb-2 font-extrabold">📝 Denemelerde en çok yanlış</h2>
+            <ul className="divide-y divide-slate-100">
+              {examMissList.map(([id, n]) => (
+                <li key={id}>
+                  <Link to={`/konu/${id}`} className="flex items-center justify-between py-2 text-sm">
+                    <span>{getTopic(id) ? `${SUBJECT_META[getTopic(id)!.subject.id].emoji} ${getTopic(id)!.topic.name}` : id}</span>
+                    <span className="chip bg-rose-50 text-rose-600">{n} denemede</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <div className="grid grid-cols-2 gap-3">
           <Link to="/veli/yanlislar" className="card">

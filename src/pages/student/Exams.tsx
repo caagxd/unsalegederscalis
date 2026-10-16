@@ -3,8 +3,9 @@ import { useApp, useData } from '../../app/AppProvider'
 import { useAward } from '../../app/useAward'
 import { ExamCharts } from '../../components/ExamCharts'
 import { Empty, Modal, Page, PageHeader } from '../../components/ui'
+import { WrongTopicPicker } from '../../components/WrongTopicPicker'
 import type { SubjectId } from '../../content/types'
-import { SUBJECT_IDS, SUBJECT_META } from '../../lib/content'
+import { SUBJECT_IDS, SUBJECT_META, getTopic } from '../../lib/content'
 import { repo } from '../../lib/db'
 import { shortDate, today } from '../../lib/dates'
 import { XP } from '../../lib/gamify'
@@ -71,6 +72,11 @@ export function ExamList({ exams, canDelete }: { exams: Exam[]; canDelete?: bool
                 })}
               </tbody>
             </table>
+            {!!e.wrong_topics?.length && (
+              <div className="mt-2 flex flex-wrap gap-1">
+                {e.wrong_topics.map((t) => <span key={t} className="chip bg-rose-50 text-rose-600">{getTopic(t)?.topic.name ?? t}</span>)}
+              </div>
+            )}
             {canDelete && (
               <button className="mt-2 text-xs font-bold text-slate-400" onClick={async () => { if (confirm('Deneme silinsin mi?')) { await repo.deleteExam(e.id); await refresh() } }}>Sil</button>
             )}
@@ -92,6 +98,7 @@ function AddExam({ onClose }: { onClose: () => void }) {
   )
   const [err, setErr] = useState<string | null>(null)
   const [busy, setBusy] = useState(false)
+  const [wrongTopics, setWrongTopics] = useState<string[]>([])
 
   const results: ExamResults = {}
   for (const id of SUBJECT_IDS) {
@@ -106,7 +113,7 @@ function AddExam({ onClose }: { onClose: () => void }) {
     if (invalid) return setErr(`${SUBJECT_META[invalid].name}: doğru + yanlış ${SUBJECT_META[invalid].count}'i geçemez`)
     setBusy(true)
     try {
-      await repo.addExam({ name: name.trim(), date, source: source.trim() || null, results })
+      await repo.addExam({ name: name.trim(), date, source: source.trim() || null, results, wrong_topics: wrongTopics })
       await award('exam', XP.examAdded, '· deneme girildi')
       await refresh()
       onClose()
@@ -139,6 +146,7 @@ function AddExam({ onClose }: { onClose: () => void }) {
         <div className="flex justify-between rounded-xl bg-brand-50 p-3 font-extrabold text-brand-700">
           <span>Toplam net: {tot.total}</span><span>Ağırlıklı: {tot.weighted}</span>
         </div>
+        <WrongTopicPicker subjects={SUBJECT_IDS.filter((id) => (results[id]?.y ?? 0) > 0)} value={wrongTopics} onChange={setWrongTopics} />
         <p className="text-xs text-slate-400">Net = Doğru − Yanlış ÷ 3. Ağırlıklı nette Türkçe, Matematik ve Fen ×4 sayılır. Puan hesabı MEB'in standart puan formülüne bağlı olduğu için burada tahmin edilmez.</p>
         {err && <p className="text-sm font-semibold text-rose-600">{err}</p>}
         <button className="btn-primary w-full" onClick={save} disabled={busy}>Kaydet</button>

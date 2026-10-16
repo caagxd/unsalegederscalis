@@ -26,7 +26,7 @@ export default defineConfig({
           { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
       },
-      workbox: { maximumFileSizeToCacheInBytes: 5 * 1024 * 1024 },
+      workbox: { maximumFileSizeToCacheInBytes: 5 * 1024 * 1024, importScripts: ['push-handler.js'] },
     }),
   ],
 })

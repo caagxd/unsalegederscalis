@@ -1,57 +1,70 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
+import { useApp, useData } from '../../app/AppProvider'
+import { LogModal } from '../../components/LogModal'
 import { Page, PageHeader } from '../../components/ui'
+import { MEB_BOOKS, MEB_EXAMS } from '../../content/mebExams'
+import type { SubjectId } from '../../content/types'
+import { examTotals } from '../../lib/stats'
 
-// Yalnızca MEB'in resmî sayfalarına bağlantı verilir; içerik kopyalanmaz.
-const PAPERS = [
-  { year: 2026, url: 'https://odsgm.meb.gov.tr/www/lgs-kapsamindaki-merkezi-sinavin-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi/icerik/1678' },
-  { year: 2025, url: 'https://odsgm.meb.gov.tr/www/lgs-kapsamindaki-merkezi-sinav-tamamlandi-soru-kitapciklari-yayimlandi/icerik/1446' },
-  { year: 2024, url: 'https://odsgm.meb.gov.tr/www/lgs-kapsamindaki-merkezi-sinav-tamamlandi-soru-kitapciklari-yayimlandi/icerik/1236' },
-  { year: 2022, url: 'https://odsgm.meb.gov.tr/www/5-haziran-2022-tarihinde-yapilan-sinavla-ogrenci-alacak-ortaogretim-kurumlarina-iliskin-merkezi-sinavin-soru-kitapciklari-ve-cevap-anahtarlari/icerik/822' },
-]
-
-const RESOURCES = [
-  { emoji: '📚', title: 'LGS Çalışma Kitapları Seti', desc: 'MEB · tüm çıkmış sorular ve örnek sorular, ders ders (2.815 soru, PDF)', url: 'https://odsgm.meb.gov.tr/www/lgs-calisma-kitaplari-seti/icerik/1583' },
-  { emoji: '🎓', title: 'MEBİ Bireysel Öğrenme Platformu', desc: 'MEB · ücretsiz konu anlatımı, soru ve 2026-27 LGS denemeleri (ilki 2–8 Kasım)', url: 'https://mebi.eba.gov.tr/' },
+const OTHER = [
+  { emoji: '🎓', title: 'MEBİ Bireysel Öğrenme Platformu', desc: 'Ücretsiz 2026-27 LGS denemeleri (ilki 2–8 Kasım). Sonucunu Denemeler\'e gir.', url: 'https://mebi.eba.gov.tr/' },
   { emoji: '🧪', title: 'Örnek soru kitapçıkları', desc: 'ÖDSGM · yıl içinde yayımlanan örnek sorular', url: 'https://odsgm.meb.gov.tr/www/sinavlar/kategori/50' },
-  { emoji: '📖', title: 'MEB Yardımcı Kaynaklar', desc: 'Ders bazında ücretsiz soru bankaları', url: 'https://yardimcikaynaklar.meb.gov.tr/' },
 ]
-
-const KEY = 'lgs:cikmis-cozuldu'
+const BOOK_SUBJECT: Record<string, SubjectId> = { turkce: 'turkce', matematik: 'matematik', fen: 'fen', sozel: 'inkilap' }
 
 export default function PastPapers() {
-  const [done, setDone] = useState<Record<string, boolean>>(() => {
-    try { return JSON.parse(localStorage.getItem(KEY) ?? '{}') } catch { return {} }
-  })
-  const toggle = (k: string) => {
-    const next = { ...done, [k]: !done[k] }
-    setDone(next)
-    try { localStorage.setItem(KEY, JSON.stringify(next)) } catch { /* depolama kapalı olabilir */ }
-  }
+  const { profile } = useApp()
+  const d = useData()
+  const [log, setLog] = useState<SubjectId | null>(null)
+  const isStudent = profile?.role === 'student'
+  const doneExam = (exam: string, session: string) => d.exams.find((e) => e.details?.meb === exam && e.details?.session === session)
 
   return (
     <>
-      <PageHeader title="Çıkmış Sorular" subtitle="Resmî MEB kaynakları" back />
+      <PageHeader title="Çıkmış Sorular" subtitle="Resmî MEB kitapçıkları" back />
       <Page>
         <section className="card border-emerald-100 bg-emerald-50 text-sm text-emerald-800">
-          <b>Nasıl çalışmalı?</b> Çıkmış sınavı gerçek süreyle çöz: sözel 75 dk, sayısal 80 dk. Sonucunu <b>Denemeler</b>'e gir.
-          Yanlışlarının fotoğrafını <b>Yanlış Bankası</b>'na ekle.
+          <b>Gerçek sınav provası:</b> kitapçık uygulamada açılır, süre işler, cevaplarını optik forma işaretlersin. Bitince MEB cevap anahtarıyla puanlanır ve Denemeler'e eklenir.
+          Sözel ve sayısal bölümü aynı gün art arda çözmek gerçek LGS'ye en yakın provadır.
         </section>
 
-        <section className="card">
-          <h2 className="mb-2 font-extrabold">LGS soru kitapçıkları</h2>
-          <ul className="divide-y divide-slate-100">
-            {PAPERS.map((p) => (
-              <li key={p.year} className="flex items-center gap-3 py-3">
-                <button onClick={() => toggle(String(p.year))} className={`flex h-6 w-6 items-center justify-center rounded-md border-2 text-xs ${done[p.year] ? 'border-emerald-500 bg-emerald-500 text-white' : 'border-slate-300'}`}>{done[p.year] && '✓'}</button>
-                <a href={p.url} target="_blank" rel="noreferrer" className="flex-1 font-bold">{p.year} LGS <span className="text-xs font-normal text-slate-500">· sözel + sayısal + cevap anahtarı</span></a>
-                <span className="text-slate-300">↗</span>
-              </li>
-            ))}
-          </ul>
-          <p className="mt-1 text-xs text-slate-400">Daha eski yılların (2018–2023) soruları, aşağıdaki Çalışma Kitapları Seti'nde ders ders yer alır.</p>
+        {MEB_EXAMS.map((e) => (
+          <section key={e.id} className="card">
+            <h2 className="mb-2 font-extrabold">LGS {e.year}</h2>
+            <div className="grid grid-cols-2 gap-2">
+              {e.sessions.map((s) => {
+                const done = doneExam(e.id, s.id)
+                return (
+                  <Link key={s.id} to={`/cikmis/${e.id}/${s.id}`} className={`rounded-xl border-2 p-3 ${done ? 'border-emerald-200 bg-emerald-50' : 'border-slate-100'}`}>
+                    <div className="font-bold">{s.id === 'sozel' ? '📖' : '📐'} {s.name}</div>
+                    <div className="text-xs text-slate-500">{s.sections.reduce((n, x) => n + x.key.length, 0)} soru · {s.minutes} dk</div>
+                    {done && <div className="mt-1 text-xs font-bold text-emerald-700">✓ çözüldü · {examTotals(done.results).total} net</div>}
+                  </Link>
+                )
+              })}
+            </div>
+          </section>
+        ))}
+        <p className="px-1 text-xs text-slate-400">2023 kitapçığı MEB sitesinde ayrı yayımlanmadığı için listede yok; 2018–2023 soruları aşağıdaki çalışma kitaplarında.</p>
+
+        <section className="card space-y-3">
+          <div>
+            <h2 className="font-extrabold">📚 LGS Çalışma Kitapları (MEB)</h2>
+            <p className="text-xs text-slate-500">Geçmiş yılların bütün çıkmış soruları ve örnek sorular, ders ders. Dosyalar çok büyük (40–215 MB): <b>Wi-Fi'da açın</b>. Telefonun kendi PDF görüntüleyicisinde açılır.</p>
+          </div>
+          {MEB_BOOKS.map((b) => (
+            <div key={b.id} className="flex items-center gap-2">
+              <a href={b.url} target="_blank" rel="noreferrer" className="flex-1 rounded-xl bg-slate-50 p-3">
+                <div className="text-sm font-bold">{b.title} ↗</div>
+                <div className="text-xs text-slate-500">{b.desc}</div>
+              </a>
+              {isStudent && <button className="btn-ghost px-3 text-xs" onClick={() => setLog(BOOK_SUBJECT[b.id])}>➕ Çözdüm</button>}
+            </div>
+          ))}
         </section>
 
-        {RESOURCES.map((r) => (
+        {OTHER.map((r) => (
           <a key={r.url} href={r.url} target="_blank" rel="noreferrer" className="card flex items-center gap-3">
             <span className="text-3xl">{r.emoji}</span>
             <span className="flex-1"><span className="block font-extrabold">{r.title}</span><span className="block text-xs text-slate-500">{r.desc}</span></span>
@@ -59,6 +72,7 @@ export default function PastPapers() {
           </a>
         ))}
       </Page>
+      {log && <LogModal open onClose={() => setLog(null)} preset={{ subject: log }} />}
     </>
   )
 }
