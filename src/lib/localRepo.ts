@@ -121,6 +121,7 @@ export class LocalRepo implements Repo {
   async savePushSubscription() { throw new Error('Bildirimler demo modunda çalışmaz') }
   async deletePushSubscription() { /* demo */ }
   async sendTestPush(): Promise<string> { throw new Error('Bildirimler demo modunda çalışmaz') }
+  async sendNotePush(): Promise<string> { return 'Not kaydedildi (demo modunda bildirim gönderilmez)' }
   async deleteWrong(item: { id: string; photo_path: string }) {
     if (!item.photo_path.startsWith('meb:')) await idbOp('readwrite', (s) => s.delete(item.photo_path))
     remove('wrong_bank', [item.id])

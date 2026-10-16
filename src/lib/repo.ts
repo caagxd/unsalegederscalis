@@ -71,6 +71,8 @@ export interface Repo {
   savePushSubscription(sub: { endpoint: string; p256dh: string; auth: string }): Promise<void>
   deletePushSubscription(endpoint: string): Promise<void>
   sendTestPush(): Promise<string>
+  /** Velinin notunu öğrencinin cihazlarına bildirim olarak yollar; sonuç mesajını döner */
+  sendNotePush(text: string): Promise<string>
 
   listVideos(): Promise<TopicVideo[]>
   addVideo(topicId: string, youtubeId: string, title: string | null): Promise<void>

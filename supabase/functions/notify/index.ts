@@ -3,6 +3,7 @@
 // mode=daily  : her akşam öğrenciye hatırlatma (bitmemiş görev / bekleyen yanlış tekrarı varsa)
 // mode=weekly : pazar akşamı velilere haftalık karne, öğrenciye haftalık özet
 // mode=test   : giriş yapmış kullanıcıya deneme bildirimi (uygulamadaki "Deneme bildirimi" düğmesi)
+// mode=note   : velinin yazdığı notu ailedeki öğrencinin cihazlarına bildirim olarak gönderir (yalnızca veli)
 //
 // daily/weekly, pg_cron'dan "x-cron-secret" başlığıyla çağrılır. Gerekli sırlar (Edge Functions → Secrets):
 //   VAPID_PUBLIC_KEY, VAPID_PRIVATE_KEY, CRON_SECRET   (SUPABASE_URL ve SUPABASE_SERVICE_ROLE_KEY otomatik gelir)
@@ -121,10 +122,26 @@ Deno.serve(async (req) => {
     const body = req.method === 'POST' ? await req.json().catch(() => ({})) : {}
     const mode = (body as { mode?: string }).mode ?? url.searchParams.get('mode') ?? ''
 
-    if (mode === 'test') {
+    if (mode === 'test' || mode === 'note') {
       const jwt = (req.headers.get('Authorization') ?? '').replace('Bearer ', '')
       const { data: { user } } = await sb.auth.getUser(jwt)
       if (!user) return json({ message: 'Giriş gerekli' }, 401)
+
+      if (mode === 'note') {
+        const { data: me } = await sb.from('profiles').select('family_id, role, display_name').eq('id', user.id).single()
+        if (!me || me.role !== 'parent') return json({ message: 'Yalnızca veli bildirim gönderebilir' }, 403)
+        const text = String((body as { text?: string }).text ?? '').trim()
+        if (!text) return json({ message: 'Boş not' }, 400)
+        // Bildirim yağmurunu önle: son bir saatte en fazla 10 not bildirimi
+        const { count } = await sb.from('parent_notes').select('id', { count: 'exact', head: true })
+          .eq('author_id', user.id).gte('created_at', new Date(Date.now() - 3600_000).toISOString())
+        if ((count ?? 0) > 10) return json({ message: 'Çok sık bildirim: bir saat içinde en fazla 10 not gönderilebilir', sent: 0 }, 429)
+        const { data: subs } = await sb.from('push_subscriptions').select('*').eq('family_id', me.family_id).eq('role', 'student')
+        const body2 = text.length > 180 ? text.slice(0, 177) + '…' : text
+        const n = await send((subs ?? []) as Sub[], { title: `💌 ${me.display_name || 'Aileden'} not gönderdi`, body: body2, url: '/', tag: 'not-' + Date.now() })
+        return json({ sent: n, message: n ? `Bildirim ${n} cihaza gitti` : 'Not kaydedildi; öğrencinin cihazında bildirim açık değil' })
+      }
+
       const { data } = await sb.from('push_subscriptions').select('*').eq('user_id', user.id)
       const n = await send((data ?? []) as Sub[], { title: 'LGS Hazırlık', body: 'Bildirimler çalışıyor! 🎉', url: '/', tag: 'test' })
       return json({ message: n ? `${n} cihaza deneme bildirimi gönderildi` : 'Bu hesapta kayıtlı cihaz yok' })

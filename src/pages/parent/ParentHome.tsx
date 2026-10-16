@@ -19,6 +19,8 @@ export default function ParentHome() {
   const [range, setRange] = useState<'bu' | 'gecen'>('bu')
   const [plan, setPlan] = useState<PlanItem[]>([])
   const [note, setNote] = useState('')
+  const [sending, setSending] = useState(false)
+  const [noteMsg, setNoteMsg] = useState<{ ok: boolean; text: string } | null>(null)
 
   const ws = range === 'bu' ? weekStart(today()) : addDays(weekStart(today()), -7)
   const we = range === 'bu' ? today() : addDays(ws, 6)
@@ -48,10 +50,19 @@ export default function ParentHome() {
     : 'Son 7 günde kayıt yok'
 
   async function sendNote() {
-    if (!note.trim()) return
-    await repo.addNote(note.trim())
-    setNote('')
-    await refresh()
+    const text = note.trim()
+    if (!text || sending) return
+    setSending(true); setNoteMsg(null)
+    try {
+      await repo.addNote(text)
+      setNote('')
+      // Not kaydedildikten sonra bildirim olarak da gönder; bildirim başarısız olsa bile not uygulamada görünür
+      const msg = await repo.sendNotePush(text).then((m) => ({ ok: true, text: m }), (e: Error) => ({ ok: false, text: e.message }))
+      setNoteMsg(msg)
+      await refresh()
+    } catch (e) {
+      setNoteMsg({ ok: false, text: (e as Error).message })
+    } finally { setSending(false) }
   }
 
   return (
@@ -170,10 +181,16 @@ export default function ParentHome() {
         <Link to="/program" className="card flex items-center gap-3"><span className="text-2xl">🗓️</span><span className="flex-1 font-bold">Haftalık programı gör</span><span className="text-slate-300">›</span></Link>
 
         <section className="card space-y-2">
-          <h2 className="font-extrabold">💌 Not bırak</h2>
-          <p className="text-xs text-slate-500">Öğrencinin ana ekranında görünür. Takdir ve cesaretlendirme, eleştiriden daha çok işe yarar.</p>
+          <h2 className="font-extrabold">💌 Not / bildirim gönder</h2>
+          <p className="text-xs text-slate-500">Öğrencinin telefonuna anında bildirim olarak gider ve ana ekranında görünür. Takdir ve cesaretlendirme, eleştiriden daha çok işe yarar.</p>
+          <div className="flex flex-wrap gap-1.5">
+            {['Aferin, bugün çok iyi çalıştın! 💪', 'Yanlış tekrarlarını unutma 🔁', 'Ekran süreni girmeyi unutma 📱', 'Mola ver, su iç 💧'].map((q) => (
+              <button key={q} type="button" className="chip bg-slate-100 py-1.5 text-slate-600" onClick={() => setNote(q)}>{q}</button>
+            ))}
+          </div>
           <textarea className="input" rows={2} value={note} onChange={(e) => setNote(e.target.value)} placeholder="ör. Bu hafta matematikte çok iyi gidiyorsun, aferin! 💪" />
-          <button className="btn-primary w-full" onClick={sendNote} disabled={!note.trim()}>Gönder</button>
+          <button className="btn-primary w-full" onClick={sendNote} disabled={!note.trim() || sending}>{sending ? 'Gönderiliyor…' : '📲 Gönder'}</button>
+          {noteMsg && <p className={`text-sm font-semibold ${noteMsg.ok ? 'text-emerald-700' : 'text-amber-700'}`}>{noteMsg.text}</p>}
           {d.notes.slice(0, 5).map((n) => (
             <div key={n.id} className="flex items-start justify-between gap-2 rounded-xl bg-slate-50 p-2 text-sm">
               <span className="flex-1 whitespace-pre-wrap">{n.text}</span>

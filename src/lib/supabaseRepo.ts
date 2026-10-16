@@ -160,6 +160,15 @@ export class SupabaseRepo implements Repo {
   async savePushSubscription(sub: { endpoint: string; p256dh: string; auth: string }) {
     check(await this.sb.from('push_subscriptions').upsert(sub, { onConflict: 'endpoint' }))
   }
+  async sendNotePush(text: string) {
+    const { data, error } = await this.sb.functions.invoke('notify', { body: { mode: 'note', text } })
+    if (error) {
+      // 429 vb. durumlarda gövdedeki mesajı göster
+      const msg = await (error as { context?: Response }).context?.json?.().then((j: { message?: string }) => j.message).catch(() => null)
+      throw new Error(msg ?? 'Not kaydedildi ama bildirim gönderilemedi')
+    }
+    return (data as { message?: string })?.message ?? 'Bildirim gönderildi'
+  }
   async deletePushSubscription(endpoint: string) { check(await this.sb.from('push_subscriptions').delete().eq('endpoint', endpoint)) }
   async sendTestPush() {
     const { data, error } = await this.sb.functions.invoke('notify', { body: { mode: 'test' } })
